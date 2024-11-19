@@ -1,0 +1,84 @@
+@prefix lib:  <http://www.swi-prolog.org/rdf/library/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<AHM-metadata>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	a lib:CloudNode ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (metadata)"@nl ;
+	owl:imports
+		<am-schema.ttl> ,
+		<am-data.ttl> .
+
+<AHM-thesaurus>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (thesaurus)"@nl ;
+	owl:imports
+		<am-thesaurus-schema.ttl> ,
+		<am-thesaurus.ttl> .
+
+<AHM-people>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (people database)"@nl ;
+	owl:imports
+		<am-people-rdagr2-schema.ttl> ,
+		<am-people.ttl>,
+		<ElementsGr2.rdf>.
+
+<AHM>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	a lib:CloudNode ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum"@nl ;
+	owl:imports
+		<AHM-people> ,
+		<AHM-thesaurus> ,
+		<AHM-metadata>,
+		<AHM-alignments>.
+
+
+<AHM-alignments>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum vocabulary alignments"@nl ;
+	owl:imports
+		# uncomment if you want to load this <AHM-align-lowprec>,
+		<AHM-align-midprec>,
+		<AHM-align-highprec>.
+
+<AHM-align-highprec>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum high precision vocabulary alignments"@nl ;
+	owl:imports
+		<alignments/am_to_aat_nonamb.ttl> ,
+		<alignments/am_to_dbp_high.ttl> ,
+		<alignments/am_to_ulannl_nonamb.ttl> ,
+		<alignments/am_to_geonl.ttl>.
+
+<AHM-align-midprec>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum mid precision vocabulary alignments"@nl ;
+	owl:imports
+		<alignments/am_to_aat_amb.ttl> ,
+		<alignments/am_to_ulannl_amb.ttl>.
+
+<AHM-align-lowprec>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum low precision vocabulary alignments"@nl ;
+	owl:imports
+		<alignments/am_to_dbp_low_nonamb.ttl> .
+

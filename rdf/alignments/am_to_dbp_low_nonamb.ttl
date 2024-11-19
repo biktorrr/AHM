@@ -1,0 +1,1399 @@
+@base             <export8> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+@prefix resource: <http://dbpedia.org/resource/> .
+
+# Named toplevel resources (456)
+
+<export8>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <alignboth_1-1-only> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <alignboth_1-1-only> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T13-54-23+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export8&graph=alignboth_1-1-only&relation=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23exactMatch>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:p-10068
+	skos:exactMatch resource:Alphonse_de_Lamartine .
+
+am:p-11604
+	skos:exactMatch resource:Joseph_Méry .
+
+am:p-11924
+	skos:exactMatch resource:Michel_de_Montaigne .
+
+am:p-12498
+	skos:exactMatch resource:Luigi_Nono .
+
+am:p-13120
+	skos:exactMatch resource:Saint-John_Perse .
+
+am:p-13297
+	skos:exactMatch resource:Plautus .
+
+am:p-13812
+	skos:exactMatch resource:Urbano_Rattazzi .
+
+am:p-15607
+	skos:exactMatch resource:Simin_Behbahani .
+
+am:p-15929
+	skos:exactMatch resource:Jacques-Louis_Soret .
+
+am:p-16012
+	skos:exactMatch resource:Baruch_Spinoza .
+
+am:p-16820
+	skos:exactMatch resource:Sarah_Thomason .
+
+am:p-1754
+	skos:exactMatch resource:Giovanni_Boccaccio .
+
+am:p-17610
+	skos:exactMatch resource:Andrea_del_Verrocchio .
+
+am:p-17708
+	skos:exactMatch resource:Charles_Blacker_Vignoles .
+
+am:p-17743
+	skos:exactMatch resource:Eugène_Viollet-le-Duc .
+
+am:p-17896
+	skos:exactMatch resource:Constantin-François_Chassebœuf .
+
+am:p-18831
+	skos:exactMatch resource:Lenny_Wilkens .
+
+am:p-20192
+	skos:exactMatch resource:Nico_Bouvy .
+
+am:p-20774
+	skos:exactMatch resource:Regnier_de_Graaf .
+
+am:p-21384
+	skos:exactMatch resource:Rudolf_Loman .
+
+am:p-2260
+	skos:exactMatch resource:Jacques-Bénigne_Bossuet .
+
+am:p-22779
+	skos:exactMatch <http://dbpedia.org/resource/B._Traven> .
+
+am:p-22811
+	skos:exactMatch resource:Louis-Ernest_Barrias .
+
+am:p-22866
+	skos:exactMatch resource:Noah_Boeken .
+
+am:p-22987
+	skos:exactMatch resource:Charles-François_Daubigny .
+
+am:p-23100
+	skos:exactMatch resource:François-Louis_Français .
+
+am:p-23180
+	skos:exactMatch resource:Karl_von_Grolman .
+
+am:p-23300
+	skos:exactMatch resource:Jean_Auguste_Dominique_Ingres .
+
+am:p-23313
+	skos:exactMatch resource:Japhet_Kosgei .
+
+am:p-23757
+	skos:exactMatch resource:Hyacinthe_Rigaud .
+
+am:p-23780
+	skos:exactMatch resource:Charles_Rolls .
+
+am:p-24001
+	skos:exactMatch resource:Utamaro .
+
+am:p-24116
+	skos:exactMatch resource:Antoine_Watteau .
+
+am:p-24262
+	skos:exactMatch resource:Paul_van_Kempen .
+
+am:p-24300
+	skos:exactMatch <http://dbpedia.org/resource/V._Volodarsky> .
+
+am:p-24326
+	skos:exactMatch <http://dbpedia.org/resource/Ferdinand_Philippe_Marie,_duc_d'Alençon> .
+
+am:p-24368
+	skos:exactMatch resource:Charles_Bally .
+
+am:p-24384
+	skos:exactMatch resource:Paschal_Baylon .
+
+am:p-24408
+	skos:exactMatch resource:John_Bergamo .
+
+am:p-24412
+	skos:exactMatch resource:Ferdinand_Berthoud .
+
+am:p-24632
+	skos:exactMatch resource:Sem_Dresden .
+
+am:p-24672
+	skos:exactMatch resource:Sébastien_Érard .
+
+am:p-24742
+	skos:exactMatch resource:Godefroy_de_Blonay .
+
+am:p-24801
+	skos:exactMatch resource:Louis_Hamman .
+
+am:p-2491
+	skos:exactMatch resource:Abs_Breen .
+
+am:p-24979
+	skos:exactMatch resource:Jean_Laborde .
+
+am:p-25116
+	skos:exactMatch resource:Hendrik_Willem_Mesdag .
+
+am:p-25376
+	skos:exactMatch <http://dbpedia.org/resource/Wim_T._Schippers> .
+
+am:p-25399
+	skos:exactMatch resource:Shiraz_Minwalla .
+
+am:p-25446
+	skos:exactMatch resource:Kerstin_Stegemann .
+
+am:p-25496
+	skos:exactMatch resource:Michael_Thonet .
+
+am:p-25729
+	skos:exactMatch resource:Joe_Adonis .
+
+am:p-25744
+	skos:exactMatch resource:Agrippina_the_Elder .
+
+am:p-25967
+	skos:exactMatch resource:Aurora_Snow .
+
+am:p-27012
+	skos:exactMatch resource:Dennis_Brutus .
+
+am:p-27018
+	skos:exactMatch resource:Dik_Browne .
+
+am:p-27681
+	skos:exactMatch resource:Marne_Patterson .
+
+am:p-27915
+	skos:exactMatch resource:Fred_Durst .
+
+am:p-27918
+	skos:exactMatch resource:Pim_Fortuyn .
+
+am:p-28160
+	skos:exactMatch resource:Fleur_Maxwell .
+
+am:p-28193
+	skos:exactMatch resource:Wojciech_Fortuna .
+
+am:p-28355
+	skos:exactMatch resource:Gero_Bisanz .
+
+am:p-28433
+	skos:exactMatch resource:Billy_Goldenberg .
+
+am:p-28603
+	skos:exactMatch resource:Sammy_Hagar .
+
+am:p-28807
+	skos:exactMatch resource:Johann_Gottfried_Herder .
+
+am:p-30405
+	skos:exactMatch <http://dbpedia.org/resource/Minerva_J._Chapman> .
+
+am:p-30911
+	skos:exactMatch resource:Pan_Guang .
+
+am:p-31448
+	skos:exactMatch resource:Titus_van_Rijn .
+
+am:p-3252
+	skos:exactMatch resource:Champfleury .
+
+am:p-32718
+	skos:exactMatch resource:Venus_Williams .
+
+am:p-33646
+	skos:exactMatch resource:Judie_Aronson .
+
+am:p-3420
+	skos:exactMatch resource:Johan_Coenen .
+
+am:p-34212
+	skos:exactMatch resource:Michael_Ballhaus .
+
+am:p-3489
+	skos:exactMatch resource:John_Amos_Comenius .
+
+am:p-35059
+	skos:exactMatch resource:Philip_de_Harcourt .
+
+am:p-35125
+	skos:exactMatch resource:Adriaen_van_Utrecht .
+
+am:p-35280
+	skos:exactMatch resource:Alois_Senefelder .
+
+am:p-35449
+	skos:exactMatch resource:Deron_Quint .
+
+am:p-35572
+	skos:exactMatch resource:Martinus_Nijhoff .
+
+am:p-35605
+	skos:exactMatch resource:Arnold_van_Gennep .
+
+am:p-35632
+	skos:exactMatch resource:Jutta_Limbach .
+
+am:p-35763
+	skos:exactMatch resource:Erik_Bruhn .
+
+am:p-35764
+	skos:exactMatch resource:Wolfgang_Uhlmann .
+
+am:p-35781
+	skos:exactMatch resource:Nicky_Jam .
+
+am:p-35831
+	skos:exactMatch resource:William_Ware_Theiss .
+
+am:p-35840
+	skos:exactMatch resource:Jeff_Hanneman .
+
+am:p-35841
+	skos:exactMatch resource:Adriaen_van_de_Venne .
+
+am:p-35889
+	skos:exactMatch resource:Tristão_da_Cunha .
+
+am:p-35894
+	skos:exactMatch resource:Ferdinand_Domela_Nieuwenhuis .
+
+am:p-35941
+	skos:exactMatch resource:Jos_Lansink .
+
+am:p-35988
+	skos:exactMatch resource:Alexandre-Gabriel_Decamps .
+
+am:p-35990
+	skos:exactMatch resource:Alexandrine_Tinné .
+
+am:p-35994
+	skos:exactMatch resource:Alfons_Mucha .
+
+am:p-36022
+	skos:exactMatch resource:Berthold_Carl_Seemann .
+
+am:p-36053
+	skos:exactMatch resource:Hinrich_Lohse .
+
+am:p-36067
+	skos:exactMatch resource:Menahem_Pressler .
+
+am:p-36082
+	skos:exactMatch resource:Jost_Amman .
+
+am:p-36114
+	skos:exactMatch resource:Jean-Claude_Amiot .
+
+am:p-36157
+	skos:exactMatch <http://dbpedia.org/resource/Hendrik_S._Houthakker> .
+
+am:p-36182
+	skos:exactMatch resource:Arnoldo_Mondadori .
+
+am:p-36263
+	skos:exactMatch resource:Rik_van_Looy .
+
+am:p-36322
+	skos:exactMatch resource:Antoine_Bussy .
+
+am:p-36357
+	skos:exactMatch resource:Bernd_Spier .
+
+am:p-36358
+	skos:exactMatch <http://dbpedia.org/resource/Gérard_Blitz_(sportsman)> .
+
+am:p-36360
+	skos:exactMatch resource:Wilfried_Van_Moer .
+
+am:p-36438
+	skos:exactMatch resource:Gago_Coutinho .
+
+am:p-36510
+	skos:exactMatch resource:Ulrich_Karger .
+
+am:p-36525
+	skos:exactMatch resource:Tina_Dico .
+
+am:p-36531
+	skos:exactMatch resource:Bertil_Malmberg .
+
+am:p-36543
+	skos:exactMatch resource:Friedrich_Arnold_Brockhaus .
+
+am:p-36563
+	skos:exactMatch resource:Camille_Flammarion .
+
+am:p-36599
+	skos:exactMatch <http://dbpedia.org/resource/Harry_Melling_(actor)> .
+
+am:p-36601
+	skos:exactMatch resource:Anton_Mauve .
+
+am:p-36644
+	skos:exactMatch resource:Gerd_Arntz .
+
+am:p-36687
+	skos:exactMatch resource:Nel_van_Vliet .
+
+am:p-36691
+	skos:exactMatch resource:André_Gide .
+
+am:p-36748
+	skos:exactMatch resource:Alain_Decaux .
+
+am:p-36781
+	skos:exactMatch resource:William_Whittingham .
+
+am:p-36789
+	skos:exactMatch resource:Joseph_Maréchal .
+
+am:p-36868
+	skos:exactMatch resource:Leo_Boivin .
+
+am:p-36876
+	skos:exactMatch resource:Wilhelm_von_Grumbach .
+
+am:p-36896
+	skos:exactMatch resource:Alex_Atala .
+
+am:p-36936
+	skos:exactMatch resource:Valerius_Valens .
+
+am:p-36946
+	skos:exactMatch resource:Fritz_Hoffmann-La_Roche .
+
+am:p-36951
+	skos:exactMatch resource:Firmin_Didot .
+
+am:p-36965
+	skos:exactMatch resource:Pia_Douwes .
+
+am:p-36979
+	skos:exactMatch resource:Kit_Carson .
+
+am:p-36997
+	skos:exactMatch resource:Phaedon_Gizikis .
+
+am:p-37012
+	skos:exactMatch resource:Barend_Cornelis_Koekkoek .
+
+am:p-37031
+	skos:exactMatch resource:Jules_Bastien-Lepage .
+
+am:p-37085
+	skos:exactMatch resource:Willem_Jacob_Luyten .
+
+am:p-37121
+	skos:exactMatch resource:Cisca_Dresselhuys .
+
+am:p-37127
+	skos:exactMatch resource:Josef_Krips .
+
+am:p-37252
+	skos:exactMatch resource:Bonaventure_Kalou .
+
+am:p-37441
+	skos:exactMatch resource:Dirck_Volckertszoon_Coornhert .
+
+am:p-37483
+	skos:exactMatch resource:Jay_Bouwmeester .
+
+am:p-37507
+	skos:exactMatch resource:Gerbrand_Adriaensz_Bredero .
+
+am:p-37574
+	skos:exactMatch <http://dbpedia.org/resource/Do_(singer)> .
+
+am:p-37597
+	skos:exactMatch resource:Peco_Bauwens .
+
+am:p-37605
+	skos:exactMatch resource:Shola_Ama .
+
+am:p-37611
+	skos:exactMatch resource:Johannes_Hudde .
+
+am:p-37614
+	skos:exactMatch resource:Nicolaes_Tulp .
+
+am:p-37646
+	skos:exactMatch resource:Berenice_Abbott .
+
+am:p-37657
+	skos:exactMatch resource:Heidi_Kabel .
+
+am:p-37676
+	skos:exactMatch resource:Karel_van_Mander .
+
+am:p-37694
+	skos:exactMatch resource:Dianora_Niccolini .
+
+am:p-37698
+	skos:exactMatch resource:Caspar_Barlaeus .
+
+am:p-37747
+	skos:exactMatch resource:Réal_Ménard .
+
+am:p-37750
+	skos:exactMatch resource:Gabriel_Chevallier .
+
+am:p-37755
+	skos:exactMatch resource:Guillermo_Haro .
+
+am:p-37853
+	skos:exactMatch resource:Sebastian_Langeveld .
+
+am:p-37863
+	skos:exactMatch resource:Minke_Booij .
+
+am:p-37944
+	skos:exactMatch resource:Charles_Longuet .
+
+am:p-37963
+	skos:exactMatch resource:Elizabeth_Hawley .
+
+am:p-37979
+	skos:exactMatch resource:Rik_van_Steenbergen .
+
+am:p-37984
+	skos:exactMatch resource:Thorbjørn_Egner .
+
+am:p-38016
+	skos:exactMatch resource:François_Heutte .
+
+am:p-38026
+	skos:exactMatch resource:Gustav_Heinemann .
+
+am:p-38041
+	skos:exactMatch resource:Alexandre_Charles_Lecocq .
+
+am:p-38128
+	skos:exactMatch resource:Solomon_Gessner .
+
+am:p-38134
+	skos:exactMatch resource:Gerhard_Johann_Vossius .
+
+am:p-38172
+	skos:exactMatch resource:Irving_Wightman_Colburn .
+
+am:p-38199
+	skos:exactMatch resource:Bryan_Wynter .
+
+am:p-38204
+	skos:exactMatch resource:Phaedon_Avouris .
+
+am:p-38268
+	skos:exactMatch resource:Gaston_Roelants .
+
+am:p-38284
+	skos:exactMatch resource:Honoré_Daumier .
+
+am:p-38344
+	skos:exactMatch resource:Henri_Joseph_Anastase_Perrotin .
+
+am:p-38346
+	skos:exactMatch resource:René_Descartes .
+
+am:p-38401
+	skos:exactMatch resource:Nathalie_Bouvier .
+
+am:p-38434
+	skos:exactMatch resource:Max_Roqueta .
+
+am:p-38443
+	skos:exactMatch <http://dbpedia.org/resource/Walther_Wever_(General)> .
+
+am:p-38451
+	skos:exactMatch resource:Jackie_Presser .
+
+am:p-38453
+	skos:exactMatch resource:Gianni_Amelio .
+
+am:p-38456
+	skos:exactMatch resource:Dirck_Gerritsz_Pomp .
+
+am:p-38498
+	skos:exactMatch <http://dbpedia.org/resource/Henry,_Count_of_Bréderode> .
+
+am:p-38524
+	skos:exactMatch resource:Merle_Oberon .
+
+am:p-38548
+	skos:exactMatch resource:Annemarie_Schimmel .
+
+am:p-38553
+	skos:exactMatch resource:Jacob_de_Gheyn_II .
+
+am:p-38578
+	skos:exactMatch resource:Piet_Pieterszoon_Hein .
+
+am:p-38632
+	skos:exactMatch resource:Mariska_Veres .
+
+am:p-38696
+	skos:exactMatch resource:Wilhelm_Trübner .
+
+am:p-38720
+	skos:exactMatch resource:Bartholomaeus_Arnoldi .
+
+am:p-38835
+	skos:exactMatch resource:Charles_Robberts_Swart .
+
+am:p-38878
+	skos:exactMatch resource:Abraham_Kuyper .
+
+am:p-38879
+	skos:exactMatch resource:Michiel_de_Ruyter .
+
+am:p-38899
+	skos:exactMatch resource:Jan_van_Goyen .
+
+am:p-38908
+	skos:exactMatch resource:Gunther_Storck .
+
+am:p-38942
+	skos:exactMatch resource:Ruth_Ann_Minner .
+
+am:p-38981
+	skos:exactMatch resource:Jonatan_Briel .
+
+am:p-39003
+	skos:exactMatch resource:Richard_Kroner .
+
+am:p-39056
+	skos:exactMatch resource:Ferdinand_Bol .
+
+am:p-39132
+	skos:exactMatch <http://dbpedia.org/resource/H._C._Artmann> .
+
+am:p-39144
+	skos:exactMatch resource:Christian_Wilberg .
+
+am:p-39202
+	skos:exactMatch resource:Frits_Van_den_Berghe .
+
+am:p-39236
+	skos:exactMatch resource:Jacques_Amyot .
+
+am:p-39245
+	skos:exactMatch resource:Beniamino_Gigli .
+
+am:p-39246
+	skos:exactMatch resource:Nicolas_François_Appert .
+
+am:p-39287
+	skos:exactMatch resource:Cosmas_Ndeti .
+
+am:p-39295
+	skos:exactMatch resource:Jacob_van_Campen .
+
+am:p-39298
+	skos:exactMatch resource:Michael_Binger .
+
+am:p-39331
+	skos:exactMatch resource:Patricia_Crone .
+
+am:p-39359
+	skos:exactMatch resource:Pieter_Jelles_Troelstra .
+
+am:p-39444
+	skos:exactMatch resource:Gil_Melle .
+
+am:p-39458
+	skos:exactMatch resource:George_Cruikshank .
+
+am:p-3947
+	skos:exactMatch resource:Jean-Gaspard_Deburau .
+
+am:p-39488
+	skos:exactMatch resource:Gerrit_Rietveld .
+
+am:p-39590
+	skos:exactMatch resource:Youssouf_Ouédraogo .
+
+am:p-39730
+	skos:exactMatch resource:Heinz_Dieterich .
+
+am:p-39758
+	skos:exactMatch resource:Martinus_Beijerinck .
+
+am:p-39874
+	skos:exactMatch resource:Henry_Schoenfeld .
+
+am:p-39913
+	skos:exactMatch resource:Céline_Scheen .
+
+am:p-39916
+	skos:exactMatch resource:Michael_Möllinger .
+
+am:p-39917
+	skos:exactMatch resource:Leslie_Van_Houten .
+
+am:p-39968
+	skos:exactMatch resource:Gerold_Schwarzenbach .
+
+am:p-39969
+	skos:exactMatch resource:Tauchnitz .
+
+am:p-39983
+	skos:exactMatch resource:Ditmar_Jakobs .
+
+am:p-39984
+	skos:exactMatch resource:Heinrich_Schwabe .
+
+am:p-40002
+	skos:exactMatch resource:Alison_Routledge .
+
+am:p-40013
+	skos:exactMatch resource:Curt_Engelhorn .
+
+am:p-40021
+	skos:exactMatch resource:Hans_Burgkmair .
+
+am:p-40024
+	skos:exactMatch resource:Théodore_Géricault .
+
+am:p-40066
+	skos:exactMatch resource:Vincenzo_Catena .
+
+am:p-40099
+	skos:exactMatch resource:Hendrik_Goltzius .
+
+am:p-40142
+	skos:exactMatch resource:Jacobus_Oud .
+
+am:p-40206
+	skos:exactMatch resource:Heinrich_Wilhelm_von_Gerstenberg .
+
+am:p-40246
+	skos:exactMatch resource:Jean-Baptiste_Belin .
+
+am:p-40309
+	skos:exactMatch resource:Isaac_Pitman .
+
+am:p-40459
+	skos:exactMatch resource:Edwin_Brienen .
+
+am:p-40490
+	skos:exactMatch resource:Anna_Louisa_Geertruida_Bosboom-Toussaint .
+
+am:p-40635
+	skos:exactMatch resource:Blanche_Bingley .
+
+am:p-40706
+	skos:exactMatch resource:Léa_Pool .
+
+am:p-40716
+	skos:exactMatch resource:Harriet_Backer .
+
+am:p-40723
+	skos:exactMatch resource:Floyd_Red_Crow_Westerman .
+
+am:p-40765
+	skos:exactMatch resource:Jean-Baptiste_Oudry .
+
+am:p-40771
+	skos:exactMatch resource:Stanisław_Saks .
+
+am:p-40787
+	skos:exactMatch resource:Antonio_Colom .
+
+am:p-40789
+	skos:exactMatch resource:Johan_de_Witt .
+
+am:p-40810
+	skos:exactMatch resource:Jan_Leeghwater .
+
+am:p-40822
+	skos:exactMatch resource:Jan_Davidszoon_de_Heem .
+
+am:p-40844
+	skos:exactMatch resource:Jan_Matejko .
+
+am:p-40862
+	skos:exactMatch resource:Jan_van_Scorel .
+
+am:p-40907
+	skos:exactMatch resource:Tuli_Kupferberg .
+
+am:p-40918
+	skos:exactMatch resource:Herman_Van_Breda .
+
+am:p-40938
+	skos:exactMatch resource:Johann_Heinrich_Wilhelm_Tischbein .
+
+am:p-40939
+	skos:exactMatch resource:Johann_Friedrich_Böttger .
+
+am:p-40952
+	skos:exactMatch resource:Wolfgang_Fabricius_Capito .
+
+am:p-40960
+	skos:exactMatch resource:Kenneth_Vermeer .
+
+am:p-41003
+	skos:exactMatch <http://dbpedia.org/resource/Willem_Ysbrandtsz._Bontekoe> .
+
+am:p-41102
+	skos:exactMatch resource:Kurt_Waldheim .
+
+am:p-41118
+	skos:exactMatch resource:August_Reichensperger .
+
+am:p-41144
+	skos:exactMatch resource:Katherine_Helmond .
+
+am:p-41218
+	skos:exactMatch resource:Josef_Knap .
+
+am:p-41261
+	skos:exactMatch resource:Bart_Goor .
+
+am:p-41290
+	skos:exactMatch resource:Jan_Huyghen_van_Linschoten .
+
+am:p-41394
+	skos:exactMatch resource:Manfred_Wörner .
+
+am:p-41499
+	skos:exactMatch resource:Otto_Hölder .
+
+am:p-41528
+	skos:exactMatch resource:Leonardo_Vinci .
+
+am:p-41542
+	skos:exactMatch resource:Jules_Perrot .
+
+am:p-4157
+	skos:exactMatch resource:Denis_Diderot .
+
+am:p-41607
+	skos:exactMatch <http://dbpedia.org/resource/Francis_Cadell_(artist)> .
+
+am:p-41765
+	skos:exactMatch resource:Ferdinand_Albin_Pax .
+
+am:p-41766
+	skos:exactMatch resource:Paul_Volcker .
+
+am:p-41784
+	skos:exactMatch resource:François-Noël_Babeuf .
+
+am:p-41826
+	skos:exactMatch resource:Ernest_Callenbach .
+
+am:p-41901
+	skos:exactMatch resource:Marinus_van_der_Goes_van_Naters .
+
+am:p-41911
+	skos:exactMatch <http://dbpedia.org/resource/Sidney_J._Furie> .
+
+am:p-41928
+	skos:exactMatch resource:Jean_Eudes .
+
+am:p-41949
+	skos:exactMatch resource:Gerard_Reve .
+
+am:p-41972
+	skos:exactMatch resource:Archibald_Reiss .
+
+am:p-42033
+	skos:exactMatch resource:Adrienne_Monnier .
+
+am:p-42103
+	skos:exactMatch resource:Roman_Hofstetter .
+
+am:p-42154
+	skos:exactMatch resource:Kate_Nauta .
+
+am:p-42159
+	skos:exactMatch resource:Wlastimil_Hofman .
+
+am:p-42181
+	skos:exactMatch resource:Bruno_Julliard .
+
+am:p-42190
+	skos:exactMatch resource:Arjen_Anthony_Lucassen .
+
+am:p-42349
+	skos:exactMatch resource:Sebastian_Siedler .
+
+am:p-42356
+	skos:exactMatch <http://dbpedia.org/resource/Belding_H._Scribner> .
+
+am:p-42360
+	skos:exactMatch resource:Jorge_Chávez .
+
+am:p-42361
+	skos:exactMatch resource:Hendrick_ter_Brugghen .
+
+am:p-42478
+	skos:exactMatch resource:Joost_van_den_Vondel .
+
+am:p-42512
+	skos:exactMatch resource:Jacques_Lemaire .
+
+am:p-42519
+	skos:exactMatch resource:Friedrich_Traugott_Wahlen .
+
+am:p-42590
+	skos:exactMatch resource:Thomas_von_Heesen .
+
+am:p-42609
+	skos:exactMatch resource:Stefan-Peter_Greiner .
+
+am:p-42631
+	skos:exactMatch resource:Hannie_Schaft .
+
+am:p-42690
+	skos:exactMatch resource:Sean_Waltman .
+
+am:p-42704
+	skos:exactMatch resource:Victor_Mees .
+
+am:p-42724
+	skos:exactMatch resource:Siméon_Denis_Poisson .
+
+am:p-42770
+	skos:exactMatch resource:Burhanuddin_Rabbani .
+
+am:p-42796
+	skos:exactMatch resource:Herman_of_Salm .
+
+am:p-42842
+	skos:exactMatch resource:Andrea_Palladio .
+
+am:p-42853
+	skos:exactMatch resource:Dirk_Heinen .
+
+am:p-42889
+	skos:exactMatch resource:Hippolyte_Delaroche .
+
+am:p-42947
+	skos:exactMatch resource:Pieter_van_Musschenbroek .
+
+am:p-42962
+	skos:exactMatch resource:Salomon_Koninck .
+
+am:p-42964
+	skos:exactMatch resource:Pandora_Peaks .
+
+am:p-42984
+	skos:exactMatch resource:Dieter_Bast .
+
+am:p-43076
+	skos:exactMatch resource:Alec_Chamberlain .
+
+am:p-43254
+	skos:exactMatch resource:Ilse_DeLange .
+
+am:p-43279
+	skos:exactMatch resource:Johann_von_Leers .
+
+am:p-43289
+	skos:exactMatch resource:Abel_Tasman .
+
+am:p-43290
+	skos:exactMatch resource:Jakob_Roggeveen .
+
+am:p-43375
+	skos:exactMatch resource:Karl_Bitter .
+
+am:p-43425
+	skos:exactMatch resource:Theodor_Schwann .
+
+am:p-43435
+	skos:exactMatch resource:Margot_Fonteyn .
+
+am:p-43504
+	skos:exactMatch resource:Aegidius_Sadeler .
+
+am:p-43548
+	skos:exactMatch resource:Camillo_Olivetti .
+
+am:p-43635
+	skos:exactMatch resource:Stan_Levey .
+
+am:p-43639
+	skos:exactMatch resource:John_of_Leiden .
+
+am:p-43720
+	skos:exactMatch resource:Charles_Wheatstone .
+
+am:p-43762
+	skos:exactMatch resource:José_Sócrates .
+
+am:p-44051
+	skos:exactMatch resource:Antonio_Tempesta .
+
+am:p-44105
+	skos:exactMatch resource:El_Lissitzky .
+
+am:p-44111
+	skos:exactMatch resource:Johan_Rudolf_Thorbecke .
+
+am:p-44112
+	skos:exactMatch resource:Edwards_Pierrepont .
+
+am:p-44119
+	skos:exactMatch resource:Michael_Hoeye .
+
+am:p-44206
+	skos:exactMatch resource:Ellen_Braumüller .
+
+am:p-44302
+	skos:exactMatch resource:Libertas_Schulze-Boysen .
+
+am:p-44330
+	skos:exactMatch resource:Tobias_Michael_Carel_Asser .
+
+am:p-44335
+	skos:exactMatch resource:Saskia_van_Uylenburgh .
+
+am:p-44387
+	skos:exactMatch resource:Wenceslas_Hollar .
+
+am:p-44534
+	skos:exactMatch resource:Alpha_Blondy .
+
+am:p-44540
+	skos:exactMatch resource:Aert_de_Gelder .
+
+am:p-44545
+	skos:exactMatch resource:Jimmy_Smits .
+
+am:p-44558
+	skos:exactMatch resource:Alexander_Hacke .
+
+am:p-44597
+	skos:exactMatch resource:Hilda_van_Stockum .
+
+am:p-44605
+	skos:exactMatch resource:Etty_Hillesum .
+
+am:p-44635
+	skos:exactMatch resource:Frans_de_Waal .
+
+am:p-44651
+	skos:exactMatch resource:Pierre_Viret .
+
+am:p-44689
+	skos:exactMatch resource:Michèle_Jacot .
+
+am:p-44695
+	skos:exactMatch resource:Cornelis_Vroom .
+
+am:p-44746
+	skos:exactMatch resource:Charles_Rogier .
+
+am:p-44768
+	skos:exactMatch resource:Amália_Rodrigues .
+
+am:p-44772
+	skos:exactMatch resource:Martial_Solal .
+
+am:p-44844
+	skos:exactMatch resource:Søren_Kam .
+
+am:p-44935
+	skos:exactMatch resource:Godert_van_der_Capellen .
+
+am:p-44956
+	skos:exactMatch resource:Wenzel_Jamnitzer .
+
+am:p-44968
+	skos:exactMatch resource:Henri_Nannen .
+
+am:p-44973
+	skos:exactMatch resource:Pierre_Cuypers .
+
+am:p-44997
+	skos:exactMatch resource:Viking_Eggeling .
+
+am:p-45026
+	skos:exactMatch resource:Taco_Ockerse .
+
+am:p-45030
+	skos:exactMatch resource:Willem_Pieterszoon_Buytewech .
+
+am:p-45050
+	skos:exactMatch resource:Saint_Boniface .
+
+am:p-45051
+	skos:exactMatch resource:Willibrord_Benzler .
+
+am:p-45070
+	skos:exactMatch resource:Willem_Marinus_Dudok .
+
+am:p-45072
+	skos:exactMatch resource:Aagje_Deken .
+
+am:p-45103
+	skos:exactMatch resource:Jodocus_Hondius .
+
+am:p-45209
+	skos:exactMatch resource:Artemis_Gounaki .
+
+am:p-45911
+	skos:exactMatch resource:Aristotle_Onassis .
+
+am:p-45927
+	skos:exactMatch resource:Hema_Malini .
+
+am:p-46518
+	skos:exactMatch resource:Nadja_Tiller .
+
+am:p-46630
+	skos:exactMatch resource:François_Pompon .
+
+am:p-47126
+	skos:exactMatch resource:Jan_Roothaan .
+
+am:p-47149
+	skos:exactMatch resource:Léon_Charles_Thévenin .
+
+am:p-47701
+	skos:exactMatch resource:Lis_Hartel .
+
+am:p-47705
+	skos:exactMatch resource:Dario_Fo .
+
+am:p-47716
+	skos:exactMatch resource:Jessicah_Schipper .
+
+am:p-47724
+	skos:exactMatch resource:Nicolo_Tron .
+
+am:p-47803
+	skos:exactMatch resource:Zakes_Mda .
+
+am:p-47830
+	skos:exactMatch resource:Franz_Boas .
+
+am:p-47849
+	skos:exactMatch resource:Den_Brotheridge .
+
+am:p-47864
+	skos:exactMatch <http://dbpedia.org/resource/Sophie_in_'t_Veld> .
+
+am:p-48208
+	skos:exactMatch resource:Rainer_Ludwig_Claisen .
+
+am:p-48870
+	skos:exactMatch resource:Ghiselin_Danckerts .
+
+am:p-48987
+	skos:exactMatch resource:Unico_Wilhelm_van_Wassenaer .
+
+am:p-49225
+	skos:exactMatch resource:Andrew_Bree .
+
+am:p-49295
+	skos:exactMatch resource:Wayne_Allard .
+
+am:p-49766
+	skos:exactMatch resource:Ignaz_Holzbauer .
+
+am:p-49788
+	skos:exactMatch resource:Brian_Melo .
+
+am:p-49983
+	skos:exactMatch resource:Alessandro_Mendini .
+
+am:p-50018
+	skos:exactMatch resource:Erland_Kops .
+
+am:p-50105
+	skos:exactMatch resource:Frans_Brüggen .
+
+am:p-50637
+	skos:exactMatch resource:Gijsbert_van_Tienhoven .
+
+am:p-50653
+	skos:exactMatch resource:Giovanni_Diodati .
+
+am:p-50737
+	skos:exactMatch resource:Anthonie_van_Noordt .
+
+am:p-50808
+	skos:exactMatch resource:Joannes_Gijsen .
+
+am:p-51181
+	skos:exactMatch resource:Lajos_Kossuth .
+
+am:p-51720
+	skos:exactMatch resource:Pierre_Larousse .
+
+am:p-52328
+	skos:exactMatch resource:Franciscus_Sylvius .
+
+am:p-53082
+	skos:exactMatch resource:Matthaeus_Pipelare .
+
+am:p-53279
+	skos:exactMatch <http://dbpedia.org/resource/J._H._Williams_III> .
+
+am:p-53834
+	skos:exactMatch resource:René_Goulaine_de_Laudonnière .
+
+am:p-54089
+	skos:exactMatch resource:Magne_Thomassen .
+
+am:p-54246
+	skos:exactMatch resource:Louis_van_Gaal .
+
+am:p-54491
+	skos:exactMatch resource:Frédéric_Louis_Godet .
+
+am:p-54494
+	skos:exactMatch resource:Alfred_Percy_Sinnett .
+
+am:p-55404
+	skos:exactMatch resource:Květa_Peschke .
+
+am:p-56153
+	skos:exactMatch resource:Marine_Le_Pen .
+
+am:p-56704
+	skos:exactMatch resource:Jumbo_Schreiner .
+
+am:p-56732
+	skos:exactMatch resource:Giuliana_De_Sio .
+
+am:p-58256
+	skos:exactMatch resource:Alexandre_Bisson .
+
+am:p-58389
+	skos:exactMatch resource:Salomo_Glassius .
+
+am:p-58456
+	skos:exactMatch resource:Johan_Jongkind .
+
+am:p-58503
+	skos:exactMatch resource:Bar-Hebraeus .
+
+am:p-58677
+	skos:exactMatch <http://dbpedia.org/resource/Julie_M._J._Parisien> .
+
+am:p-58914
+	skos:exactMatch resource:Michael_Gerzon .
+
+am:p-59417
+	skos:exactMatch resource:Frans_van_Schooten .
+
+am:p-59701
+	skos:exactMatch resource:Vladimir_Romanov .
+
+am:p-59704
+	skos:exactMatch resource:Charles_Pichegru .
+
+am:p-60007
+	skos:exactMatch resource:Albrecht_Altdorfer .
+
+am:p-60242
+	skos:exactMatch <http://dbpedia.org/resource/J._K._Simmons> .
+
+am:p-60299
+	skos:exactMatch resource:Mannes_Francken .
+
+am:p-60485
+	skos:exactMatch resource:Cyril_Mango .
+
+am:p-60673
+	skos:exactMatch resource:Jean-Honoré_Fragonard .
+
+am:p-61261
+	skos:exactMatch resource:Jan_de_Bont .
+
+am:p-63100
+	skos:exactMatch resource:Diego_Fabbri .
+
+am:p-6325
+	skos:exactMatch resource:Jean-Baptiste-Louis_Gresset .
+
+am:p-63743
+	skos:exactMatch resource:Carry_Geijssen .
+
+am:p-63820
+	skos:exactMatch resource:Harry_Houdini .
+
+am:p-63912
+	skos:exactMatch resource:Benedetto_Coda .
+
+am:p-63921
+	skos:exactMatch resource:Piet_Zwart .
+
+am:p-64369
+	skos:exactMatch <http://dbpedia.org/resource/G._William_Domhoff> .
+
+am:p-64932
+	skos:exactMatch resource:Nathaniel_Wallich .
+
+am:p-64940
+	skos:exactMatch resource:Kees_Pijl .
+
+am:p-64944
+	skos:exactMatch resource:Bernard_Haitink .
+
+am:p-65006
+	skos:exactMatch resource:Roxy_Jezel .
+
+am:p-65576
+	skos:exactMatch resource:Marie_Dissard .
+
+am:p-65610
+	skos:exactMatch resource:Paul_Molitor .
+
+am:p-66022
+	skos:exactMatch resource:Hasna_Benhassi .
+
+am:p-66505
+	skos:exactMatch resource:Ursula_Lingen .
+
+am:p-66698
+	skos:exactMatch resource:Karel_Doorman .
+
+am:p-67235
+	skos:exactMatch resource:Nicolaas_Beets .
+
+am:p-67775
+	skos:exactMatch resource:Thomas_François_Burgers .
+
+am:p-68672
+	skos:exactMatch resource:Coenraad_Jacob_Temminck .
+
+am:p-6961
+	skos:exactMatch resource:Clopton_Havers .
+
+am:p-69657
+	skos:exactMatch resource:Piet_Schrijvers .
+
+am:p-70145
+	skos:exactMatch resource:Ferdinando_Paer .
+
+am:p-70250
+	skos:exactMatch resource:Jean-Baptiste_Isabey .
+
+am:p-70258
+	skos:exactMatch resource:Camille_Roqueplan .
+
+am:p-70259
+	skos:exactMatch resource:Jean-Baptiste-Camille_Corot .
+
+am:p-70277
+	skos:exactMatch resource:Joseph_DeCamp .
+
+am:p-70287
+	skos:exactMatch resource:Nicolas_Toussaint_Charlet .
+
+am:p-70322
+	skos:exactMatch resource:Jacques_Bellange .
+
+am:p-70328
+	skos:exactMatch <http://dbpedia.org/resource/Henri_Duparc_(composer)> .
+
+am:p-70344
+	skos:exactMatch resource:Philip_Delaporte .
+
+am:p-70528
+	skos:exactMatch <http://dbpedia.org/resource/Jean_Leclerc_(theologian)> .
+
+am:p-70539
+	skos:exactMatch resource:Jean_Reynier .
+
+am:p-70644
+	skos:exactMatch resource:Remigijus_Valiulis .
+
+am:p-70750
+	skos:exactMatch resource:Samuel_Garman .
+
+am:p-70772
+	skos:exactMatch resource:Richard_Groenendaal .
+
+am:p-70857
+	skos:exactMatch resource:Jon_Provost .
+
+am:p-70880
+	skos:exactMatch resource:Stéphane_Gillet .
+
+am:p-70959
+	skos:exactMatch resource:Cheryl_Benard .
+
+am:p-71046
+	skos:exactMatch resource:Dieter_Claessens .
+
+am:p-71360
+	skos:exactMatch resource:Al_Franken .
+
+am:p-71960
+	skos:exactMatch resource:Édouard_Detaille .
+
+am:p-71965
+	skos:exactMatch resource:Alpheus_Baker .
+
+am:p-72123
+	skos:exactMatch <http://dbpedia.org/resource/Henry_L._Dawes> .
+
+am:p-7602
+	skos:exactMatch resource:Kevin_Hofland .
+
+am:p-779
+	skos:exactMatch resource:Hayreddin_Barbarossa .
+
+am:p-7847
+	skos:exactMatch resource:Horatius_Bonar .
+
+am:p-950
+	skos:exactMatch resource:Pierre_Beaumarchais .
+
+am:p-954
+	skos:exactMatch resource:Simone_de_Beauvoir .

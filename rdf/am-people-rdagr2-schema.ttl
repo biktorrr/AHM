@@ -1,0 +1,67 @@
+###
+#  AHM Schema / Mappings
+#
+#  Victor de Boer - Nov. 2010
+###
+
+@prefix ahm:     <http://purl.org/collections/nl/am/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix	skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix ens:	 <http://www.europeana.eu/schemas/edm/> .
+@prefix rda:	 <http://RDVocab.info/ElementsGr2/> .
+
+# VIC: mapping from ahm persons to RDA Group 2 elements.
+
+ahm:Person a rdfs:Class ;
+	rdfs:subClassOf ens:Agent.
+
+
+ahm:equivalentName a rdf:Property ;
+        rdfs:subPropertyOf rda:variantNameForThePerson.
+ahm:name a rdf:Property ;
+        rdfs:subPropertyOf rda:preferredNameForThePerson.
+ahm:use a rdf:Property ;
+        rdfs:subPropertyOf rda:preferredNameForThePerson.
+ahm:usedFor a rdf:Property ;
+        rdfs:subPropertyOf rda:variantNameForThePerson.
+
+ahm:birthDateEnd a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfBirth.
+ahm:birthDatePrecision  a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfBirth.
+ahm:birthDateStart a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfBirth.
+ahm:birthNotes a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfBirth.
+
+ahm:deathDateEnd a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfDeath.
+ahm:deathDatePrecision a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfDeath.
+ahm:deathDateStart a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfDeath.
+ahm:deathNotes a rdf:Property ;
+        rdfs:subPropertyOf rda:dateOfDeath.
+
+ahm:birthPlace a rdf:Property ;
+        rdfs:subPropertyOf rda:placeOfBirth.
+ahm:deathPlace a rdf:Property ;
+        rdfs:subPropertyOf rda:placeOfDeath.
+
+
+ahm:nationality a rdf:Property ;
+        rdfs:subPropertyOf rda:countryAssociatedWithThePerson.
+ahm:biography a rdf:Property ;
+        rdfs:subPropertyOf rda:biographicalInformation.
+ahm:occupation a rdf:Property ;
+        rdfs:subPropertyOf rda:professionOrOccupation.
+ahm:priref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:selected a rdf:Property ;
+        rdfs:subPropertyOf dcterms:available.
+
+
+ahm:wasPresentAt a rdf:Property ;
+        rdfs:subPropertyOf ens:wasPresentAt.

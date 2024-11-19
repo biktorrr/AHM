@@ -1,0 +1,63 @@
+###
+#  AHM Schema / Mappings
+#
+#  Victor de Boer - Nov. 2010
+###
+@prefix ahm:     <http://purl.org/collections/nl/am/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix	skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix ens:	 <http://www.europeana.eu/schemas/edm/> .
+
+# VIC: todo: look at these mappings with Bob (ahm:use)
+
+ahm:Person a rdfs:Class ;
+	rdfs:subClassOf ens:Agent.
+
+ahm:biography a rdf:Property ;
+        rdfs:subPropertyOf skos:description.
+
+ahm:birthDateEnd a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:biography a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:birthDatePrecision  a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:birthDateStart	a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:biography	a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:birthNotes a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:biography  a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:birthPlace a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:deathDateEnd a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:deathDatePrecision a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:deathDateStart a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:deathNotes a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:deathPlace a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:equivalentName a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:name a rdf:Property ;
+        rdfs:subPropertyOf skos:prefLabel.
+ahm:nationality a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:occupation a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:priref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:selected a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:use a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+ahm:usedFor a rdf:Property ;
+        rdfs:subPropertyOf skos:altLabel.
+

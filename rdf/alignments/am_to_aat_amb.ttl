@@ -1,0 +1,4781 @@
+@base             <export3> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix   aatned: <http://purl.org/vocabularies/rkd/aatned/> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+
+# Named toplevel resources (1,325)
+
+<export3>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <am_tt_concepts_to_aatned_1-1-rest> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <am_tt_concepts_to_aatned_1-1-rest> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T13-46-54+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export3&graph=am_tt_concepts_to_aatned_1-1-rest&relation=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23exactMatch>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:t-10001
+	skos:exactMatch aatned:wiggen ,
+			aatned:wiggen__onderdelen_ .
+
+am:t-10005
+	skos:exactMatch aatned:zaagsel .
+
+am:t-10019
+	skos:exactMatch aatned:zink ,
+			aatned:zinken__muziekinstrument_ .
+
+am:t-10025
+	skos:exactMatch aatned:aambeelden__gereedschappen_ ,
+			aatned:aambeelden__idiofonen_ ,
+			aatned:aambeelden__leerbewerkingsgereedschap_ .
+
+am:t-10031
+	skos:exactMatch aatned:apen .
+
+am:t-10034
+	skos:exactMatch aatned:aarde .
+
+am:t-10038
+	skos:exactMatch aatned:accessoires .
+
+am:t-10040
+	skos:exactMatch aatned:achterglasschildering ,
+			aatned:achterglasschilderingen .
+
+am:t-10046
+	skos:exactMatch aatned:acteurs .
+
+am:t-10055
+	skos:exactMatch aatned:affiches .
+
+am:t-10082
+	skos:exactMatch aatned:allegorie ,
+			aatned:allegorieen__literair_ .
+
+am:t-10086
+	skos:exactMatch aatned:almanakken .
+
+am:t-10087
+	skos:exactMatch aatned:alpacawol .
+
+am:t-10119
+	skos:exactMatch aatned:ankers__bevestigingsmiddelen_ ,
+			aatned:ankers__vaartuiguitrusting_ .
+
+am:t-10128
+	skos:exactMatch aatned:machines ,
+			aatned:machines__motoren_ .
+
+am:t-10131
+	skos:exactMatch aatned:aquarellen .
+
+am:t-10134
+	skos:exactMatch aatned:aquatint ,
+			aatned:aquatinten .
+
+am:t-10135
+	skos:exactMatch aatned:arbeiders .
+
+am:t-10138
+	skos:exactMatch aatned:architecten .
+
+am:t-10139
+	skos:exactMatch aatned:armbanden__bovenarm_ ,
+			aatned:armbanden__onderarm_ .
+
+am:t-10150
+	skos:exactMatch aatned:assemblage__beeldhouwtechniek_ ,
+			aatned:assemblages__beeldhouwwerk_ ,
+			aatned:assemblages__object_groupings_ .
+
+am:t-10160
+	skos:exactMatch aatned:avondjaponnen .
+
+am:t-10169
+	skos:exactMatch aatned:baai ,
+			aatned:baaien__watervlakten_ .
+
+am:t-10192
+	skos:exactMatch aatned:badkuipen .
+
+am:t-10199
+	skos:exactMatch aatned:bakken .
+
+am:t-10203
+	skos:exactMatch aatned:bakkers .
+
+am:t-10209
+	skos:exactMatch aatned:baksteen ,
+			aatned:bakstenen__keukengerei_ .
+
+am:t-10210
+	skos:exactMatch aatned:ballen__recreatieve_objecten_ ,
+			aatned:ballen__voetonderdelen_ ,
+			aatned:bals .
+
+am:t-10212
+	skos:exactMatch aatned:balans ,
+			aatned:balansen ,
+			aatned:balansen__meetinstrumenten_ .
+
+am:t-10216
+	skos:exactMatch aatned:balein ,
+			aatned:baleinen .
+
+am:t-10217
+	skos:exactMatch aatned:balein ,
+			aatned:baleinen .
+
+am:t-10220
+	skos:exactMatch aatned:avondjaponnen .
+
+am:t-10227
+	skos:exactMatch aatned:band ,
+			aatned:banden__zuilonderdelen_ ,
+			aatned:bands__ensembles_ ,
+			aatned:boekbanden .
+
+am:t-10230
+	skos:exactMatch aatned:banken__meubilair_ ,
+			aatned:banken__verdediging_ .
+
+am:t-10239
+	skos:exactMatch aatned:baretten ,
+			aatned:baretten__voor_leden_van_een_universiteit_ .
+
+am:t-10242
+	skos:exactMatch aatned:barometers .
+
+am:t-10251
+	skos:exactMatch aatned:bedden ,
+			aatned:bedden__tuinelementen_ .
+
+am:t-10256
+	skos:exactMatch aatned:beddenspreien .
+
+am:t-10268
+	skos:exactMatch aatned:beren__waterkering_ ,
+			aatned:beren__zoogdier_ .
+
+am:t-10270
+	skos:exactMatch aatned:begraafplaatsen .
+
+am:t-10275
+	skos:exactMatch aatned:bekers__aerofoononderdelen_ .
+
+am:t-10279
+	skos:exactMatch aatned:bekkens .
+
+am:t-10282
+	skos:exactMatch aatned:klepelklokken ,
+			aatned:klokken__idiofonen_ .
+
+am:t-10291
+	skos:exactMatch aatned:kastmeubilair .
+
+am:t-10294
+	skos:exactMatch aatned:schildertechnieken .
+
+am:t-10300
+	skos:exactMatch aatned:beton__algemeen_ ,
+			aatned:beton__specifieke_samenstelling_ .
+
+am:t-10301
+	skos:exactMatch aatned:beugels__afsluitingsmiddelen_ ,
+			aatned:beugels__visnet_ ,
+			aatned:beugels__wapenonderdelen_ .
+
+am:t-10316
+	skos:exactMatch aatned:bibliotheken__gebouwen_ ,
+			aatned:bibliotheken__kasten_ ,
+			aatned:bibliotheken__ruimten_ .
+
+am:t-10324
+	skos:exactMatch aatned:bies__garneersel_ ,
+			aatned:bies__riet_ .
+
+am:t-10326
+	skos:exactMatch aatned:bies__riet_ .
+
+am:t-10329
+	skos:exactMatch aatned:bijlen__gereedschap_ ,
+			aatned:bijlen__wapens_ .
+
+am:t-10337
+	skos:exactMatch aatned:bisschoppen .
+
+am:t-10342
+	skos:exactMatch aatned:blad__plantenmateriaal_ ,
+			aatned:bladen ,
+			aatned:bladen__gevouwen_vellen_ ,
+			aatned:bladen__platte_objecten_ ,
+			aatned:bladeren ,
+			aatned:dienbladen .
+
+am:t-10346
+	skos:exactMatch aatned:bladwijzers__kaarten_ .
+
+am:t-10353
+	skos:exactMatch aatned:blazers__jasjes_ ,
+			aatned:blazers__schepen_ .
+
+am:t-10355
+	skos:exactMatch aatned:blik__materiaal_ ,
+			aatned:blikken__houders_ .
+
+am:t-10358
+	skos:exactMatch aatned:blinddruk__techniek_ ,
+			aatned:blinddrukken__prenten_ .
+
+am:t-10361
+	skos:exactMatch aatned:bloedkoraal ,
+			aatned:bloedsteen .
+
+am:t-10362
+	skos:exactMatch aatned:bloemen__planten_ .
+
+am:t-10364
+	skos:exactMatch aatned:bloembakken ,
+			aatned:bloembakken__venster_ .
+
+am:t-10369
+	skos:exactMatch aatned:blokken__gevormde_massa_s_ ,
+			aatned:blokken__quiltonderdelen_ ,
+			aatned:blokken__speelgoed_ ,
+			aatned:katrollen .
+
+am:t-10381
+	skos:exactMatch aatned:boeken .
+
+am:t-10383
+	skos:exactMatch aatned:boekbanden .
+
+am:t-10396
+	skos:exactMatch aatned:boeren .
+
+am:t-10403
+	skos:exactMatch aatned:bollen ,
+			aatned:bollen__planten_ ,
+			aatned:bollen__schepen_ .
+
+am:t-10410
+	skos:exactMatch aatned:bommen__munitie_ ,
+			aatned:bomschuiten .
+
+am:t-10419
+	skos:exactMatch aatned:vacht ,
+			aatned:veelkleurig .
+
+am:t-10432
+	skos:exactMatch aatned:bogen__bouwelementen_ ,
+			aatned:bogen__wapens_ .
+
+am:t-10435
+	skos:exactMatch aatned:boorden__3_ ,
+			aatned:boorden__textielonderdelen_ .
+
+am:t-10444
+	skos:exactMatch aatned:borden ,
+			aatned:borden__boekbandonderdelen_ ,
+			aatned:borden__informatie_ ,
+			aatned:borden__vaatwerk_ .
+
+am:t-10458
+	skos:exactMatch aatned:bustes .
+
+am:t-10472
+	skos:exactMatch aatned:architecturale_elementen .
+
+am:t-10486
+	skos:exactMatch aatned:branden .
+
+am:t-10490
+	skos:exactMatch aatned:branders__lamponderdelen_ ,
+			aatned:branders__schepen_ ,
+			aatned:branders__verhittingsgereedschap_ .
+
+am:t-10548
+	skos:exactMatch aatned:bruggen .
+
+am:t-10559
+	skos:exactMatch aatned:buffetten .
+
+am:t-10561
+	skos:exactMatch aatned:buitenplaatsen .
+
+am:t-10564
+	skos:exactMatch aatned:luchtbuksen .
+
+am:t-10566
+	skos:exactMatch aatned:instanties ,
+			aatned:schrijfmeubels .
+
+am:t-10569
+	skos:exactMatch aatned:burgemeesters .
+
+am:t-10577
+	skos:exactMatch aatned:bussen__houders_ ,
+			aatned:bussen__voertuigen_ .
+
+am:t-10578
+	skos:exactMatch aatned:bustes .
+
+am:t-10597
+	skos:exactMatch aatned:capuchons .
+
+am:t-10603
+	skos:exactMatch aatned:cassetten__plafondonderdelen_ ,
+			aatned:cassettes__documenthouders_ .
+
+am:t-10624
+	skos:exactMatch aatned:chatelaines__kledingaccessoires_ ,
+			aatned:chatelaines__sieraden_ .
+
+am:t-10625
+	skos:exactMatch aatned:chemisettes__1_ ,
+			aatned:chemisettes__2_ .
+
+am:t-10629
+	skos:exactMatch aatned:chiffonnieres__ladenkasten_ ,
+			aatned:chiffonnieres__ladenkasten_met_spiegel_ ,
+			aatned:chiffonnieres__zijtafels_ .
+
+am:t-10631
+	skos:exactMatch aatned:sits .
+
+am:t-10646
+	skos:exactMatch aatned:clips__bevestigingsmiddelen_ ,
+			aatned:clips__sieraden_ .
+
+am:t-10650
+	skos:exactMatch aatned:cocktailjaponnen .
+
+am:t-10657
+	skos:exactMatch aatned:collage ,
+			aatned:collages .
+
+am:t-10672
+	skos:exactMatch aatned:condensatoren .
+
+am:t-10683
+	skos:exactMatch aatned:korsetten .
+
+am:t-10686
+	skos:exactMatch aatned:coupes ,
+			aatned:coupes__rijtuigen_ .
+
+am:t-10692
+	skos:exactMatch aatned:couverts ,
+			aatned:cutlery ,
+			aatned:gebruiksvoorwerpen_voor_het_consumeren_van_voedsel .
+
+am:t-10707
+	skos:exactMatch aatned:kruisbeelden .
+
+am:t-10710
+	skos:exactMatch aatned:dagboeken ,
+			aatned:dagboeken__boekhouden_ .
+
+am:t-10718
+	skos:exactMatch aatned:vrouwenkleding .
+
+am:t-10724
+	skos:exactMatch aatned:dassen ,
+			aatned:dassen__zoogdieren_ .
+
+am:t-10726
+	skos:exactMatch aatned:dasspelden__1_ ,
+			aatned:dasspelden__2_ ,
+			aatned:dasspelden__3_ .
+
+am:t-10744
+	skos:exactMatch aatned:dekschalen .
+
+am:t-10751
+	skos:exactMatch aatned:dekselkoppen .
+
+am:t-10752
+	skos:exactMatch aatned:dekselkoppen .
+
+am:t-10788
+	skos:exactMatch aatned:dichters .
+
+am:t-10790
+	skos:exactMatch aatned:blad__plantenmateriaal_ ,
+			aatned:bladen ,
+			aatned:bladen__gevouwen_vellen_ ,
+			aatned:bladen__platte_objecten_ ,
+			aatned:bladeren ,
+			aatned:dienbladen ,
+			aatned:plateaus__houders_ ,
+			aatned:plateaus__landschapsvorm_ .
+
+am:t-10799
+	skos:exactMatch aatned:dieren .
+
+am:t-10806
+	skos:exactMatch aatned:dissels ,
+			aatned:dissels__holle_met_haakse_zijden_ .
+
+am:t-10810
+	skos:exactMatch aatned:documenten .
+
+am:t-10811
+	skos:exactMatch aatned:documenten .
+
+am:t-10817
+	skos:exactMatch aatned:dolken ,
+			aatned:dolken__maaswerkonderdelen_ .
+
+am:t-10829
+	skos:exactMatch aatned:doopkleding .
+
+am:t-10845
+	skos:exactMatch aatned:dop ,
+			aatned:doppen__sluitingen_ .
+
+am:t-10858
+	skos:exactMatch aatned:draaiorgels .
+
+am:t-10869
+	skos:exactMatch aatned:bekers__aerofoononderdelen_ ,
+			aatned:drinkbekers .
+
+am:t-10871
+	skos:exactMatch aatned:drinkglazen .
+
+am:t-10886
+	skos:exactMatch aatned:drukkerijen .
+
+am:t-10929
+	skos:exactMatch aatned:condensatoren .
+
+am:t-10935
+	skos:exactMatch aatned:emblemen__onderscheidingstekens_ ,
+			aatned:emblemen__symbolen_ .
+
+am:t-10939
+	skos:exactMatch aatned:emmers__binnenvaartschepen_ ,
+			aatned:emmers__vaatwerk_ ,
+			aatned:emmers__vissersschepen_ .
+
+am:t-10960
+	skos:exactMatch aatned:etageres__1_ ,
+			aatned:etageres__2_ .
+
+am:t-10975
+	skos:exactMatch aatned:ezels .
+
+am:t-10995
+	skos:exactMatch aatned:fietsen__transportmiddelen_ .
+
+am:t-10996
+	skos:exactMatch aatned:figuren__illustraties_ ,
+			aatned:figuren__voorstellingen_ .
+
+am:t-10999
+	skos:exactMatch aatned:filets ,
+			aatned:filetten__motieven_ .
+
+am:t-11002
+	skos:exactMatch aatned:film__uitvoerende_kunsten_ ,
+			aatned:films .
+
+am:t-11031
+	skos:exactMatch aatned:flessen .
+
+am:t-11041
+	skos:exactMatch aatned:fluiten__aerofonen_ ,
+			aatned:fluitschepen .
+
+am:t-11044
+	skos:exactMatch aatned:fluweel .
+
+am:t-11054
+	skos:exactMatch aatned:folie .
+
+am:t-11056
+	skos:exactMatch aatned:folie ,
+			aatned:folie__materiaal_ ,
+			aatned:folies .
+
+am:t-11058
+	skos:exactMatch aatned:fonteinen .
+
+am:t-11067
+	skos:exactMatch aatned:foto_s .
+
+am:t-11087
+	skos:exactMatch aatned:friezen__entablementonderdelen_ ,
+			aatned:friezen__ornamentale_banden_ .
+
+am:t-11104
+	skos:exactMatch aatned:galgen ,
+			aatned:galgen__scheepsonderdelen_ .
+
+am:t-11135
+	skos:exactMatch aatned:blazen__modelleren_ .
+
+am:t-11139
+	skos:exactMatch aatned:geboorten .
+
+am:t-11142
+	skos:exactMatch aatned:gebouwen .
+
+am:t-11152
+	skos:exactMatch aatned:overtrekken .
+
+am:t-11155
+	skos:exactMatch aatned:decoreren .
+
+am:t-11159
+	skos:exactMatch aatned:gedenkstenen .
+
+am:t-11161
+	skos:exactMatch aatned:dichten__procede_ ,
+			aatned:gedichten .
+
+am:t-11164
+	skos:exactMatch aatned:draaien__draaibank_ ,
+			aatned:draaien__pottenbakkerstechnieken_ .
+
+am:t-11170
+	skos:exactMatch aatned:messing .
+
+am:t-11173
+	skos:exactMatch aatned:etsen__drukprocede_ ,
+			aatned:etsen__inbijten_ .
+
+am:t-11183
+	skos:exactMatch aatned:gieten__metaal_ ,
+			aatned:gieten__vormen_ ,
+			aatned:gieten_van_klei .
+
+am:t-11186
+	skos:exactMatch aatned:graveren__drukprocede_ ,
+			aatned:graveren__inkerven_ .
+
+am:t-11207
+	skos:exactMatch aatned:knopen__textielvervaardiging_ ,
+			aatned:knopen__verbinden_ .
+
+am:t-11224
+	skos:exactMatch aatned:lijmen__boekbinden_ .
+
+am:t-11238
+	skos:exactMatch aatned:naaien ,
+			aatned:naaien__boeken_ .
+
+am:t-11240
+	skos:exactMatch aatned:nieten ,
+			aatned:nieten__boekbinden_ .
+
+am:t-11255
+	skos:exactMatch aatned:plooien__toestanden_en_invloeden_ .
+
+am:t-11264
+	skos:exactMatch aatned:geraamtes ,
+			aatned:skelet .
+
+am:t-11266
+	skos:exactMatch aatned:rijgen ,
+			aatned:rijgen__van_kralen_ .
+
+am:t-11273
+	skos:exactMatch aatned:geschilderd ,
+			aatned:schilderen__kunst_ .
+
+am:t-11275
+	skos:exactMatch aatned:schrijven .
+
+am:t-11287
+	skos:exactMatch aatned:houtsnijwerk ,
+			aatned:snijden .
+
+am:t-11293
+	skos:exactMatch aatned:stempelen__techniek_ ,
+			aatned:stempelen__vormgeven_ .
+
+am:t-11310
+	skos:exactMatch aatned:barge_stones ,
+			aatned:gevelstenen .
+
+am:t-11312
+	skos:exactMatch aatned:verven__bedekken_ ,
+			aatned:verven__kleuren_ .
+
+am:t-11321
+	skos:exactMatch aatned:planten__vegetatie_ .
+
+am:t-11326
+	skos:exactMatch aatned:gewicht ,
+			aatned:gewichten .
+
+am:t-11337
+	skos:exactMatch aatned:gieters ,
+			aatned:gieters__metaalwerkers_ ,
+			aatned:gieters__personen_ .
+
+am:t-11365
+	skos:exactMatch aatned:vitrinekasten .
+
+am:t-11376
+	skos:exactMatch aatned:courtines ,
+			aatned:gordijnen .
+
+am:t-11389
+	skos:exactMatch aatned:gouache__waterverf_ ,
+			aatned:gouaches__schilderingen_ .
+
+am:t-11414
+	skos:exactMatch aatned:granaat__mineraal_ ,
+			aatned:granaten .
+
+am:t-11421
+	skos:exactMatch aatned:gravures .
+
+am:t-11435
+	skos:exactMatch aatned:groepsportretten .
+
+am:t-11443
+	skos:exactMatch aatned:guillotines ,
+			aatned:guillotines__snijmachines_ .
+
+am:t-11451
+	skos:exactMatch aatned:haaienleer .
+
+am:t-11452
+	skos:exactMatch aatned:haken__bevestigingsmiddelen_ ,
+			aatned:haken__meetinstrumenten_ .
+
+am:t-11459
+	skos:exactMatch aatned:haarden .
+
+am:t-11462
+	skos:exactMatch aatned:haardijzers .
+
+am:t-11472
+	skos:exactMatch aatned:kammen__verzorgingsbenodigdheden_ .
+
+am:t-11481
+	skos:exactMatch aatned:hakbeitels ,
+			aatned:hakbeitels__korte_ .
+
+am:t-11486
+	skos:exactMatch aatned:hakmessen .
+
+am:t-11487
+	skos:exactMatch aatned:halbanken .
+
+am:t-11492
+	skos:exactMatch aatned:halsbanden .
+
+am:t-11495
+	skos:exactMatch aatned:halskettingen ,
+			aatned:ketting ,
+			aatned:kettingen .
+
+am:t-11499
+	skos:exactMatch aatned:hamers__ambtssymbolen_ ,
+			aatned:hamers__gereedschap_ ,
+			aatned:hamers__piano_onderdelen_ ,
+			aatned:hamers__slagstokken_ .
+
+am:t-11532
+	skos:exactMatch aatned:handtassen ,
+			aatned:handtassen__metaalbewerkingsgereedschap_ .
+
+am:t-11535
+	skos:exactMatch aatned:handwerken .
+
+am:t-11539
+	skos:exactMatch aatned:hangers__sieraden_ ,
+			aatned:ladderings .
+
+am:t-11543
+	skos:exactMatch aatned:hardboard .
+
+am:t-11545
+	skos:exactMatch aatned:hardsteen__1_ ,
+			aatned:hardsteen__2_ .
+
+am:t-11548
+	skos:exactMatch aatned:harpen ,
+			aatned:harps__lighting_device_components_ .
+
+am:t-11558
+	skos:exactMatch aatned:heiligen .
+
+am:t-11564
+	skos:exactMatch aatned:hemden ,
+			aatned:onderhemden .
+
+am:t-11578
+	skos:exactMatch aatned:mannenkleding .
+
+am:t-116
+	skos:exactMatch aatned:restauratoren .
+
+am:t-11602
+	skos:exactMatch aatned:hoeden .
+
+am:t-11623
+	skos:exactMatch aatned:holschaven__1_ ,
+			aatned:holschaven__2_ .
+
+am:t-11625
+	skos:exactMatch aatned:honden .
+
+am:t-11632
+	skos:exactMatch aatned:hoofddoeken__hoofddeksels_ ,
+			aatned:hoofddoeken__omslagdoeken_ ,
+			aatned:hoofddoeken__sjaals_ ,
+			aatned:hoofddoeken__sjerpen_ .
+
+am:t-11641
+	skos:exactMatch aatned:professoren .
+
+am:t-11654
+	skos:exactMatch aatned:horloges .
+
+am:t-11661
+	skos:exactMatch aatned:patenen .
+
+am:t-11697
+	skos:exactMatch aatned:hardboard .
+
+am:t-11714
+	skos:exactMatch aatned:zachthout .
+
+am:t-11736
+	skos:exactMatch aatned:triplex .
+
+am:t-11750
+	skos:exactMatch aatned:houtskool__charcoal_ ,
+			aatned:houtskool__medium_ ,
+			aatned:houtskool__wood_charcoal_ .
+
+am:t-11803
+	skos:exactMatch aatned:inlijsten .
+
+am:t-11817
+	skos:exactMatch aatned:insecten .
+
+am:t-11819
+	skos:exactMatch aatned:instrumenten .
+
+am:t-11847
+	skos:exactMatch aatned:japonnen .
+
+am:t-11850
+	skos:exactMatch aatned:jardinieres__houders_ ,
+			aatned:jardinieres__plantenbakken_ .
+
+am:t-11858
+	skos:exactMatch aatned:jongens .
+
+am:t-11870
+	skos:exactMatch aatned:japonnen .
+
+am:t-11876
+	skos:exactMatch aatned:kroonluchters .
+
+am:t-11879
+	skos:exactMatch aatned:kaarsenstandaarden ,
+			aatned:kaarsenstandaarden__verlichtingsmiddelen_ .
+
+am:t-11882
+	skos:exactMatch aatned:kaarten ,
+			aatned:kaarten__informatiedragers_ .
+
+am:t-11891
+	skos:exactMatch aatned:kachels .
+
+am:t-11898
+	skos:exactMatch aatned:kalven__deuren_en_ramen_ ,
+			aatned:kalveren__dier_ .
+
+am:t-11905
+	skos:exactMatch aatned:kammen__haarsieraden_ ,
+			aatned:kammen__snaarinstrumentonderdelen_ ,
+			aatned:kammen__textielbewerkingsuitrusting_ ,
+			aatned:kammen__verzorgingsbenodigdheden_ .
+
+am:t-11911
+	skos:exactMatch aatned:kannen .
+
+am:t-11912
+	skos:exactMatch aatned:lampetkannen .
+
+am:t-11916
+	skos:exactMatch aatned:kandelaars .
+
+am:t-11920
+	skos:exactMatch aatned:kanonnen .
+
+am:t-11936
+	skos:exactMatch aatned:hakmessen ,
+			aatned:kampmessen .
+
+am:t-11942
+	skos:exactMatch aatned:karren .
+
+am:t-11948
+	skos:exactMatch aatned:bordpapier ,
+			aatned:karton ,
+			aatned:kartons__werktekeningen_ .
+
+am:t-11950
+	skos:exactMatch aatned:kasten__onderdelen_van_sloten_ ,
+			aatned:kasten__verwante_groepen_ ,
+			aatned:kastmeubilair .
+
+am:t-11955
+	skos:exactMatch aatned:kastelen .
+
+am:t-11958
+	skos:exactMatch aatned:beverhaar .
+
+am:t-11985
+	skos:exactMatch aatned:ketels ,
+			aatned:ketels__onderdelen_van_verwarmings___ventilatie__en_airconditioningsystemen_ ,
+			aatned:ketels__trommelonderdelen_ .
+
+am:t-11986
+	skos:exactMatch aatned:ketting ,
+			aatned:kettingen .
+
+am:t-11993
+	skos:exactMatch aatned:keurslijfjes .
+
+am:t-12001
+	skos:exactMatch aatned:kinderen .
+
+am:t-12025
+	skos:exactMatch aatned:kinderspelen .
+
+am:t-12033
+	skos:exactMatch aatned:kisten .
+
+am:t-12045
+	skos:exactMatch aatned:japonnen ,
+			aatned:kleden .
+
+am:t-12053
+	skos:exactMatch aatned:beeldjes .
+
+am:t-12066
+	skos:exactMatch aatned:knijpbrillen .
+
+am:t-12080
+	skos:exactMatch aatned:koepels ,
+			aatned:koepels__tuinhuizen_ .
+
+am:t-12081
+	skos:exactMatch aatned:koetsen__rijtuigen_ .
+
+am:t-12083
+	skos:exactMatch aatned:koffers ,
+			aatned:koffers__meubilair_ .
+
+am:t-12086
+	skos:exactMatch aatned:koffiekannen .
+
+am:t-12090
+	skos:exactMatch aatned:koffiekannen .
+
+am:t-12092
+	skos:exactMatch aatned:kogels__munitie_ ,
+			aatned:kogels__sportbenodigdheden_ .
+
+am:t-12108
+	skos:exactMatch aatned:Kom ,
+			aatned:komgevesten ,
+			aatned:kommen ,
+			aatned:kommen__landschap_ ,
+			aatned:kommen__vaten_ ,
+			aatned:kommen__vistuig_ .
+
+am:t-12119
+	skos:exactMatch aatned:kooien ,
+			aatned:kooien__slaapplaatsen_ .
+
+am:t-12120
+	skos:exactMatch aatned:kookpotten ,
+			aatned:kookpotten__vaatwerk_ .
+
+am:t-12123
+	skos:exactMatch aatned:koord__vezelprodukt_ ,
+			aatned:koorden .
+
+am:t-12125
+	skos:exactMatch aatned:kop__baksteen_ ,
+			aatned:koppen__drinkgerei_ ,
+			aatned:koppen__figuurvoorstellingen_ ,
+			aatned:koppen__onderdelen_ ,
+			aatned:koppen__opmaakkenmerken_ ,
+			aatned:koppen__voorwerpsonderdelen_ .
+
+am:t-12126
+	skos:exactMatch aatned:koppen__drinkgerei_ .
+
+am:t-12148
+	skos:exactMatch aatned:kousen ,
+			aatned:kousen__bevestigingsmiddelen_ .
+
+am:t-12151
+	skos:exactMatch aatned:boorden__3_ ,
+			aatned:boorden__textielonderdelen_ ,
+			aatned:kragen__meubelonderdelen_ .
+
+am:t-12154
+	skos:exactMatch aatned:kralen ,
+			aatned:kralen__dorpen_ ,
+			aatned:kralen__goederengeld_ .
+
+am:t-12163
+	skos:exactMatch aatned:kralen ,
+			aatned:kralen__dorpen_ ,
+			aatned:kralen__goederengeld_ .
+
+am:t-12165
+	skos:exactMatch aatned:kranten .
+
+am:t-12171
+	skos:exactMatch aatned:krijt__materiaal_ ,
+			aatned:krijt__medium_ .
+
+am:t-12181
+	skos:exactMatch aatned:kronen__hoofdtooien_ ,
+			aatned:kronen__kledingonderdelen_ ,
+			aatned:kronen__munten_ ,
+			aatned:kroonluchters .
+
+am:t-12198
+	skos:exactMatch aatned:krukken ,
+			aatned:krukken__hulpmiddel_ .
+
+am:t-12202
+	skos:exactMatch aatned:kuiven__architectuur_ ,
+			aatned:kuiven__ornamenten_ .
+
+am:t-12209
+	skos:exactMatch aatned:kunstbloemen .
+
+am:t-12212
+	skos:exactMatch aatned:kunstschilders .
+
+am:t-12214
+	skos:exactMatch aatned:plastic .
+
+am:t-12215
+	skos:exactMatch aatned:kunstvezel .
+
+am:t-12216
+	skos:exactMatch aatned:kunstzijde ,
+			aatned:rayons__overheidsinstanties_ .
+
+am:t-12218
+	skos:exactMatch aatned:kurk ,
+			aatned:kurken__stoppen_ .
+
+am:t-12250
+	skos:exactMatch aatned:lampen ,
+			aatned:lampen__onderdelen_van_verlichtingsmiddelen_ .
+
+am:t-12253
+	skos:exactMatch aatned:lampetkannen .
+
+am:t-12256
+	skos:exactMatch aatned:landhuizen .
+
+am:t-12258
+	skos:exactMatch aatned:landkaarten .
+
+am:t-12285
+	skos:exactMatch aatned:Leeuw__sterrenbeelden_ ,
+			aatned:leeuwen .
+
+am:t-12293
+	skos:exactMatch aatned:lepels .
+
+am:t-12295
+	skos:exactMatch aatned:lepelboren ,
+			aatned:lepelboren__onderdelen_ .
+
+am:t-12299
+	skos:exactMatch aatned:lepelvaasjes .
+
+am:t-12307
+	skos:exactMatch aatned:kronen__hoofdtooien_ ,
+			aatned:kronen__kledingonderdelen_ ,
+			aatned:kronen__munten_ ,
+			aatned:kroonluchters .
+
+am:t-12312
+	skos:exactMatch aatned:lijsten__informatiedragers_ ,
+			aatned:lijsten__interieurinrichting_ .
+
+am:t-12321
+	skos:exactMatch aatned:lithografieen__prenten_ .
+
+am:t-12339
+	skos:exactMatch aatned:lopers__bedekkingen_voor_meubilair_ ,
+			aatned:lopers__ladenonderdelen_ ,
+			aatned:lopers__meubelonderdelen_ ,
+			aatned:lopers__schaakstukken_ ,
+			aatned:lopers__sleutels_ ,
+			aatned:lopers__vloerbedekkingen_ .
+
+am:t-12340
+	skos:exactMatch aatned:knijpbrillen .
+
+am:t-12370
+	skos:exactMatch aatned:makelaars ,
+			aatned:makelaars__dakconstructieonderdelen_ ,
+			aatned:makelaars__spanten_ .
+
+am:t-12371
+	skos:exactMatch aatned:malachiet__mineraal_ ,
+			aatned:malachiet__pigment_ .
+
+am:t-12374
+	skos:exactMatch aatned:mannen .
+
+am:t-12375
+	skos:exactMatch aatned:manchetten ,
+			aatned:manchetten__kledingaccessoires_ ,
+			aatned:manchetten__kledingonderdelen_ .
+
+am:t-12377
+	skos:exactMatch aatned:manden .
+
+am:t-12391
+	skos:exactMatch aatned:maquettes .
+
+am:t-12395
+	skos:exactMatch aatned:markten__gebeurtenissen_ ,
+			aatned:markten__gebouwen_ ,
+			aatned:marktplaatsen .
+
+am:t-12405
+	skos:exactMatch aatned:maskers__beeldhouwwerk_ ,
+			aatned:maskers__foto_s_ ,
+			aatned:maskers__kleding_ .
+
+am:t-12407
+	skos:exactMatch aatned:mat__eigenschap_ ,
+			aatned:matten__vloerbedekkingen_ .
+
+am:t-12414
+	skos:exactMatch aatned:medailles .
+
+am:t-12415
+	skos:exactMatch aatned:medaillons__muuronderdelen_ ,
+			aatned:medaillons__ornamenttypen_ ,
+			aatned:medaillons__sieraden_ .
+
+am:t-12423
+	skos:exactMatch aatned:meisjes .
+
+am:t-12451
+	skos:exactMatch aatned:messen__culinaire_gereedschappen_ ,
+			aatned:messen__snijgereedschap_ ,
+			aatned:messen__wapens_ .
+
+am:t-12458
+	skos:exactMatch aatned:messing .
+
+am:t-12474
+	skos:exactMatch aatned:metselaars ,
+			aatned:metselaars__baksteen_ .
+
+am:t-12480
+	skos:exactMatch aatned:mica ,
+			aatned:mica__mineraal_ ,
+			aatned:mica__wit_pigment_ .
+
+am:t-12487
+	skos:exactMatch aatned:miniaturen ,
+			aatned:miniatuur .
+
+am:t-12496
+	skos:exactMatch aatned:maquettes ,
+			aatned:model ,
+			aatned:modellen__personen_ .
+
+am:t-12512
+	skos:exactMatch aatned:monniken ,
+			aatned:monniken__verdedigingswerk_onderdelen_ .
+
+am:t-1252
+	skos:exactMatch aatned:bomen .
+
+am:t-12525
+	skos:exactMatch aatned:mozaiek ,
+			aatned:mozaieken .
+
+am:t-12529
+	skos:exactMatch aatned:muizen ,
+			aatned:muizen__computer_ .
+
+am:t-12531
+	skos:exactMatch aatned:triplex .
+
+am:t-12532
+	skos:exactMatch aatned:munt ,
+			aatned:munten__gebouwen_ ,
+			aatned:munten__ruilmiddelen_ .
+
+am:t-12556
+	skos:exactMatch aatned:naakten .
+
+am:t-12561
+	skos:exactMatch aatned:zachthout .
+
+am:t-12662
+	skos:exactMatch aatned:onderhemden .
+
+am:t-12672
+	skos:exactMatch aatned:schotels .
+
+am:t-12708
+	skos:exactMatch aatned:orgels .
+
+am:t-12732
+	skos:exactMatch aatned:sterfgevallen .
+
+am:t-12735
+	skos:exactMatch aatned:overtrekken .
+
+am:t-12739
+	skos:exactMatch aatned:paarden ,
+			aatned:paarden__gymnastiek_ ,
+			aatned:paarden__schaakstukken_ .
+
+am:t-12759
+	skos:exactMatch aatned:paneel__fotoformaat_ ,
+			aatned:paneel__hout_ ,
+			aatned:panelen__architecturale_elementen_ ,
+			aatned:panelen__oppervlakken_ ,
+			aatned:panelen__ornamenttypen_ .
+
+am:t-12762
+	skos:exactMatch aatned:pantoffels ,
+			aatned:sloffen__schepen_ .
+
+am:t-12792
+	skos:exactMatch aatned:pastels__beeldmateriaal_ .
+
+am:t-12795
+	skos:exactMatch aatned:patchwork ,
+			aatned:patchwork__techniek_ .
+
+am:t-12797
+	skos:exactMatch aatned:patenen .
+
+am:t-12801
+	skos:exactMatch aatned:patronen__geleiders_ ,
+			aatned:patronen__munitie_ ,
+			aatned:patronen__ontwerpelementen_ .
+
+am:t-12816
+	skos:exactMatch aatned:pendules .
+
+am:t-12818
+	skos:exactMatch aatned:penningen ,
+			aatned:penningen__onderscheidingstekens_ .
+
+am:t-12828
+	skos:exactMatch aatned:peperbussen ,
+			aatned:peperbussen__vuurwapens_ .
+
+am:t-12852
+	skos:exactMatch aatned:pijpen__fusten_ ,
+			aatned:pijpen__leidingen_ ,
+			aatned:pijpen__rookgerei_ .
+
+am:t-12870
+	skos:exactMatch aatned:plafonds .
+
+am:t-12881
+	skos:exactMatch aatned:plateaus__houders_ ,
+			aatned:plateaus__landschapsvorm_ .
+
+am:t-12908
+	skos:exactMatch aatned:poppen ,
+			aatned:poppen__speelgoed_ .
+
+am:t-12911
+	skos:exactMatch aatned:poppenhuizen .
+
+am:t-12919
+	skos:exactMatch aatned:portemonnees .
+
+am:t-12920
+	skos:exactMatch aatned:sherryglazen .
+
+am:t-12923
+	skos:exactMatch aatned:bustes .
+
+am:t-12925
+	skos:exactMatch aatned:postzegels .
+
+am:t-12927
+	skos:exactMatch aatned:potten__1_ ,
+			aatned:potten__2_ ,
+			aatned:potten__binnenschepen_ .
+
+am:t-12928
+	skos:exactMatch aatned:potten__2_ .
+
+am:t-12935
+	skos:exactMatch aatned:predikanten .
+
+am:t-12936
+	skos:exactMatch aatned:prenten .
+
+am:t-12942
+	skos:exactMatch aatned:priemen ,
+			aatned:priemen__platte_ .
+
+am:t-12953
+	skos:exactMatch aatned:pruiken .
+
+am:t-12977
+	skos:exactMatch aatned:ratels__1_ ,
+			aatned:ratels__2_ .
+
+am:t-12979
+	skos:exactMatch aatned:kunstzijde ,
+			aatned:rayons__overheidsinstanties_ .
+
+am:t-12984
+	skos:exactMatch aatned:regenten .
+
+am:t-12995
+	skos:exactMatch aatned:reliefs__objecten_ ,
+			aatned:relieftechniek .
+
+am:t-13003
+	skos:exactMatch aatned:corduroy .
+
+am:t-13004
+	skos:exactMatch aatned:ridders .
+
+am:t-13007
+	skos:exactMatch aatned:riemen__bevestigingsmiddelen_ ,
+			aatned:riemen__kledingaccessoires_ ,
+			aatned:riemen__stroken_ .
+
+am:t-13010
+	skos:exactMatch aatned:riet ,
+			aatned:rieten__aerofonen_ ,
+			aatned:rieten__aerofoononderdelen_ .
+
+am:t-13016
+	skos:exactMatch aatned:fietsen__transportmiddelen_ .
+
+am:t-13042
+	skos:exactMatch aatned:rozen__bloemen_ ,
+			aatned:sluitstenen .
+
+am:t-13074
+	skos:exactMatch aatned:schaven ,
+			aatned:schaven__keukengerei_ .
+
+am:t-13075
+	skos:exactMatch aatned:bekkens ,
+			aatned:schaal ,
+			aatned:schalen ,
+			aatned:schalen__schaalonderdelen_ .
+
+am:t-13079
+	skos:exactMatch aatned:schaatsen__objecten_ .
+
+am:t-13102
+	skos:exactMatch aatned:fopglazen ,
+			aatned:schertsglazen .
+
+am:t-13103
+	skos:exactMatch aatned:huisschilders ,
+			aatned:kunstschilders .
+
+am:t-13104
+	skos:exactMatch aatned:schilderijen .
+
+am:t-13105
+	skos:exactMatch aatned:schilderijlijsten__ophangsystemen_ ,
+			aatned:schilderijlijsten__schilderij_onderdelen_ .
+
+am:t-13107
+	skos:exactMatch aatned:schildpad__materiaal_ ,
+			aatned:schildpadden__dieren_ .
+
+am:t-13108
+	skos:exactMatch aatned:schepen ,
+			aatned:schepen__kerkruimten_ .
+
+am:t-13131
+	skos:exactMatch aatned:schrijfmeubels .
+
+am:t-13142
+	skos:exactMatch aatned:schuttersstukken .
+
+am:t-13152
+	skos:exactMatch aatned:korte_broeken .
+
+am:t-13154
+	skos:exactMatch aatned:sieraden .
+
+am:t-13156
+	skos:exactMatch aatned:sifons__afvoersystemen_ ,
+			aatned:sifons__flessen_ .
+
+am:t-13166
+	skos:exactMatch aatned:sjablonen__mal_ ,
+			aatned:sjablonen__verf_aanbrengen_ .
+
+am:t-13168
+	skos:exactMatch aatned:sjerpen ,
+			aatned:sjerpen__quiltonderdelen_ .
+
+am:t-13171
+	skos:exactMatch aatned:slakommen .
+
+am:t-13179
+	skos:exactMatch aatned:slak ,
+			aatned:slakken__weekdieren_ .
+
+am:t-13180
+	skos:exactMatch aatned:slangen__dieren_ ,
+			aatned:slangen__gereedschappen_ .
+
+am:t-13186
+	skos:exactMatch aatned:moersleutels ,
+			aatned:sleutels__afsteluitrusting_ ,
+			aatned:sleutels__ijzerwaren_ .
+
+am:t-13192
+	skos:exactMatch aatned:slijpstenen ,
+			aatned:slijpstenen__onderdelen_ .
+
+am:t-13195
+	skos:exactMatch aatned:burchten ,
+			aatned:sloten__afsluitingsmiddelen_ ,
+			aatned:sloten__vuurwapenonderdelen_ .
+
+am:t-13196
+	skos:exactMatch aatned:sluitingen ,
+			aatned:sluitingen__zeevaart_ .
+
+am:t-13197
+	skos:exactMatch aatned:kop__baksteen_ ,
+			aatned:sluitstenen .
+
+am:t-13204
+	skos:exactMatch aatned:snijden .
+
+am:t-13205
+	skos:exactMatch aatned:snuifdozen .
+
+am:t-13215
+	skos:exactMatch aatned:soepkommen .
+
+am:t-13216
+	skos:exactMatch aatned:soepkommen .
+
+am:t-13217
+	skos:exactMatch aatned:soeplepels__1_ ,
+			aatned:soeplepels__2_ .
+
+am:t-13225
+	skos:exactMatch aatned:spaarpotten .
+
+am:t-13234
+	skos:exactMatch aatned:speelkaarten .
+
+am:t-13236
+	skos:exactMatch aatned:speeltuinen .
+
+am:t-13237
+	skos:exactMatch aatned:spel ,
+			aatned:spelen .
+
+am:t-13238
+	skos:exactMatch aatned:spelden__insignes_ ,
+			aatned:spelden__textielbewerkingsgereedschap_ .
+
+am:t-13242
+	skos:exactMatch aatned:spijkers__bevestigingsmiddelen_ ,
+			aatned:spijkers__boerderijgebouwen_ ,
+			aatned:spijkers__versterkte_huizen_ .
+
+am:t-13287
+	skos:exactMatch aatned:stadsgezichten .
+
+am:t-13289
+	skos:exactMatch aatned:stadspoorten .
+
+am:t-13296
+	skos:exactMatch aatned:stampers__1_ ,
+			aatned:stampers__2_ ,
+			aatned:stampers__keukengerei_ .
+
+am:t-13297
+	skos:exactMatch aatned:standaarden__dragend_meubilair_ ,
+			aatned:standaarden__identificatiedragers_ .
+
+am:t-13301
+	skos:exactMatch aatned:beeldjes .
+
+am:t-13311
+	skos:exactMatch aatned:lithografieen__prenten_ .
+
+am:t-13326
+	skos:exactMatch aatned:stijlkamers .
+
+am:t-13331
+	skos:exactMatch aatned:stillevens .
+
+am:t-13341
+	skos:exactMatch aatned:stola_s ,
+			aatned:stola_s__kledingaccessoires_ ,
+			aatned:stolen__liturgische_kleding_ .
+
+am:t-13344
+	skos:exactMatch aatned:calefactoria ,
+			aatned:stoven__voet_ .
+
+am:t-13395
+	skos:exactMatch aatned:taf .
+
+am:t-13401
+	skos:exactMatch aatned:Tang ,
+			aatned:tangen ,
+			aatned:tangen__medische_uitrusting_ .
+
+am:t-13402
+	skos:exactMatch aatned:tapijten .
+
+am:t-13421
+	skos:exactMatch aatned:tegel .
+
+am:t-13435
+	skos:exactMatch aatned:terrines ,
+			aatned:terrines__kommen_voor_opdienen_ ,
+			aatned:terrines__ovenschotels_ .
+
+am:t-13440
+	skos:exactMatch aatned:theater__vakgebied_ ,
+			aatned:theaters .
+
+am:t-13455
+	skos:exactMatch aatned:tinnegieters .
+
+am:t-13477
+	skos:exactMatch aatned:touw ,
+			aatned:touw__vezelprodukt_ ,
+			aatned:touwen__boekbandonderdelen_ .
+
+am:t-13512
+	skos:exactMatch aatned:tulpen .
+
+am:t-13528
+	skos:exactMatch aatned:uithangborden .
+
+am:t-13546
+	skos:exactMatch aatned:varkens ,
+			aatned:varkens__metsellagen_ .
+
+am:t-13549
+	skos:exactMatch aatned:fluweel .
+
+am:t-13574
+	skos:exactMatch aatned:vergulden .
+
+am:t-13587
+	skos:exactMatch aatned:verzamelaars .
+
+am:t-13592
+	skos:exactMatch aatned:vesten ,
+			aatned:vesten__kleding_ .
+
+am:t-13605
+	skos:exactMatch aatned:vissen__dieren_ .
+
+am:t-13620
+	skos:exactMatch aatned:visvorken ,
+			aatned:visvorken__serveergerei_ ,
+			aatned:visvorken__tafelvorken_ .
+
+am:t-13622
+	skos:exactMatch aatned:vizieren ,
+			aatned:vizieren__vuurwapenonderdelen_ .
+
+am:t-13624
+	skos:exactMatch aatned:vlammen .
+
+am:t-13649
+	skos:exactMatch aatned:vogels .
+
+am:t-13658
+	skos:exactMatch aatned:vorken .
+
+am:t-13670
+	skos:exactMatch aatned:vrouwen .
+
+am:t-13676
+	skos:exactMatch aatned:haardijzers .
+
+am:t-13682
+	skos:exactMatch aatned:vuurwapens .
+
+am:t-13687
+	skos:exactMatch aatned:waaggebouwen .
+
+am:t-13699
+	skos:exactMatch aatned:muurlampen .
+
+am:t-13719
+	skos:exactMatch aatned:waterglas ,
+			aatned:waterglazen .
+
+am:t-13722
+	skos:exactMatch aatned:watertorens .
+
+am:t-13731
+	skos:exactMatch aatned:weeshuizen .
+
+am:t-13734
+	skos:exactMatch aatned:weeskinderen .
+
+am:t-13740
+	skos:exactMatch aatned:wekkers__klokken_ ,
+			aatned:wekkers__vistuig_ .
+
+am:t-13754
+	skos:exactMatch aatned:slijpstenen .
+
+am:t-13760
+	skos:exactMatch aatned:wiggen ,
+			aatned:wiggen__onderdelen_ .
+
+am:t-13793
+	skos:exactMatch aatned:zakken__houders_ ,
+			aatned:zakken__kledingonderdelen_ .
+
+am:t-13797
+	skos:exactMatch aatned:Zand__stijl_ ,
+			aatned:zand .
+
+am:t-13806
+	skos:exactMatch aatned:zeefdruk ,
+			aatned:zeefdrukken .
+
+am:t-13808
+	skos:exactMatch aatned:zeegezichten .
+
+am:t-13819
+	skos:exactMatch aatned:zeilschepen .
+
+am:t-13821
+	skos:exactMatch aatned:zelfportretten .
+
+am:t-13845
+	skos:exactMatch aatned:zuilen__architecturale_elementen_ .
+
+am:t-13866
+	skos:exactMatch aatned:diapositieven .
+
+am:t-13876
+	skos:exactMatch aatned:tijdschriften .
+
+am:t-13880
+	skos:exactMatch aatned:adresboeken__1_ ,
+			aatned:adresboeken__2_ .
+
+am:t-13882
+	skos:exactMatch aatned:handboeken .
+
+am:t-13896
+	skos:exactMatch aatned:gedenkboeken .
+
+am:t-13931
+	skos:exactMatch aatned:museumgidsen__documenten_ ,
+			aatned:museumgidsen__personen_ .
+
+am:t-13954
+	skos:exactMatch aatned:essays .
+
+am:t-13983
+	skos:exactMatch aatned:monografieen .
+
+am:t-14034
+	skos:exactMatch aatned:bibliografieen .
+
+am:t-14077
+	skos:exactMatch aatned:scripties__GB_ ,
+			aatned:scripties__VS___GB_ .
+
+am:t-14094
+	skos:exactMatch aatned:overdragen_en_overdrachttechnieken ,
+			aatned:overdrukken .
+
+am:t-14121
+	skos:exactMatch aatned:encyclopedieen .
+
+am:t-14233
+	skos:exactMatch aatned:archieven__ruimten_ .
+
+am:t-14261
+	skos:exactMatch aatned:autobiografie ,
+			aatned:autobiografieen .
+
+am:t-14310
+	skos:exactMatch aatned:registers__boekonderdelen_ ,
+			aatned:registers__journaals_ ,
+			aatned:registers__lijsten_ .
+
+am:t-14379
+	skos:exactMatch aatned:schenkingen .
+
+am:t-14411
+	skos:exactMatch aatned:graveurs__beeld_ ,
+			aatned:graveurs__prent_ .
+
+am:t-14434
+	skos:exactMatch aatned:drukkers .
+
+am:t-1445
+	skos:exactMatch aatned:binnensteden .
+
+am:t-14613
+	skos:exactMatch aatned:datering .
+
+am:t-14644
+	skos:exactMatch aatned:watermerken .
+
+am:t-14646
+	skos:exactMatch aatned:titel ,
+			aatned:titels .
+
+am:t-14650
+	skos:exactMatch aatned:inscripties .
+
+am:t-14677
+	skos:exactMatch aatned:tentoonstellingen .
+
+am:t-14691
+	skos:exactMatch aatned:genootschappen .
+
+am:t-14705
+	skos:exactMatch aatned:meetlinten .
+
+am:t-15174
+	skos:exactMatch aatned:initialen__afkortingen_ ,
+			aatned:initialen__opmaakkenmerken_ .
+
+am:t-15266
+	skos:exactMatch aatned:veilingen .
+
+am:t-154
+	skos:exactMatch aatned:woningen .
+
+am:t-15957
+	skos:exactMatch aatned:houtsnijders__houtbewerkers_ ,
+			aatned:houtsnijders__prentkunstenaars_ .
+
+am:t-17716
+	skos:exactMatch aatned:steenhouwers .
+
+am:t-17859
+	skos:exactMatch aatned:smeden__metaalwerkers_ .
+
+am:t-18557
+	skos:exactMatch aatned:hoedenmakers .
+
+am:t-19368
+	skos:exactMatch aatned:wassen__reinigen_ ,
+			aatned:wassen__textiel_ .
+
+am:t-19577
+	skos:exactMatch aatned:onderzoeken__soorten_documenten_ .
+
+am:t-19660
+	skos:exactMatch aatned:hoedenmakers .
+
+am:t-21725
+	skos:exactMatch aatned:foto_s .
+
+am:t-21747
+	skos:exactMatch aatned:bonnen .
+
+am:t-21802
+	skos:exactMatch aatned:presentexemplaren .
+
+am:t-21879
+	skos:exactMatch aatned:scheepshellingen__scheepswerven_ ,
+			aatned:scheepshellingen__te_waterlating_ .
+
+am:t-21977
+	skos:exactMatch aatned:conservatoren .
+
+am:t-22053
+	skos:exactMatch aatned:verzamelaars .
+
+am:t-22119
+	skos:exactMatch aatned:geitenleer ,
+			aatned:geitenleer__jonge_geiten_ .
+
+am:t-22237
+	skos:exactMatch aatned:videobanden .
+
+am:t-22293
+	skos:exactMatch aatned:essays .
+
+am:t-22306
+	skos:exactMatch aatned:bakken .
+
+am:t-22309
+	skos:exactMatch aatned:klokken__idiofonen_ .
+
+am:t-22310
+	skos:exactMatch aatned:beursgebouwen ,
+			aatned:beurzen__tentoonstellingen_ .
+
+am:t-22311
+	skos:exactMatch aatned:beursgebouwen ,
+			aatned:beurzen__tentoonstellingen_ .
+
+am:t-22312
+	skos:exactMatch aatned:archeologische_objecten ,
+			aatned:opgraven .
+
+am:t-22338
+	skos:exactMatch aatned:taxi_s .
+
+am:t-22353
+	skos:exactMatch aatned:kapiteins ,
+			aatned:kapiteins__militaire_officieren_ .
+
+am:t-22356
+	skos:exactMatch aatned:conservatoren .
+
+am:t-22373
+	skos:exactMatch aatned:plaquettes__platte_objecten_ .
+
+am:t-22510
+	skos:exactMatch aatned:kunstnijverheid .
+
+am:t-22664
+	skos:exactMatch aatned:bioscopen .
+
+am:t-22673
+	skos:exactMatch aatned:circussen__renbanen_ ,
+			aatned:circussen__voorstellingen_ .
+
+am:t-22982
+	skos:exactMatch aatned:doopkleding .
+
+am:t-23400
+	skos:exactMatch aatned:zoologie .
+
+am:t-23612
+	skos:exactMatch aatned:concerten .
+
+am:t-23828
+	skos:exactMatch aatned:klokkenspellen ,
+			aatned:klokkenspellen__metallofonen_ .
+
+am:t-23855
+	skos:exactMatch aatned:prijslijsten .
+
+am:t-23951
+	skos:exactMatch aatned:skelet ,
+			aatned:skelet__dier_ ,
+			aatned:skeletten__bouwelementen_ .
+
+am:t-23980
+	skos:exactMatch aatned:poppen ,
+			aatned:poppen__speelgoed_ .
+
+am:t-24017
+	skos:exactMatch aatned:zilversmeden__personen_ ,
+			aatned:zilversmeden__techniek_ .
+
+am:t-24033
+	skos:exactMatch aatned:plattegronden__gebouwen_ ,
+			aatned:plattegronden__onroerend_goed_ ,
+			aatned:plattegronden__tekeningen_ .
+
+am:t-24127
+	skos:exactMatch aatned:capuchons ,
+			aatned:kappen__meubelonderdelen_ ,
+			aatned:kappen__onderdelen_van_sloten_ ,
+			aatned:kappen__onderdelen_van_verlichtingsmiddelen_ .
+
+am:t-24176
+	skos:exactMatch aatned:stalen ,
+			aatned:stalen__slotonderdelen_ ,
+			aatned:versterken .
+
+am:t-24187
+	skos:exactMatch aatned:dominees .
+
+am:t-24274
+	skos:exactMatch aatned:rollen__drukgereedschap_ ,
+			aatned:rollen__gereedschap_ ,
+			aatned:rollen__juridische_documenten_ ,
+			aatned:rollen__landbouwwerktuigen_ .
+
+am:t-24286
+	skos:exactMatch aatned:correspondenten__correspondentieschrijvers_ ,
+			aatned:correspondenten__verslaggevers_ .
+
+am:t-24301
+	skos:exactMatch aatned:bouwtekeningen .
+
+am:t-25431
+	skos:exactMatch aatned:albuminedruk__procede_ ,
+			aatned:albuminedrukken .
+
+am:t-25445
+	skos:exactMatch aatned:video ,
+			aatned:video_s__informatiedragers_ ,
+			aatned:videokunst__vakgebied_ .
+
+am:t-25460
+	skos:exactMatch aatned:openingen__architecturale_elementen_ ,
+			aatned:openingen__gebeurtenissen_ .
+
+am:t-25860
+	skos:exactMatch aatned:opscheplepels ,
+			aatned:opscheplepels__opdienhulpmiddelen_ .
+
+am:t-25901
+	skos:exactMatch aatned:haaienleer .
+
+am:t-261
+	skos:exactMatch aatned:dieren .
+
+am:t-26106
+	skos:exactMatch aatned:siervazen ,
+			aatned:siervazen__architectonisch_element_ ,
+			aatned:siervazen__culminerende_en_randelementen_ .
+
+am:t-26154
+	skos:exactMatch aatned:carneool .
+
+am:t-26291
+	skos:exactMatch aatned:pakhuizen .
+
+am:t-26307
+	skos:exactMatch aatned:spelen .
+
+am:t-26390
+	skos:exactMatch aatned:prentenboeken .
+
+am:t-26396
+	skos:exactMatch aatned:seizoenen .
+
+am:t-26397
+	skos:exactMatch aatned:seizoenen .
+
+am:t-26402
+	skos:exactMatch aatned:beursgebouwen .
+
+am:t-26425
+	skos:exactMatch aatned:vet__lettertypen_ ,
+			aatned:vetten .
+
+am:t-26470
+	skos:exactMatch aatned:bankgebouwen .
+
+am:t-26486
+	skos:exactMatch aatned:historische_musea .
+
+am:t-26509
+	skos:exactMatch aatned:verpleegkunde .
+
+am:t-26510
+	skos:exactMatch aatned:videobanden .
+
+am:t-26527
+	skos:exactMatch aatned:berglandschappen .
+
+am:t-26536
+	skos:exactMatch aatned:soldaten .
+
+am:t-26538
+	skos:exactMatch aatned:spatels__culinair_gereedschap_ ,
+			aatned:spatels__kunstenaarsgereedschap_ ,
+			aatned:spatels__medisch_gereedschap_ .
+
+am:t-26545
+	skos:exactMatch aatned:boerderijen__complexen_ ,
+			aatned:boerenhoeven .
+
+am:t-26604
+	skos:exactMatch aatned:poppen__speelgoed_ .
+
+am:t-26611
+	skos:exactMatch aatned:sluizen .
+
+am:t-26618
+	skos:exactMatch aatned:vloten__drijvers_ ,
+			aatned:vloten__groepen_voertuigen_ .
+
+am:t-26619
+	skos:exactMatch aatned:poppenkasten .
+
+am:t-26644
+	skos:exactMatch aatned:binnenplaatsen .
+
+am:t-26664
+	skos:exactMatch aatned:rolstoelen ,
+			aatned:rolstoelen__2_ .
+
+am:t-26669
+	skos:exactMatch aatned:ongelukken .
+
+am:t-26673
+	skos:exactMatch aatned:ploegen__boekbindgereedschap_ ,
+			aatned:ploegen__landbouwuitrusting_ .
+
+am:t-26678
+	skos:exactMatch aatned:schetsen__beeldende_werken_ .
+
+am:t-26704
+	skos:exactMatch aatned:optochten .
+
+am:t-26724
+	skos:exactMatch aatned:werkplaatsen__organisaties_ ,
+			aatned:werkplaatsen__werk__en_instructieruimten_ .
+
+am:t-26748
+	skos:exactMatch aatned:het_Pittoreske .
+
+am:t-26822
+	skos:exactMatch aatned:dijken .
+
+am:t-26834
+	skos:exactMatch aatned:reinigen .
+
+am:t-26852
+	skos:exactMatch aatned:torens__bouwwerken_ ,
+			aatned:torens__delen_van_gebouwen_ ,
+			aatned:torens__geschut_ ,
+			aatned:torens__schaakstukken_ .
+
+am:t-26860
+	skos:exactMatch aatned:archeologische_objecten .
+
+am:t-26914
+	skos:exactMatch aatned:mallen__gereedschap_voor_goudbewerking_ ,
+			aatned:mallen__gereedschap_voor_vormen_en_geleiden_ .
+
+am:t-26924
+	skos:exactMatch aatned:theepotten .
+
+am:t-26934
+	skos:exactMatch aatned:grafstenen .
+
+am:t-26939
+	skos:exactMatch aatned:verdedigingswerken .
+
+am:t-26944
+	skos:exactMatch aatned:agenda_s ,
+			aatned:agenda_s__aantekenboeken_ .
+
+am:t-27052
+	skos:exactMatch aatned:katapulten__1_ ,
+			aatned:katapulten__2_ .
+
+am:t-27109
+	skos:exactMatch aatned:loterijen .
+
+am:t-27127
+	skos:exactMatch aatned:wambuizen__1_ ,
+			aatned:wambuizen__2_ .
+
+am:t-27143
+	skos:exactMatch aatned:dorpen .
+
+am:t-27150
+	skos:exactMatch aatned:beroepen .
+
+am:t-27160
+	skos:exactMatch aatned:poorten .
+
+am:t-27161
+	skos:exactMatch aatned:scholen ,
+			aatned:school .
+
+am:t-27235
+	skos:exactMatch aatned:leisteen .
+
+am:t-27262
+	skos:exactMatch aatned:leisteen .
+
+am:t-27270
+	skos:exactMatch aatned:spijkers__bevestigingsmiddelen_ ,
+			aatned:spijkers__boerderijgebouwen_ ,
+			aatned:spijkers__versterkte_huizen_ .
+
+am:t-27285
+	skos:exactMatch aatned:scharnieren__bevestigingsmiddelen_ ,
+			aatned:scharnieren__ijzerwaren_ .
+
+am:t-27417
+	skos:exactMatch aatned:bedevaarten .
+
+am:t-27434
+	skos:exactMatch aatned:banketbakkers .
+
+am:t-27454
+	skos:exactMatch aatned:merklappen .
+
+am:t-27511
+	skos:exactMatch aatned:rationalisme__architectuur_ ,
+			aatned:rationalisme__filosofie_ .
+
+am:t-27532
+	skos:exactMatch aatned:confectie .
+
+am:t-27535
+	skos:exactMatch aatned:munten__gebouwen_ ,
+			aatned:munten__procede_ ,
+			aatned:munten__ruilmiddelen_ .
+
+am:t-27553
+	skos:exactMatch aatned:plooien__procede_ ,
+			aatned:plooien__toestanden_en_invloeden_ .
+
+am:t-27610
+	skos:exactMatch aatned:stegen .
+
+am:t-27667
+	skos:exactMatch aatned:gevangenissen .
+
+am:t-27725
+	skos:exactMatch aatned:moskeeen .
+
+am:t-27782
+	skos:exactMatch aatned:globes .
+
+am:t-27783
+	skos:exactMatch aatned:profielen__figuren_ ,
+			aatned:profielen__orthogonale_tekeningen_ .
+
+am:t-27785
+	skos:exactMatch aatned:kaarten ,
+			aatned:kaarten__informatiedragers_ ,
+			aatned:reclamekaarten ,
+			aatned:speelkaarten .
+
+am:t-27831
+	skos:exactMatch aatned:graveurs__beeld_ ,
+			aatned:graveurs__prent_ .
+
+am:t-27909
+	skos:exactMatch aatned:media__schilder__en_tekenmateriaal_ .
+
+am:t-27910
+	skos:exactMatch aatned:schuurpapier__1_ ,
+			aatned:schuurpapier__2_ .
+
+am:t-27943
+	skos:exactMatch aatned:gereedschapskisten ,
+			aatned:gereedschapskisten__sets_ .
+
+am:t-27977
+	skos:exactMatch aatned:voetballen .
+
+am:t-27979
+	skos:exactMatch aatned:boekenleggers .
+
+am:t-28003
+	skos:exactMatch aatned:medische_instrumenten .
+
+am:t-28005
+	skos:exactMatch aatned:zwaaihaken .
+
+am:t-28036
+	skos:exactMatch aatned:haarden .
+
+am:t-28050
+	skos:exactMatch aatned:zwaaihaken .
+
+am:t-28073
+	skos:exactMatch aatned:presentexemplaren .
+
+am:t-28074
+	skos:exactMatch aatned:gildepenningen .
+
+am:t-28177
+	skos:exactMatch aatned:interieurs .
+
+am:t-28189
+	skos:exactMatch aatned:tafelgoed .
+
+am:t-28196
+	skos:exactMatch aatned:muurlampen .
+
+am:t-28240
+	skos:exactMatch aatned:wereldtentoonstellingen .
+
+am:t-28413
+	skos:exactMatch aatned:gapers .
+
+am:t-28422
+	skos:exactMatch aatned:recensies .
+
+am:t-28497
+	skos:exactMatch aatned:inkleurders .
+
+am:t-28498
+	skos:exactMatch aatned:inkleurders .
+
+am:t-28539
+	skos:exactMatch aatned:cocktailjaponnen .
+
+am:t-28584
+	skos:exactMatch aatned:feestkleding ,
+			aatned:uitgaanskleding .
+
+am:t-28592
+	skos:exactMatch aatned:knopen__bevestigingsmiddelen_ ,
+			aatned:knopen__motieven_ ,
+			aatned:knopen__tapijtonderdelen_ .
+
+am:t-28606
+	skos:exactMatch aatned:korte_broeken .
+
+am:t-28615
+	skos:exactMatch aatned:vrouwenkleding .
+
+am:t-28616
+	skos:exactMatch aatned:mannenkleding .
+
+am:t-28617
+	skos:exactMatch aatned:doopkleding .
+
+am:t-28663
+	skos:exactMatch aatned:keurslijfjes .
+
+am:t-28675
+	skos:exactMatch aatned:dusters ,
+			aatned:ochtendjassen .
+
+am:t-28682
+	skos:exactMatch aatned:trouwjaponnen .
+
+am:t-28683
+	skos:exactMatch aatned:trouwjaponnen .
+
+am:t-28690
+	skos:exactMatch aatned:verkleedkleding .
+
+am:t-28715
+	skos:exactMatch aatned:kaasmessen__serveergerei_ ,
+			aatned:kaasmessen__voedselbereidingsgereedschap_ .
+
+am:t-28758
+	skos:exactMatch aatned:reinigingsmiddel ,
+			aatned:schoonmaakmiddel .
+
+am:t-28790
+	skos:exactMatch aatned:doelen__gebouwen_ ,
+			aatned:schietbanen .
+
+am:t-28798
+	skos:exactMatch aatned:geluidscassettes .
+
+am:t-28800
+	skos:exactMatch aatned:geluidscassettes .
+
+am:t-28829
+	skos:exactMatch aatned:portfolio_s__groepen_werken_ ,
+			aatned:portfolio_s__standaarden_ .
+
+am:t-28965
+	skos:exactMatch aatned:Sari ,
+			aatned:sari_s .
+
+am:t-28968
+	skos:exactMatch aatned:auto_s .
+
+am:t-28978
+	skos:exactMatch aatned:korsetten .
+
+am:t-29030
+	skos:exactMatch aatned:gedenkschriften .
+
+am:t-29036
+	skos:exactMatch aatned:opgravingen .
+
+am:t-29056
+	skos:exactMatch aatned:feestkleding .
+
+am:t-29061
+	skos:exactMatch aatned:tassen__gereedschappen_ ,
+			aatned:tassen__graanschuren_ ,
+			aatned:tassen__houders_ ,
+			aatned:tassen__kledingaccessoires_ .
+
+am:t-29064
+	skos:exactMatch aatned:ceremonies .
+
+am:t-29066
+	skos:exactMatch aatned:ceremonies .
+
+am:t-29107
+	skos:exactMatch aatned:bonnen .
+
+am:t-29158
+	skos:exactMatch aatned:halbanken .
+
+am:t-29174
+	skos:exactMatch aatned:journalisten ,
+			aatned:verslaggevers .
+
+am:t-29238
+	skos:exactMatch aatned:galerijen ,
+			aatned:galerijen__verdedigingswerk_onderdelen_ .
+
+am:t-29320
+	skos:exactMatch aatned:binnenplaatsen .
+
+am:t-29338
+	skos:exactMatch aatned:metselwerk ,
+			aatned:metselwerk__baksteen_ .
+
+am:t-29372
+	skos:exactMatch aatned:dekschalen .
+
+am:t-29374
+	skos:exactMatch aatned:koppen__drinkgerei_ .
+
+am:t-29398
+	skos:exactMatch aatned:professoren .
+
+am:t-29419
+	skos:exactMatch aatned:knijpbrillen .
+
+am:t-29471
+	skos:exactMatch aatned:lampetstellen .
+
+am:t-29472
+	skos:exactMatch aatned:lampetstellen .
+
+am:t-29486
+	skos:exactMatch aatned:buffetten .
+
+am:t-29519
+	skos:exactMatch aatned:beeldhouwwerken .
+
+am:t-29582
+	skos:exactMatch aatned:woonhuizen .
+
+am:t-29604
+	skos:exactMatch aatned:musici .
+
+am:t-29638
+	skos:exactMatch aatned:springveren ,
+			aatned:springveren__elastische_objecten_ ,
+			aatned:springveren__matras_ .
+
+am:t-29657
+	skos:exactMatch aatned:aanslagen__politiek_ ,
+			aatned:metaalaanslag .
+
+am:t-29663
+	skos:exactMatch aatned:notulen__1_ ,
+			aatned:notulen__2_ .
+
+am:t-29725
+	skos:exactMatch aatned:aantekeningen .
+
+am:t-29738
+	skos:exactMatch aatned:kousen ,
+			aatned:kousen__bevestigingsmiddelen_ .
+
+am:t-29944
+	skos:exactMatch aatned:pendules .
+
+am:t-29950
+	skos:exactMatch aatned:rechtvaardigheid .
+
+am:t-29975
+	skos:exactMatch aatned:Interieurinrichting__TOPTERM_ ,
+			aatned:interieurinrichting .
+
+am:t-29976
+	skos:exactMatch aatned:verlichtingsmiddelen .
+
+am:t-29977
+	skos:exactMatch aatned:architecturale_elementen .
+
+am:t-30001
+	skos:exactMatch aatned:naaien ,
+			aatned:naaien__boeken_ .
+
+am:t-30009
+	skos:exactMatch aatned:sleeen .
+
+am:t-30094
+	skos:exactMatch aatned:schommelwiegen__1_ ,
+			aatned:schommelwiegen__2_ .
+
+am:t-30151
+	skos:exactMatch aatned:oorijzers .
+
+am:t-30171
+	skos:exactMatch aatned:rechtvaardigheid .
+
+am:t-30267
+	skos:exactMatch aatned:aantekeningen .
+
+am:t-30374
+	skos:exactMatch aatned:motten__tjalken_ ,
+			aatned:zaagsel .
+
+am:t-30425
+	skos:exactMatch aatned:boekenleggers .
+
+am:t-3051
+	skos:exactMatch aatned:paleizen .
+
+am:t-30636
+	skos:exactMatch aatned:vishallen ,
+			aatned:vismarkten__handel_ .
+
+am:t-30678
+	skos:exactMatch aatned:gedenkstenen .
+
+am:t-30707
+	skos:exactMatch aatned:alpaca_s ,
+			aatned:alpacawol ,
+			aatned:nikkelzilver .
+
+am:t-30745
+	skos:exactMatch aatned:kassen__meubilair_ ,
+			aatned:kassen__omrandingen_ ,
+			aatned:kassen__tuinbouwgebouwen_ .
+
+am:t-30777
+	skos:exactMatch aatned:gilden .
+
+am:t-30825
+	skos:exactMatch aatned:meetlinten .
+
+am:t-30826
+	skos:exactMatch aatned:haalmessen__beitels_ ,
+			aatned:haalmessen__houtbewerkingsgereedschap_ .
+
+am:t-30889
+	skos:exactMatch aatned:beverhaar .
+
+am:t-30906
+	skos:exactMatch aatned:jachten__vaartuigen_ .
+
+am:t-31080
+	skos:exactMatch aatned:medische_instrumenten .
+
+am:t-31195
+	skos:exactMatch aatned:rederijen .
+
+am:t-31238
+	skos:exactMatch aatned:corduroy .
+
+am:t-31261
+	skos:exactMatch aatned:pruiken .
+
+am:t-31347
+	skos:exactMatch aatned:gildepenningen .
+
+am:t-31355
+	skos:exactMatch aatned:sherryglazen .
+
+am:t-31365
+	skos:exactMatch aatned:speren ,
+			aatned:werpsperen .
+
+am:t-31366
+	skos:exactMatch aatned:luchtbuksen .
+
+am:t-31369
+	skos:exactMatch aatned:molens ,
+			aatned:molens__keukengereedschap_ .
+
+am:t-3138
+	skos:exactMatch aatned:stadhuizen .
+
+am:t-31435
+	skos:exactMatch aatned:gasfabrieken .
+
+am:t-31436
+	skos:exactMatch aatned:zaagmolens ,
+			aatned:zaagmolens__mechanische_ .
+
+am:t-31443
+	skos:exactMatch aatned:zaagmolens .
+
+am:t-31463
+	skos:exactMatch aatned:kinderspelen .
+
+am:t-31473
+	skos:exactMatch aatned:schermen ,
+			aatned:schermen__bedekkingen_ ,
+			aatned:schermen__meubilair_ ,
+			aatned:schermen__sport_ .
+
+am:t-31563
+	skos:exactMatch aatned:verslaggevers .
+
+am:t-31723
+	skos:exactMatch aatned:aantekeningen .
+
+am:t-31763
+	skos:exactMatch aatned:wedstrijden .
+
+am:t-31954
+	skos:exactMatch aatned:oren ,
+			aatned:oren__fauteuils_ ,
+			aatned:oren__meubelonderdelen_ ,
+			aatned:oren__potscherven_ .
+
+am:t-31960
+	skos:exactMatch aatned:kunstvezel .
+
+am:t-32079
+	skos:exactMatch aatned:gastarbeiders .
+
+am:t-32100
+	skos:exactMatch aatned:karren .
+
+am:t-32101
+	skos:exactMatch aatned:wagens_en_fietsen .
+
+am:t-32137
+	skos:exactMatch aatned:kroonlijsten__gevel_ ,
+			aatned:kroonlijsten__sokkelonderdelen_ ,
+			aatned:kroonlijsten_profiel_ ,
+			aatned:kuiven__architectuur_ .
+
+am:t-32146
+	skos:exactMatch aatned:dopen__activiteit_ ,
+			aatned:dopen__religieuze_ceremonies_ .
+
+am:t-32361
+	skos:exactMatch aatned:sterfgevallen .
+
+am:t-32367
+	skos:exactMatch aatned:bokken__steunmiddelen_ ,
+			aatned:bokken__vaartuigen_ .
+
+am:t-32398
+	skos:exactMatch aatned:heliogravure__procede_ ,
+			aatned:heliogravures__afdrukken_ .
+
+am:t-32400
+	skos:exactMatch aatned:vleugels__delen_van_gebouwen_ ,
+			aatned:vleugels__meteorologische_instrumenten_ ,
+			aatned:vleugels__onderdelen_van_beeldmateriaal_ ,
+			aatned:vleugels__schouderaccessoires_ .
+
+am:t-32430
+	skos:exactMatch aatned:vlammen .
+
+am:t-32431
+	skos:exactMatch aatned:salamanders__dieren_ ,
+			aatned:salamanders__kookgereedschap_ .
+
+am:t-32436
+	skos:exactMatch aatned:vorst ,
+			aatned:vorsten__daken_ .
+
+am:t-32439
+	skos:exactMatch aatned:festoen__motieven_ ,
+			aatned:festoenen .
+
+am:t-32442
+	skos:exactMatch aatned:ketting ,
+			aatned:kettingen .
+
+am:t-32443
+	skos:exactMatch aatned:duimschroeven ,
+			aatned:duimschroeven__martelwerktuigen_ .
+
+am:t-32465
+	skos:exactMatch aatned:smaak__esthetiek_ ,
+			aatned:smaak__zintuigen_ .
+
+am:t-32499
+	skos:exactMatch aatned:smeden__metaalvorming_ ,
+			aatned:smeden__metaalwerkers_ .
+
+am:t-32525
+	skos:exactMatch aatned:galeien__vaartuigen_ ,
+			aatned:galeien__zetbenodigdheden_ .
+
+am:t-3256
+	skos:exactMatch aatned:abdijen .
+
+am:t-32575
+	skos:exactMatch aatned:blazen__drijvers_ ,
+			aatned:blazen__modelleren_ .
+
+am:t-32578
+	skos:exactMatch aatned:klemmen ,
+			aatned:klemmen__muziekinstrumenten_ .
+
+am:t-3261
+	skos:exactMatch aatned:accessoires .
+
+am:t-3263
+	skos:exactMatch aatned:acteurs .
+
+am:t-3267
+	skos:exactMatch aatned:adresboeken__1_ ,
+			aatned:adresboeken__2_ .
+
+am:t-3274
+	skos:exactMatch aatned:affiches ,
+			aatned:theateraffiches .
+
+am:t-3289
+	skos:exactMatch aatned:allegorieen__literair_ .
+
+am:t-3292
+	skos:exactMatch aatned:almanakken .
+
+am:t-3296
+	skos:exactMatch aatned:ambachten .
+
+am:t-3297
+	skos:exactMatch aatned:ambachten .
+
+am:t-3300
+	skos:exactMatch aatned:overheidsfunctionarissen .
+
+am:t-3316
+	skos:exactMatch aatned:ansichtkaarten .
+
+am:t-3318
+	skos:exactMatch aatned:antiquiteiten .
+
+am:t-3321
+	skos:exactMatch aatned:antiquiteiten .
+
+am:t-3327
+	skos:exactMatch aatned:apen .
+
+am:t-3328
+	skos:exactMatch aatned:apotheken .
+
+am:t-3329
+	skos:exactMatch aatned:apotheken .
+
+am:t-3330
+	skos:exactMatch aatned:aquarellen .
+
+am:t-3333
+	skos:exactMatch aatned:arbeiders .
+
+am:t-3349
+	skos:exactMatch aatned:archiefgebouwen ,
+			aatned:archieven__ruimten_ .
+
+am:t-3351
+	skos:exactMatch aatned:architecten .
+
+am:t-3359
+	skos:exactMatch aatned:assemblages__beeldhouwwerk_ ,
+			aatned:assemblages__object_groupings_ .
+
+am:t-3363
+	skos:exactMatch aatned:atlassen ,
+			aatned:satijn .
+
+am:t-3365
+	skos:exactMatch aatned:atlassen .
+
+am:t-3368
+	skos:exactMatch aatned:bussen__voertuigen_ .
+
+am:t-3369
+	skos:exactMatch aatned:automatisering ,
+			aatned:computers .
+
+am:t-3370
+	skos:exactMatch aatned:auto_s .
+
+am:t-3378
+	skos:exactMatch aatned:badkuipen .
+
+am:t-3382
+	skos:exactMatch aatned:bakkers .
+
+am:t-3383
+	skos:exactMatch aatned:baksteen ,
+			aatned:bakstenen__keukengerei_ .
+
+am:t-3387
+	skos:exactMatch aatned:ballast ,
+			aatned:ballasten .
+
+am:t-3389
+	skos:exactMatch aatned:basketbal ,
+			aatned:basketballen ,
+			aatned:handballen .
+
+am:t-3390
+	skos:exactMatch aatned:vlaggen .
+
+am:t-3392
+	skos:exactMatch aatned:banketbakkers .
+
+am:t-3393
+	skos:exactMatch aatned:banken__meubilair_ ,
+			aatned:banken__verdediging_ ,
+			aatned:bankgebouwen ,
+			aatned:bankwezen .
+
+am:t-3398
+	skos:exactMatch aatned:barometers .
+
+am:t-3399
+	skos:exactMatch aatned:basisonderwijs ,
+			aatned:basisscholen ,
+			aatned:kleuterscholen ,
+			aatned:lager_onderwijs .
+
+am:t-3421
+	skos:exactMatch aatned:bedevaarten .
+
+am:t-3428
+	skos:exactMatch aatned:industriele_technologie ,
+			aatned:management .
+
+am:t-3433
+	skos:exactMatch aatned:beelden .
+
+am:t-3440
+	skos:exactMatch aatned:beelden ,
+			aatned:beeldhouwwerken .
+
+am:t-3441
+	skos:exactMatch aatned:Beeldmateriaal__TOPTERM_ ,
+			aatned:beeldmateriaal .
+
+am:t-3450
+	skos:exactMatch aatned:begraafplaatsen .
+
+am:t-3459
+	skos:exactMatch aatned:belastingen ,
+			aatned:belastingen__krachten_ .
+
+am:t-3465
+	skos:exactMatch aatned:berglandschappen .
+
+am:t-3466
+	skos:exactMatch aatned:beroepen .
+
+am:t-3471
+	skos:exactMatch aatned:cutlery ,
+			aatned:gebruiksvoorwerpen_voor_het_consumeren_van_voedsel .
+
+am:t-3475
+	skos:exactMatch aatned:demonstraties__vertoningen_ ,
+			aatned:protesteren .
+
+am:t-3476
+	skos:exactMatch aatned:beursgebouwen ,
+			aatned:beurzen__tentoonstellingen_ .
+
+am:t-3479
+	skos:exactMatch aatned:beursgebouwen ,
+			aatned:beurzen__tentoonstellingen_ ,
+			aatned:beurzen__toelages_ .
+
+am:t-3498
+	skos:exactMatch aatned:bibliografieen .
+
+am:t-3501
+	skos:exactMatch aatned:bibliotheken__gebouwen_ ,
+			aatned:bibliotheken__kasten_ ,
+			aatned:bibliotheken__ruimten_ .
+
+am:t-3503
+	skos:exactMatch aatned:brouwerijen .
+
+am:t-3506
+	skos:exactMatch aatned:bijbels .
+
+am:t-3508
+	skos:exactMatch aatned:bijbels .
+
+am:t-3514
+	skos:exactMatch aatned:binnensteden .
+
+am:t-3517
+	skos:exactMatch aatned:biografie ,
+			aatned:biografieen .
+
+am:t-3518
+	skos:exactMatch aatned:biografieen .
+
+am:t-3521
+	skos:exactMatch aatned:bisschoppen .
+
+am:t-3532
+	skos:exactMatch aatned:bladmuziek .
+
+am:t-3535
+	skos:exactMatch aatned:blinden ,
+			aatned:blinden__zeilen_ .
+
+am:t-3536
+	skos:exactMatch aatned:bloemen__planten_ .
+
+am:t-3543
+	skos:exactMatch aatned:opgraven .
+
+am:t-3548
+	skos:exactMatch aatned:boekbanden .
+
+am:t-3551
+	skos:exactMatch aatned:boeken .
+
+am:t-3558
+	skos:exactMatch aatned:boekhandels .
+
+am:t-3567
+	skos:exactMatch aatned:boekhandels .
+
+am:t-3568
+	skos:exactMatch aatned:boerderijen__complexen_ ,
+			aatned:boerenhoeven .
+
+am:t-3569
+	skos:exactMatch aatned:boeren ,
+			aatned:boeren__activiteit_ .
+
+am:t-3572
+	skos:exactMatch aatned:bokken__steunmiddelen_ ,
+			aatned:bokken__vaartuigen_ .
+
+am:t-3573
+	skos:exactMatch aatned:bokalen .
+
+am:t-3574
+	skos:exactMatch aatned:bokalen .
+
+am:t-3576
+	skos:exactMatch aatned:bomen ,
+			aatned:bomen__varen_ .
+
+am:t-3577
+	skos:exactMatch aatned:bordspel__activiteit_ ,
+			aatned:bordspellen__sets_ .
+
+am:t-3583
+	skos:exactMatch aatned:plantkunde .
+
+am:t-3584
+	skos:exactMatch aatned:botten__kleppers_ ,
+			aatned:botten__platvissen_ .
+
+am:t-3587
+	skos:exactMatch aatned:architecturale_elementen .
+
+am:t-3593
+	skos:exactMatch aatned:bouwtekeningen .
+
+am:t-36
+	skos:exactMatch aatned:kunstenaars .
+
+am:t-3603
+	skos:exactMatch aatned:branden .
+
+am:t-3614
+	skos:exactMatch aatned:brieven .
+
+am:t-3617
+	skos:exactMatch aatned:brieven .
+
+am:t-3622
+	skos:exactMatch aatned:brons ,
+			aatned:bronzen .
+
+am:t-3626
+	skos:exactMatch aatned:brouwerijen .
+
+am:t-3628
+	skos:exactMatch aatned:bruggen .
+
+am:t-3638
+	skos:exactMatch aatned:buitenplaatsen .
+
+am:t-3643
+	skos:exactMatch aatned:burgemeesters .
+
+am:t-3669
+	skos:exactMatch aatned:rampen .
+
+am:t-3682
+	skos:exactMatch aatned:catalogi .
+
+am:t-3684
+	skos:exactMatch aatned:catalogi .
+
+am:t-3701
+	skos:exactMatch aatned:volksprenten .
+
+am:t-3712
+	skos:exactMatch aatned:chemie .
+
+am:t-3719
+	skos:exactMatch aatned:chronologie__discipline_ ,
+			aatned:chronologieen ,
+			aatned:tijd .
+
+am:t-3720
+	skos:exactMatch aatned:bioscopen .
+
+am:t-3721
+	skos:exactMatch aatned:circussen__renbanen_ ,
+			aatned:circussen__voorstellingen_ .
+
+am:t-3727
+	skos:exactMatch aatned:collecties .
+
+am:t-3731
+	skos:exactMatch aatned:collecties .
+
+am:t-3747
+	skos:exactMatch aatned:concerten .
+
+am:t-3750
+	skos:exactMatch aatned:confectie .
+
+am:t-3766
+	skos:exactMatch aatned:culturele_antropologie .
+
+am:t-3792
+	skos:exactMatch aatned:dagboeken ,
+			aatned:dagboeken__boekhouden_ .
+
+am:t-3798
+	skos:exactMatch aatned:damast ,
+			aatned:pellenweefsel .
+
+am:t-3804
+	skos:exactMatch aatned:datering .
+
+am:t-382
+	skos:exactMatch aatned:hoorn ,
+			aatned:hoorns__geluidsmiddelen_ .
+
+am:t-3823
+	skos:exactMatch aatned:decoreren .
+
+am:t-3832
+	skos:exactMatch aatned:bevolking ,
+			aatned:demografie__begrip_ ,
+			aatned:demografie__vakgebied_ .
+
+am:t-3857
+	skos:exactMatch aatned:diapositieven .
+
+am:t-3859
+	skos:exactMatch aatned:dichters .
+
+am:t-3866
+	skos:exactMatch aatned:zoologie .
+
+am:t-3870
+	skos:exactMatch aatned:dijken ,
+			aatned:zeedijken .
+
+am:t-3899
+	skos:exactMatch aatned:doolhoftuinen ,
+			aatned:haagdoolhoven .
+
+am:t-3900
+	skos:exactMatch aatned:dopen__religieuze_ceremonies_ ,
+			aatned:sauzen .
+
+am:t-3903
+	skos:exactMatch aatned:dorpen .
+
+am:t-3904
+	skos:exactMatch aatned:draaiorgels ,
+			aatned:orgels .
+
+am:t-3908
+	skos:exactMatch aatned:draperieen ,
+			aatned:draperieen__voorstellingen_ .
+
+am:t-3913
+	skos:exactMatch aatned:drinkglazen .
+
+am:t-3920
+	skos:exactMatch aatned:drukkerijen .
+
+am:t-3921
+	skos:exactMatch aatned:drukkers .
+
+am:t-3967
+	skos:exactMatch aatned:edelstenen .
+
+am:t-4066
+	skos:exactMatch aatned:email__materiaal_ ,
+			aatned:emails__beeldmateriaal_ .
+
+am:t-4075
+	skos:exactMatch aatned:encyclopedieen .
+
+am:t-4087
+	skos:exactMatch aatned:ethiek__concept_ ,
+			aatned:ethiek__filosofie_ .
+
+am:t-4093
+	skos:exactMatch aatned:etnologie .
+
+am:t-4095
+	skos:exactMatch aatned:etsen__prenten_ ,
+			aatned:etsvloeistof .
+
+am:t-4096
+	skos:exactMatch aatned:etsen__drukprocede_ ,
+			aatned:etsen__inbijten_ ,
+			aatned:etsen__prenten_ .
+
+am:t-4122
+	skos:exactMatch aatned:fabels .
+
+am:t-4123
+	skos:exactMatch aatned:fabels .
+
+am:t-4158
+	skos:exactMatch aatned:feesten .
+
+am:t-4159
+	skos:exactMatch aatned:feesten .
+
+am:t-4160
+	skos:exactMatch aatned:feesten .
+
+am:t-4176
+	skos:exactMatch aatned:films .
+
+am:t-4197
+	skos:exactMatch aatned:flessen .
+
+am:t-4215
+	skos:exactMatch aatned:fonteinen .
+
+am:t-4227
+	skos:exactMatch aatned:fresco_s .
+
+am:t-4228
+	skos:exactMatch aatned:fresco_s .
+
+am:t-4245
+	skos:exactMatch aatned:gapers .
+
+am:t-4249
+	skos:exactMatch aatned:gasfabrieken .
+
+am:t-4251
+	skos:exactMatch aatned:gastarbeiders .
+
+am:t-4252
+	skos:exactMatch aatned:ziekenhuizen .
+
+am:t-4273
+	skos:exactMatch aatned:gidsen__documenten_ ,
+			aatned:gidsen__personen_ .
+
+am:t-4324
+	skos:exactMatch aatned:gebeden .
+
+am:t-4325
+	skos:exactMatch aatned:gebeden .
+
+am:t-4328
+	skos:exactMatch aatned:geboorten .
+
+am:t-4329
+	skos:exactMatch aatned:gebouwen .
+
+am:t-4336
+	skos:exactMatch aatned:gedenkboeken .
+
+am:t-4338
+	skos:exactMatch aatned:gedenkschriften .
+
+am:t-4343
+	skos:exactMatch aatned:bladmuziek .
+
+am:t-4372
+	skos:exactMatch aatned:overheidsfunctionarissen .
+
+am:t-4374
+	skos:exactMatch aatned:gemeenteraden .
+
+am:t-4376
+	skos:exactMatch aatned:gemeenteraden .
+
+am:t-4379
+	skos:exactMatch aatned:edelstenen .
+
+am:t-4380
+	skos:exactMatch aatned:genealogie__vakgebied_ ,
+			aatned:genealogieen .
+
+am:t-4390
+	skos:exactMatch aatned:geschiedenis__vakgebied_ ,
+			aatned:geschiedenissen .
+
+am:t-4398
+	skos:exactMatch aatned:gespen__bevestigingsmiddelen_ ,
+			aatned:gespen__motieven_ .
+
+am:t-4403
+	skos:exactMatch aatned:gevangenissen .
+
+am:t-4406
+	skos:exactMatch aatned:gevelstenen .
+
+am:t-4432
+	skos:exactMatch aatned:gidsen__documenten_ ,
+			aatned:gidsen__personen_ .
+
+am:t-4437
+	skos:exactMatch aatned:gilden .
+
+am:t-4506
+	skos:exactMatch aatned:drinkglazen ,
+			aatned:glas ,
+			aatned:glas__bouwmateriaal_ ,
+			aatned:glazen__onderdelen_van_verlichtingsmiddelen_ .
+
+am:t-4512
+	skos:exactMatch aatned:globes .
+
+am:t-4575
+	skos:exactMatch aatned:Gobelins .
+
+am:t-4577
+	skos:exactMatch aatned:godsdiensten .
+
+am:t-4583
+	skos:exactMatch aatned:vervoer .
+
+am:t-4584
+	skos:exactMatch aatned:courtines ,
+			aatned:gordijnen .
+
+am:t-4589
+	skos:exactMatch aatned:goudsmeden ,
+			aatned:zilversmeden__personen_ .
+
+am:t-4595
+	skos:exactMatch aatned:goudsmeden .
+
+am:t-4734
+	skos:exactMatch aatned:graangewassen ,
+			aatned:graankorrels .
+
+am:t-4741
+	skos:exactMatch aatned:grafieken ,
+			aatned:prenten .
+
+am:t-4745
+	skos:exactMatch aatned:grafstenen .
+
+am:t-4746
+	skos:exactMatch aatned:grafzerken .
+
+am:t-4747
+	skos:exactMatch aatned:grafzerken .
+
+am:t-4751
+	skos:exactMatch aatned:graveren__drukprocede_ ,
+			aatned:graveren__inkerven_ .
+
+am:t-4752
+	skos:exactMatch aatned:gravures .
+
+am:t-4760
+	skos:exactMatch aatned:groepsportretten .
+
+am:t-4761
+	skos:exactMatch aatned:aarde ,
+			aatned:grond__materiaal_ ,
+			aatned:vloeren .
+
+am:t-4801
+	skos:exactMatch aatned:halsbanden .
+
+am:t-4804
+	skos:exactMatch aatned:handboeken .
+
+am:t-4809
+	skos:exactMatch aatned:handgrepen ,
+			aatned:handgrepen__armleuningsonderdelen_ .
+
+am:t-4816
+	skos:exactMatch aatned:harnassen .
+
+am:t-4817
+	skos:exactMatch aatned:harnassen .
+
+am:t-4846
+	skos:exactMatch aatned:stripverhalen .
+
+am:t-4900
+	skos:exactMatch aatned:heiligen .
+
+am:t-4901
+	skos:exactMatch aatned:hekken__afscheidingen_ ,
+			aatned:hekken__poortonderdelen_ .
+
+am:t-4906
+	skos:exactMatch aatned:helmen ,
+			aatned:helms__built_works_ .
+
+am:t-4913
+	skos:exactMatch aatned:hermitages__paleizen_ ,
+			aatned:hermitages__tuinelementen_ .
+
+am:t-4941
+	skos:exactMatch aatned:interieurs .
+
+am:t-4950
+	skos:exactMatch aatned:historische_musea .
+
+am:t-4963
+	skos:exactMatch aatned:hoeden .
+
+am:t-4970
+	skos:exactMatch aatned:honden .
+
+am:t-4973
+	skos:exactMatch aatned:gebouwen_met_meerdere_verdiepingen ,
+			aatned:hoogbouw .
+
+am:t-4976
+	skos:exactMatch aatned:hotels__logiesvoorzieningen_ ,
+			aatned:hotels__stadshuizen_ .
+
+am:t-4977
+	skos:exactMatch aatned:hotels__logiesvoorzieningen_ ,
+			aatned:hotels__stadshuizen_ .
+
+am:t-4979
+	skos:exactMatch aatned:hout ,
+			aatned:stadsbossen .
+
+am:t-4980
+	skos:exactMatch aatned:houtsnede__drukprocede_ ,
+			aatned:houtsneden .
+
+am:t-4983
+	skos:exactMatch aatned:dierenhuid ,
+			aatned:huid .
+
+am:t-4989
+	skos:exactMatch aatned:huisschilders .
+
+am:t-5019
+	skos:exactMatch aatned:ijzer .
+
+am:t-5038
+	skos:exactMatch aatned:industrie .
+
+am:t-5056
+	skos:exactMatch aatned:inlijsten .
+
+am:t-5059
+	skos:exactMatch aatned:inscripties .
+
+am:t-5061
+	skos:exactMatch aatned:insecten .
+
+am:t-5062
+	skos:exactMatch aatned:insignes__broches_ ,
+			aatned:insignes__emblemen_ .
+
+am:t-5066
+	skos:exactMatch aatned:intaglio ,
+			aatned:intaglio_s .
+
+am:t-5068
+	skos:exactMatch aatned:interieurs .
+
+am:t-5086
+	skos:exactMatch aatned:ivoor ,
+			aatned:ivoren__beeldhouwwerken_ .
+
+am:t-5104
+	skos:exactMatch aatned:jachten__vaartuigen_ ,
+			aatned:jagen .
+
+am:t-5284
+	skos:exactMatch aatned:jongens .
+
+am:t-5290
+	skos:exactMatch aatned:japonnen .
+
+am:t-5292
+	skos:exactMatch aatned:edelstenen ,
+			aatned:sieraden .
+
+am:t-5298
+	skos:exactMatch aatned:kaartspelen ,
+			aatned:kaartspellen__sets_ .
+
+am:t-5299
+	skos:exactMatch aatned:kaartspelen .
+
+am:t-5301
+	skos:exactMatch aatned:kabinetten__kamers_ ,
+			aatned:kabinetten__kastmeubilair_ .
+
+am:t-5303
+	skos:exactMatch aatned:kachels .
+
+am:t-5309
+	skos:exactMatch aatned:kammen__haarsieraden_ ,
+			aatned:kammen__snaarinstrumentonderdelen_ ,
+			aatned:kammen__textielbewerkingsprocede_ ,
+			aatned:kammen__textielbewerkingsuitrusting_ ,
+			aatned:kammen__verzorgingsbenodigdheden_ .
+
+am:t-5310
+	skos:exactMatch aatned:kandelaars .
+
+am:t-5312
+	skos:exactMatch aatned:kannen .
+
+am:t-5314
+	skos:exactMatch aatned:kanonnen .
+
+am:t-5316
+	skos:exactMatch aatned:kant__materiaal_ ,
+			aatned:kant__techniek_ .
+
+am:t-5318
+	skos:exactMatch aatned:kantoorgebouwen .
+
+am:t-5321
+	skos:exactMatch aatned:kantoorgebouwen ,
+			aatned:kantoren__aan_huis_ ,
+			aatned:kantoren__kamers_ .
+
+am:t-5323
+	skos:exactMatch aatned:kapitaal ,
+			aatned:kapitalen ,
+			aatned:kapitalen__hoofdletters_ .
+
+am:t-5325
+	skos:exactMatch aatned:kapsels__kleibewerkingsgereedschap_ ,
+			aatned:kapsels__op_het_hoofd_gedragen_accessoires_ .
+
+am:t-5329
+	skos:exactMatch aatned:kastelen ,
+			aatned:torens__schaakstukken_ .
+
+am:t-5330
+	skos:exactMatch aatned:kasten__onderdelen_van_sloten_ ,
+			aatned:kasten__verwante_groepen_ ,
+			aatned:kastmeubilair .
+
+am:t-5331
+	skos:exactMatch aatned:katten ,
+			aatned:katten__verdedigingswerkonderdelen_ .
+
+am:t-5335
+	skos:exactMatch aatned:katten ,
+			aatned:katten__verdedigingswerkonderdelen_ .
+
+am:t-5336
+	skos:exactMatch aatned:kazernes ,
+			aatned:militaire_behuizing .
+
+am:t-5364
+	skos:exactMatch aatned:keramische_tegel ,
+			aatned:tapijttegels ,
+			aatned:tegel .
+
+am:t-5366
+	skos:exactMatch aatned:kerken .
+
+am:t-5367
+	skos:exactMatch aatned:kerken .
+
+am:t-5369
+	skos:exactMatch aatned:kerken .
+
+am:t-5372
+	skos:exactMatch aatned:orgels .
+
+am:t-5373
+	skos:exactMatch aatned:kerktorens .
+
+am:t-5379
+	skos:exactMatch aatned:keukens .
+
+am:t-5380
+	skos:exactMatch aatned:keukens .
+
+am:t-5393
+	skos:exactMatch aatned:kinderen .
+
+am:t-5406
+	skos:exactMatch aatned:Kleding__TOPTERM_ ,
+			aatned:kleding .
+
+am:t-5409
+	skos:exactMatch aatned:kleuren ,
+			aatned:kleuren__procede_ .
+
+am:t-5415
+	skos:exactMatch aatned:klokken__idiofonen_ ,
+			aatned:klokken__uurwerken_ .
+
+am:t-5419
+	skos:exactMatch aatned:abdijen ,
+			aatned:kloosters .
+
+am:t-5424
+	skos:exactMatch aatned:knopen__bevestigingsmiddelen_ ,
+			aatned:knopen__motieven_ ,
+			aatned:knopen__tapijtonderdelen_ ,
+			aatned:knopen__textielvervaardiging_ ,
+			aatned:knopen__verbinden_ .
+
+am:t-5426
+	skos:exactMatch aatned:koetsen__papiermaken_ ,
+			aatned:koetsen__rijtuigen_ .
+
+am:t-5436
+	skos:exactMatch aatned:komedie ,
+			aatned:komedies .
+
+am:t-5447
+	skos:exactMatch aatned:koper ,
+			aatned:kopers ,
+			aatned:tombak .
+
+am:t-5451
+	skos:exactMatch aatned:kopieen__afgeleide_objecten_ ,
+			aatned:kopieen__soorten_documenten_ .
+
+am:t-5453
+	skos:exactMatch aatned:Koptisch__periode_ ,
+			aatned:koptisch__christendom_ .
+
+am:t-5454
+	skos:exactMatch aatned:kleding .
+
+am:t-5455
+	skos:exactMatch aatned:verkleedkleding .
+
+am:t-5460
+	skos:exactMatch aatned:kranten .
+
+am:t-5464
+	skos:exactMatch aatned:kristal__loodglas_ ,
+			aatned:kristal__materiaal_naar_vorm_ .
+
+am:t-5466
+	skos:exactMatch aatned:kritiek ,
+			aatned:kritieken ,
+			aatned:recensies .
+
+am:t-5467
+	skos:exactMatch aatned:kronen__hoofdtooien_ ,
+			aatned:kronen__kledingonderdelen_ ,
+			aatned:kronen__munten_ ,
+			aatned:kroonluchters .
+
+am:t-5471
+	skos:exactMatch aatned:kroonluchters .
+
+am:t-5492
+	skos:exactMatch aatned:kunstenaars .
+
+am:t-5509
+	skos:exactMatch aatned:kunstschilders .
+
+am:t-5513
+	skos:exactMatch aatned:stijlen__openingsonderdelen_ ,
+			aatned:stijlen__palen_ .
+
+am:t-5520
+	skos:exactMatch aatned:kunstvoorwerpen ,
+			aatned:kunstwerken .
+
+am:t-5539
+	skos:exactMatch aatned:lak ,
+			aatned:lak__hars_ ,
+			aatned:lak__kleurmiddel_ .
+
+am:t-5540
+	skos:exactMatch aatned:lakens ,
+			aatned:stof__textiel_ .
+
+am:t-5543
+	skos:exactMatch aatned:lampen ,
+			aatned:lampen__onderdelen__naar_functie ,
+			aatned:lampen__onderdelen__naar_vorm ,
+			aatned:lampen__onderdelen_van_verlichtingsmiddelen_ .
+
+am:t-5544
+	skos:exactMatch aatned:landbouw ,
+			aatned:tuinbouw .
+
+am:t-5546
+	skos:exactMatch aatned:landbouw .
+
+am:t-5552
+	skos:exactMatch aatned:landhuizen ,
+			aatned:villa_s .
+
+am:t-5553
+	skos:exactMatch aatned:landkaarten .
+
+am:t-5556
+	skos:exactMatch aatned:landschappen__omgevingen_ ,
+			aatned:landschappen__voorstellingen_ .
+
+am:t-5557
+	skos:exactMatch aatned:landschappen__omgevingen_ ,
+			aatned:landschappen__voorstellingen_ .
+
+am:t-5613
+	skos:exactMatch aatned:lepels .
+
+am:t-5618
+	skos:exactMatch aatned:literatuur__geschriften_ ,
+			aatned:literatuurwetenschappen .
+
+am:t-5635
+	skos:exactMatch aatned:instanties .
+
+am:t-5639
+	skos:exactMatch aatned:liederen .
+
+am:t-5641
+	skos:exactMatch aatned:liederen .
+
+am:t-5645
+	skos:exactMatch aatned:lijmen ,
+			aatned:lijmen__boekbinden_ .
+
+am:t-5649
+	skos:exactMatch aatned:literatuur__geschriften_ ,
+			aatned:literatuurwetenschappen .
+
+am:t-5656
+	skos:exactMatch aatned:lithografie__techniek_ ,
+			aatned:lithografieen__prenten_ .
+
+am:t-5665
+	skos:exactMatch aatned:loterijen .
+
+am:t-5687
+	skos:exactMatch aatned:machines ,
+			aatned:machines__motoren_ .
+
+am:t-5695
+	skos:exactMatch aatned:manden .
+
+am:t-5698
+	skos:exactMatch aatned:optochten .
+
+am:t-5699
+	skos:exactMatch aatned:mannen .
+
+am:t-5701
+	skos:exactMatch aatned:maquettes .
+
+am:t-5707
+	skos:exactMatch aatned:markten__gebeurtenissen_ ,
+			aatned:markten__gebouwen_ ,
+			aatned:marktplaatsen .
+
+am:t-5716
+	skos:exactMatch aatned:afmeting ,
+			aatned:maten__zakenmensen_ .
+
+am:t-5717
+	skos:exactMatch aatned:gewicht ,
+			aatned:gewichten .
+
+am:t-5718
+	skos:exactMatch aatned:Materialen__TOPTERM_ ,
+			aatned:materialen .
+
+am:t-5766
+	skos:exactMatch aatned:medailles .
+
+am:t-5769
+	skos:exactMatch aatned:media__schilder__en_tekenmateriaal_ .
+
+am:t-5772
+	skos:exactMatch aatned:meisjes .
+
+am:t-5785
+	skos:exactMatch aatned:merklappen .
+
+am:t-5787
+	skos:exactMatch aatned:messen__culinaire_gereedschappen_ ,
+			aatned:messen__snijgereedschap_ ,
+			aatned:messen__wapens_ .
+
+am:t-5794
+	skos:exactMatch aatned:ijzer .
+
+am:t-5819
+	skos:exactMatch aatned:miniaturen .
+
+am:t-5830
+	skos:exactMatch aatned:maquettes ,
+			aatned:modellen__personen_ .
+
+am:t-5837
+	skos:exactMatch aatned:molens ,
+			aatned:molens__keukengereedschap_ .
+
+am:t-5839
+	skos:exactMatch aatned:oral_history__vakgebied_ .
+
+am:t-5842
+	skos:exactMatch aatned:monografieen .
+
+am:t-5845
+	skos:exactMatch aatned:monumenten .
+
+am:t-5846
+	skos:exactMatch aatned:gedenktekens ,
+			aatned:monumenten .
+
+am:t-5853
+	skos:exactMatch aatned:moskeeen .
+
+am:t-5868
+	skos:exactMatch aatned:musea .
+
+am:t-5900
+	skos:exactMatch aatned:musici .
+
+am:t-5901
+	skos:exactMatch aatned:muurschilderingen .
+
+am:t-5902
+	skos:exactMatch aatned:muurschilderingen .
+
+am:t-5908
+	skos:exactMatch aatned:muziekinstrumenten .
+
+am:t-5909
+	skos:exactMatch aatned:instrumenten ,
+			aatned:muziekinstrumenten .
+
+am:t-5923
+	skos:exactMatch aatned:naakten .
+
+am:t-5979
+	skos:exactMatch aatned:plantkunde .
+
+am:t-5984
+	skos:exactMatch aatned:chemie .
+
+am:t-6005
+	skos:exactMatch aatned:industrie .
+
+am:t-6038
+	skos:exactMatch aatned:olifanten ,
+			aatned:olifanten__muziekinstrumenten_ .
+
+am:t-6050
+	skos:exactMatch aatned:onderscheidingen .
+
+am:t-6051
+	skos:exactMatch aatned:onderscheidingen .
+
+am:t-6053
+	skos:exactMatch aatned:onderzoeken__bepalen_ ,
+			aatned:onderzoeken__soorten_documenten_ ,
+			aatned:onderzoeken__uitzoeken_ .
+
+am:t-6056
+	skos:exactMatch aatned:ongelukken .
+
+am:t-6068
+	skos:exactMatch aatned:oorlogen .
+
+am:t-6069
+	skos:exactMatch aatned:oorlogen .
+
+am:t-6087
+	skos:exactMatch aatned:opera__vakgebied_ ,
+			aatned:opera_s .
+
+am:t-6091
+	skos:exactMatch aatned:opgravingen .
+
+am:t-6102
+	skos:exactMatch aatned:oral_history__vakgebied_ .
+
+am:t-6107
+	skos:exactMatch aatned:Organisaties__TOPTERM_ ,
+			aatned:organisaties .
+
+am:t-6109
+	skos:exactMatch aatned:orkesten__ensembles_ ,
+			aatned:orkesten__toneelruimten_ .
+
+am:t-6110
+	skos:exactMatch aatned:ornamenten .
+
+am:t-6112
+	skos:exactMatch aatned:ornamenten .
+
+am:t-6124
+	skos:exactMatch aatned:overstromingen .
+
+am:t-6130
+	skos:exactMatch aatned:paarden ,
+			aatned:paarden__gymnastiek_ ,
+			aatned:paarden__schaakstukken_ .
+
+am:t-6135
+	skos:exactMatch aatned:pakhuizen .
+
+am:t-6136
+	skos:exactMatch aatned:paleizen .
+
+am:t-6150
+	skos:exactMatch aatned:parken__openbare_ruimten_ ,
+			aatned:parken__tuinarchitectuur_ .
+
+am:t-6152
+	skos:exactMatch aatned:parken__openbare_ruimten_ ,
+			aatned:parken__tuinarchitectuur_ .
+
+am:t-6160
+	skos:exactMatch aatned:pastels__beeldmateriaal_ .
+
+am:t-6179
+	skos:exactMatch aatned:penningen ,
+			aatned:penningen__onderscheidingstekens_ .
+
+am:t-6180
+	skos:exactMatch aatned:penschilderingen .
+
+am:t-6183
+	skos:exactMatch aatned:perkament ,
+			aatned:perkament__papier_ .
+
+am:t-6184
+	skos:exactMatch aatned:persen__keukengereedschap_ ,
+			aatned:persen__textielbewerkingsgereedschap_ .
+
+am:t-6187
+	skos:exactMatch aatned:vervoer .
+
+am:t-6199
+	skos:exactMatch aatned:vervalsingen .
+
+am:t-6205
+	skos:exactMatch aatned:pijpen__fusten_ ,
+			aatned:pijpen__leidingen_ ,
+			aatned:pijpen__rookgerei_ .
+
+am:t-6206
+	skos:exactMatch aatned:het_Pittoreske .
+
+am:t-6210
+	skos:exactMatch aatned:plafonds .
+
+am:t-6215
+	skos:exactMatch aatned:planetaria__gebouwen_ ,
+			aatned:planetaria__modellen_ .
+
+am:t-6219
+	skos:exactMatch aatned:planten__vegetatie_ .
+
+am:t-6221
+	skos:exactMatch aatned:planten__activiteit_ ,
+			aatned:planten__vegetatie_ .
+
+am:t-6222
+	skos:exactMatch aatned:plantkunde .
+
+am:t-6223
+	skos:exactMatch aatned:plaquettes__metalen_reliefs_ ,
+			aatned:plaquettes__platte_objecten_ .
+
+am:t-6224
+	skos:exactMatch aatned:plastic .
+
+am:t-6227
+	skos:exactMatch aatned:plattegrond__formeel_begrip_ ,
+			aatned:plattegronden__gebouwen_ ,
+			aatned:plattegronden__onroerend_goed_ ,
+			aatned:plattegronden__tekeningen_ .
+
+am:t-6234
+	skos:exactMatch aatned:gedichten ,
+			aatned:poezie .
+
+am:t-6247
+	skos:exactMatch aatned:poorten ,
+			aatned:poortgebouwen ,
+			aatned:stadspoorten .
+
+am:t-6251
+	skos:exactMatch aatned:poppenhuizen .
+
+am:t-6252
+	skos:exactMatch aatned:poppenkasten .
+
+am:t-6258
+	skos:exactMatch aatned:portretten .
+
+am:t-6259
+	skos:exactMatch aatned:portretten .
+
+am:t-6267
+	skos:exactMatch aatned:postzegels .
+
+am:t-6268
+	skos:exactMatch aatned:potten__1_ ,
+			aatned:potten__2_ ,
+			aatned:potten__binnenschepen_ .
+
+am:t-6274
+	skos:exactMatch aatned:dominees ,
+			aatned:predikanten .
+
+am:t-6276
+	skos:exactMatch aatned:ansichtkaarten .
+
+am:t-6277
+	skos:exactMatch aatned:ansichtkaarten .
+
+am:t-6278
+	skos:exactMatch aatned:prenten .
+
+am:t-6279
+	skos:exactMatch aatned:prentenboeken .
+
+am:t-6290
+	skos:exactMatch aatned:prijslijsten .
+
+am:t-6480
+	skos:exactMatch aatned:ornamenten .
+
+am:t-6519
+	skos:exactMatch aatned:radio__telecommunicatiesysteem_ ,
+			aatned:radio_ontvangers .
+
+am:t-6521
+	skos:exactMatch aatned:rampen .
+
+am:t-6529
+	skos:exactMatch aatned:Realistisch ,
+			aatned:realisme .
+
+am:t-6532
+	skos:exactMatch aatned:recepten__geneesmiddelen_ ,
+			aatned:recepten__gerechten_ .
+
+am:t-6539
+	skos:exactMatch aatned:recreatie .
+
+am:t-6540
+	skos:exactMatch aatned:rede ,
+			aatned:reden .
+
+am:t-6541
+	skos:exactMatch aatned:rederijen .
+
+am:t-6548
+	skos:exactMatch aatned:regenten .
+
+am:t-6552
+	skos:exactMatch aatned:registratie__informatieverzorging_ ,
+			aatned:registraties .
+
+am:t-6555
+	skos:exactMatch aatned:reisverhalen .
+
+am:t-6556
+	skos:exactMatch aatned:reisverhalen .
+
+am:t-6558
+	skos:exactMatch aatned:reizen ,
+			aatned:reizen__gebeurtenissen_ .
+
+am:t-6562
+	skos:exactMatch aatned:godsdiensten .
+
+am:t-6566
+	skos:exactMatch aatned:relieken .
+
+am:t-6567
+	skos:exactMatch aatned:remises__verdediging_ ,
+			aatned:remises__wagenloodsen_ .
+
+am:t-6573
+	skos:exactMatch aatned:reproducties .
+
+am:t-6577
+	skos:exactMatch aatned:Charles_X ,
+			aatned:restauratie .
+
+am:t-6578
+	skos:exactMatch aatned:restauratoren .
+
+am:t-6597
+	skos:exactMatch aatned:ridders .
+
+am:t-6605
+	skos:exactMatch aatned:fietsen__activiteit_ ,
+			aatned:fietsen__transportmiddelen_ .
+
+am:t-6613
+	skos:exactMatch aatned:roeden ,
+			aatned:roeden__raam_ .
+
+am:t-6630
+	skos:exactMatch aatned:ruines .
+
+am:t-6631
+	skos:exactMatch aatned:ruines .
+
+am:t-6637
+	skos:exactMatch aatned:sabels ,
+			aatned:zwart .
+
+am:t-6647
+	skos:exactMatch aatned:satijn .
+
+am:t-6648
+	skos:exactMatch aatned:satire ,
+			aatned:satires .
+
+am:t-6655
+	skos:exactMatch aatned:schaatsen__activiteit_ ,
+			aatned:schaatsen__objecten_ .
+
+am:t-6660
+	skos:exactMatch aatned:scheepsgeschut .
+
+am:t-6670
+	skos:exactMatch aatned:schelpen__bouwelementen_ ,
+			aatned:schelpen__dierlijk_materiaal_ .
+
+am:t-6671
+	skos:exactMatch aatned:schenkingen .
+
+am:t-6675
+	skos:exactMatch aatned:schetsen__beeldende_werken_ ,
+			aatned:schetsen__techniek_ .
+
+am:t-6677
+	skos:exactMatch aatned:schilderijen .
+
+am:t-6679
+	skos:exactMatch aatned:lijsten__informatiedragers_ ,
+			aatned:lijsten__informatiedragers__naar_onderwerp ,
+			aatned:lijsten__informatiedragers__naar_vorm_of_functie ,
+			aatned:lijsten__interieurinrichting_ ,
+			aatned:lijsten__interieurinrichting__naar_functie ,
+			aatned:lijsten__interieurinrichting__naar_locatie_of_context ,
+			aatned:lijsten__interieurinrichting__naar_ontwerp ,
+			aatned:lijsten__interieurinrichting__naar_vorm ,
+			aatned:schilderijlijsten__ophangsystemen_ ,
+			aatned:schilderijlijsten__schilderij_onderdelen_ .
+
+am:t-6680
+	skos:exactMatch aatned:schilderijen ,
+			aatned:schilderingen .
+
+am:t-6683
+	skos:exactMatch aatned:huisschilders ,
+			aatned:kunstschilders .
+
+am:t-6685
+	skos:exactMatch aatned:schildertechnieken .
+
+am:t-6697
+	skos:exactMatch aatned:reinigen .
+
+am:t-6699
+	skos:exactMatch aatned:schoorsteenmantels ,
+			aatned:schouwen__vaartuigen_ .
+
+am:t-6702
+	skos:exactMatch aatned:theaters .
+
+am:t-6706
+	skos:exactMatch aatned:schrijven .
+
+am:t-6711
+	skos:exactMatch aatned:schuttersstukken .
+
+am:t-6713
+	skos:exactMatch aatned:beeldhouwwerken .
+
+am:t-8
+	skos:exactMatch aatned:musea .
+
+am:t-8353
+	skos:exactMatch aatned:sieraden .
+
+am:t-8359
+	skos:exactMatch aatned:handtekeningen ,
+			aatned:signaturen__aantekeningen_van_de_binder_ .
+
+am:t-8361
+	skos:exactMatch aatned:sits .
+
+am:t-8367
+	skos:exactMatch aatned:sjablonen__mal_ ,
+			aatned:sjablonen__verf_aanbrengen_ .
+
+am:t-8372
+	skos:exactMatch aatned:sleeen .
+
+am:t-8377
+	skos:exactMatch aatned:sluizen .
+
+am:t-8382
+	skos:exactMatch aatned:snuifdozen .
+
+am:t-8396
+	skos:exactMatch aatned:soldaten .
+
+am:t-8400
+	skos:exactMatch aatned:spaarbanken .
+
+am:t-8401
+	skos:exactMatch aatned:spaarbanken .
+
+am:t-8402
+	skos:exactMatch aatned:spaarpotten .
+
+am:t-8407
+	skos:exactMatch aatned:speelkaarten .
+
+am:t-8409
+	skos:exactMatch aatned:speeltuinen .
+
+am:t-8420
+	skos:exactMatch aatned:sporten__lichamelijke_activiteiten_ ,
+			aatned:sporten__meubelonderdelen_ ,
+			aatned:wedstrijden .
+
+am:t-8424
+	skos:exactMatch aatned:spotprenten .
+
+am:t-8425
+	skos:exactMatch aatned:spotprenten .
+
+am:t-8428
+	skos:exactMatch aatned:staal ,
+			aatned:stalen ,
+			aatned:stalen__slotonderdelen_ .
+
+am:t-8432
+	skos:exactMatch aatned:stadhuizen .
+
+am:t-8441
+	skos:exactMatch aatned:wijken .
+
+am:t-8443
+	skos:exactMatch aatned:stadsgezichten .
+
+am:t-8483
+	skos:exactMatch aatned:stegen .
+
+am:t-8486
+	skos:exactMatch aatned:steenhouwers .
+
+am:t-8500
+	skos:exactMatch aatned:stijlkamers .
+
+am:t-8502
+	skos:exactMatch aatned:stillevens .
+
+am:t-8505
+	skos:exactMatch aatned:trottoirs .
+
+am:t-8513
+	skos:exactMatch aatned:banken__meubilair_ ,
+			aatned:banken__verdediging_ ,
+			aatned:bankgebouwen ,
+			aatned:straatmeubilair .
+
+am:t-8519
+	skos:exactMatch aatned:straffen ,
+			aatned:vonnissen .
+
+am:t-8524
+	skos:exactMatch aatned:stripverhalen .
+
+am:t-8536
+	skos:exactMatch aatned:subsidies__1_ ,
+			aatned:subsidies__2_ .
+
+am:t-8549
+	skos:exactMatch aatned:taal ,
+			aatned:talen .
+
+am:t-8557
+	skos:exactMatch aatned:tableaus .
+
+am:t-8562
+	skos:exactMatch aatned:tapijten .
+
+am:t-8563
+	skos:exactMatch aatned:tapijtwerk ,
+			aatned:tapisserieen .
+
+am:t-8565
+	skos:exactMatch aatned:tassen__gereedschappen_ ,
+			aatned:tassen__graanschuren_ ,
+			aatned:tassen__houders_ ,
+			aatned:tassen__kledingaccessoires_ .
+
+am:t-8567
+	skos:exactMatch aatned:taxi_s .
+
+am:t-8570
+	skos:exactMatch aatned:techniek__vakgebied_ ,
+			aatned:techniek__werkwijze_ ,
+			aatned:technieken .
+
+am:t-8577
+	skos:exactMatch aatned:tekeningen .
+
+am:t-8584
+	skos:exactMatch aatned:tempels .
+
+am:t-8585
+	skos:exactMatch aatned:tempels .
+
+am:t-8589
+	skos:exactMatch aatned:tentoonstellingen .
+
+am:t-8595
+	skos:exactMatch aatned:terracotta ,
+			aatned:terracotta_s .
+
+am:t-8605
+	skos:exactMatch aatned:theaters .
+
+am:t-8618
+	skos:exactMatch aatned:tijdschriften .
+
+am:t-8622
+	skos:exactMatch aatned:tin ,
+			aatned:tinnen .
+
+am:t-8625
+	skos:exactMatch aatned:tinnegieters .
+
+am:t-8628
+	skos:exactMatch aatned:kunstnijverheid .
+
+am:t-8635
+	skos:exactMatch aatned:toilettafels .
+
+am:t-8640
+	skos:exactMatch aatned:topografie__beeldvervaardiging_ ,
+			aatned:topografie__kenmerk_ .
+
+am:t-8642
+	skos:exactMatch aatned:kerktorens ,
+			aatned:torens__bouwwerken_ ,
+			aatned:torens__delen_van_gebouwen_ ,
+			aatned:torens__geschut_ ,
+			aatned:torens__schaakstukken_ ,
+			aatned:vuurtorens ,
+			aatned:watertorens .
+
+am:t-8645
+	skos:exactMatch aatned:tragedie ,
+			aatned:tragedies .
+
+am:t-8646
+	skos:exactMatch aatned:paardentrams ,
+			aatned:trams .
+
+am:t-8647
+	skos:exactMatch aatned:vervoer .
+
+am:t-8653
+	skos:exactMatch aatned:triptieken .
+
+am:t-8658
+	skos:exactMatch aatned:gevangenissen .
+
+am:t-8659
+	skos:exactMatch aatned:tuinen .
+
+am:t-8660
+	skos:exactMatch aatned:siergewassenkwekerijen ,
+			aatned:tuinarchitectuur .
+
+am:t-8663
+	skos:exactMatch aatned:tuinen .
+
+am:t-8667
+	skos:exactMatch aatned:tulpen .
+
+am:t-8674
+	skos:exactMatch aatned:typografie ,
+			aatned:typografie__drukvoorbereiding_ .
+
+am:t-8680
+	skos:exactMatch aatned:uithangborden .
+
+am:t-8688
+	skos:exactMatch aatned:universiteiten .
+
+am:t-8689
+	skos:exactMatch aatned:universiteiten .
+
+am:t-8693
+	skos:exactMatch aatned:horloges ,
+			aatned:klokken__idiofonen_ ,
+			aatned:klokken__uurwerken_ ,
+			aatned:uurwerken .
+
+am:t-8697
+	skos:exactMatch aatned:vaartuigen .
+
+am:t-8698
+	skos:exactMatch aatned:vazen .
+
+am:t-8704
+	skos:exactMatch aatned:vakbonden .
+
+am:t-8705
+	skos:exactMatch aatned:vakbonden .
+
+am:t-8710
+	skos:exactMatch aatned:vazen .
+
+am:t-8719
+	skos:exactMatch aatned:veilingen .
+
+am:t-8720
+	skos:exactMatch aatned:pakhuizen .
+
+am:t-8725
+	skos:exactMatch aatned:veren__materiaal_ ,
+			aatned:veren__pijlonderdelen_ .
+
+am:t-8727
+	skos:exactMatch aatned:genootschappen ,
+			aatned:verenigingen .
+
+am:t-8732
+	skos:exactMatch aatned:vergulden .
+
+am:t-8735
+	skos:exactMatch aatned:vervoer .
+
+am:t-8738
+	skos:exactMatch aatned:Verlichting__stroming_ ,
+			aatned:verlichtingsmiddelen .
+
+am:t-8744
+	skos:exactMatch aatned:verpleegkunde .
+
+am:t-8748
+	skos:exactMatch aatned:vervalsingen .
+
+am:t-8750
+	skos:exactMatch aatned:vervoer .
+
+am:t-8751
+	skos:exactMatch aatned:Vervoermiddelen__TOPTERM_ ,
+			aatned:vervoermiddelen .
+
+am:t-8755
+	skos:exactMatch aatned:verzamelaars .
+
+am:t-8767
+	skos:exactMatch aatned:verdedigingswerken .
+
+am:t-8770
+	skos:exactMatch aatned:video_s__informatiedragers_ .
+
+am:t-8772
+	skos:exactMatch aatned:villa_s .
+
+am:t-8776
+	skos:exactMatch aatned:Vissen__sterrenbeelden_ ,
+			aatned:vissen__dieren_ ,
+			aatned:visvangst .
+
+am:t-8777
+	skos:exactMatch aatned:visvangst .
+
+am:t-8780
+	skos:exactMatch aatned:vlaggen .
+
+am:t-8782
+	skos:exactMatch aatned:vliegtuigen .
+
+am:t-8786
+	skos:exactMatch aatned:graankorrels ,
+			aatned:specerijen .
+
+am:t-8788
+	skos:exactMatch aatned:voetballen .
+
+am:t-8789
+	skos:exactMatch aatned:vogels .
+
+am:t-8791
+	skos:exactMatch aatned:culturele_antropologie .
+
+am:t-8797
+	skos:exactMatch aatned:etnologie .
+
+am:t-8804
+	skos:exactMatch aatned:volksprenten .
+
+am:t-8805
+	skos:exactMatch aatned:volksprenten .
+
+am:t-8813
+	skos:exactMatch aatned:volleybal ,
+			aatned:volleyballen .
+
+am:t-8826
+	skos:exactMatch aatned:vorken .
+
+am:t-8829
+	skos:exactMatch aatned:vorsten__daken_ .
+
+am:t-8835
+	skos:exactMatch aatned:recreatie .
+
+am:t-8844
+	skos:exactMatch aatned:vrouwen .
+
+am:t-8850
+	skos:exactMatch aatned:vuurvergulden .
+
+am:t-8852
+	skos:exactMatch aatned:vuurwapens .
+
+am:t-8854
+	skos:exactMatch aatned:waaggebouwen .
+
+am:t-8870
+	skos:exactMatch aatned:Gobelins ,
+			aatned:tapisserieen .
+
+am:t-8871
+	skos:exactMatch aatned:wapens ,
+			aatned:wapens__familietekens_ ,
+			aatned:wapens__familietekens__en_onderdelen_van_wapens .
+
+am:t-8874
+	skos:exactMatch aatned:wapens ,
+			aatned:wapens__familietekens_ ,
+			aatned:wapens__familietekens__en_onderdelen_van_wapens .
+
+am:t-8881
+	skos:exactMatch aatned:water__stof_ ,
+			aatned:wateren .
+
+am:t-8889
+	skos:exactMatch aatned:watermerken .
+
+am:t-8891
+	skos:exactMatch aatned:overstromingen .
+
+am:t-8904
+	skos:exactMatch aatned:weeshuizen .
+
+am:t-8906
+	skos:exactMatch aatned:straten ,
+			aatned:trottoirs ,
+			aatned:wegen .
+
+am:t-8915
+	skos:exactMatch aatned:wereldtentoonstellingen .
+
+am:t-8917
+	skos:exactMatch aatned:werkgelegenheden ,
+			aatned:werkgelegenheid .
+
+am:t-8927
+	skos:exactMatch aatned:instrumenten ,
+			aatned:wetenschappelijke_instrumenten .
+
+am:t-8930
+	skos:exactMatch aatned:geleerden ,
+			aatned:wetenschappers .
+
+am:t-8933
+	skos:exactMatch aatned:wetgeving ,
+			aatned:wetten ,
+			aatned:wetten__activiteit_ .
+
+am:t-8938
+	skos:exactMatch aatned:weeskinderen .
+
+am:t-8939
+	skos:exactMatch aatned:weeskinderen .
+
+am:t-8941
+	skos:exactMatch aatned:wijken .
+
+am:t-8958
+	skos:exactMatch aatned:wol ,
+			aatned:wol__haar_ ,
+			aatned:wol__textiel_ .
+
+am:t-8967
+	skos:exactMatch aatned:woningen ,
+			aatned:woonhuizen .
+
+am:t-8972
+	skos:exactMatch aatned:woordenboeken .
+
+am:t-9060
+	skos:exactMatch aatned:zeegezichten .
+
+am:t-9072
+	skos:exactMatch aatned:zegels__identificatiedragers_ ,
+			aatned:zegels__ruilmiddelen_ .
+
+am:t-9073
+	skos:exactMatch aatned:zeilen ,
+			aatned:zeilen__activiteit_ ,
+			aatned:zeilen__vloerbedekking_ .
+
+am:t-9074
+	skos:exactMatch aatned:zeilschepen .
+
+am:t-9077
+	skos:exactMatch aatned:zelfportretten .
+
+am:t-9081
+	skos:exactMatch aatned:ziekenhuizen .
+
+am:t-9082
+	skos:exactMatch aatned:ziekenhuizen .
+
+am:t-9085
+	skos:exactMatch aatned:zijde__textiel_ ,
+			aatned:zijde__vezel_ .
+
+am:t-9093
+	skos:exactMatch aatned:zilversmeden__personen_ .
+
+am:t-9095
+	skos:exactMatch aatned:zilverwerk__objecten_vervaardigd_uit_zilver_ ,
+			aatned:zilverwerk__tafelzilver_ .
+
+am:t-9123
+	skos:exactMatch aatned:zuilen__architecturale_elementen_ .
+
+am:t-9126
+	skos:exactMatch aatned:kazen ,
+			aatned:melk ,
+			aatned:zuivelproducten .
+
+am:t-9129
+	skos:exactMatch aatned:zwaarden__scheepsonderdelen_ ,
+			aatned:zwaarden__wapens_ .
+
+am:t-9130
+	skos:exactMatch aatned:zwaarden__scheepsonderdelen_ ,
+			aatned:zwaarden__wapens_ .
+
+am:t-9143
+	skos:exactMatch aatned:plank__materiaal_ ,
+			aatned:planken__objecten_ .
+
+am:t-9163
+	skos:exactMatch aatned:portemonnees .
+
+am:t-9164
+	skos:exactMatch aatned:toilettafels .
+
+am:t-9169
+	skos:exactMatch aatned:proefdrukken__foto_s_ ,
+			aatned:proefdrukken__prenten_ .
+
+am:t-9170
+	skos:exactMatch aatned:profielschaven__1_ ,
+			aatned:profielschaven__2_ ,
+			aatned:profielschaven__kwart_rond_ .
+
+am:t-9179
+	skos:exactMatch aatned:rapporten ,
+			aatned:rapporten__militaire_rapporten_ .
+
+am:t-9181
+	skos:exactMatch aatned:raspen__keukengerei_ ,
+			aatned:raspen__slaginstrumenten_ ,
+			aatned:raspen__vijlen_ .
+
+am:t-9192
+	skos:exactMatch aatned:relieken .
+
+am:t-9211
+	skos:exactMatch aatned:roosters__hekwerkelementen_ ,
+			aatned:roosters__lijsten_ ,
+			aatned:roosters__schema_s_ .
+
+am:t-9216
+	skos:exactMatch aatned:ruche ,
+			aatned:ruches .
+
+am:t-9218
+	skos:exactMatch aatned:serge .
+
+am:t-9228
+	skos:exactMatch aatned:scheepsgeschut .
+
+am:t-9232
+	skos:exactMatch aatned:schelpen__bouwelementen_ ,
+			aatned:schelpen__dierlijk_materiaal_ .
+
+am:t-9235
+	skos:exactMatch aatned:schermen ,
+			aatned:schermen__bedekkingen_ ,
+			aatned:schermen__meubilair_ .
+
+am:t-9237
+	skos:exactMatch aatned:ezels .
+
+am:t-9239
+	skos:exactMatch aatned:schoorsteenmantels ,
+			aatned:schouwen__vaartuigen_ .
+
+am:t-9243
+	skos:exactMatch aatned:schotels .
+
+am:t-9245
+	skos:exactMatch aatned:schouwen__vaartuigen_ .
+
+am:t-9248
+	skos:exactMatch aatned:schroeven__onderdelen_ ,
+			aatned:schroeven__voertuigonderdelen_ .
+
+am:t-9253
+	skos:exactMatch aatned:serge .
+
+am:t-9270
+	skos:exactMatch aatned:slakommen .
+
+am:t-9272
+	skos:exactMatch aatned:slepen ,
+			aatned:slepen__landbouwwerktuig_ .
+
+am:t-9278
+	skos:exactMatch aatned:sluiers .
+
+am:t-9299
+	skos:exactMatch aatned:spiegels ,
+			aatned:spiegels__dakonderdeel_ ,
+			aatned:spiegels__muuronderdeel_ .
+
+am:t-9303
+	skos:exactMatch aatned:sponningschaven__1_ ,
+			aatned:sponningschaven__2_ .
+
+am:t-9307
+	skos:exactMatch aatned:beddenspreien .
+
+am:t-9308
+	skos:exactMatch aatned:spuiten__keukengerei_ ,
+			aatned:spuiten__landbouwwerktuigen_ ,
+			aatned:spuiten__medische_uitrusting_ ,
+			aatned:verstuivers .
+
+am:t-9326
+	skos:exactMatch aatned:strooibussen__keuken_ ,
+			aatned:strooibussen__tafel_ .
+
+am:t-9330
+	skos:exactMatch aatned:tafelgoed .
+
+am:t-9340
+	skos:exactMatch aatned:tekeningen .
+
+am:t-9347
+	skos:exactMatch aatned:theepotten .
+
+am:t-9363
+	skos:exactMatch aatned:trappen ,
+			aatned:traps__theater_elements_ .
+
+am:t-9366
+	skos:exactMatch aatned:triptieken .
+
+am:t-9368
+	skos:exactMatch aatned:trommels__houders_ ,
+			aatned:trommels__muren_ ,
+			aatned:trommels__zuilonderdelen_ ,
+			aatned:trommen .
+
+am:t-9371
+	skos:exactMatch aatned:trouwjaponnen .
+
+am:t-9388
+	skos:exactMatch aatned:urinoirs__sanitair_ ,
+			aatned:urinoirs__straatmeubilair_ .
+
+am:t-9391
+	skos:exactMatch aatned:vaartuigen .
+
+am:t-9393
+	skos:exactMatch aatned:vallen__vangtuig_ ,
+			aatned:vallen__zeilvaart_ .
+
+am:t-9395
+	skos:exactMatch aatned:veer ,
+			aatned:veer__verbinding_ ,
+			aatned:veren__materiaal_ ,
+			aatned:veren__pijlonderdelen_ .
+
+am:t-9415
+	skos:exactMatch aatned:vitrinekasten .
+
+am:t-9419
+	skos:exactMatch aatned:vloeren .
+
+am:t-9446
+	skos:exactMatch aatned:wagens_en_fietsen .
+
+am:t-9461
+	skos:exactMatch aatned:wastafels__meubel_ ,
+			aatned:wastafels__sanitair_ .
+
+am:t-9468
+	skos:exactMatch aatned:Weegschaal__sterrenbeelden_ ,
+			aatned:weegschalen .
+
+am:t-9483
+	skos:exactMatch aatned:woordenboeken .
+
+am:t-9494
+	skos:exactMatch aatned:zandbakken ,
+			aatned:zandbanken .
+
+am:t-9501
+	skos:exactMatch aatned:zegels__identificatiedragers_ ,
+			aatned:zegels__ruilmiddelen_ .
+
+am:t-9534
+	skos:exactMatch aatned:bladwijzers__kaarten_ .
+
+am:t-9553
+	skos:exactMatch aatned:keten ,
+			aatned:ketens .
+
+am:t-9556
+	skos:exactMatch aatned:kisten ,
+			aatned:vliegtuigen .
+
+am:t-9589
+	skos:exactMatch aatned:kopergraveren ,
+			aatned:kopergravures__prenten_ .
+
+am:t-9591
+	skos:exactMatch aatned:carneool .
+
+am:t-9602
+	skos:exactMatch aatned:kruisen__motieven_ ,
+			aatned:kruisen__objecten_ .
+
+am:t-9603
+	skos:exactMatch aatned:kruisbeelden .
+
+am:t-9606
+	skos:exactMatch aatned:kunstbloemen .
+
+am:t-9635
+	skos:exactMatch aatned:lepelvaasjes .
+
+am:t-9639
+	skos:exactMatch aatned:lichtdruk ,
+			aatned:lichtdrukken .
+
+am:t-9652
+	skos:exactMatch aatned:lont__textiel_ ,
+			aatned:lonten__vuurwapenonderdelen_ .
+
+am:t-9670
+	skos:exactMatch aatned:mantels__kleding_ ,
+			aatned:schoorsteenmantels .
+
+am:t-9674
+	skos:exactMatch aatned:monumenten .
+
+am:t-9687
+	skos:exactMatch aatned:handwerken .
+
+am:t-9693
+	skos:exactMatch aatned:net__materiaal_ ,
+			aatned:netten__objecten_ .
+
+am:t-9699
+	skos:exactMatch aatned:olie ,
+			aatned:olie__brandstof_ .
+
+am:t-9708
+	skos:exactMatch aatned:ontwerpen__designs_ ,
+			aatned:ontwerpen__rapporten_ .
+
+am:t-9713
+	skos:exactMatch aatned:oorijzers .
+
+am:t-9750
+	skos:exactMatch aatned:pennen ,
+			aatned:pennen__bevestigingsmiddelen_ .
+
+am:t-9753
+	skos:exactMatch aatned:penschilderingen .
+
+am:t-9774
+	skos:exactMatch aatned:poederdozen__1_ ,
+			aatned:poederdozen__2_ .
+
+am:t-9780
+	skos:exactMatch aatned:taf .
+
+am:t-9782
+	skos:exactMatch aatned:portefeuilles ,
+			aatned:portefeuilles__financiele_documenten_ ,
+			aatned:portefeuilles__houders_ ,
+			aatned:portefeuilles__tassen_ .
+
+am:t-9793
+	skos:exactMatch aatned:prijzen__bedragen_ ,
+			aatned:prijzen__beloningen_ ,
+			aatned:prijzen__gewonnen_objecten_ .
+
+am:t-9806
+	skos:exactMatch aatned:randen ,
+			aatned:randen__delen_of_aspecten_van_objecten_ ,
+			aatned:randen__meubelonderdelen_ ,
+			aatned:randen__ornamenttypen_ .
+
+am:t-9813
+	skos:exactMatch aatned:reproducties .
+
+am:t-9832
+	skos:exactMatch aatned:tombak .
+
+am:t-9834
+	skos:exactMatch aatned:rozen__bloemen_ .
+
+am:t-9836
+	skos:exactMatch aatned:rozetten ,
+			aatned:rozetten__deurplaten_ ,
+			aatned:rozetten__onderdelen_ .
+
+am:t-9846
+	skos:exactMatch aatned:schilden ,
+			aatned:schilden__harnas_ ,
+			aatned:schilden__motieven_ .
+
+am:t-9862
+	skos:exactMatch aatned:sierborden__dakrandonderdelen_ ,
+			aatned:sierborden__vaatwerk_ .
+
+am:t-9865
+	skos:exactMatch aatned:sierknoppen__afwerkingsijzer_ ,
+			aatned:sierknoppen__bevestigingsmiddel_ ,
+			aatned:sierknoppen__houderonderdeel__ .
+
+am:t-9874
+	skos:exactMatch aatned:pantoffels ,
+			aatned:sloffen__schepen_ .
+
+am:t-9893
+	skos:exactMatch aatned:stof ,
+			aatned:stof__textiel_ .
+
+am:t-9895
+	skos:exactMatch aatned:stokken ,
+			aatned:stokken__kaarten_ ,
+			aatned:stokken__objectgenres_ ,
+			aatned:stokken__stokwapenonderdelen_ .
+
+am:t-9906
+	skos:exactMatch aatned:tableaus .
+
+am:t-9939
+	skos:exactMatch aatned:triplex .
+
+am:t-9955
+	skos:exactMatch aatned:vernis_mou__drukprocede_ ,
+			aatned:vernis_mou__prenten_ .
+
+am:t-9960
+	skos:exactMatch aatned:vignetten ,
+			aatned:vignetten__beeldmateriaal_ ,
+			aatned:vignetten__opmaakkenmerken_ .
+
+am:t-9969
+	skos:exactMatch aatned:voet__aangevoete_kap_ ,
+			aatned:voeten .
+
+am:t-9971
+	skos:exactMatch aatned:sluiers .
+
+am:t-9984
+	skos:exactMatch aatned:vuurtorens .
+
+am:t-9985
+	skos:exactMatch aatned:vuurvergulden .

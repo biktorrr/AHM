@@ -1,0 +1,88 @@
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix vann:	 <http://purl.org/vocab/vann/> .
+@prefix lib:     <http://www.swi-prolog.org/rdf/library/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ahm:	 <http://purl.org/collections/ahm/> .
+
+<AHM-metadata>
+	a void:Dataset ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (metadata)"@nl ;
+	void:dataDump
+		<am-schema.ttl> ,
+		<am-data.ttl> .
+
+<AHM-thesaurus>
+	a void:Dataset ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (thesaurus)"@nl ;
+	void:dataDump
+		<am-thesaurus-schema.ttl> ,
+		<am-thesaurus.ttl> .
+
+<AHM-people>
+	a void:Dataset ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (people database)"@nl ;
+	void:dataDump
+		<am-people-rdagr2-schema.ttl> ,
+		<am-people.ttl> ,
+		<ElementsGr2.rdf>.
+
+<AHM-vocs>
+	a void:Dataset ;
+	a lib:CloudNode ;
+	lib:source <http://purl.org/collections/nl/am/> ;
+	dcterms:title "Amsterdam Museum (vocabularies)"@nl ;
+	void:subset
+		<AHM-people> ,
+		<AHM-thesaurus> ,
+		<AHM-alignments> .
+
+<AHM>
+	a void:Dataset ;
+	a lib:CloudNode ;
+	lib:source <http://purl.org/collections/ahm/> ;
+	dcterms:title "Amsterdam Museum"@nl ;
+	void:subset
+		<AHM-people> ,
+		<AHM-thesaurus> ,
+		<AHM-metadata> ,
+		<AHM-alignments> .
+
+
+<AHM-alignments>
+	a void:Linkset ;
+	lib:source ahm: ;
+	dcterms:title "Amsterdam Museum vocabulary alignments"@nl ;
+	void:dataDump
+		# uncomment if you want to load this <AHM-align-lowprec>,
+		<AHM-align-midprec>,
+		<AHM-align-highprec>.
+
+<AHM-align-highprec>
+	a void:Linkset ;
+	lib:source ahm: ;
+	dcterms:title "Amsterdam Museum high precision vocabulary alignments"@nl ;
+	void:dataDump
+		<alignments/am_to_aat_nonamb.ttl> ,
+		<alignments/am_to_dbp_high.ttl> ,
+		<alignments/am_to_ulannl_nonamb.ttl> ,
+		<alignments/am_to_geonl.ttl>.
+
+<AHM-align-midprec>
+	a void:Linkset ;
+	lib:source ahm: ;
+	dcterms:title "Amsterdam Museum mid precision vocabulary alignments"@nl ;
+	void:dataDump
+		<alignments/am_to_aat_amb.ttl> ,
+		<alignments/am_to_ulannl_amb.ttl>.
+
+<AHM-align-lowprec>
+	a void:Linkset ;
+	lib:source ahm: ;
+	dcterms:title "Amsterdam Museum low precision vocabulary alignments"@nl ;
+	void:dataDump
+		<alignments/am_to_dbp_low_nonamb.ttl> .
+

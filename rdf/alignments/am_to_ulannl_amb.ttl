@@ -1,0 +1,1122 @@
+@base             <export6> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+
+# Named toplevel resources (351)
+
+<export6>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <ampersons_to_ulandutch_1-1-rest> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <ampersons_to_ulandutch_1-1-rest> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T13-49-13+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export6&graph=ampersons_to_ulandutch_1-1-rest&relation=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23exactMatch>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:p-10238
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000581> .
+
+am:p-10939
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000444> .
+
+am:p-1095
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009997> .
+
+am:p-10972
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500021435> .
+
+am:p-10974
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000444> .
+
+am:p-11119
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500010579> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500024035> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500024975> .
+
+am:p-11479
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007563> .
+
+am:p-11722
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500013685> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500117122> .
+
+am:p-11731
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116770> .
+
+am:p-12449
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032711> .
+
+am:p-13376
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003219> .
+
+am:p-13757
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020321> .
+
+am:p-13978
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011051> .
+
+am:p-14390
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023112> .
+
+am:p-14977
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116274> .
+
+am:p-15465
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025942> .
+
+am:p-15566
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500102925> .
+
+am:p-15567
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500102925> .
+
+am:p-1582
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500012701> .
+
+am:p-17211
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500121571> .
+
+am:p-17363
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500059590> .
+
+am:p-17574
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032927> .
+
+am:p-17676
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030601> .
+
+am:p-17741
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011568> .
+
+am:p-17754
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015243> .
+
+am:p-17834
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011033> .
+
+am:p-18087
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006358> .
+
+am:p-18358
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004986> .
+
+am:p-18972
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500044399> .
+
+am:p-20070
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500036719> .
+
+am:p-20367
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500013503> .
+
+am:p-20720
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500061497> .
+
+am:p-21034
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500021699> .
+
+am:p-22767
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017076> .
+
+am:p-22776
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017296> .
+
+am:p-22787
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031082> .
+
+am:p-22788
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031967> .
+
+am:p-22789
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031967> .
+
+am:p-22827
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009997> .
+
+am:p-22854
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500069731> .
+
+am:p-22907
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004692> .
+
+am:p-22976
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500121064> .
+
+am:p-22978
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500012900> .
+
+am:p-22994
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024329> .
+
+am:p-23021
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500052146> .
+
+am:p-23126
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500061497> .
+
+am:p-23130
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028606> .
+
+am:p-23135
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023332> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500115191> .
+
+am:p-23149
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005089> .
+
+am:p-23152
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115588> .
+
+am:p-23221
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016699> .
+
+am:p-23268
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023112> .
+
+am:p-23283
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007033> .
+
+am:p-23335
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115589> .
+
+am:p-23395
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500040704> .
+
+am:p-23467
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027027> .
+
+am:p-23468
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027027> .
+
+am:p-23553
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028144> .
+
+am:p-23561
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500012792> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500012825> .
+
+am:p-23593
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500018946> .
+
+am:p-23595
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017478> .
+
+am:p-23604
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003209> .
+
+am:p-23618
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500013503> .
+
+am:p-23619
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032711> .
+
+am:p-23622
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000615> .
+
+am:p-23719
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500010052> .
+
+am:p-23723
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030352> .
+
+am:p-23786
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115670> .
+
+am:p-23794
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014344> .
+
+am:p-23816
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000805> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500012140> .
+
+am:p-23841
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116274> .
+
+am:p-23858
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022751> .
+
+am:p-23861
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005355> .
+
+am:p-23863
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115204> .
+
+am:p-23866
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019581> .
+
+am:p-23896
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008116> .
+
+am:p-23901
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008116> .
+
+am:p-23923
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500065031> .
+
+am:p-24004
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025331> .
+
+am:p-24005
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500121571> .
+
+am:p-24021
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014495> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500023744> .
+
+am:p-24026
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500059590> .
+
+am:p-24027
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009810> .
+
+am:p-24032
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004346> .
+
+am:p-24038
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500018667> .
+
+am:p-24092
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500013401> .
+
+am:p-24093
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500013401> .
+
+am:p-24138
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005904> .
+
+am:p-24147
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500072892> .
+
+am:p-24166
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011353> .
+
+am:p-24172
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025948> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500026611> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500028998> .
+
+am:p-24204
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014644> .
+
+am:p-24210
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014662> .
+
+am:p-24284
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022751> .
+
+am:p-24316
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500061602> .
+
+am:p-24349
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116710> .
+
+am:p-24409
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014606> .
+
+am:p-24480
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004987> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500111007> .
+
+am:p-24560
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115499> .
+
+am:p-24726
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028606> .
+
+am:p-24730
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023332> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500115191> .
+
+am:p-24962
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030747> .
+
+am:p-25157
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002412> .
+
+am:p-25540
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500018667> .
+
+am:p-25553
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009227> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500011568> .
+
+am:p-25607
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020251> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500118334> .
+
+am:p-25720
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500061602> .
+
+am:p-25859
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007381> .
+
+am:p-25860
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007381> .
+
+am:p-25929
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028325> .
+
+am:p-25932
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028325> .
+
+am:p-25951
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020311> .
+
+am:p-25958
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020311> .
+
+am:p-25995
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115412> .
+
+am:p-25996
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115412> .
+
+am:p-26102
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006265> .
+
+am:p-26305
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002049> .
+
+am:p-26359
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014606> .
+
+am:p-26530
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022452> .
+
+am:p-26535
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500054453> .
+
+am:p-26536
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500054453> .
+
+am:p-26547
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028176> .
+
+am:p-26548
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028176> .
+
+am:p-26575
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019203> .
+
+am:p-26577
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019203> .
+
+am:p-26668
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029521> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500115206> .
+
+am:p-26700
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003284> .
+
+am:p-26717
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500084837> .
+
+am:p-26807
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500026343> .
+
+am:p-26808
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500026343> .
+
+am:p-26833
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032401> .
+
+am:p-26898
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004692> .
+
+am:p-26899
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004692> .
+
+am:p-27078
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032468> .
+
+am:p-27079
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032468> .
+
+am:p-27157
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019121> .
+
+am:p-27162
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019121> .
+
+am:p-27276
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025874> .
+
+am:p-27277
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025874> .
+
+am:p-27316
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115282> .
+
+am:p-27363
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016283> .
+
+am:p-27422
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027541> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500056441> .
+
+am:p-27575
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500044506> .
+
+am:p-27699
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024329> .
+
+am:p-27849
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500052146> .
+
+am:p-27888
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005177> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500070303> .
+
+am:p-27897
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000918> .
+
+am:p-27918
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500045355> .
+
+am:p-28183
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500043502> .
+
+am:p-2824
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003180> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500100607> .
+
+am:p-28314
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002309> .
+
+am:p-28315
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002309> .
+
+am:p-28436
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022480> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500056426> .
+
+am:p-28441
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023327> .
+
+am:p-28461
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115612> .
+
+am:p-28578
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030945> .
+
+am:p-28707
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029732> .
+
+am:p-28730
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031613> .
+
+am:p-28793
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500048352> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500079240> .
+
+am:p-28839
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031613> .
+
+am:p-28962
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019515> .
+
+am:p-28963
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019515> .
+
+am:p-29051
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007033> .
+
+am:p-29056
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500114425> .
+
+am:p-29073
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011172> .
+
+am:p-29301
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025439> .
+
+am:p-29302
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025439> .
+
+am:p-29484
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030945> .
+
+am:p-29595
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011322> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500116759> .
+
+am:p-29609
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031960> .
+
+am:p-29610
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031960> .
+
+am:p-29736
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029077> .
+
+am:p-29825
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000581> .
+
+am:p-30048
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500021435> .
+
+am:p-30064
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500021435> .
+
+am:p-30255
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007563> .
+
+am:p-30330
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028265> .
+
+am:p-30381
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015366> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500117121> .
+
+am:p-30457
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500118808> .
+
+am:p-30460
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500107925> .
+
+am:p-30468
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500118808> .
+
+am:p-30544
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002412> .
+
+am:p-30569
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500018946> .
+
+am:p-30617
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003209> .
+
+am:p-30775
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017045> .
+
+am:p-3093
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115589> .
+
+am:p-31072
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009803> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500079764> .
+
+am:p-31074
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024680> .
+
+am:p-31079
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030352> .
+
+am:p-31122
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028794> .
+
+am:p-31124
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028794> .
+
+am:p-31125
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003219> .
+
+am:p-31193
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031835> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500047262> .
+
+am:p-31304
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020321> .
+
+am:p-31377
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011051> .
+
+am:p-31404
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015495> .
+
+am:p-31516
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115670> .
+
+am:p-31533
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009052> .
+
+am:p-31558
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009052> .
+
+am:p-31615
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027077> .
+
+am:p-31641
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015495> .
+
+am:p-31684
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006265> .
+
+am:p-31699
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029521> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500115206> .
+
+am:p-31767
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000937> .
+
+am:p-31774
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000937> .
+
+am:p-31836
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015960> .
+
+am:p-31837
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015960> .
+
+am:p-31862
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022751> .
+
+am:p-31867
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005355> .
+
+am:p-31869
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115204> .
+
+am:p-31874
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500019581> .
+
+am:p-31899
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029908> .
+
+am:p-31956
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025942> .
+
+am:p-32050
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008116> .
+
+am:p-32053
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500091539> .
+
+am:p-32059
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500091539> .
+
+am:p-32073
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006965> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500027579> .
+
+am:p-32198
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500065031> .
+
+am:p-32342
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009803> .
+
+am:p-32424
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025806> .
+
+am:p-32425
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025806> .
+
+am:p-32579
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500026658> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500107169> .
+
+am:p-32591
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025331> .
+
+am:p-32596
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500121571> .
+
+am:p-32713
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009810> .
+
+am:p-32795
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032927> .
+
+am:p-32799
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009538> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500010335> .
+
+am:p-32825
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016521> .
+
+am:p-32859
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020821> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500057339> .
+
+am:p-32903
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016125> .
+
+am:p-32916
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024840> .
+
+am:p-32918
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024840> .
+
+am:p-32927
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015243> .
+
+am:p-32964
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011033> .
+
+am:p-33123
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004986> .
+
+am:p-33151
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500120991> .
+
+am:p-33164
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005904> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500020251> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500118334> .
+
+am:p-33165
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005904> .
+
+am:p-33240
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014662> .
+
+am:p-3339
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014484> .
+
+am:p-33392
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014644> .
+
+am:p-33467
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500069999> .
+
+am:p-33514
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500069999> .
+
+am:p-33620
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500097936> .
+
+am:p-36499
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115589> .
+
+am:p-36612
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500107925> .
+
+am:p-3728
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008765> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500116730> .
+
+am:p-39445
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029908> .
+
+am:p-396
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017076> .
+
+am:p-40030
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006358> .
+
+am:p-40808
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031967> .
+
+am:p-40846
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115766> .
+
+am:p-40888
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500069731> .
+
+am:p-41554
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030601> .
+
+am:p-4196
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500097936> .
+
+am:p-42576
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116710> .
+
+am:p-42965
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016125> .
+
+am:p-43176
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500010052> .
+
+am:p-43441
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115588> .
+
+am:p-4456
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115513> .
+
+am:p-4457
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115513> .
+
+am:p-4601
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000918> .
+
+am:p-46278
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017972> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500019566> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500024178> .
+
+am:p-4654
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008339> .
+
+am:p-4655
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008339> .
+
+am:p-48274
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500018667> .
+
+am:p-48477
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500025948> .
+
+am:p-48560
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500000615> .
+
+am:p-48610
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016699> .
+
+am:p-49287
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008172> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500096482> .
+
+am:p-52491
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005591> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500009309> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500117119> .
+
+am:p-53950
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500043502> .
+
+am:p-54040
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500045355> .
+
+am:p-55003
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115282> .
+
+am:p-55649
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011051> .
+
+am:p-55670
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002157> .
+
+am:p-56007
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024680> .
+
+am:p-56075
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027442> .
+
+am:p-56076
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027442> .
+
+am:p-56106
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500036719> .
+
+am:p-56630
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500036719> .
+
+am:p-57758
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500009997> .
+
+am:p-57882
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017511> .
+
+am:p-58705
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002412> .
+
+am:p-59389
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500116770> .
+
+am:p-60255
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500015495> .
+
+am:p-60269
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032684> .
+
+am:p-60270
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500012701> .
+
+am:p-60280
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017296> .
+
+am:p-60281
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500020311> .
+
+am:p-60287
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031082> .
+
+am:p-60294
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002049> .
+
+am:p-60304
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500022452> .
+
+am:p-60308
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500003284> .
+
+am:p-60310
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500084837> .
+
+am:p-60312
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032401> .
+
+am:p-60549
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017478> .
+
+am:p-6110
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023327> .
+
+am:p-61455
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115766> .
+
+am:p-61782
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028144> .
+
+am:p-61784
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500051221> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500083136> .
+
+am:p-6206
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115612> .
+
+am:p-62301
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011322> .
+
+am:p-62738
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500007733> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500028925> .
+
+am:p-64061
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500065031> .
+
+am:p-64329
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500078667> .
+
+am:p-64467
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500004346> .
+
+am:p-64713
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500072892> .
+
+am:p-64917
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500120991> .
+
+am:p-65214
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014344> .
+
+am:p-65741
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500078667> .
+
+am:p-66032
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500111403> .
+
+am:p-66033
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500111403> .
+
+am:p-66635
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002157> .
+
+am:p-66638
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500002157> .
+
+am:p-66649
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500115499> .
+
+am:p-66794
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500028265> .
+
+am:p-66851
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024680> .
+
+am:p-66852
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500024680> .
+
+am:p-66879
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011353> .
+
+am:p-67319
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500042831> .
+
+am:p-67320
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500042831> .
+
+am:p-67340
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500044399> .
+
+am:p-67527
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500044506> .
+
+am:p-67807
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016283> .
+
+am:p-68017
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017045> .
+
+am:p-68404
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500044876> ,
+			<http://e-culture.multimedian.nl/ns/getty/ulan#500068541> .
+
+am:p-69005
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500012900> .
+
+am:p-69064
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016521> .
+
+am:p-69968
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500005089> .
+
+am:p-7006
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029732> .
+
+am:p-7007
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500016699> .
+
+am:p-70471
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500017511> .
+
+am:p-70480
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500121064> .
+
+am:p-7087
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500031613> .
+
+am:p-71250
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500027077> .
+
+am:p-71775
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500029077> .
+
+am:p-71782
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500014484> .
+
+am:p-71984
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500008765> .
+
+am:p-72090
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011051> .
+
+am:p-7691
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500023112> .
+
+am:p-7924
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500114425> .
+
+am:p-7964
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500011172> .
+
+am:p-8319
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500006358> .
+
+am:p-914
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500032684> .
+
+am:p-9722
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500030747> .
+
+am:p-9819
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500040704> .
+
+am:p-9835
+	skos:exactMatch <http://e-culture.multimedian.nl/ns/getty/ulan#500021699> .

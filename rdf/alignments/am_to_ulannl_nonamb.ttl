@@ -1,0 +1,3273 @@
+@base             <export5> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+
+# Named toplevel resources (1,081)
+
+<export5>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <ampersons_to_ulandutch_1-1-only> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <ampersons_to_ulandutch_1-1-only> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T13-48-33+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export5&graph=ampersons_to_ulandutch_1-1-only&relation=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23exactMatch>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:p-1008
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017931> .
+
+am:p-10131
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116766> .
+
+am:p-1028
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116706> .
+
+am:p-1038
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064653> .
+
+am:p-10533
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116768> .
+
+am:p-11052
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015747> .
+
+am:p-11111
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500118823> .
+
+am:p-11163
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020860> .
+
+am:p-11194
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500120881> .
+
+am:p-11481
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044033> .
+
+am:p-11805
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500101887> .
+
+am:p-11905
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004972> .
+
+am:p-11965
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089157> .
+
+am:p-11975
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006080> .
+
+am:p-12097
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089027> .
+
+am:p-12099
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500063876> .
+
+am:p-12123
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012634> .
+
+am:p-12126
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500100143> .
+
+am:p-1223
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069225> .
+
+am:p-12293
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001738> .
+
+am:p-12405
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009918> .
+
+am:p-12413
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116774> .
+
+am:p-1251
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027431> .
+
+am:p-12518
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116776> .
+
+am:p-12674
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500078017> .
+
+am:p-12725
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116777> .
+
+am:p-12742
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500036646> .
+
+am:p-12846
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026000> .
+
+am:p-13000
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089031> .
+
+am:p-13507
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023399> .
+
+am:p-13538
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012008> .
+
+am:p-13583
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077387> .
+
+am:p-13671
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006702> .
+
+am:p-13753
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032675> .
+
+am:p-1400
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057813> .
+
+am:p-14103
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500100363> .
+
+am:p-14150
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009183> .
+
+am:p-14156
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006180> .
+
+am:p-14185
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008252> .
+
+am:p-14315
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077464> .
+
+am:p-14478
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116783> .
+
+am:p-14512
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116785> .
+
+am:p-14644
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500066714> .
+
+am:p-14736
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115526> .
+
+am:p-14967
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001962> .
+
+am:p-1502
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500087417> .
+
+am:p-15046
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080782> .
+
+am:p-15047
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056410> .
+
+am:p-15077
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500034736> .
+
+am:p-15094
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022868> .
+
+am:p-15277
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005366> .
+
+am:p-15383
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017433> .
+
+am:p-15409
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115436> .
+
+am:p-1559
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026942> .
+
+am:p-15631
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500103848> .
+
+am:p-15791
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500112631> .
+
+am:p-15992
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500041687> .
+
+am:p-16036
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024238> .
+
+am:p-16037
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500108799> .
+
+am:p-16056
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500082344> .
+
+am:p-16134
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115664> .
+
+am:p-16221
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500085594> .
+
+am:p-16258
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091396> .
+
+am:p-16322
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029097> .
+
+am:p-16413
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027835> .
+
+am:p-16458
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500046335> .
+
+am:p-16533
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500103369> .
+
+am:p-16882
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500097551> .
+
+am:p-16965
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017535> .
+
+am:p-17038
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007701> .
+
+am:p-17145
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500101340> .
+
+am:p-17340
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007230> .
+
+am:p-17343
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089359> .
+
+am:p-17347
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016084> .
+
+am:p-17440
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500088237> .
+
+am:p-1750
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013819> .
+
+am:p-17637
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008293> .
+
+am:p-17684
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002880> .
+
+am:p-17700
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022229> .
+
+am:p-1771
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029738> .
+
+am:p-1776
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500086594> .
+
+am:p-17898
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102857> .
+
+am:p-17912
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001479> .
+
+am:p-17966
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032945> .
+
+am:p-17994
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029927> .
+
+am:p-18005
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012444> .
+
+am:p-18160
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026031> .
+
+am:p-18554
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500079422> .
+
+am:p-18654
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006719> .
+
+am:p-18841
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017930> .
+
+am:p-18864
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029424> .
+
+am:p-18937
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500075095> .
+
+am:p-18940
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018259> .
+
+am:p-18976
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020708> .
+
+am:p-18992
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025421> .
+
+am:p-18998
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025645> .
+
+am:p-19000
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070220> .
+
+am:p-19059
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008852> .
+
+am:p-19076
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030221> .
+
+am:p-19123
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019917> .
+
+am:p-19213
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002653> .
+
+am:p-19302
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500086307> .
+
+am:p-19318
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021875> .
+
+am:p-19408
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013752> .
+
+am:p-19934
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057343> .
+
+am:p-2035
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091508> .
+
+am:p-20495
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116735> .
+
+am:p-2092
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021134> .
+
+am:p-20930
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077420> .
+
+am:p-20955
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071561> .
+
+am:p-21064
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109374> .
+
+am:p-21166
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070499> .
+
+am:p-21829
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026558> .
+
+am:p-2197
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002589> .
+
+am:p-21996
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002690> .
+
+am:p-2207
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069078> .
+
+am:p-2215
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500067246> .
+
+am:p-22170
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013610> .
+
+am:p-22186
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500090749> .
+
+am:p-22615
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005022> .
+
+am:p-22760
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029318> .
+
+am:p-22761
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029428> .
+
+am:p-22764
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012090> .
+
+am:p-22768
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030857> .
+
+am:p-22782
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116705> .
+
+am:p-22786
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027726> .
+
+am:p-22798
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500068380> .
+
+am:p-22806
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008127> .
+
+am:p-22815
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026036> .
+
+am:p-22817
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013715> .
+
+am:p-22821
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024694> .
+
+am:p-22830
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071765> .
+
+am:p-22831
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062412> .
+
+am:p-22836
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021923> .
+
+am:p-22840
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010705> .
+
+am:p-22845
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500075393> .
+
+am:p-22852
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010309> .
+
+am:p-22857
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000966> .
+
+am:p-22863
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007342> .
+
+am:p-22864
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020711> .
+
+am:p-22870
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013764> .
+
+am:p-22915
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008929> .
+
+am:p-22921
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016614> .
+
+am:p-22933
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116727> .
+
+am:p-22939
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009834> .
+
+am:p-22954
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027305> .
+
+am:p-22971
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064965> .
+
+am:p-22985
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029648> .
+
+am:p-23019
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014419> .
+
+am:p-23022
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026981> .
+
+am:p-23023
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017795> .
+
+am:p-23028
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009833> .
+
+am:p-23044
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026211> .
+
+am:p-23048
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500079361> .
+
+am:p-23049
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057512> .
+
+am:p-23056
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109473> .
+
+am:p-23067
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031992> .
+
+am:p-23072
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029203> .
+
+am:p-23081
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026879> .
+
+am:p-23085
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008006> .
+
+am:p-23090
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026249> .
+
+am:p-23112
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016963> .
+
+am:p-2313
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012209> .
+
+am:p-23147
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500094231> .
+
+am:p-23151
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071673> .
+
+am:p-23153
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016463> .
+
+am:p-23159
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060147> .
+
+am:p-23168
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091892> .
+
+am:p-23169
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026021> .
+
+am:p-23182
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077354> .
+
+am:p-23198
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500046778> .
+
+am:p-23208
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027794> .
+
+am:p-23222
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013043> .
+
+am:p-23226
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012347> .
+
+am:p-23242
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500033603> .
+
+am:p-23253
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031096> .
+
+am:p-23255
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029015> .
+
+am:p-23270
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026698> .
+
+am:p-23287
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099013> .
+
+am:p-23290
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023542> .
+
+am:p-23295
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005145> .
+
+am:p-23317
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024752> .
+
+am:p-23328
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040867> .
+
+am:p-23339
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004182> .
+
+am:p-23340
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031009> .
+
+am:p-23341
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016683> .
+
+am:p-23352
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013922> .
+
+am:p-23354
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009014> .
+
+am:p-23358
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031298> .
+
+am:p-23375
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031866> .
+
+am:p-23380
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500111010> .
+
+am:p-23383
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000351> .
+
+am:p-23391
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116762> .
+
+am:p-23399
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004047> .
+
+am:p-23415
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020524> .
+
+am:p-23420
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008771> .
+
+am:p-23424
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011178> .
+
+am:p-23427
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032894> .
+
+am:p-23429
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010605> .
+
+am:p-23431
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500054451> .
+
+am:p-23438
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011085> .
+
+am:p-23443
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500054469> .
+
+am:p-23445
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025814> .
+
+am:p-23447
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004222> .
+
+am:p-23448
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021942> .
+
+am:p-23454
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021824> .
+
+am:p-23456
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102180> .
+
+am:p-23458
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500094067> .
+
+am:p-23459
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500112015> .
+
+am:p-23481
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025547> .
+
+am:p-23493
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032101> .
+
+am:p-23494
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022053> .
+
+am:p-23502
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030375> .
+
+am:p-23503
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009041> .
+
+am:p-23509
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017445> .
+
+am:p-23513
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022838> .
+
+am:p-23514
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044031> .
+
+am:p-23527
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500055223> .
+
+am:p-23528
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014234> .
+
+am:p-23533
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015541> .
+
+am:p-23534
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010491> .
+
+am:p-23543
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013973> .
+
+am:p-23549
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500104945> .
+
+am:p-23569
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002011> .
+
+am:p-23588
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044024> .
+
+am:p-23590
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015311> .
+
+am:p-23592
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000139> .
+
+am:p-23607
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006996> .
+
+am:p-23613
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105191> .
+
+am:p-23625
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027003> .
+
+am:p-23647
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001930> .
+
+am:p-23652
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021654> .
+
+am:p-23655
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500103380> .
+
+am:p-23659
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011275> .
+
+am:p-23677
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017788> .
+
+am:p-23683
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109818> .
+
+am:p-23685
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500048977> .
+
+am:p-23691
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017284> .
+
+am:p-23694
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024980> .
+
+am:p-23711
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017077> .
+
+am:p-23724
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006481> .
+
+am:p-23725
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005774> .
+
+am:p-23728
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000622> .
+
+am:p-23740
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500078650> .
+
+am:p-23768
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011470> .
+
+am:p-23771
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115270> .
+
+am:p-23775
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008135> .
+
+am:p-23781
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030198> .
+
+am:p-23812
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115798> .
+
+am:p-23822
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070811> .
+
+am:p-23823
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091873> .
+
+am:p-23830
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500034740> .
+
+am:p-23838
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027809> .
+
+am:p-23843
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028426> .
+
+am:p-23844
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009424> .
+
+am:p-23862
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005281> .
+
+am:p-23864
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017518> .
+
+am:p-23889
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030823> .
+
+am:p-23898
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013905> .
+
+am:p-23906
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010191> .
+
+am:p-23907
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023649> .
+
+am:p-23921
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500104061> .
+
+am:p-23925
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013891> .
+
+am:p-23930
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012908> .
+
+am:p-23942
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015758> .
+
+am:p-23947
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012305> .
+
+am:p-23955
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016429> .
+
+am:p-23957
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026142> .
+
+am:p-23966
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500054689> .
+
+am:p-23975
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022429> .
+
+am:p-23976
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007837> .
+
+am:p-23993
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007021> .
+
+am:p-23994
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016310> .
+
+am:p-24000
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024361> .
+
+am:p-24006
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015092> .
+
+am:p-24008
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023153> .
+
+am:p-24015
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073776> .
+
+am:p-24043
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013774> .
+
+am:p-24044
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007951> .
+
+am:p-24054
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020996> .
+
+am:p-24073
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022737> .
+
+am:p-24078
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045228> .
+
+am:p-24083
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032756> .
+
+am:p-24084
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021335> .
+
+am:p-24094
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013402> .
+
+am:p-24097
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025177> .
+
+am:p-24100
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030508> .
+
+am:p-24105
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500074870> .
+
+am:p-2414
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014784> .
+
+am:p-24144
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028638> .
+
+am:p-24146
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500106002> .
+
+am:p-24151
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040692> .
+
+am:p-24155
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000335> .
+
+am:p-24168
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013866> .
+
+am:p-24181
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014077> .
+
+am:p-24183
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500063423> .
+
+am:p-24207
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002811> .
+
+am:p-24243
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500110601> .
+
+am:p-24348
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500076804> .
+
+am:p-24450
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047427> .
+
+am:p-24596
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500043353> .
+
+am:p-24681
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013009> .
+
+am:p-24682
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500048604> .
+
+am:p-24713
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011420> .
+
+am:p-24864
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047364> .
+
+am:p-24879
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024220> .
+
+am:p-24906
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015094> .
+
+am:p-24931
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116757> .
+
+am:p-24948
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500033083> .
+
+am:p-24961
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056440> .
+
+am:p-24964
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045678> .
+
+am:p-24976
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028005> .
+
+am:p-24998
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500061128> .
+
+am:p-2500
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006861> .
+
+am:p-25108
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007578> .
+
+am:p-25123
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005575> .
+
+am:p-25144
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030046> .
+
+am:p-25150
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027757> .
+
+am:p-25184
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025945> .
+
+am:p-2521
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091763> .
+
+am:p-25239
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005855> .
+
+am:p-2530
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116721> .
+
+am:p-25312
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116781> .
+
+am:p-25355
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500083799> .
+
+am:p-25375
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056284> .
+
+am:p-25377
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007930> .
+
+am:p-25577
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042918> .
+
+am:p-25683
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012631> .
+
+am:p-2571
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500033866> .
+
+am:p-25751
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018134> .
+
+am:p-25764
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065603> .
+
+am:p-25784
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022423> .
+
+am:p-25803
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099188> .
+
+am:p-25838
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080544> .
+
+am:p-25839
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500088650> .
+
+am:p-25886
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500110014> .
+
+am:p-25912
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030826> .
+
+am:p-25966
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002579> .
+
+am:p-25968
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022915> .
+
+am:p-26019
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045193> .
+
+am:p-26027
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500107383> .
+
+am:p-26084
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022895> .
+
+am:p-26093
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006781> .
+
+am:p-26181
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500110982> .
+
+am:p-26235
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018685> .
+
+am:p-26249
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010540> .
+
+am:p-26257
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012162> .
+
+am:p-26265
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012044> .
+
+am:p-26268
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500118926> .
+
+am:p-26273
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031203> .
+
+am:p-26342
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010297> .
+
+am:p-26349
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032327> .
+
+am:p-26356
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015520> .
+
+am:p-26358
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027862> .
+
+am:p-26392
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091384> .
+
+am:p-264
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091901> .
+
+am:p-26410
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500041187> .
+
+am:p-26489
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013006> .
+
+am:p-26500
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003816> .
+
+am:p-26503
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500046908> .
+
+am:p-26523
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005669> .
+
+am:p-26526
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028730> .
+
+am:p-26529
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028731> .
+
+am:p-26537
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031464> .
+
+am:p-26551
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008837> .
+
+am:p-26552
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102019> .
+
+am:p-26563
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010104> .
+
+am:p-26587
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031877> .
+
+am:p-26636
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018422> .
+
+am:p-26646
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010994> .
+
+am:p-26653
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070502> .
+
+am:p-2666
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057504> .
+
+am:p-26716
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057507> .
+
+am:p-26724
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099202> .
+
+am:p-26725
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105815> .
+
+am:p-26731
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500078597> .
+
+am:p-26749
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017272> .
+
+am:p-26801
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500066527> .
+
+am:p-26822
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071517> .
+
+am:p-26831
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020785> .
+
+am:p-26832
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500049487> .
+
+am:p-26835
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115746> .
+
+am:p-26846
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000055> .
+
+am:p-26849
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004118> .
+
+am:p-26886
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004864> .
+
+am:p-26924
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004119> .
+
+am:p-26926
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015272> .
+
+am:p-26929
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007744> .
+
+am:p-2696
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500101325> .
+
+am:p-26977
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024792> .
+
+am:p-26996
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060809> .
+
+am:p-26997
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065697> .
+
+am:p-27024
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064888> .
+
+am:p-2704
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116723> .
+
+am:p-27047
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017458> .
+
+am:p-27074
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003019> .
+
+am:p-27082
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030908> .
+
+am:p-27118
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019849> .
+
+am:p-27121
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013695> .
+
+am:p-27125
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069367> .
+
+am:p-27133
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005511> .
+
+am:p-27177
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500050445> .
+
+am:p-27189
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018399> .
+
+am:p-27215
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020008> .
+
+am:p-27385
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500111843> .
+
+am:p-27420
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017227> .
+
+am:p-27438
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013898> .
+
+am:p-27443
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020887> .
+
+am:p-27447
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028435> .
+
+am:p-27480
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018239> .
+
+am:p-27503
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003991> .
+
+am:p-27520
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028347> .
+
+am:p-27534
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014897> .
+
+am:p-27537
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016776> .
+
+am:p-27550
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500082228> .
+
+am:p-27556
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010265> .
+
+am:p-27557
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010375> .
+
+am:p-27576
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070207> .
+
+am:p-27597
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025114> .
+
+am:p-27641
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005935> .
+
+am:p-27643
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004041> .
+
+am:p-2765
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015863> .
+
+am:p-27670
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012148> .
+
+am:p-27672
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024687> .
+
+am:p-27676
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001292> .
+
+am:p-27716
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031289> .
+
+am:p-27724
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031846> .
+
+am:p-27725
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006303> .
+
+am:p-2775
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080935> .
+
+am:p-27781
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024689> .
+
+am:p-27783
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025046> .
+
+am:p-27800
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020336> .
+
+am:p-27825
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500048887> .
+
+am:p-27827
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500101511> .
+
+am:p-27847
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102557> .
+
+am:p-27850
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020213> .
+
+am:p-27853
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009525> .
+
+am:p-27856
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026231> .
+
+am:p-27879
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025002> .
+
+am:p-27882
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025723> .
+
+am:p-27899
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013597> .
+
+am:p-27904
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029180> .
+
+am:p-27917
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002441> .
+
+am:p-27948
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017500> .
+
+am:p-27953
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500093975> .
+
+am:p-27960
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011776> .
+
+am:p-27962
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004705> .
+
+am:p-28049
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500072914> .
+
+am:p-28052
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009268> .
+
+am:p-28067
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115159> .
+
+am:p-28073
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027116> .
+
+am:p-28080
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025674> .
+
+am:p-28098
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015368> .
+
+am:p-28112
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011847> .
+
+am:p-28173
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031420> .
+
+am:p-28178
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024304> .
+
+am:p-28189
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077095> .
+
+am:p-28190
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032682> .
+
+am:p-28218
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013815> .
+
+am:p-28231
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069657> .
+
+am:p-28252
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500051933> .
+
+am:p-28255
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096434> .
+
+am:p-28269
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002307> .
+
+am:p-28275
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012218> .
+
+am:p-28295
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500093143> .
+
+am:p-28316
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029024> .
+
+am:p-28335
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115629> .
+
+am:p-28341
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020800> .
+
+am:p-28366
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064764> .
+
+am:p-28414
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006694> .
+
+am:p-28421
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042136> .
+
+am:p-28425
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080426> .
+
+am:p-28428
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024483> .
+
+am:p-28445
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018055> .
+
+am:p-28467
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018278> .
+
+am:p-28476
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005675> .
+
+am:p-28481
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500063698> .
+
+am:p-28488
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019400> .
+
+am:p-28501
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042703> .
+
+am:p-28512
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102384> .
+
+am:p-28518
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500072197> .
+
+am:p-28521
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025365> .
+
+am:p-28523
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040937> .
+
+am:p-28552
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044905> .
+
+am:p-28567
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009724> .
+
+am:p-28571
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002745> .
+
+am:p-28577
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021023> .
+
+am:p-28580
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009721> .
+
+am:p-28593
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012416> .
+
+am:p-28602
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045197> .
+
+am:p-28625
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027456> .
+
+am:p-28628
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022109> .
+
+am:p-28659
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032642> .
+
+am:p-28663
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023881> .
+
+am:p-28667
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015942> .
+
+am:p-28677
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000420> .
+
+am:p-28692
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031297> .
+
+am:p-28699
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013294> .
+
+am:p-28701
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024034> .
+
+am:p-28706
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018917> .
+
+am:p-28716
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011450> .
+
+am:p-28724
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006186> .
+
+am:p-28733
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016221> .
+
+am:p-28736
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031826> .
+
+am:p-28750
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023754> .
+
+am:p-28775
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026631> .
+
+am:p-28785
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096776> .
+
+am:p-28797
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027842> .
+
+am:p-28834
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003802> .
+
+am:p-28890
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047397> .
+
+am:p-28908
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500112691> .
+
+am:p-28928
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000642> .
+
+am:p-28947
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002436> .
+
+am:p-28973
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030152> .
+
+am:p-28979
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015591> .
+
+am:p-28994
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007087> .
+
+am:p-28995
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032923> .
+
+am:p-29016
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024398> .
+
+am:p-29039
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028194> .
+
+am:p-29046
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014721> .
+
+am:p-29048
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015453> .
+
+am:p-29058
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028238> .
+
+am:p-29060
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500094438> .
+
+am:p-29069
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017468> .
+
+am:p-29070
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015654> .
+
+am:p-29089
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073304> .
+
+am:p-29099
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027480> .
+
+am:p-29100
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003670> .
+
+am:p-29126
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010824> .
+
+am:p-29129
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004303> .
+
+am:p-29130
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047391> .
+
+am:p-29132
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500053607> .
+
+am:p-29146
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028891> .
+
+am:p-29196
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013409> .
+
+am:p-29210
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012284> .
+
+am:p-29221
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006962> .
+
+am:p-29230
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115367> .
+
+am:p-29231
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003058> .
+
+am:p-29256
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004536> .
+
+am:p-29304
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005731> .
+
+am:p-29312
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040872> .
+
+am:p-29321
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030270> .
+
+am:p-29332
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018320> .
+
+am:p-29340
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008561> .
+
+am:p-29351
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006439> .
+
+am:p-29367
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102082> .
+
+am:p-29374
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001109> .
+
+am:p-29386
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102018> .
+
+am:p-29388
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030453> .
+
+am:p-29437
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013679> .
+
+am:p-29444
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027580> .
+
+am:p-29449
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025285> .
+
+am:p-29457
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008705> .
+
+am:p-29470
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005360> .
+
+am:p-29477
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500111018> .
+
+am:p-29495
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014535> .
+
+am:p-29499
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007479> .
+
+am:p-29507
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023111> .
+
+am:p-29508
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011244> .
+
+am:p-29511
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014805> .
+
+am:p-29512
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500098522> .
+
+am:p-29521
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013344> .
+
+am:p-29528
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011903> .
+
+am:p-29533
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013608> .
+
+am:p-29544
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027479> .
+
+am:p-29556
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500092685> .
+
+am:p-29557
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500098836> .
+
+am:p-29568
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024921> .
+
+am:p-29569
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007957> .
+
+am:p-29580
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500052145> .
+
+am:p-29600
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027532> .
+
+am:p-29631
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016989> .
+
+am:p-29638
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005730> .
+
+am:p-29660
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044666> .
+
+am:p-29663
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013529> .
+
+am:p-29671
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500086886> .
+
+am:p-29681
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001177> .
+
+am:p-29701
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018214> .
+
+am:p-29705
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015566> .
+
+am:p-29716
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060643> .
+
+am:p-29726
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021536> .
+
+am:p-29749
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007565> .
+
+am:p-29769
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003447> .
+
+am:p-29792
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500058310> .
+
+am:p-29804
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031395> .
+
+am:p-29811
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020210> .
+
+am:p-29816
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014324> .
+
+am:p-29852
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019211> .
+
+am:p-29860
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015903> .
+
+am:p-29873
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500049720> .
+
+am:p-29890
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500088332> .
+
+am:p-29902
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025183> .
+
+am:p-29912
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500059840> .
+
+am:p-29923
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028950> .
+
+am:p-29929
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002543> .
+
+am:p-29949
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016031> .
+
+am:p-29979
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016437> .
+
+am:p-29983
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500112014> .
+
+am:p-29985
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105905> .
+
+am:p-29994
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016592> .
+
+am:p-29996
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047958> .
+
+am:p-29999
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007433> .
+
+am:p-30005
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500083081> .
+
+am:p-30049
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010258> .
+
+am:p-30077
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109867> .
+
+am:p-30079
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023707> .
+
+am:p-30138
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000637> .
+
+am:p-30140
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003451> .
+
+am:p-30160
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032196> .
+
+am:p-30180
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029969> .
+
+am:p-30184
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022945> .
+
+am:p-30210
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500088069> .
+
+am:p-30224
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500107204> .
+
+am:p-30249
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006485> .
+
+am:p-30253
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010596> .
+
+am:p-30262
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006486> .
+
+am:p-30284
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005006> .
+
+am:p-30294
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015948> .
+
+am:p-30296
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014599> .
+
+am:p-30332
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016395> .
+
+am:p-30335
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500083825> .
+
+am:p-30351
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047194> .
+
+am:p-30361
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030499> .
+
+am:p-30375
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025466> .
+
+am:p-30387
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027242> .
+
+am:p-30389
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019679> .
+
+am:p-30390
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003094> .
+
+am:p-30396
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017989> .
+
+am:p-30424
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500098184> .
+
+am:p-30428
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019802> .
+
+am:p-30451
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004943> .
+
+am:p-30456
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023116> .
+
+am:p-30462
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116771> .
+
+am:p-30510
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109362> .
+
+am:p-30516
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011463> .
+
+am:p-30525
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030934> .
+
+am:p-30526
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009315> .
+
+am:p-30563
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006539> .
+
+am:p-30590
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016789> .
+
+am:p-30595
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060284> .
+
+am:p-30604
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109343> .
+
+am:p-30625
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019639> .
+
+am:p-30629
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500108947> .
+
+am:p-30634
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015646> .
+
+am:p-30655
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500085943> .
+
+am:p-30664
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016833> .
+
+am:p-30686
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003226> .
+
+am:p-30700
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011515> .
+
+am:p-30735
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021354> .
+
+am:p-30756
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018451> .
+
+am:p-30780
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016164> .
+
+am:p-30790
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071096> .
+
+am:p-30852
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027774> .
+
+am:p-30853
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027775> .
+
+am:p-30854
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006230> .
+
+am:p-30859
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013442> .
+
+am:p-30885
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500092989> .
+
+am:p-30890
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042592> .
+
+am:p-30891
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500113000> .
+
+am:p-30901
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016327> .
+
+am:p-30909
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115946> .
+
+am:p-30917
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500047447> .
+
+am:p-30970
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115550> .
+
+am:p-30998
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500100003> .
+
+am:p-31014
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031963> .
+
+am:p-31037
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500085465> .
+
+am:p-31040
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008748> .
+
+am:p-31057
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500090496> .
+
+am:p-31070
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031312> .
+
+am:p-31096
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003338> .
+
+am:p-31099
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011748> .
+
+am:p-31110
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500095915> .
+
+am:p-31111
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062306> .
+
+am:p-31114
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004484> .
+
+am:p-31119
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015379> .
+
+am:p-31164
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010569> .
+
+am:p-31182
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045202> .
+
+am:p-31199
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026534> .
+
+am:p-31207
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500058737> .
+
+am:p-31218
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017637> .
+
+am:p-31225
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091100> .
+
+am:p-31330
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018941> .
+
+am:p-31338
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016414> .
+
+am:p-31342
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008192> .
+
+am:p-31349
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026965> .
+
+am:p-31366
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025023> .
+
+am:p-31380
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011520> .
+
+am:p-31411
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096823> .
+
+am:p-31429
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013486> .
+
+am:p-31435
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019796> .
+
+am:p-31445
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027880> .
+
+am:p-31483
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062419> .
+
+am:p-31485
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005496> .
+
+am:p-31488
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500107876> .
+
+am:p-31500
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500082425> .
+
+am:p-31513
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027128> .
+
+am:p-31523
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045214> .
+
+am:p-31527
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007879> .
+
+am:p-31530
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015774> .
+
+am:p-31549
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008867> .
+
+am:p-31550
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004201> .
+
+am:p-31556
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030297> .
+
+am:p-31597
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005456> .
+
+am:p-31621
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009630> .
+
+am:p-31622
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007228> .
+
+am:p-31631
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029215> .
+
+am:p-31657
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010834> .
+
+am:p-31664
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021614> .
+
+am:p-31743
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071250> .
+
+am:p-31761
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020855> .
+
+am:p-31780
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010218> .
+
+am:p-31784
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002033> .
+
+am:p-31805
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026051> .
+
+am:p-31809
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009507> .
+
+am:p-31817
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026232> .
+
+am:p-31818
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014268> .
+
+am:p-31819
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014618> .
+
+am:p-31848
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029181> .
+
+am:p-31859
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023871> .
+
+am:p-31919
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000489> .
+
+am:p-31930
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500107329> .
+
+am:p-31964
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045201> .
+
+am:p-31981
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045247> .
+
+am:p-31986
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015126> .
+
+am:p-32031
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018710> .
+
+am:p-32067
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021974> .
+
+am:p-32074
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057199> .
+
+am:p-32124
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500111568> .
+
+am:p-32132
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019955> .
+
+am:p-32135
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028313> .
+
+am:p-32138
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004983> .
+
+am:p-32142
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016009> .
+
+am:p-32167
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001657> .
+
+am:p-32173
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500086764> .
+
+am:p-32208
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007886> .
+
+am:p-32219
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017310> .
+
+am:p-32230
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011929> .
+
+am:p-32246
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065972> .
+
+am:p-32263
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023537> .
+
+am:p-32278
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018432> .
+
+am:p-32283
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500106327> .
+
+am:p-32295
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042832> .
+
+am:p-32296
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009844> .
+
+am:p-32303
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001706> .
+
+am:p-32326
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031120> .
+
+am:p-32329
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006700> .
+
+am:p-32338
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005645> .
+
+am:p-32340
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032980> .
+
+am:p-32357
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042813> .
+
+am:p-32366
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019815> .
+
+am:p-32375
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000038> .
+
+am:p-32376
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115665> .
+
+am:p-32388
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077854> .
+
+am:p-32393
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008978> .
+
+am:p-32396
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015490> .
+
+am:p-32398
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010019> .
+
+am:p-32421
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022970> .
+
+am:p-32435
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500017471> .
+
+am:p-32478
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105954> .
+
+am:p-32479
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023942> .
+
+am:p-32505
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027188> .
+
+am:p-32508
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000593> .
+
+am:p-32531
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030947> .
+
+am:p-32537
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020966> .
+
+am:p-32560
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029090> .
+
+am:p-32620
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002500> .
+
+am:p-32623
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012082> .
+
+am:p-32695
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500083767> .
+
+am:p-32699
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045287> .
+
+am:p-32721
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032588> .
+
+am:p-32722
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016680> .
+
+am:p-32730
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000893> .
+
+am:p-32736
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040824> .
+
+am:p-32742
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020643> .
+
+am:p-32762
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010535> .
+
+am:p-32767
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500063327> .
+
+am:p-32798
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004076> .
+
+am:p-32816
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003953> .
+
+am:p-32819
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026782> .
+
+am:p-32835
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022851> .
+
+am:p-32838
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003392> .
+
+am:p-32843
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031299> .
+
+am:p-32857
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009736> .
+
+am:p-32865
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012306> .
+
+am:p-32931
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025525> .
+
+am:p-32933
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003948> .
+
+am:p-32937
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029363> .
+
+am:p-32939
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021121> .
+
+am:p-32957
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011751> .
+
+am:p-32959
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002742> .
+
+am:p-32969
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001218> .
+
+am:p-32978
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040835> .
+
+am:p-32997
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022148> .
+
+am:p-33036
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002323> .
+
+am:p-33049
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004541> .
+
+am:p-33068
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018724> .
+
+am:p-33079
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105121> .
+
+am:p-33081
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011158> .
+
+am:p-33085
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012198> .
+
+am:p-33089
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040883> .
+
+am:p-33099
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025272> .
+
+am:p-33100
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014472> .
+
+am:p-33105
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016068> .
+
+am:p-33162
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500059839> .
+
+am:p-33172
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019658> .
+
+am:p-33189
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102458> .
+
+am:p-33192
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008753> .
+
+am:p-33199
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014873> .
+
+am:p-33233
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500052164> .
+
+am:p-33239
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011958> .
+
+am:p-33252
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016377> .
+
+am:p-33261
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062378> .
+
+am:p-33332
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010028> .
+
+am:p-33335
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500093557> .
+
+am:p-33337
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004131> .
+
+am:p-33364
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002472> .
+
+am:p-33382
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060585> .
+
+am:p-33388
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500104653> .
+
+am:p-33442
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014412> .
+
+am:p-33458
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015437> .
+
+am:p-33501
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004761> .
+
+am:p-3424
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025687> .
+
+am:p-3571
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500120682> .
+
+am:p-35756
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000938> .
+
+am:p-359
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500121156> .
+
+am:p-36235
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014116> .
+
+am:p-3661
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040693> .
+
+am:p-3687
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500100698> .
+
+am:p-3735
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028720> .
+
+am:p-37383
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069425> .
+
+am:p-3756
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026451> .
+
+am:p-37857
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023234> .
+
+am:p-37885
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065924> .
+
+am:p-379
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004417> .
+
+am:p-37927
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029592> .
+
+am:p-38140
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015572> .
+
+am:p-38459
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500050539> .
+
+am:p-38564
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042799> .
+
+am:p-3886
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096404> .
+
+am:p-39443
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000494> .
+
+am:p-39797
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500043813> .
+
+am:p-3994
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069329> .
+
+am:p-40019
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071462> .
+
+am:p-40384
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500087792> .
+
+am:p-40564
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019404> .
+
+am:p-4075
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099325> .
+
+am:p-40778
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116736> .
+
+am:p-40790
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016481> .
+
+am:p-40793
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027818> .
+
+am:p-40858
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000843> .
+
+am:p-40995
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019286> .
+
+am:p-41430
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007517> .
+
+am:p-41551
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005032> .
+
+am:p-4160
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116732> .
+
+am:p-41681
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500052350> .
+
+am:p-41909
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028819> .
+
+am:p-4261
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003410> .
+
+am:p-42615
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028999> .
+
+am:p-42885
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073420> .
+
+am:p-43400
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116775> .
+
+am:p-43495
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022618> .
+
+am:p-43580
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099942> .
+
+am:p-43703
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021740> .
+
+am:p-43835
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006160> .
+
+am:p-44808
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500078199> .
+
+am:p-4499
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005676> .
+
+am:p-45318
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060582> .
+
+am:p-45349
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029302> .
+
+am:p-45492
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500093311> .
+
+am:p-45647
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105562> .
+
+am:p-45789
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500025020> .
+
+am:p-45942
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070109> .
+
+am:p-4600
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500087137> .
+
+am:p-46006
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105094> .
+
+am:p-4640
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500095380> .
+
+am:p-4765
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007373> .
+
+am:p-48128
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042786> .
+
+am:p-48385
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031467> .
+
+am:p-4854
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116738> .
+
+am:p-48749
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009917> .
+
+am:p-48778
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500099270> .
+
+am:p-48780
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003823> .
+
+am:p-48831
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002306> .
+
+am:p-4885
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065057> .
+
+am:p-49058
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071653> .
+
+am:p-49172
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500095752> .
+
+am:p-49230
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500072034> .
+
+am:p-49350
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500101170> .
+
+am:p-49366
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004300> .
+
+am:p-49870
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073161> .
+
+am:p-49915
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024733> .
+
+am:p-49970
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062489> .
+
+am:p-50102
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014708> .
+
+am:p-50174
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080887> .
+
+am:p-50401
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044887> .
+
+am:p-50547
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500043055> .
+
+am:p-50588
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064379> .
+
+am:p-506
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500071130> .
+
+am:p-50622
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020457> .
+
+am:p-50672
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013071> .
+
+am:p-50770
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500091940> .
+
+am:p-508
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500077637> .
+
+am:p-50977
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060205> .
+
+am:p-5116
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016073> .
+
+am:p-51278
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500061125> .
+
+am:p-51547
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089607> .
+
+am:p-51552
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032910> .
+
+am:p-51857
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500046768> .
+
+am:p-51905
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500049432> .
+
+am:p-51942
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500121390> .
+
+am:p-51943
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042981> .
+
+am:p-51977
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040875> .
+
+am:p-51985
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500081718> .
+
+am:p-51986
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500042734> .
+
+am:p-51987
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065802> .
+
+am:p-51995
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007208> .
+
+am:p-52003
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056750> .
+
+am:p-52004
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500046258> .
+
+am:p-52048
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030212> .
+
+am:p-52257
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109479> .
+
+am:p-52301
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015380> .
+
+am:p-52314
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020036> .
+
+am:p-52401
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021343> .
+
+am:p-52681
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500097223> .
+
+am:p-52730
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022382> .
+
+am:p-53398
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010263> .
+
+am:p-53605
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500120721> .
+
+am:p-5368
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500026905> .
+
+am:p-53780
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500009244> .
+
+am:p-54309
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016962> .
+
+am:p-54498
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013622> .
+
+am:p-54582
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014930> .
+
+am:p-54620
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030916> .
+
+am:p-54864
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500063918> .
+
+am:p-54938
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500106710> .
+
+am:p-54988
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500087283> .
+
+am:p-55005
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018395> .
+
+am:p-55322
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006911> .
+
+am:p-55353
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030887> .
+
+am:p-55513
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005468> .
+
+am:p-55663
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500075037> .
+
+am:p-55915
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021630> .
+
+am:p-55987
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500090291> .
+
+am:p-56012
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500023355> .
+
+am:p-56078
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010645> .
+
+am:p-56110
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500064716> .
+
+am:p-56138
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013406> .
+
+am:p-56463
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003537> .
+
+am:p-56551
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500068118> .
+
+am:p-56624
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500044527> .
+
+am:p-5671
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069829> .
+
+am:p-56812
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500002248> .
+
+am:p-56903
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500024005> .
+
+am:p-57142
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004533> .
+
+am:p-57352
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006544> .
+
+am:p-57449
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096000> .
+
+am:p-57606
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019445> .
+
+am:p-57640
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006743> .
+
+am:p-57740
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016903> .
+
+am:p-57747
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500082231> .
+
+am:p-57823
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109423> .
+
+am:p-57828
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004095> .
+
+am:p-57875
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089380> .
+
+am:p-57969
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045669> .
+
+am:p-58006
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013051> .
+
+am:p-58007
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014421> .
+
+am:p-58013
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069970> .
+
+am:p-58053
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500108433> .
+
+am:p-58069
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001623> .
+
+am:p-58118
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021156> .
+
+am:p-58119
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109346> .
+
+am:p-58143
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500106905> .
+
+am:p-58259
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019675> .
+
+am:p-58291
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027238> .
+
+am:p-58354
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500045649> .
+
+am:p-58471
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500005835> .
+
+am:p-58512
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000912> .
+
+am:p-58557
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500102007> .
+
+am:p-58690
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070798> .
+
+am:p-58721
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040982> .
+
+am:p-58783
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500052998> .
+
+am:p-59024
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500096547> .
+
+am:p-59084
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500036679> .
+
+am:p-5914
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500007182> .
+
+am:p-59257
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116753> .
+
+am:p-59862
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500011179> .
+
+am:p-59931
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014910> .
+
+am:p-59943
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500081291> .
+
+am:p-60002
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006817> .
+
+am:p-60052
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500080264> .
+
+am:p-60365
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500116719> .
+
+am:p-60475
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004696> .
+
+am:p-60583
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500054470> .
+
+am:p-60613
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021244> .
+
+am:p-61257
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500085636> .
+
+am:p-6154
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500105758> .
+
+am:p-61674
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500087621> .
+
+am:p-61787
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008227> .
+
+am:p-61788
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000197> .
+
+am:p-61834
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500109653> .
+
+am:p-62270
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500052142> .
+
+am:p-62489
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500035020> .
+
+am:p-63320
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500060062> .
+
+am:p-63389
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500061161> .
+
+am:p-63805
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115445> .
+
+am:p-63891
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013939> .
+
+am:p-64077
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073009> .
+
+am:p-64823
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500103017> .
+
+am:p-64824
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500040885> .
+
+am:p-65231
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027674> .
+
+am:p-65381
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500022788> .
+
+am:p-65444
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500028255> .
+
+am:p-65514
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500065076> .
+
+am:p-65566
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500016873> .
+
+am:p-65618
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500013287> .
+
+am:p-65708
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020689> .
+
+am:p-65760
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500018175> .
+
+am:p-65790
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500070969> .
+
+am:p-65800
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500057533> .
+
+am:p-66021
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010754> .
+
+am:p-6619
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500107743> .
+
+am:p-66398
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015028> .
+
+am:p-66462
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500036558> .
+
+am:p-66628
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500061056> .
+
+am:p-6691
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056033> .
+
+am:p-67364
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500021706> .
+
+am:p-67458
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500090476> .
+
+am:p-67555
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008716> .
+
+am:p-67680
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020293> .
+
+am:p-67682
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500019647> .
+
+am:p-68050
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001604> .
+
+am:p-68819
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500094334> .
+
+am:p-6884
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500067638> .
+
+am:p-69225
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032167> .
+
+am:p-69900
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500031639> .
+
+am:p-69935
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500117747> .
+
+am:p-69944
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500073660> .
+
+am:p-70247
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500089808> .
+
+am:p-70455
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500043530> .
+
+am:p-70594
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500056417> .
+
+am:p-70738
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500085609> .
+
+am:p-71015
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500014859> .
+
+am:p-71089
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500012828> .
+
+am:p-71272
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000219> .
+
+am:p-71434
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500088149> .
+
+am:p-71456
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500081105> .
+
+am:p-71457
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500062978> .
+
+am:p-71572
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027529> .
+
+am:p-71777
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500006177> .
+
+am:p-71783
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500027164> .
+
+am:p-71801
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500030877> .
+
+am:p-71802
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010860> .
+
+am:p-7188
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115795> .
+
+am:p-72083
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500066367> .
+
+am:p-7218
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500029177> .
+
+am:p-7315
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500008763> .
+
+am:p-7401
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010213> .
+
+am:p-7762
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115494> .
+
+am:p-7763
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500020229> .
+
+am:p-7802
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500015656> .
+
+am:p-7812
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001812> .
+
+am:p-7859
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500083794> .
+
+am:p-7889
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003892> .
+
+am:p-7891
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010735> .
+
+am:p-7925
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500010388> .
+
+am:p-8131
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500001494> .
+
+am:p-8234
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500000109> .
+
+am:p-8371
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500106295> .
+
+am:p-8560
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003068> .
+
+am:p-8629
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500108266> .
+
+am:p-900
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500032763> .
+
+am:p-9016
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500003859> .
+
+am:p-9166
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500037088> .
+
+am:p-9307
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500115271> .
+
+am:p-9401
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500069609> .
+
+am:p-9608
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500097480> .
+
+am:p-9890
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500079324> .
+
+am:p-9997
+	skos:exactMatch </http://purl.org/vocabularies/getty/ulan/500004248> .

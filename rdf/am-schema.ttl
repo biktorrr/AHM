@@ -1,0 +1,348 @@
+###
+#  AHM Schema / Mappings
+#
+#  Victor de Boer - Oct. 2010
+#					- May 2014
+###
+
+@prefix ahm:     <http://purl.org/collections/nl/am/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix iface:	 <http://e-culture.multimedian.nl/ns/interface/> .
+@prefix     ore: <http://www.openarchives.org/ore/terms/> .
+@prefix     ens: <http://www.europeana.eu/schemas/edm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+ahm:title a rdf:Property ;
+	rdfs:subPropertyOf dcterms:title .
+
+ahm:associationSubject a rdf:Property ;
+	rdfs:subPropertyOf dcterms:subject .
+
+ahm:contentMotifGeneral a rdf:Property ;
+	rdfs:subPropertyOf dcterms:type .
+
+ahm:contentPersonName a rdf:Property ;
+	rdfs:subPropertyOf dcterms:subject.
+
+ahm:contentSubject a rdf:Property ;
+	rdfs:subPropertyOf dcterms:subject .
+
+ahm:creditLine a rdf:Property ;
+	rdfs:subPropertyOf dcterms:rights .
+
+ahm:dimension a rdf:Property ;
+	rdfs:subPropertyOf dcterms:extent .
+
+ahm:material a rdf:Property ;
+	rdfs:subPropertyOf dcterms:medium .
+
+ahm:objectName a rdf:Property ;
+	rdfs:subPropertyOf dcterms:type .
+
+
+ahm:productionDateEnd a rdf:Property ;
+	rdfs:subPropertyOf dcterms:created .
+
+ahm:productionDateNotes a rdf:Property ;
+	rdfs:subPropertyOf dcterms:created .
+
+ahm:productionDateStart a rdf:Property ;
+	rdfs:subPropertyOf dcterms:created .
+
+ahm:productionPeriod a rdf:Property ;
+        rdfs:subPropertyOf dcterms:created.
+
+# TODO: look at this property.
+ahm:relatedObjectReference a rdf:Property ;
+	rdfs:subPropertyOf dcterms:relation .
+
+ahm:relatedObjectTitle a rdf:Property ;
+	rdfs:subPropertyOf dcterms:relation .
+
+ahm:relatedObjectNotes a rdf:Property ;
+	rdfs:subPropertyOf dcterms:description .
+
+ahm:relatedObjectAssociation a rdf:Property ;
+	rdfs:subPropertyOf ens:isSimilarTo .
+
+
+# These two are dubious.
+ahm:acquisitionDate a rdf:Property ;
+        rdfs:subPropertyOf dcterms:provenance.
+
+ahm:acquisitionMethod a rdf:Property ;
+        rdfs:subPropertyOf dcterms:provenance.
+
+# maybe partof? (collection)/ type?
+ahm:objectCategory a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+ahm:priref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+
+ahm:title a rdf:Property ;
+        rdfs:subPropertyOf dcterms:title.
+
+ahm:productionPlace a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+ahm:documentation a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+
+ahm:collection a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+ahm:maker a rdf:Property ;
+        rdfs:subPropertyOf dcterms:creator.
+
+ahm:objectNumber a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+
+# Could also be something like extent/format/medium
+ahm:technique a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+ahm:ahmteksten a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+# Could also be description
+ahm:Alternativenumber a rdfs:Class;
+	rdfs:label "Alternative Label".
+
+ahm:alternativenumber a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+
+ahm:associationPerson a rdf:Property ;
+        rdfs:subPropertyOf ens:hasMet.
+
+ahm:ownershipHistoryFreeText a rdf:Property ;
+        rdfs:subPropertyOf dcterms:provenance.
+
+# Partofs TODO in rewrite: Copy this into the Aggregation hierarchy
+
+ahm:partOfReference a rdf:Property ;
+        rdfs:subPropertyOf dcterms:isPartOf.
+
+ahm:partsTitle a rdf:Property ;
+	rdfs:subPropertyOf dcterms:description .
+
+ahm:partsReference a rdf:Property ;
+        rdfs:subPropertyOf dcterms:hasPart.
+
+
+# This is pointing to a bnode with rdfvalue uri in the persons thes.
+ahm:creator a rdf:Property ;
+	rdfs:subPropertyOf dcterms:creator .
+
+
+# Creator Roles
+ahm:Maker a rdfs:Class;
+	rdfs:subClassOf rdfs:Resource;
+	rdfs:label "Maker".
+
+#ahm:glasblazer a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+#ahm:glasgraveur a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+#ahm:glasschilder a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+#ahm:goud_en_zilversmid a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+#ahm:graveur a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+#ahm:schilder a rdf:Property ;
+#        rdfs:subPropertyOf ahm:maker.
+
+
+# creator qualifier
+ahm:creatorQualifier a rdf:Property;
+        rdfs:subPropertyOf dcterms:description.
+ahm:creatorRole a rdf:Property;
+        rdfs:subPropertyOf dcterms:description.
+
+
+# DIMENSION PROPERTIES, this is pretty weird as dimensions are not
+# resources.
+ahm:Dimension a rdfs:Class;
+	rdfs:subClassOf rdfs:Resource;
+	rdfs:label "Dimension".
+
+ahm:dimensionNotes a rdf:Property;
+        rdfs:subPropertyOf dcterms:description.
+ahm:dimensionPart a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:dimensionPrecision a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:dimensionType a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:dimensionUnit a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:dimensionValue a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+
+# DOCUMENTATION PROPERTIES, these are documents, so no real problem
+# here. might want to make them resources with a URI.
+
+ahm:Documentation  a rdfs:Class;
+	rdfs:subClassOf rdfs:Resource;
+	rdfs:label "Documentation".
+
+ahm:documentationAuthor a rdf:Property ;
+        rdfs:subPropertyOf dcterms:creator.
+ahm:documentationNotes a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:documentationPageReference a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:documentationShelfmark a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:documentationSortyear a rdf:Property ;
+        rdfs:subPropertyOf dcterms:created.
+ahm:documentationTitle a rdf:Property ;
+        rdfs:subPropertyOf dcterms:title.
+ahm:documentationTitleArticle a rdf:Property ;
+        rdfs:subPropertyOf dcterms:title.
+ahm:documentationTitleLref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+# EXHIBITION PROPERTIES, should be modeled as events using EDM event
+# classes? Exhibitiontitle is a created property to disambiguate between
+# the two versions with different domains (Resource and Exhibition, the
+# latter is renamed to exhibitionTitle
+
+# Antoines reaction: It seems a good idea to have ahm:Exhibitions
+# treated as instances of ens:Event. In that case ahm:exhibition could
+# be made a sub-property of ens:hasMet, ahm:exhibitionVenue a
+# sub-property of ens:happenedAt, ahm:exhibitionOrganiser could be made
+# a sub-property of ens:hasMet--and a complete mapping to EDM would call
+# for ahm:exhibitionOrganizer having an inverse property that would be a
+# sub-property of ens:wasPresentAt (linking an Agent to an Event). The
+# downside of all this is it# will create some class overlap between
+# e.g. ens:Agent and skos:Concept (the exhibition venues come from the
+# thesaurus). But I wouldn't be the one complaining about that :-). And
+# that's really interesting data to have in!
+
+ahm:exhibition a rdf:Property ;
+        rdfs:subPropertyOf ens:hasMet.
+
+ahm:Exhibition  a rdfs:Class ;
+	rdfs:subClassOf ens:Event.
+
+ahm:exhibitionTitle a rdf:Property ;
+        rdfs:subPropertyOf dcterms:title.
+ahm:exhibitionCatalogueNumber a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:exhibitionCode a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:exhibitionDateEnd a rdf:Property ;
+        rdfs:subPropertyOf dcterms:temporal.
+ahm:exhibitionDateStart a rdf:Property ;
+        rdfs:subPropertyOf dcterms:temporal.
+ahm:exhibitionLref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:exhibitionNotes a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:exhibitionObjectLocation a rdf:Property ;
+        rdfs:subPropertyOf dcterms:spatial.
+ahm:exhibitionOrganiser a rdf:Property ;
+        rdfs:subPropertyOf ens:hasMet.
+ahm:exhibitionVenue a rdf:Property ;
+        rdfs:subPropertyOf ens:happenedAt.
+
+# LOCATION PROPERTIES
+# This now maps to the EDM notion of events
+
+ahm:locat a rdf:Property ;
+        rdfs:subPropertyOf ens:wasPresentAt.
+ahm:Locat a rdfs:Class ;
+	rdfs:subClassOf ens:Event .
+
+ahm:currentLocation a rdf:Property ;
+        rdfs:subPropertyOf ens:happenedAt.
+ahm:currentLocationDateEnd a rdf:Property ;
+        rdfs:subPropertyOf dcterms:temporal.
+ahm:currentLocationDateStart  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:temporal.
+ahm:currentLocationFitness a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:currentLocationLref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:currentLocationNotes a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+ahm:currentLocationType a rdf:Property ;
+        rdfs:subPropertyOf dcterms:type.
+
+
+# ALTERNATIVE NUMBERS
+
+ahm:alternativeNumber a rdf:Property ;
+        rdfs:subPropertyOf rdfs:label.
+ahm:alternativeNumberDate  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:temporal.
+ahm:alternativeNumberInstitution a rdf:Property ;
+        rdfs:subPropertyOf dcterms:publisher.
+ahm:alternativeNumberType  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:type.
+
+# AHM TEKSTEN
+# Both date and publ map to created.
+# AuthorLref is a sparsely used extra identifier for the author. Both
+# map to creator.
+
+ahm:Ahmteksten a rdfs:Class;
+	rdfs:subClassOf rdfs:Resource;
+	rdfs:label "Reproduction".
+	
+ahm:AHMTextsAuthor a rdf:Property ;
+        rdfs:subPropertyOf dcterms:creator.
+ahm:AHMTextsAuthorLref  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:creator.
+ahm:AHMTextsDate  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:created.
+ahm:AHMTextsPubl  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:created.
+ahm:AHMTextsReference  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:references.
+ahm:AHMTextsTekst a rdf:Property ;
+        rdfs:subPropertyOf rdfs:label.
+ahm:AHMTextsType a rdf:Property ;
+        rdfs:subPropertyOf dcterms:type.
+
+
+# REPRODUCTIONS
+
+
+# ahm:reproduction is a view on the data, which might or might not be
+# available on the web.Open issue, this should be
+# inverseof ens:isRepresentationOf, requires some OWL
+
+ahm:Reproduction a rdfs:Class;
+	rdfs:subClassOf rdfs:Resource;
+	rdfs:label "Reproduction".
+
+ahm:reproduction a rdf:Property ;
+        rdfs:subPropertyOf dcterms:relation.
+
+ahm:reproductionCreator a rdf:Property ;
+        rdfs:subPropertyOf dcterms:creator.
+ahm:reproductionDate a rdf:Property ;
+        rdfs:subPropertyOf dcterms:created.
+ahm:reproductionFormat a rdf:Property ;
+        rdfs:subPropertyOf dcterms:format.
+ahm:reproductionIdentifierURL a rdf:Property ;
+        rdfs:subPropertyOf dcterms:reference.
+ahm:reproductionReference a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:reproductionReferenceLref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+ahm:reproductionType a rdf:Property ;
+        rdfs:subPropertyOf dcterms:type.
+ahm:reproductionNotes a rdf:Property ;
+        rdfs:subPropertyOf dcterms:description.
+
+
+

@@ -1,0 +1,13 @@
+Beste Jan,
+Je kunt nu ook een range opgeven in je search. Ik heb nu de detailfields ook listfields gemaakt dus er zit nu wat meer data in :-)
+
+Verder heb ik de personen database voor jullie opengezet met de naam ChoicePeople:
+http://ahm.adlibsoft.com/vu_wwwopacx/wwwopac.ashx?database=ChoicePeople&search=BA%3Dhelst*
+
+en dus ook maar meteen de thesaurus met de naam ChoiceThesaurus:
+http://ahm.adlibsoft.com/vu_wwwopacx/wwwopac.ashx?database=ChoiceThesaurus&search=te%3Dde*
+
+en de bibliotheek database met de naam ChoiceFullCatalogue:
+http://ahm.adlibsoft.com/vu_wwwopacx/wwwopac.ashx?database=ChoiceFullCatalogue&search=ti%3Dhelst*
+
+Ik ben nu bezig met het aanbrengen van de groups. Nog niet helemaal doorgevoerd maar hopelijk morgen wel.

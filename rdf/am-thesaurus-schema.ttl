@@ -1,0 +1,27 @@
+@prefix ahm:     <http://purl.org/collections/nl/am/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix	skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+ahm:AM_ConceptScheme rdfs:label "Amsterdam Museum Subject Thesaurus"@en.
+ahm:AM_ConceptScheme rdfs:label "Amsterdam Museum Onderwerpen Thesaurus"@nl.
+
+ahm:scopeNote a rdf:Property ;
+        rdfs:subPropertyOf skos:scopeNote.
+
+# skos does not know identifiers, so we use altlabel here.
+ahm:priref a rdf:Property ;
+        rdfs:subPropertyOf dcterms:identifier.
+
+ahm:value  a rdf:Property ;
+        rdfs:subPropertyOf rdfs:label.
+
+ahm:termType  a rdf:Property ;
+        rdfs:subPropertyOf skos:note.
+
+ahm:source  a rdf:Property ;
+        rdfs:subPropertyOf dcterms:source.
+
+ahm:TermType  a rdfs:Class ;
+        rdfs:subClassOf rdfs:Resource.

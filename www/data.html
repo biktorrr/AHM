@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- based on terrafirma1.0 by nodethirtythree design -->
+<!-- http://www.nodethirtythree.com -->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <title>Amsterdam Museum Linked Open Data</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+  </head>
+  <body>
+
+    <div id="outer">
+	<div id="upbg"></div>
+	<div id="inner">
+	  <div id="header">
+	    <h1><span>Amsterdam Museum</span></h1>
+	    <h2>in Europeana Data Model RDF</h2>
+	  </div>
+	
+	  <div id="splash"></div>
+	
+	  <div id="menu">
+	    <ul>
+	      <li class="first"><a href="http://semanticweb.cs.vu.nl/lod/ahm/">Home</a></li>
+	      <li><a href="lhttp://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=summary">Git web</a></li>
+		  <li><a href="data.html">Data and Conversion</a></li>
+	      <li><a href="http://semanticweb.cs.vu.nl/europeana/home">Live search</a></li>
+
+	      <li><a href="http://collectie.ahm.nl/">AM Collectie online</a></li>
+	      <li><a href="mailto:v.de.boer@cs.vu.nl">Contact</a></li>
+
+	    </ul>
+
+	    <div id="date"><!-- date here--></div>
+	  </div>
+	
+	  <!-- primary content start -->
+	  <div id="primarycontent">
+	  <h2>Raw data, conversion scripts and results</h2>
+	  On this page, we list the input and intermediary results of the Amsterdam Museum conversion, as described in the ESWC 2012-submitted paper "Supporting Linked Data Production for Cultural Heritage institutes: The Amsterdam Museum Case Study". The steps we refer to are listed in the figure below: <br><img src="images/overallView.png">
+	  <br><br>
+	  
+	  <h3>Step 1: XML ingestion files</h3>
+	  The XML consists of multiple XML parts: The collection metadata was provided in 73 files each of 1000 records. The download files can be found at <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=tree;f=src">the VUA Eculture GIT server</a>.
+	  The concept thesaurus and person authority file were provided as separate XML files and can be downloaded directly from the GIT server: [<a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=src/people.xml">people.xml</a>(10.2 MB) and <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=src/thesaurus.xml">thesaurus.xml</a> (9.3 MB)
+	  <br><br>
+	<h3>Step 2 and 3: XMLRDF files</h3>	   
+
+<table width="100%">
+<tr><td  align="center" colspan="2"><b>	 XMLRDF rewrite files:
+</b></td></tr>
+	 <tr><th>Filename</th> <th>description</th><th> link</th></tr>
+	 
+<tr class="light">
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/rewrite_data.pl;h=cd34de6bf8c5fdaa137c312b77fd77957f1ef4af;hb=HEAD">rewrite_data.pl</a></td>
+<td>Rewrite rules for collection metadata</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/rewrite_data.pl;hb=HEAD">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/rewrite_people.pl;h=1a564ada278fd0255f04435b981f5482a89fab7c;hb=HEAD">rewrite_people.pl</a></td>
+<td>Rewrite rules for Person Authority file</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/rewrite_people.pl;hb=HEAD">download</a></td>
+</tr>
+<tr class="dark">
+
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/rewrite_thes.pl;h=07c80f0a7cff21a24f4abbc20d8a306c42466bdf;hb=HEAD">rewrite_thes.pl</a></td>
+<td>Rewrite rules for Thesaurus</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/rewrite_thes.pl;hb=HEAD">download</a></td>
+</tr>
+<tr class="light">
+<!--
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/run-data.pl;h=a2803d2c58225e50e2a41e4f2ddef3350c482c5c;hb=HEAD">run-data.pl</a></td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/run-data.pl;hb=HEAD">download</a></td>
+</tr>
+<tr class="dark">
+
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/run-people.pl;h=120019035eeb5dd3a903d66b77dc2957c4abe31b;hb=HEAD">run-people.pl</a></td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/run-people.pl;hb=HEAD">download</a></td>
+</tr>
+<tr class="light">
+
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/run-thesaurus.pl;h=4a877c57a4092a6ac925b4676775881feefed32d;hb=HEAD">run-thesaurus.pl</a></td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/run-thesaurus.pl;hb=HEAD">download</a></td>
+</tr>
+<tr class="dark">
+-->
+
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob;f=AHM/util.pl;h=5d4cfe4a2df6d7f81c595f1eabc6f17b6eea7bfb;hb=HEAD">util.pl</a></td>
+<td>Prolog utility predicates (re)used for the conversions</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/xmlrdf.git;a=blob_plain;f=AHM/util.pl;hb=HEAD">download</a></td>
+</tr>
+</table>
+<br><br>
+	  
+	<h3>Step 2 and 3: Converted RDF</h3>	   
+
+	  We here list pointers to the individual converted turtle files. The files are hosted on the <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=summary">Eculture Git server</a><br>
+	  
+<table width="100%">
+<tr><td  align="center" colspan="4"><b>	  The RDF Data files:
+</b></td></tr>
+	 <tr><th>Size</th><th>Filename</th> <th>description</th><th> link</th></tr>
+
+<tr class="dark">
+<td class="size">240530197</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-data.ttl">am-data.ttl</a></td>
+<td>Collection Metadata (large)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-data.ttl">download</a></td>
+</tr>
+
+<tr class="dark">
+<td class="size">5318673</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-thesaurus.ttl">am-thesaurus.ttl</a></td>
+<td>Thesaurus Data</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-thesaurus.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">8483717</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-people.ttl">am-people.ttl</a></td>
+<td>Person Authority File</td>
+<td class="link"><a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-people.ttl">download</a></td>
+</tr>
+
+
+<tr class="light">
+<td class="size">2320</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/void.ttl">void.ttl</a></td>
+<td>VOID file, describing the dataset</td>
+<td class="link"><a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/void.ttl">download</a></td>
+</tr>
+</table>
+<br><br>
+	<h3>Step 4: Create metadata schema mapping</h3>	   
+  Below, we list the schema mapping RDF files that map the Amsterdam Museum classes and properties to EDM classes and properties (DCterms, SKOS, RDA Group 2 Elements and a few EDM-specific classes and properties)
+<table width="100%">
+<tr><td  align="center" colspan="4"><b>	  The RDF Schema files:
+</b></td></tr>
+	 <tr><th>Size</th><th>Filename</th> <th>description</th><th> link</th></tr>
+
+<tr class="dark">
+<td class="size">10567</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-schema.ttl">am-schema.ttl</a></td>
+<td>Collection Metadata Schema</td>
+<td class="link"><a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-schema.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">855</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-thesaurus-schema.ttl">am-thesaurus-schema.ttl</a></td>
+<td>Thesaurus Schema</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-thesaurus-schema.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">2211</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/am-people-rdagr2-schema.ttl">am-people-rdagr2-schema.ttl</a></td>
+<td>Person Schema (to RDA Group 2 Elements)</td>
+<td class="link"><a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/am-people-rdagr2-schema.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">51590</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/ElementsGr2.rdf">ElementsGr2.rdf</a></td>
+<td>The RDA Group 2 Elements Schema</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/ElementsGr2.rdf">download</a></td>
+</tr>
+
+
+</table>
+<br><br>
+	<h3>Step 5: Align vocabularies</h3>	   
+  The Amalgame alignment strategy used is <a href="index.html#alignment">detailed here</a>. Below we list the mapping files that are the result of this strategy.
+<table width="100%">
+
+<tr><td  align="center" colspan="4"><b>The mapping files:</b></td></tr>
+	 <tr><th>Size</th><th>Filename</th> <th>description</th><th> link</th></tr>
+
+<tr class="dark">
+<td class="size">126129</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_aat_nonamb.ttl8">am_to_aat_nonamb.ttl</a></td>
+<td>Thesaurus to  AATNed (high-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_aat_nonamb.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">94957</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_aat_amb.ttl">am_to_aat_amb.ttl</a></td>
+<td>Thesaurus to  AATNed (mid-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_aat_amb.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">3680</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_dbp_high.ttl">am_to_dbp_high.ttl</a></td>
+<td>Persons to DBPedia (high-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_dbp_high.ttl">download</a></td>
+</tr>
+<tr class="dark">
+<td class="size">28058</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_dbp_low_nonamb.ttl">am_to_dbp_low_nonamb.ttl</a></td>
+<td>Persons to DBPedia (low-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_dbp_low_nonamb.ttl">download</a></td>
+</tr>
+
+<tr class="light">
+<td class="size">3680</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_geonl.ttl">am_to_geonl.ttl</a></td>
+<td>Thesaurus to Geonames (high-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_geonl.ttl">download</a></td>
+</tr>
+
+<tr class="dark">
+<td class="size">35141</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_ulannl_amb.ttl">am_to_ulannl_amb.ttl</a></td>
+<td>Persons to ULAN (mid-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_ulannl_amb.ttl">download</a></td>
+</tr>
+<tr class="light">
+<td class="size">92206</td>
+<td class="list"><a class="list" href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob;f=rdf/alignments/am_to_ulannl_nonamb.ttl">am_to_ulannl_nonamb.ttl</a></td>
+<td>Persons to ULAN (high-precision)</td>
+<td class="link"> <a href="http://eculture.cs.vu.nl/git/public/?p=econnect/metadata/AHM.git;a=blob_plain;f=rdf/alignments/am_to_ulannl_nonamb.ttl">download</a></td>
+</tr>
+</table>
+<br><br>
+
+	<h3>Step 6: Publish as LOD</h3>	   
+  The converted, schema-mapped and aligned Amsterdam Museum Linked Open DAta is <a href="http://thedatahub.org/dataset/amsterdam-museum-as-edm-lod">registered at CKAN</a>. There, you can find example URIs, the link to the server and the SPARQL endpoint. 
+<br><br><br>
+		</div>
+	
+		<div id="footer">
+		
+			CSS design adapted from on <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a>.
+		
+		</div>
+
+	</div>
+
+</div>
+
+</body>
+</html>

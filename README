@@ -1,0 +1,125 @@
+BAD: priref=69425
+
+  <record>
+    <creator>Arendzen, Petrus Johannes</creator>
+    <creator>Blommert, B.J.</creator>
+    <creator.date_of_birth>1846-10-23</creator.date_of_birth>
+    <creator.qualifier/>
+    <creator.qualifier>naar</creator.qualifier>
+    <creator.role>graveur</creator.role>
+    <creator.date_of_death>1932-12-16</creator.date_of_death>
+    <title>Haar vriendje</title>
+    <reproduction.identifier_URL>..\..\dat\collectie\images\pictura2009\S_A_12841_000.jpg</reproduction.identifier_URL>
+    <priref>69425</priref>
+    <object_number>A 12841</object_number>
+    <object_name>litho</object_name>
+    <material>papier</material>
+    <institution.name>Amsterdams Historisch Museum</institution.name>
+    <credit_line>Amsterdams Historisch Museum</credit_line>
+  </record>
+
+NEW:
+
+http://ahm.adlibsoft.com/vu_wwwopacx/wwwopac.ashx?database=ChoiceCollect&search=priref%3D69425
+
+    <record priref="69425" selected="False">
+      <content.motif.general>genrestuk</content.motif.general>
+      <creator>Arendzen, Petrus Johannes</creator>
+      <creator>Blommert, B.J.</creator>
+      <creator.date_of_birth>1846-10-23</creator.date_of_birth>
+      <creator.date_of_birth/>
+      <creator.date_of_death>1932-12-16</creator.date_of_death>
+      <creator.date_of_death/>
+      <creator.qualifier/>
+      <creator.qualifier>naar</creator.qualifier>
+      <creator.role>graveur</creator.role>
+      <credit_line>Amsterdams Historisch Museum</credit_line>
+      <dimension.type>hoogte</dimension.type>
+      <dimension.type>breedte</dimension.type>
+      <dimension.unit>cm</dimension.unit>
+      <dimension.unit>cm</dimension.unit>
+      <dimension.value>40</dimension.value>
+      <dimension.value>32</dimension.value>
+      <locat>
+	<current_location>AHM PK stelling 21-7 III</current_location>
+	<current_location.date.end/>
+	<current_location.date.start>2009-03-21</current_location.date.start>
+	<current_location.fitness/>
+	<current_location.lref>31872</current_location.lref>
+	<current_location.notes>doos nr 419</current_location.notes>
+	<current_location_type>intern</current_location_type>
+      </locat>
+      <material>papier</material>
+      <object_category>prentencollectie</object_category>
+      <object_name>litho</object_name>
+      <object_number>A 12841</object_number>
+      <priref>69425</priref>
+      <reproduction.identifier_URL>..\..\dat\collectie\images\pictura2009\S_A_12841_000.jpg</reproduction.identifier_URL>
+      <reproduction.reference>A_12841_000.jpg</reproduction.reference>
+      <technique>gelithografeerd</technique>
+      <title>Haar vriendje</title>
+    </record>
+
+
+
+
+
+
+
+MAYBE OK:
+
+
+Old record
+
+================================================================
+  <record>
+    <creator>Vernet, Horace</creator>
+    <creator.date_of_birth>1789-06-30</creator.date_of_birth>
+    <creator.role>graveur</creator.role>
+    <creator.date_of_death>1863-01-17</creator.date_of_death>
+    <production.date.start>1804</production.date.start>
+    <production.date.end>1863</production.date.end>
+    <title>Mansportret (Gregoire Gagorin?)</title>
+    <reproduction.identifier_URL>..\..\dat\collectie\images\pictura2009\S_A_14746_000.jpg</reproduction.identifier_URL>
+    <priref>70339</priref>
+    <object_number>A 14746</object_number>
+    <object_name>litho</object_name>
+    <material>papier</material>
+    <institution.name>Amsterdams Historisch Museum</institution.name>
+    <credit_line>Amsterdams Historisch Museum</credit_line>
+  </record>
+
+================================================================
+
+New Record
+
+================================================================
+
+8 ?- ahm(XML, [search('priref=70338'),xmltype(grouped)]), xml_write(current_output, XML, []).
+
+    <record priref="70338" selected="False">
+      <acquisition.method>legaat</acquisition.method>
+      <acquisition.source>Willet-Holthuysen, mevrouw S.L.G.</acquisition.source>
+      <creator>Vernet, Horace</creator>
+      <creator>Delpech</creator>
+      <creator.date_of_birth>1789-06-30</creator.date_of_birth>
+      <creator.date_of_birth/>
+      <creator.date_of_death>1863-01-17</creator.date_of_death>
+      <creator.date_of_death/>
+      <creator.role>graveur</creator.role>
+      <creator.role>drukker</creator.role>
+      <credit_line>Amsterdams Historisch Museum</credit_line>
+      <material>papier</material>
+      <object_category>prentencollectie</object_category>
+      <object_name>litho</object_name>
+      <object_number>A 14745</object_number>
+      <priref>70338</priref>
+      <production.date.end>1863</production.date.end>
+      <production.date.start>1804</production.date.start>
+      <reproduction.identifier_URL>..\..\dat\collectie\images\pictura2009\S_A_14745_000.jpg</reproduction.identifier_URL>
+      <reproduction.reference>A_14745_000.jpg</reproduction.reference>
+      <technique>gelithografeerd</technique>
+      <title>Jachttafereel</title>
+    </record>
+
+================================================================

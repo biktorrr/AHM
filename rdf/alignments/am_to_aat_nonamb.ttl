@@ -1,0 +1,7534 @@
+@base             <export1> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix   aatned: <http://purl.org/vocabularies/rkd/aatned/> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+
+# Named toplevel resources (2,501)
+
+<export1>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <am_tt_concepts_to_aatned_1-1-only> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <am_tt_concepts_to_aatned_1-1-only> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T14-07-55+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export1&graph=am_tt_concepts_to_aatned_1-1-only&relation=no_override>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:t-10000
+	skos:closeMatch aatned:wierookvaten .
+
+am:t-10006
+	skos:closeMatch aatned:doorstikt_borduurwerk .
+
+am:t-10008
+	skos:closeMatch aatned:zakhorloges .
+
+am:t-10011
+	skos:closeMatch aatned:zeven .
+
+am:t-10021
+	skos:closeMatch aatned:zinkografie .
+
+am:t-10023
+	skos:closeMatch aatned:zonneringen .
+
+am:t-10030
+	skos:closeMatch aatned:aanstekers .
+
+am:t-10033
+	skos:closeMatch aatned:aardappellepels .
+
+am:t-10043
+	skos:closeMatch aatned:acryl .
+
+am:t-10045
+	skos:closeMatch aatned:acrylverf .
+
+am:t-10053
+	skos:closeMatch aatned:advocaten .
+
+am:t-10054
+	skos:closeMatch aatned:afdrukken .
+
+am:t-10056
+	skos:closeMatch aatned:affuiten .
+
+am:t-10061
+	skos:closeMatch aatned:afvalbakken .
+
+am:t-10063
+	skos:closeMatch aatned:agaat .
+
+am:t-10064
+	skos:closeMatch aatned:agaatglas .
+
+am:t-10067
+	skos:closeMatch aatned:aigrettes .
+
+am:t-10072
+	skos:closeMatch aatned:ajourwerk .
+
+am:t-10074
+	skos:closeMatch aatned:aktetassen .
+
+am:t-10075
+	skos:closeMatch aatned:albast .
+
+am:t-10076
+	skos:closeMatch aatned:albums .
+
+am:t-10084
+	skos:closeMatch aatned:alliantiewapens .
+
+am:t-10093
+	skos:closeMatch aatned:aluminium .
+
+am:t-10094
+	skos:closeMatch aatned:aluminiumlegering .
+
+am:t-10098
+	skos:closeMatch aatned:ambtsketens .
+
+am:t-10100
+	skos:closeMatch aatned:amethist .
+
+am:t-10104
+	skos:closeMatch aatned:ampullen .
+
+am:t-10114
+	skos:closeMatch aatned:anamorfosen .
+
+am:t-10115
+	skos:closeMatch aatned:anatomische_lessen .
+
+am:t-10118
+	skos:closeMatch aatned:angorawol .
+
+am:t-10122
+	skos:closeMatch aatned:antimakassars .
+
+am:t-10124
+	skos:closeMatch aatned:apothekers .
+
+am:t-10125
+	skos:closeMatch aatned:apothekersflessen .
+
+am:t-10140
+	skos:closeMatch aatned:armstoelen .
+
+am:t-10144
+	skos:closeMatch aatned:asbakken .
+
+am:t-10154
+	skos:closeMatch aatned:atlanten .
+
+am:t-10157
+	skos:closeMatch aatned:auteurs .
+
+am:t-10161
+	skos:closeMatch aatned:avondjassen .
+
+am:t-10167
+	skos:closeMatch aatned:avondtasjes .
+
+am:t-10170
+	skos:closeMatch aatned:baardmankruiken .
+
+am:t-10178
+	skos:closeMatch aatned:babykleding .
+
+am:t-10185
+	skos:closeMatch aatned:babypoppen .
+
+am:t-10187
+	skos:closeMatch aatned:babyslaapzakken .
+
+am:t-10193
+	skos:closeMatch aatned:badges .
+
+am:t-10196
+	skos:closeMatch aatned:badkleding .
+
+am:t-10197
+	skos:closeMatch aatned:badmutsen .
+
+am:t-10204
+	skos:closeMatch aatned:bakkerijen .
+
+am:t-10225
+	skos:closeMatch aatned:ball_points .
+
+am:t-10233
+	skos:closeMatch aatned:bankhamers .
+
+am:t-10234
+	skos:closeMatch aatned:bankschroeven .
+
+am:t-10240
+	skos:closeMatch aatned:barkrukken .
+
+am:t-10243
+	skos:closeMatch aatned:basalt .
+
+am:t-10244
+	skos:closeMatch aatned:bascules .
+
+am:t-10247
+	skos:closeMatch aatned:batik .
+
+am:t-10248
+	skos:closeMatch aatned:batist .
+
+am:t-10253
+	skos:closeMatch aatned:beddengoed .
+
+am:t-10257
+	skos:closeMatch aatned:bedelaars .
+
+am:t-10263
+	skos:closeMatch aatned:beeldengroepen .
+
+am:t-10264
+	skos:closeMatch aatned:beeldhouwers .
+
+am:t-10266
+	skos:closeMatch aatned:been .
+
+am:t-10267
+	skos:closeMatch aatned:beenkappen .
+
+am:t-10273
+	skos:closeMatch aatned:beitels .
+
+am:t-10277
+	skos:closeMatch aatned:bekers_op_voet .
+
+am:t-10281
+	skos:closeMatch aatned:bekleden .
+
+am:t-10298
+	skos:closeMatch aatned:mengkommen .
+
+am:t-10307
+	skos:closeMatch aatned:beulszwaarden .
+
+am:t-10322
+	skos:closeMatch aatned:bierpullen .
+
+am:t-10328
+	skos:closeMatch aatned:bijenkorven .
+
+am:t-10332
+	skos:closeMatch aatned:bikini_s .
+
+am:t-10333
+	skos:closeMatch aatned:bikkels .
+
+am:t-10336
+	skos:closeMatch aatned:biscuit .
+
+am:t-10338
+	skos:closeMatch aatned:bister .
+
+am:t-10339
+	skos:closeMatch aatned:blaasbalgen .
+
+am:t-10340
+	skos:closeMatch aatned:blaasinstrumenten .
+
+am:t-10341
+	skos:closeMatch aatned:blaaspijpen .
+
+am:t-10344
+	skos:closeMatch aatned:bladkoper .
+
+am:t-10345
+	skos:closeMatch aatned:bladmetaal .
+
+am:t-10347
+	skos:closeMatch aatned:bladzilver .
+
+am:t-10348
+	skos:closeMatch aatned:blakers .
+
+am:t-10351
+	skos:closeMatch aatned:blauwdrukken .
+
+am:t-10360
+	skos:closeMatch aatned:verwantschap .
+
+am:t-10366
+	skos:closeMatch aatned:bloempotten .
+
+am:t-10368
+	skos:closeMatch aatned:bloemstillevens .
+
+am:t-10373
+	skos:closeMatch aatned:blokschaven .
+
+am:t-10374
+	skos:closeMatch aatned:blouses .
+
+am:t-10375
+	skos:closeMatch aatned:boa_s .
+
+am:t-10377
+	skos:closeMatch aatned:bobeches .
+
+am:t-10380
+	skos:closeMatch aatned:boeiers .
+
+am:t-10386
+	skos:closeMatch aatned:boekdruk .
+
+am:t-10390
+	skos:closeMatch aatned:boekenplanken .
+
+am:t-10391
+	skos:closeMatch aatned:boekensteunen .
+
+am:t-10393
+	skos:closeMatch aatned:boekhouders .
+
+am:t-10397
+	skos:closeMatch aatned:boerenkarren .
+
+am:t-10404
+	skos:closeMatch aatned:bolero_s .
+
+am:t-10405
+	skos:closeMatch aatned:bolhoeden .
+
+am:t-10408
+	skos:closeMatch aatned:bolschaven .
+
+am:t-10411
+	skos:closeMatch aatned:fustein .
+
+am:t-10414
+	skos:closeMatch aatned:bonboekjes .
+
+am:t-10416
+	skos:closeMatch aatned:bonbondozen .
+
+am:t-10417
+	skos:closeMatch aatned:bonbonnieres .
+
+am:t-10431
+	skos:closeMatch aatned:bontmutsen .
+
+am:t-10433
+	skos:closeMatch aatned:booglampen .
+
+am:t-10434
+	skos:closeMatch aatned:boren .
+
+am:t-10439
+	skos:closeMatch aatned:booromslagen .
+
+am:t-10440
+	skos:closeMatch aatned:boorschaven .
+
+am:t-10442
+	skos:closeMatch aatned:boten .
+
+am:t-10446
+	skos:closeMatch aatned:bordenrekken .
+
+am:t-10453
+	skos:closeMatch aatned:borduurwol .
+
+am:t-10454
+	skos:closeMatch aatned:borduurzijde .
+
+am:t-10455
+	skos:closeMatch aatned:borstels .
+
+am:t-10456
+	skos:closeMatch aatned:borstelhaar .
+
+am:t-10457
+	skos:closeMatch aatned:borstrokken .
+
+am:t-10460
+	skos:closeMatch aatned:boswachters .
+
+am:t-10462
+	skos:closeMatch aatned:boterdozen .
+
+am:t-10464
+	skos:closeMatch aatned:botermessen .
+
+am:t-10465
+	skos:closeMatch aatned:botervloten .
+
+am:t-10467
+	skos:closeMatch aatned:boudoirmutsjes .
+
+am:t-10469
+	skos:closeMatch aatned:bouilloires .
+
+am:t-10482
+	skos:closeMatch aatned:braadsleden .
+
+am:t-10492
+	skos:closeMatch aatned:brandewijnkommen .
+
+am:t-10495
+	skos:closeMatch aatned:brandijzers .
+
+am:t-10501
+	skos:closeMatch aatned:breekijzers .
+
+am:t-10502
+	skos:closeMatch aatned:breeuwijzers .
+
+am:t-10507
+	skos:closeMatch aatned:breloques .
+
+am:t-10508
+	skos:closeMatch aatned:bretels .
+
+am:t-10509
+	skos:closeMatch aatned:briefopeners .
+
+am:t-10511
+	skos:closeMatch aatned:brievenbussen .
+
+am:t-10515
+	skos:closeMatch aatned:brillen .
+
+am:t-10517
+	skos:closeMatch aatned:brillenkokers .
+
+am:t-10520
+	skos:closeMatch aatned:broches .
+
+am:t-10521
+	skos:closeMatch aatned:brochures .
+
+am:t-10522
+	skos:closeMatch aatned:broderies .
+
+am:t-10523
+	skos:closeMatch aatned:broeken .
+
+am:t-10527
+	skos:closeMatch aatned:broekpakken .
+
+am:t-10528
+	skos:closeMatch aatned:broekrokken .
+
+am:t-10536
+	skos:closeMatch aatned:bronsverf .
+
+am:t-10540
+	skos:closeMatch aatned:broodmanden .
+
+am:t-10541
+	skos:closeMatch aatned:broodroosters .
+
+am:t-10542
+	skos:closeMatch aatned:broodschalen .
+
+am:t-10544
+	skos:closeMatch aatned:brouwers .
+
+am:t-10568
+	skos:closeMatch aatned:bureaustoelen .
+
+am:t-10576
+	skos:closeMatch aatned:bursa_s .
+
+am:t-10579
+	skos:closeMatch aatned:bustehouders .
+
+am:t-10588
+	skos:closeMatch aatned:camera_s .
+
+am:t-10589
+	skos:closeMatch aatned:canape_s .
+
+am:t-10592
+	skos:closeMatch aatned:canvas .
+
+am:t-10596
+	skos:closeMatch aatned:capes .
+
+am:t-10598
+	skos:closeMatch aatned:caraco_s .
+
+am:t-10600
+	skos:closeMatch aatned:cardigans .
+
+am:t-10602
+	skos:closeMatch aatned:cartografen .
+
+am:t-10605
+	skos:closeMatch aatned:ceintuurs .
+
+am:t-10606
+	skos:closeMatch aatned:cello_s .
+
+am:t-10607
+	skos:closeMatch aatned:cellofaan .
+
+am:t-10609
+	skos:closeMatch aatned:celluloid .
+
+am:t-10612
+	skos:closeMatch aatned:centauren .
+
+am:t-10618
+	skos:closeMatch aatned:chalcedoon .
+
+am:t-10619
+	skos:closeMatch aatned:chamotte .
+
+am:t-10621
+	skos:closeMatch aatned:champagneglazen .
+
+am:t-10626
+	skos:closeMatch aatned:chenille__materiaal_ .
+
+am:t-10632
+	skos:closeMatch aatned:chirurgen .
+
+am:t-10633
+	skos:closeMatch aatned:chocoladekannen .
+
+am:t-10635
+	skos:closeMatch aatned:chocoladekoppen .
+
+am:t-10639
+	skos:closeMatch aatned:chroom .
+
+am:t-10640
+	skos:closeMatch aatned:cibories .
+
+am:t-10642
+	skos:closeMatch aatned:citers .
+
+am:t-10645
+	skos:closeMatch aatned:cliche_s .
+
+am:t-10647
+	skos:closeMatch aatned:cloisonne .
+
+am:t-10656
+	skos:closeMatch aatned:colberts .
+
+am:t-10658
+	skos:closeMatch aatned:collectebussen .
+
+am:t-10660
+	skos:closeMatch aatned:collecteschalen .
+
+am:t-10662
+	skos:closeMatch aatned:colliers .
+
+am:t-10663
+	skos:closeMatch aatned:combinaisons .
+
+am:t-10670
+	skos:closeMatch aatned:concertgebouwen .
+
+am:t-10676
+	skos:closeMatch aatned:consoles .
+
+am:t-10681
+	skos:closeMatch aatned:corporalen .
+
+am:t-10682
+	skos:closeMatch aatned:corsages__kledingaccessoires_ .
+
+am:t-10690
+	skos:closeMatch aatned:coupons .
+
+am:t-10693
+	skos:closeMatch aatned:crapauds .
+
+am:t-10694
+	skos:closeMatch aatned:craquele .
+
+am:t-10697
+	skos:closeMatch aatned:crepe .
+
+am:t-10704
+	skos:closeMatch aatned:crinolines .
+
+am:t-10712
+	skos:closeMatch aatned:dakpan .
+
+am:t-10739
+	skos:closeMatch aatned:deegrollers .
+
+am:t-10742
+	skos:closeMatch aatned:dekens .
+
+am:t-10743
+	skos:closeMatch aatned:bedekkingen .
+
+am:t-10745
+	skos:closeMatch aatned:deksels .
+
+am:t-10750
+	skos:closeMatch aatned:kommen_met_deksel .
+
+am:t-10756
+	skos:closeMatch aatned:dekverf .
+
+am:t-10760
+	skos:closeMatch aatned:dessertlepels .
+
+am:t-10761
+	skos:closeMatch aatned:dessertschalen .
+
+am:t-10763
+	skos:closeMatch aatned:deuren .
+
+am:t-10766
+	skos:closeMatch aatned:deurkloppers .
+
+am:t-10767
+	skos:closeMatch aatned:deurknoppen .
+
+am:t-10768
+	skos:closeMatch aatned:deurmatten .
+
+am:t-10770
+	skos:closeMatch aatned:deursloten .
+
+am:t-10771
+	skos:closeMatch aatned:deurstukken .
+
+am:t-10778
+	skos:closeMatch aatned:diamant .
+
+am:t-10797
+	skos:closeMatch aatned:diepe_borden .
+
+am:t-10803
+	skos:closeMatch aatned:diploma_s .
+
+am:t-10805
+	skos:closeMatch aatned:dirigenten .
+
+am:t-10812
+	skos:closeMatch aatned:doedelzakspelers .
+
+am:t-10813
+	skos:closeMatch aatned:doeken .
+
+am:t-10815
+	skos:closeMatch aatned:dolfijnen .
+
+am:t-10816
+	skos:closeMatch aatned:psychiatrische_inrichtingen .
+
+am:t-10818
+	skos:closeMatch aatned:dominospellen .
+
+am:t-10819
+	skos:closeMatch aatned:dompers .
+
+am:t-10822
+	skos:closeMatch aatned:dons .
+
+am:t-10824
+	skos:closeMatch aatned:doodskisten .
+
+am:t-10832
+	skos:closeMatch aatned:doopschalen .
+
+am:t-10836
+	skos:closeMatch aatned:doordruk .
+
+am:t-10839
+	skos:closeMatch aatned:doorsneden .
+
+am:t-10846
+	skos:closeMatch aatned:dorpsgezichten .
+
+am:t-10850
+	skos:closeMatch aatned:draadnagels .
+
+am:t-10853
+	skos:closeMatch aatned:draagkoetsen .
+
+am:t-10859
+	skos:closeMatch aatned:draaischijven__spoorwegen_ .
+
+am:t-10860
+	skos:closeMatch aatned:draaiwerk .
+
+am:t-10862
+	skos:closeMatch aatned:dressoirs__meubelen_ .
+
+am:t-10867
+	skos:closeMatch aatned:drietanden__elgers_ .
+
+am:t-10873
+	skos:closeMatch aatned:drinkhoorns .
+
+am:t-10875
+	skos:closeMatch aatned:drinkschalen__motieven_ .
+
+am:t-10877
+	skos:closeMatch aatned:stortebekers .
+
+am:t-10878
+	skos:closeMatch aatned:drogenaald__drukprocede_ .
+
+am:t-10880
+	skos:closeMatch aatned:droogdoeken .
+
+am:t-10881
+	skos:closeMatch aatned:droogrekken .
+
+am:t-10889
+	skos:closeMatch aatned:drukplaten .
+
+am:t-10890
+	skos:closeMatch aatned:drukwerk .
+
+am:t-10896
+	skos:closeMatch aatned:duimstokken .
+
+am:t-10902
+	skos:closeMatch aatned:dwangbuizen .
+
+am:t-10904
+	skos:closeMatch aatned:dwergen .
+
+am:t-10908
+	skos:closeMatch aatned:eenden .
+
+am:t-10912
+	skos:closeMatch aatned:eerste_steenlegging .
+
+am:t-10913
+	skos:closeMatch aatned:eetstokjes .
+
+am:t-10915
+	skos:closeMatch aatned:eierlepels .
+
+am:t-10916
+	skos:closeMatch aatned:eierrekken .
+
+am:t-10917
+	skos:closeMatch aatned:eikenblad .
+
+am:t-10921
+	skos:closeMatch aatned:elastiek .
+
+am:t-10922
+	skos:closeMatch aatned:elastomeer .
+
+am:t-10944
+	skos:closeMatch aatned:engageantes .
+
+am:t-10946
+	skos:closeMatch aatned:engelen .
+
+am:t-10950
+	skos:closeMatch aatned:ensembles .
+
+am:t-10952
+	skos:closeMatch aatned:enveloppen .
+
+am:t-10953
+	skos:closeMatch aatned:epauletten .
+
+am:t-10956
+	skos:closeMatch aatned:erepenningen .
+
+am:t-10964
+	skos:closeMatch aatned:asbestcement .
+
+am:t-10967
+	skos:closeMatch aatned:etuis .
+
+am:t-10973
+	skos:closeMatch aatned:springstof .
+
+am:t-10979
+	skos:closeMatch aatned:familieportretten .
+
+am:t-10983
+	skos:closeMatch aatned:fauteuils .
+
+am:t-10985
+	skos:closeMatch aatned:fazanten .
+
+am:t-10994
+	skos:closeMatch aatned:fichus .
+
+am:t-11003
+	skos:closeMatch aatned:filmprojectoren .
+
+am:t-11006
+	skos:closeMatch aatned:fineer .
+
+am:t-11025
+	skos:closeMatch aatned:flacons .
+
+am:t-11028
+	skos:closeMatch aatned:flanel .
+
+am:t-11034
+	skos:closeMatch aatned:flessenbakken .
+
+am:t-11043
+	skos:closeMatch aatned:fluitglazen .
+
+am:t-11053
+	skos:closeMatch aatned:foedralen .
+
+am:t-11068
+	skos:closeMatch aatned:fotoalbums .
+
+am:t-11069
+	skos:closeMatch aatned:fotocollages .
+
+am:t-11071
+	skos:closeMatch aatned:fotografen .
+
+am:t-11072
+	skos:closeMatch aatned:fotografische_afdrukken .
+
+am:t-11074
+	skos:closeMatch aatned:fotolijsten .
+
+am:t-11078
+	skos:closeMatch aatned:foulards .
+
+am:t-11080
+	skos:closeMatch aatned:fragmenten .
+
+am:t-11083
+	skos:closeMatch aatned:franje .
+
+am:t-11084
+	skos:closeMatch aatned:Frans .
+
+am:t-11094
+	skos:closeMatch aatned:fruitmessen .
+
+am:t-11095
+	skos:closeMatch aatned:fruitschalen .
+
+am:t-11096
+	skos:closeMatch aatned:fruitstillevens .
+
+am:t-11103
+	skos:closeMatch aatned:gabbro .
+
+am:t-11105
+	skos:closeMatch aatned:galon .
+
+am:t-11108
+	skos:closeMatch aatned:ganzen .
+
+am:t-11110
+	skos:closeMatch aatned:ganzenroeren .
+
+am:t-11111
+	skos:closeMatch aatned:garen .
+
+am:t-11113
+	skos:closeMatch aatned:garenspoelen .
+
+am:t-11116
+	skos:closeMatch aatned:gaslampen .
+
+am:t-11118
+	skos:closeMatch aatned:gasmaskers .
+
+am:t-11124
+	skos:closeMatch aatned:bakken__verhitten_ .
+
+am:t-11127
+	skos:closeMatch aatned:gebakschalen .
+
+am:t-11131
+	skos:closeMatch aatned:beeldhouwtechnieken .
+
+am:t-11136
+	skos:closeMatch aatned:gebogen .
+
+am:t-11138
+	skos:closeMatch aatned:boren__procede_ .
+
+am:t-11156
+	skos:closeMatch aatned:gedenkborden .
+
+am:t-11158
+	skos:closeMatch aatned:gedenkpenningen .
+
+am:t-11165
+	skos:closeMatch aatned:drijven .
+
+am:t-11167
+	skos:closeMatch aatned:drukken .
+
+am:t-11176
+	skos:closeMatch aatned:fixeren .
+
+am:t-11179
+	skos:closeMatch aatned:galvaniseren .
+
+am:t-11182
+	skos:closeMatch aatned:glazuren_van_aardewerk__technieken_ .
+
+am:t-11185
+	skos:closeMatch aatned:granuleren__metaalversiering_ .
+
+am:t-11187
+	skos:closeMatch aatned:gronden__schildertechniek_ .
+
+am:t-11189
+	skos:closeMatch aatned:haken__handwerktechniek_ .
+
+am:t-11192
+	skos:closeMatch aatned:houwen .
+
+am:t-11195
+	skos:closeMatch aatned:geiten .
+
+am:t-11206
+	skos:closeMatch aatned:knippen__handeling_ .
+
+am:t-11219
+	skos:closeMatch aatned:geldkisten .
+
+am:t-11222
+	skos:closeMatch aatned:gelegenheidskleding .
+
+am:t-11227
+	skos:closeMatch aatned:matteren__glas_ .
+
+am:t-11228
+	skos:closeMatch aatned:gemberpotten .
+
+am:t-11233
+	skos:closeMatch aatned:modelleren__mal_ .
+
+am:t-11253
+	skos:closeMatch aatned:pletten__vergruizen_ .
+
+am:t-11260
+	skos:closeMatch aatned:polymeriseren .
+
+am:t-11261
+	skos:closeMatch aatned:ponsen__techniek_ .
+
+am:t-11262
+	skos:closeMatch aatned:prikken .
+
+am:t-11263
+	skos:closeMatch aatned:geprofileerd .
+
+am:t-11265
+	skos:closeMatch aatned:gereedschap .
+
+am:t-11268
+	skos:closeMatch aatned:geringeloord .
+
+am:t-11269
+	skos:closeMatch aatned:ruwen .
+
+am:t-11276
+	skos:closeMatch aatned:schroeven__vastmaken_ .
+
+am:t-11278
+	skos:closeMatch aatned:schuren__afslijten_ .
+
+am:t-11283
+	skos:closeMatch aatned:slaan__metaalvormingsprocedes_ .
+
+am:t-11284
+	skos:closeMatch aatned:slijpen .
+
+am:t-11285
+	skos:closeMatch aatned:gesmeed .
+
+am:t-11295
+	skos:closeMatch aatned:stikken .
+
+am:t-11298
+	skos:closeMatch aatned:stomen__reinigen_ .
+
+am:t-11301
+	skos:closeMatch aatned:tekenen .
+
+am:t-11302
+	skos:closeMatch aatned:timmeren .
+
+am:t-11303
+	skos:closeMatch aatned:trekken__van_de_kwast_ .
+
+am:t-11306
+	skos:closeMatch aatned:getuigschriften .
+
+am:t-11315
+	skos:closeMatch aatned:voeren__procede_ .
+
+am:t-11316
+	skos:closeMatch aatned:gevogelte .
+
+am:t-11320
+	skos:closeMatch aatned:wapenen .
+
+am:t-11323
+	skos:closeMatch aatned:geweren .
+
+am:t-11324
+	skos:closeMatch aatned:gewei .
+
+am:t-11328
+	skos:closeMatch aatned:zagen__handeling_ .
+
+am:t-11336
+	skos:closeMatch aatned:gierigheid .
+
+am:t-11338
+	skos:closeMatch aatned:gietstukken .
+
+am:t-11341
+	skos:closeMatch aatned:gildebekers .
+
+am:t-11349
+	skos:closeMatch aatned:gips .
+
+am:t-11351
+	skos:closeMatch aatned:girobussen .
+
+am:t-11352
+	skos:closeMatch aatned:gitaren .
+
+am:t-11357
+	skos:closeMatch aatned:glas_in_lood__raam_ .
+
+am:t-11362
+	skos:closeMatch aatned:glasvloed .
+
+am:t-11364
+	skos:closeMatch aatned:glasschilderingen .
+
+am:t-11367
+	skos:closeMatch aatned:glazuur .
+
+am:t-11373
+	skos:closeMatch aatned:gongen__percussieinstrumenten_ .
+
+am:t-11374
+	skos:closeMatch aatned:gordels .
+
+am:t-11400
+	skos:closeMatch aatned:goudlegering .
+
+am:t-11411
+	skos:closeMatch aatned:gradenbogen .
+
+am:t-11413
+	skos:closeMatch aatned:graftomben .
+
+am:t-11416
+	skos:closeMatch aatned:graniet .
+
+am:t-11427
+	skos:closeMatch aatned:groefschaven .
+
+am:t-11429
+	skos:closeMatch aatned:groentes .
+
+am:t-11432
+	skos:closeMatch aatned:groenteschalen .
+
+am:t-11437
+	skos:closeMatch aatned:grondplaten .
+
+am:t-11438
+	skos:closeMatch aatned:grondschaven .
+
+am:t-11440
+	skos:closeMatch aatned:kruissteekborduurwerk .
+
+am:t-11442
+	skos:closeMatch aatned:gueridons .
+
+am:t-11445
+	skos:closeMatch aatned:guimpewerk .
+
+am:t-11447
+	skos:closeMatch aatned:gutsen .
+
+am:t-11448
+	skos:closeMatch aatned:guttapercha .
+
+am:t-11454
+	skos:closeMatch aatned:haakbussen .
+
+am:t-11458
+	skos:closeMatch aatned:haarbanden .
+
+am:t-11463
+	skos:closeMatch aatned:haardplaten .
+
+am:t-11464
+	skos:closeMatch aatned:haardrogers .
+
+am:t-11475
+	skos:closeMatch aatned:haarnetjes .
+
+am:t-11477
+	skos:closeMatch aatned:haarspelden .
+
+am:t-11478
+	skos:closeMatch aatned:hazen .
+
+am:t-11482
+	skos:closeMatch aatned:hakblokken .
+
+am:t-11484
+	skos:closeMatch aatned:haken_en_ogen .
+
+am:t-11485
+	skos:closeMatch aatned:hakenkruisen .
+
+am:t-11489
+	skos:closeMatch aatned:halfedelsteen .
+
+am:t-11491
+	skos:closeMatch aatned:halfmodellen .
+
+am:t-11497
+	skos:closeMatch aatned:halters .
+
+am:t-11504
+	skos:closeMatch aatned:face_a_mains .
+
+am:t-11505
+	skos:closeMatch aatned:handdoeken .
+
+am:t-11509
+	skos:closeMatch aatned:handelaren .
+
+am:t-11515
+	skos:closeMatch aatned:handgemaakt .
+
+am:t-11520
+	skos:closeMatch aatned:handspinnen .
+
+am:t-11522
+	skos:closeMatch aatned:handweven .
+
+am:t-11527
+	skos:closeMatch aatned:handschoenen .
+
+am:t-11528
+	skos:closeMatch aatned:handschoenendozen .
+
+am:t-11541
+	skos:closeMatch aatned:hanglampen .
+
+am:t-11542
+	skos:closeMatch aatned:hangsloten .
+
+am:t-11547
+	skos:closeMatch aatned:haringtonnen .
+
+am:t-11550
+	skos:closeMatch aatned:hartsvangers .
+
+am:t-11551
+	skos:closeMatch aatned:haspels .
+
+am:t-11553
+	skos:closeMatch aatned:havengezichten .
+
+am:t-11555
+	skos:closeMatch aatned:hefbomen .
+
+am:t-11562
+	skos:closeMatch aatned:hellebaarden .
+
+am:t-11565
+	skos:closeMatch aatned:hemelbedden .
+
+am:t-11568
+	skos:closeMatch aatned:hengels .
+
+am:t-11570
+	skos:closeMatch aatned:hengselmanden .
+
+am:t-11574
+	skos:closeMatch aatned:herders .
+
+am:t-11586
+	skos:closeMatch aatned:hermen .
+
+am:t-11589
+	skos:closeMatch aatned:herten .
+
+am:t-11598
+	skos:closeMatch aatned:historici .
+
+am:t-11599
+	skos:closeMatch aatned:historiestukken .
+
+am:t-11604
+	skos:closeMatch aatned:hoedendozen .
+
+am:t-11607
+	skos:closeMatch aatned:hoedenspelden .
+
+am:t-11610
+	skos:closeMatch aatned:hoepels__speelgoed_ .
+
+am:t-11611
+	skos:closeMatch aatned:hoepelrokken .
+
+am:t-11621
+	skos:closeMatch aatned:Hollandse_cirkels .
+
+am:t-11624
+	skos:closeMatch aatned:homoseksualiteit .
+
+am:t-11631
+	skos:closeMatch aatned:hoofddeksels .
+
+am:t-11633
+	skos:closeMatch aatned:hoofdkussens .
+
+am:t-11656
+	skos:closeMatch aatned:horlogekasten .
+
+am:t-11657
+	skos:closeMatch aatned:horlogemakers .
+
+am:t-11662
+	skos:closeMatch aatned:hot_pants .
+
+am:t-11663
+	skos:closeMatch aatned:houders .
+
+am:t-11695
+	skos:closeMatch aatned:brazielhout .
+
+am:t-11746
+	skos:closeMatch aatned:houtgravures .
+
+am:t-11753
+	skos:closeMatch aatned:houtteer .
+
+am:t-11754
+	skos:closeMatch aatned:houwitsers .
+
+am:t-11764
+	skos:closeMatch aatned:humpen .
+
+am:t-11767
+	skos:closeMatch aatned:huwelijk .
+
+am:t-11779
+	skos:closeMatch aatned:ijsmachines .
+
+am:t-11786
+	skos:closeMatch aatned:ijzerhout .
+
+am:t-11787
+	skos:closeMatch aatned:ijzerlegering .
+
+am:t-11799
+	skos:closeMatch aatned:Ingekerfd__aardewerkstijl_ .
+
+am:t-11800
+	skos:closeMatch aatned:kleur .
+
+am:t-11801
+	skos:closeMatch aatned:krassen .
+
+am:t-11808
+	skos:closeMatch aatned:inkt .
+
+am:t-11810
+	skos:closeMatch aatned:inktpotten .
+
+am:t-11814
+	skos:closeMatch aatned:inktstellen .
+
+am:t-11820
+	skos:closeMatch aatned:intarsia .
+
+am:t-11826
+	skos:closeMatch aatned:inwijdingen .
+
+am:t-11833
+	skos:closeMatch aatned:jabots .
+
+am:t-11835
+	skos:closeMatch aatned:jachtgeweren .
+
+am:t-11839
+	skos:closeMatch aatned:jacquets .
+
+am:t-11840
+	skos:closeMatch aatned:jagers .
+
+am:t-11851
+	skos:closeMatch aatned:jassen .
+
+am:t-11852
+	skos:closeMatch aatned:jaspis .
+
+am:t-11855
+	skos:closeMatch aatned:jeneverglazen .
+
+am:t-11861
+	skos:closeMatch aatned:jongenskleding .
+
+am:t-11868
+	skos:closeMatch aatned:jukken .
+
+am:t-11871
+	skos:closeMatch aatned:juslepels .
+
+am:t-11873
+	skos:closeMatch aatned:jute .
+
+am:t-11888
+	skos:closeMatch aatned:kaaspersen .
+
+am:t-11897
+	skos:closeMatch aatned:kalebas .
+
+am:t-11899
+	skos:closeMatch aatned:kalk .
+
+am:t-11903
+	skos:closeMatch aatned:kalkoenen .
+
+am:t-11904
+	skos:closeMatch aatned:kalksteen .
+
+am:t-11908
+	skos:closeMatch aatned:kamerschermen .
+
+am:t-11934
+	skos:closeMatch aatned:kapitelen .
+
+am:t-11935
+	skos:closeMatch aatned:kapmantels .
+
+am:t-11938
+	skos:closeMatch aatned:kapstokken .
+
+am:t-11940
+	skos:closeMatch aatned:kaptafels .
+
+am:t-11941
+	skos:closeMatch aatned:kapzagen .
+
+am:t-11943
+	skos:closeMatch aatned:karaffen .
+
+am:t-11946
+	skos:closeMatch aatned:kariatiden .
+
+am:t-11949
+	skos:closeMatch aatned:kasjmier .
+
+am:t-11960
+	skos:closeMatch aatned:katoen .
+
+am:t-11968
+	skos:closeMatch aatned:kazuifels .
+
+am:t-11977
+	skos:closeMatch aatned:keper_boog_friezen .
+
+am:t-11978
+	skos:closeMatch aatned:kepies .
+
+am:t-11989
+	skos:closeMatch aatned:keukengerei .
+
+am:t-11998
+	skos:closeMatch aatned:kikkers .
+
+am:t-11999
+	skos:closeMatch aatned:kilts .
+
+am:t-12000
+	skos:closeMatch aatned:kimono_s .
+
+am:t-12019
+	skos:closeMatch aatned:kinderportretten .
+
+am:t-12026
+	skos:closeMatch aatned:kinderstoelen .
+
+am:t-12030
+	skos:closeMatch aatned:kinderwagens .
+
+am:t-12031
+	skos:closeMatch aatned:kippen .
+
+am:t-12041
+	skos:closeMatch aatned:kledingborstels .
+
+am:t-12046
+	skos:closeMatch aatned:kleedkamers .
+
+am:t-12048
+	skos:closeMatch aatned:kleerhangers__kledinguitrusting_ .
+
+am:t-12049
+	skos:closeMatch aatned:kleermakers .
+
+am:t-12050
+	skos:closeMatch aatned:klei .
+
+am:t-12054
+	skos:closeMatch aatned:klemhaken .
+
+am:t-12056
+	skos:closeMatch aatned:kleppers .
+
+am:t-12057
+	skos:closeMatch aatned:kleurenlithografieen__prenten_ .
+
+am:t-12059
+	skos:closeMatch aatned:klingen .
+
+am:t-12060
+	skos:closeMatch aatned:klittenband .
+
+am:t-12061
+	skos:closeMatch aatned:klompen__schoeisel_ .
+
+am:t-12063
+	skos:closeMatch aatned:kloppers .
+
+am:t-12065
+	skos:closeMatch aatned:kniebroeken .
+
+am:t-12068
+	skos:closeMatch aatned:knipsels .
+
+am:t-12072
+	skos:closeMatch aatned:knuppels .
+
+am:t-12079
+	skos:closeMatch aatned:koektrommels .
+
+am:t-12082
+	skos:closeMatch aatned:koevoeten .
+
+am:t-12088
+	skos:closeMatch aatned:koffiekoppen .
+
+am:t-12089
+	skos:closeMatch aatned:koffiemolens .
+
+am:t-12091
+	skos:closeMatch aatned:koffieserviezen .
+
+am:t-12098
+	skos:closeMatch aatned:kokardes .
+
+am:t-12099
+	skos:closeMatch aatned:kokers .
+
+am:t-12102
+	skos:closeMatch aatned:kolenkitten .
+
+am:t-12111
+	skos:closeMatch aatned:kommen_op_voet .
+
+am:t-12112
+	skos:closeMatch aatned:komforen .
+
+am:t-12114
+	skos:closeMatch aatned:konijnen .
+
+am:t-12122
+	skos:closeMatch aatned:kooplieden .
+
+am:t-12131
+	skos:closeMatch aatned:koperlegering .
+
+am:t-12137
+	skos:closeMatch aatned:korbelen .
+
+am:t-12153
+	skos:closeMatch aatned:kraagstenen .
+
+am:t-12160
+	skos:closeMatch aatned:hijskranen .
+
+am:t-12161
+	skos:closeMatch aatned:kraantjeskannen .
+
+am:t-12166
+	skos:closeMatch aatned:kratten .
+
+am:t-12177
+	skos:closeMatch aatned:krokodillen .
+
+am:t-12185
+	skos:closeMatch aatned:kruiken .
+
+am:t-12187
+	skos:closeMatch aatned:kruisbogen__bogen__wapens__ .
+
+am:t-12191
+	skos:closeMatch aatned:kruithoorns .
+
+am:t-12196
+	skos:closeMatch aatned:kruiwagens .
+
+am:t-12199
+	skos:closeMatch aatned:krulspelden .
+
+am:t-12204
+	skos:closeMatch aatned:kuipers .
+
+am:t-12205
+	skos:closeMatch aatned:kuiperijen .
+
+am:t-12210
+	skos:closeMatch aatned:kunstfruit .
+
+am:t-12217
+	skos:closeMatch aatned:kurassen .
+
+am:t-12219
+	skos:closeMatch aatned:kussens .
+
+am:t-12220
+	skos:closeMatch aatned:kussenovertrekken .
+
+am:t-12221
+	skos:closeMatch aatned:kussenslopen .
+
+am:t-12222
+	skos:closeMatch aatned:kustgezichten .
+
+am:t-12225
+	skos:closeMatch aatned:kwarts .
+
+am:t-12228
+	skos:closeMatch aatned:kwikzilver .
+
+am:t-12230
+	skos:closeMatch aatned:kwispedoors .
+
+am:t-12232
+	skos:closeMatch aatned:laarzen .
+
+am:t-12233
+	skos:closeMatch aatned:laarzentrekkers .
+
+am:t-12234
+	skos:closeMatch aatned:ladders .
+
+am:t-12236
+	skos:closeMatch aatned:ladenkasten .
+
+am:t-12237
+	skos:closeMatch aatned:ladenkisten .
+
+am:t-12243
+	skos:closeMatch aatned:lakleer .
+
+am:t-12247
+	skos:closeMatch aatned:lama_s .
+
+am:t-12248
+	skos:closeMatch aatned:lambrizeringen .
+
+am:t-12249
+	skos:closeMatch aatned:lame .
+
+am:t-12252
+	skos:closeMatch aatned:lampenkappen .
+
+am:t-12255
+	skos:closeMatch aatned:landbouwers .
+
+am:t-12263
+	skos:closeMatch aatned:lantaarns__verlichtingsmiddelen_ .
+
+am:t-12265
+	skos:closeMatch aatned:laskappen .
+
+am:t-12276
+	skos:closeMatch aatned:ledikanten .
+
+am:t-12300
+	skos:closeMatch aatned:lessenaars .
+
+am:t-12311
+	skos:closeMatch aatned:lijmtangen .
+
+am:t-12313
+	skos:closeMatch aatned:likeurglazen .
+
+am:t-12316
+	skos:closeMatch aatned:linnenpersen .
+
+am:t-12318
+	skos:closeMatch aatned:linoleum .
+
+am:t-12322
+	skos:closeMatch aatned:lithostenen .
+
+am:t-12323
+	skos:closeMatch aatned:lithografen .
+
+am:t-12329
+	skos:closeMatch aatned:logo_s .
+
+am:t-12330
+	skos:closeMatch aatned:longdrinkglazen .
+
+am:t-12335
+	skos:closeMatch aatned:loodgieters .
+
+am:t-12336
+	skos:closeMatch aatned:loodglazuur .
+
+am:t-12341
+	skos:closeMatch aatned:lucht .
+
+am:t-12344
+	skos:closeMatch aatned:luchtvaartkunde .
+
+am:t-12346
+	skos:closeMatch aatned:luiers .
+
+am:t-12355
+	skos:closeMatch aatned:maatbekers .
+
+am:t-12357
+	skos:closeMatch aatned:maatstokken__meetinstrumenten_ .
+
+am:t-12359
+	skos:closeMatch aatned:machinaal .
+
+am:t-12366
+	skos:closeMatch aatned:macrame .
+
+am:t-12372
+	skos:closeMatch aatned:malienkolders .
+
+am:t-12376
+	skos:closeMatch aatned:manchetknopen .
+
+am:t-12379
+	skos:closeMatch aatned:maneges .
+
+am:t-12380
+	skos:closeMatch aatned:mangels .
+
+am:t-12382
+	skos:closeMatch aatned:manipels .
+
+am:t-12383
+	skos:closeMatch aatned:mannenfiguren .
+
+am:t-12390
+	skos:closeMatch aatned:mappen__houders_ .
+
+am:t-12398
+	skos:closeMatch aatned:marmotten .
+
+am:t-12403
+	skos:closeMatch aatned:martelwerktuigen .
+
+am:t-12404
+	skos:closeMatch aatned:mascarons .
+
+am:t-12409
+	skos:closeMatch aatned:matrassen .
+
+am:t-12410
+	skos:closeMatch aatned:matrijzen__gietvormen_ .
+
+am:t-12420
+	skos:closeMatch aatned:meesterwerk .
+
+am:t-12421
+	skos:closeMatch aatned:meetinstrumenten .
+
+am:t-12427
+	skos:closeMatch aatned:meisjeskleding .
+
+am:t-12433
+	skos:closeMatch aatned:melkbussen .
+
+am:t-12436
+	skos:closeMatch aatned:melkglas .
+
+am:t-12437
+	skos:closeMatch aatned:melkkannen .
+
+am:t-12438
+	skos:closeMatch aatned:melkkarren .
+
+am:t-12445
+	skos:closeMatch aatned:menukaarten .
+
+am:t-12450
+	skos:closeMatch aatned:merglepels .
+
+am:t-12454
+	skos:closeMatch aatned:messchedes .
+
+am:t-12456
+	skos:closeMatch aatned:messenleggers .
+
+am:t-12460
+	skos:closeMatch aatned:messingschaven .
+
+am:t-12463
+	skos:closeMatch aatned:metaal .
+
+am:t-12468
+	skos:closeMatch aatned:metaaldraad .
+
+am:t-12477
+	skos:closeMatch aatned:meubelplaat .
+
+am:t-12479
+	skos:closeMatch aatned:mezzotinten .
+
+am:t-12483
+	skos:closeMatch aatned:mijnwerkers .
+
+am:t-12484
+	skos:closeMatch aatned:mijters .
+
+am:t-12491
+	skos:closeMatch aatned:miskelken .
+
+am:t-12494
+	skos:closeMatch aatned:mitaines .
+
+am:t-12500
+	skos:closeMatch aatned:moffen .
+
+am:t-12502
+	skos:closeMatch aatned:mohair .
+
+am:t-12504
+	skos:closeMatch aatned:moire .
+
+am:t-12505
+	skos:closeMatch aatned:mollen .
+
+am:t-12510
+	skos:closeMatch aatned:molenaars .
+
+am:t-12513
+	skos:closeMatch aatned:monsters .
+
+am:t-12517
+	skos:closeMatch aatned:morgensterren .
+
+am:t-12518
+	skos:closeMatch aatned:morsmouwen .
+
+am:t-12519
+	skos:closeMatch aatned:mortel .
+
+am:t-12522
+	skos:closeMatch aatned:mousseline .
+
+am:t-12523
+	skos:closeMatch aatned:mouwen .
+
+am:t-12524
+	skos:closeMatch aatned:mouwbanden .
+
+am:t-12528
+	skos:closeMatch aatned:muiltjes__2_ .
+
+am:t-12538
+	skos:closeMatch aatned:musketten .
+
+am:t-12539
+	skos:closeMatch aatned:mutsen .
+
+am:t-12540
+	skos:closeMatch aatned:muurankers .
+
+am:t-12550
+	skos:closeMatch aatned:naaidozen .
+
+am:t-12551
+	skos:closeMatch aatned:naaimachines .
+
+am:t-12552
+	skos:closeMatch aatned:naaimanden .
+
+am:t-12555
+	skos:closeMatch aatned:naaisters__textielwerkers_ .
+
+am:t-12557
+	skos:closeMatch aatned:naalden .
+
+am:t-12562
+	skos:closeMatch aatned:naamplaten .
+
+am:t-12566
+	skos:closeMatch aatned:nachthemden .
+
+am:t-12568
+	skos:closeMatch aatned:nachtkleding .
+
+am:t-12572
+	skos:closeMatch aatned:nagelvijlen .
+
+am:t-12573
+	skos:closeMatch aatned:nappen .
+
+am:t-12576
+	skos:closeMatch aatned:nationale_monumenten .
+
+am:t-12579
+	skos:closeMatch aatned:natuursteen .
+
+am:t-12584
+	skos:closeMatch aatned:travertijn .
+
+am:t-12604
+	skos:closeMatch aatned:nietjes .
+
+am:t-12610
+	skos:closeMatch aatned:nijlpaarden .
+
+am:t-12611
+	skos:closeMatch aatned:nijptangen .
+
+am:t-12612
+	skos:closeMatch aatned:nikkel .
+
+am:t-12613
+	skos:closeMatch aatned:nonnen .
+
+am:t-12618
+	skos:closeMatch aatned:notenhout .
+
+am:t-12619
+	skos:closeMatch aatned:notenkrakers .
+
+am:t-12624
+	skos:closeMatch aatned:nylon .
+
+am:t-12626
+	skos:closeMatch aatned:obelisken .
+
+am:t-12627
+	skos:closeMatch aatned:obi_s .
+
+am:t-12631
+	skos:closeMatch aatned:octanten .
+
+am:t-12638
+	skos:closeMatch aatned:olie__en_azijnstellen .
+
+am:t-12644
+	skos:closeMatch aatned:olielampen .
+
+am:t-12649
+	skos:closeMatch aatned:slagtand .
+
+am:t-12656
+	skos:closeMatch aatned:omslagdoeken .
+
+am:t-12658
+	skos:closeMatch aatned:onderbroeken .
+
+am:t-12659
+	skos:closeMatch aatned:onderdelen .
+
+am:t-12661
+	skos:closeMatch aatned:ondergoed .
+
+am:t-12664
+	skos:closeMatch aatned:onderjurken .
+
+am:t-12667
+	skos:closeMatch aatned:onderleggers__kleedjes_ .
+
+am:t-12668
+	skos:closeMatch aatned:onderlijfjes .
+
+am:t-12669
+	skos:closeMatch aatned:ondermouwen .
+
+am:t-12671
+	skos:closeMatch aatned:onderrokken .
+
+am:t-12673
+	skos:closeMatch aatned:onderzetters .
+
+am:t-12678
+	skos:closeMatch aatned:onyx .
+
+am:t-12684
+	skos:closeMatch aatned:oorversieringen .
+
+am:t-12685
+	skos:closeMatch aatned:oorwarmers .
+
+am:t-12691
+	skos:closeMatch aatned:opaal .
+
+am:t-12699
+	skos:closeMatch aatned:opzetten__techniek_ .
+
+am:t-12715
+	skos:closeMatch aatned:otters__vaartuigen_ .
+
+am:t-12727
+	skos:closeMatch aatned:overalls .
+
+am:t-12728
+	skos:closeMatch aatned:overgooiers .
+
+am:t-12730
+	skos:closeMatch aatned:overhemden .
+
+am:t-12731
+	skos:closeMatch aatned:overjaponnen .
+
+am:t-12733
+	skos:closeMatch aatned:overrokken .
+
+am:t-12734
+	skos:closeMatch aatned:overschoenen .
+
+am:t-12742
+	skos:closeMatch aatned:paardenhaar .
+
+am:t-12755
+	skos:closeMatch aatned:palmhout .
+
+am:t-12756
+	skos:closeMatch aatned:pannen .
+
+am:t-12761
+	skos:closeMatch aatned:pannenlappen .
+
+am:t-12766
+	skos:closeMatch aatned:pastelpapier .
+
+am:t-12770
+	skos:closeMatch aatned:papierwerk .
+
+am:t-12771
+	skos:closeMatch aatned:papkommen .
+
+am:t-12772
+	skos:closeMatch aatned:paraffine .
+
+am:t-12773
+	skos:closeMatch aatned:paraplu_s .
+
+am:t-12774
+	skos:closeMatch aatned:paraplustandaarden .
+
+am:t-12776
+	skos:closeMatch aatned:parasols .
+
+am:t-12777
+	skos:closeMatch aatned:parel .
+
+am:t-12780
+	skos:closeMatch aatned:parfumflesjes .
+
+am:t-12781
+	skos:closeMatch aatned:parfumverstuivers .
+
+am:t-12783
+	skos:closeMatch aatned:parkeermeters .
+
+am:t-12784
+	skos:closeMatch aatned:parketvloeren .
+
+am:t-12786
+	skos:closeMatch aatned:partituren .
+
+am:t-12787
+	skos:closeMatch aatned:partizanen__wapens_ .
+
+am:t-12788
+	skos:closeMatch aatned:parures .
+
+am:t-12790
+	skos:closeMatch aatned:passement .
+
+am:t-12791
+	skos:closeMatch aatned:passers .
+
+am:t-12793
+	skos:closeMatch aatned:pastelkrijtjes .
+
+am:t-12804
+	skos:closeMatch aatned:paxtafels .
+
+am:t-12807
+	skos:closeMatch aatned:pelerines .
+
+am:t-12815
+	skos:closeMatch aatned:penantspiegels .
+
+am:t-12817
+	skos:closeMatch aatned:penhouders .
+
+am:t-12829
+	skos:closeMatch aatned:pepermolens .
+
+am:t-12834
+	skos:closeMatch aatned:personificatie .
+
+am:t-12836
+	skos:closeMatch aatned:perspex .
+
+am:t-12838
+	skos:closeMatch aatned:petten .
+
+am:t-12839
+	skos:closeMatch aatned:petards .
+
+am:t-12842
+	skos:closeMatch aatned:petticoats .
+
+am:t-12845
+	skos:closeMatch aatned:pieken .
+
+am:t-12846
+	skos:closeMatch aatned:pierrots .
+
+am:t-12847
+	skos:closeMatch aatned:pigment .
+
+am:t-12848
+	skos:closeMatch aatned:pijlen .
+
+am:t-12850
+	skos:closeMatch aatned:pijlpunten .
+
+am:t-12862
+	skos:closeMatch aatned:pillen .
+
+am:t-12865
+	skos:closeMatch aatned:pitriet .
+
+am:t-12866
+	skos:closeMatch aatned:plaatijzer .
+
+am:t-12869
+	skos:closeMatch aatned:placemats .
+
+am:t-12875
+	skos:closeMatch aatned:plantages .
+
+am:t-12880
+	skos:closeMatch aatned:plastrons .
+
+am:t-12886
+	skos:closeMatch aatned:plexiglas .
+
+am:t-12889
+	skos:closeMatch aatned:pluche .
+
+am:t-12893
+	skos:closeMatch aatned:po_s .
+
+am:t-12896
+	skos:closeMatch aatned:poeder .
+
+am:t-12899
+	skos:closeMatch aatned:politici .
+
+am:t-12900
+	skos:closeMatch aatned:polonaises .
+
+am:t-12901
+	skos:closeMatch aatned:polyamide .
+
+am:t-12902
+	skos:closeMatch aatned:polyester .
+
+am:t-12904
+	skos:closeMatch aatned:polyurethaan .
+
+am:t-12906
+	skos:closeMatch aatned:poken .
+
+am:t-12913
+	skos:closeMatch aatned:poppenkastpoppen .
+
+am:t-12921
+	skos:closeMatch aatned:portieres .
+
+am:t-12926
+	skos:closeMatch aatned:postzegelalbums .
+
+am:t-12931
+	skos:closeMatch aatned:potlood__medium_ .
+
+am:t-12940
+	skos:closeMatch aatned:presse_papiers .
+
+am:t-12945
+	skos:closeMatch aatned:prikborden .
+
+am:t-12946
+	skos:closeMatch aatned:primussen .
+
+am:t-12958
+	skos:closeMatch aatned:putti .
+
+am:t-12963
+	skos:closeMatch aatned:pyjama_s .
+
+am:t-12993
+	skos:closeMatch aatned:rekken__objecten_ .
+
+am:t-12996
+	skos:closeMatch aatned:reliquiaria .
+
+am:t-13006
+	skos:closeMatch aatned:rieken .
+
+am:t-13011
+	skos:closeMatch aatned:rietpennen .
+
+am:t-13022
+	skos:closeMatch aatned:robijn .
+
+am:t-13028
+	skos:closeMatch aatned:roemers .
+
+am:t-13030
+	skos:closeMatch aatned:roeren__voertuigonderdelen_ .
+
+am:t-13031
+	skos:closeMatch aatned:roestvrij_staal .
+
+am:t-13033
+	skos:closeMatch aatned:rokkostuums .
+
+am:t-13037
+	skos:closeMatch aatned:roomkannen .
+
+am:t-13039
+	skos:closeMatch aatned:rotan .
+
+am:t-13041
+	skos:closeMatch aatned:roulettes .
+
+am:t-13043
+	skos:closeMatch aatned:rubber .
+
+am:t-13046
+	skos:closeMatch aatned:rugzakken .
+
+am:t-13048
+	skos:closeMatch aatned:ruiters .
+
+am:t-13049
+	skos:closeMatch aatned:ruiterportretten .
+
+am:t-13058
+	skos:closeMatch aatned:saffier .
+
+am:t-13069
+	skos:closeMatch aatned:satijnhout .
+
+am:t-13070
+	skos:closeMatch aatned:satinet .
+
+am:t-13071
+	skos:closeMatch aatned:sauskommen .
+
+am:t-13072
+	skos:closeMatch aatned:saxofoons .
+
+am:t-13078
+	skos:closeMatch aatned:schapen .
+
+am:t-13082
+	skos:closeMatch aatned:schemels .
+
+am:t-13083
+	skos:closeMatch aatned:schandpalen .
+
+am:t-13088
+	skos:closeMatch aatned:schedel .
+
+am:t-13090
+	skos:closeMatch aatned:scheepsonderdelen .
+
+am:t-13094
+	skos:closeMatch aatned:scheerbekkens .
+
+am:t-13096
+	skos:closeMatch aatned:schelpkalk .
+
+am:t-13097
+	skos:closeMatch aatned:schenkkannen .
+
+am:t-13099
+	skos:closeMatch aatned:scheppen__serveermateriaal_ .
+
+am:t-13100
+	skos:closeMatch aatned:scherven .
+
+am:t-13109
+	skos:closeMatch aatned:schippers .
+
+am:t-13111
+	skos:closeMatch aatned:schoeisel .
+
+am:t-13112
+	skos:closeMatch aatned:schoenlepels .
+
+am:t-13113
+	skos:closeMatch aatned:schoenmakers .
+
+am:t-13116
+	skos:closeMatch aatned:schoenspanners .
+
+am:t-13119
+	skos:closeMatch aatned:schooltassen .
+
+am:t-13121
+	skos:closeMatch aatned:schorten .
+
+am:t-13123
+	skos:closeMatch aatned:schouderstukken .
+
+am:t-13126
+	skos:closeMatch aatned:schriften__schrijven_ .
+
+am:t-13127
+	skos:closeMatch aatned:schrijfborden .
+
+am:t-13128
+	skos:closeMatch aatned:schrijfbenodigdheden .
+
+am:t-13134
+	skos:closeMatch aatned:schroevendraaiers .
+
+am:t-13135
+	skos:closeMatch aatned:schrootbladen .
+
+am:t-13140
+	skos:closeMatch aatned:schuimplastic .
+
+am:t-13141
+	skos:closeMatch aatned:schuimrubber .
+
+am:t-13148
+	skos:closeMatch aatned:sepia .
+
+am:t-13157
+	skos:closeMatch aatned:sigarendozen .
+
+am:t-13158
+	skos:closeMatch aatned:sigaretten .
+
+am:t-13162
+	skos:closeMatch aatned:singels__gordels_ .
+
+am:t-13167
+	skos:closeMatch aatned:sjako_s .
+
+am:t-13187
+	skos:closeMatch aatned:sleutelhangers .
+
+am:t-13194
+	skos:closeMatch aatned:slippers .
+
+am:t-13199
+	skos:closeMatch aatned:smeedijzer .
+
+am:t-13202
+	skos:closeMatch aatned:smokings .
+
+am:t-13214
+	skos:closeMatch aatned:soepborden .
+
+am:t-13218
+	skos:closeMatch aatned:sokken .
+
+am:t-13219
+	skos:closeMatch aatned:sokkels .
+
+am:t-13224
+	skos:closeMatch aatned:spaanplaat .
+
+am:t-13240
+	skos:closeMatch aatned:spiegelglas .
+
+am:t-13247
+	skos:closeMatch aatned:spinners .
+
+am:t-13248
+	skos:closeMatch aatned:spinnewielen .
+
+am:t-13253
+	skos:closeMatch aatned:spoelkommen .
+
+am:t-13254
+	skos:closeMatch aatned:spons .
+
+am:t-13255
+	skos:closeMatch aatned:sporen__gedragen_accessoires_ .
+
+am:t-13256
+	skos:closeMatch aatned:sportkleding .
+
+am:t-13295
+	skos:closeMatch aatned:staven__wandelstokken_ .
+
+am:t-13305
+	skos:closeMatch aatned:steken .
+
+am:t-13306
+	skos:closeMatch aatned:steekbeitels .
+
+am:t-13308
+	skos:closeMatch aatned:steekwagens .
+
+am:t-1331
+	skos:closeMatch aatned:Amstel .
+
+am:t-13315
+	skos:closeMatch aatned:stembussen .
+
+am:t-13316
+	skos:closeMatch aatned:stemhokken .
+
+am:t-13320
+	skos:closeMatch aatned:step_ins .
+
+am:t-13324
+	skos:closeMatch aatned:stickers .
+
+am:t-13325
+	skos:closeMatch aatned:Stier__sterrenbeelden_ .
+
+am:t-13333
+	skos:closeMatch aatned:stippelgravures .
+
+am:t-13339
+	skos:closeMatch aatned:stofjassen .
+
+am:t-13340
+	skos:closeMatch aatned:stofzuigers .
+
+am:t-13342
+	skos:closeMatch aatned:stolpen .
+
+am:t-13346
+	skos:closeMatch aatned:stoomboten .
+
+am:t-13350
+	skos:closeMatch aatned:stopwatches .
+
+am:t-13354
+	skos:closeMatch aatned:straatveegmachines .
+
+am:t-13355
+	skos:closeMatch aatned:strafwerktuigen .
+
+am:t-13361
+	skos:closeMatch aatned:strijkstokken__snaarinstrumentonderdelen_ .
+
+am:t-13362
+	skos:closeMatch aatned:strikken__vallen_ .
+
+am:t-13363
+	skos:closeMatch aatned:stro .
+
+am:t-13365
+	skos:closeMatch aatned:stropdassen .
+
+am:t-13367
+	skos:closeMatch aatned:suede .
+
+am:t-13373
+	skos:closeMatch aatned:suikerpotten .
+
+am:t-13375
+	skos:closeMatch aatned:suikerstrooiers .
+
+am:t-13378
+	skos:closeMatch aatned:suikerzakken .
+
+am:t-13379
+	skos:closeMatch aatned:sulfide .
+
+am:t-13381
+	skos:closeMatch aatned:T_shirts .
+
+am:t-13385
+	skos:closeMatch aatned:tafels__dragend_meubilair_ .
+
+am:t-13387
+	skos:closeMatch aatned:tafelbellen .
+
+am:t-13397
+	skos:closeMatch aatned:takken .
+
+am:t-13398
+	skos:closeMatch aatned:tandartsen .
+
+am:t-13399
+	skos:closeMatch aatned:tandenborstels .
+
+am:t-13414
+	skos:closeMatch aatned:tazza_s .
+
+am:t-13416
+	skos:closeMatch aatned:teakhout .
+
+am:t-13419
+	skos:closeMatch aatned:teddyberen .
+
+am:t-13425
+	skos:closeMatch aatned:tekenaars .
+
+am:t-13426
+	skos:closeMatch aatned:tekst .
+
+am:t-13427
+	skos:closeMatch aatned:informatieborden .
+
+am:t-13429
+	skos:closeMatch aatned:telramen .
+
+am:t-13441
+	skos:closeMatch aatned:theebladen .
+
+am:t-13445
+	skos:closeMatch aatned:theekisten .
+
+am:t-13447
+	skos:closeMatch aatned:theekommen .
+
+am:t-13448
+	skos:closeMatch aatned:theekoppen .
+
+am:t-13450
+	skos:closeMatch aatned:theeserviezen .
+
+am:t-13451
+	skos:closeMatch aatned:theetafels .
+
+am:t-13453
+	skos:closeMatch aatned:tinglazuur .
+
+am:t-13458
+	skos:closeMatch aatned:titanium .
+
+am:t-13465
+	skos:closeMatch aatned:toga_s .
+
+am:t-13468
+	skos:closeMatch aatned:toiletpotten .
+
+am:t-13469
+	skos:closeMatch aatned:tollen .
+
+am:t-13470
+	skos:closeMatch aatned:tonnen .
+
+am:t-13471
+	skos:closeMatch aatned:toneelschrijvers .
+
+am:t-13473
+	skos:closeMatch aatned:toppen__architecturale_elementen_ .
+
+am:t-13476
+	skos:closeMatch aatned:tournures .
+
+am:t-13478
+	skos:closeMatch aatned:trainingspakken .
+
+am:t-13484
+	skos:closeMatch aatned:trapleuningen .
+
+am:t-13486
+	skos:closeMatch aatned:trechters .
+
+am:t-13487
+	skos:closeMatch aatned:treeften .
+
+am:t-13489
+	skos:closeMatch aatned:trekschuiten .
+
+am:t-13490
+	skos:closeMatch aatned:trembleuses .
+
+am:t-13493
+	skos:closeMatch aatned:tricot .
+
+am:t-13500
+	skos:closeMatch aatned:troffels .
+
+am:t-13507
+	skos:closeMatch aatned:truien .
+
+am:t-13508
+	skos:closeMatch aatned:tuinbeelden .
+
+am:t-13511
+	skos:closeMatch aatned:tule .
+
+am:t-13514
+	skos:closeMatch aatned:tunieken .
+
+am:t-13524
+	skos:closeMatch aatned:schrijfmachines .
+
+am:t-13526
+	skos:closeMatch aatned:uitgevers .
+
+am:t-13533
+	skos:closeMatch aatned:urinalen .
+
+am:t-13544
+	skos:closeMatch aatned:valkenjachten__boten_ .
+
+am:t-13548
+	skos:closeMatch aatned:varkensleer .
+
+am:t-13564
+	skos:closeMatch aatned:verf .
+
+am:t-13568
+	skos:closeMatch aatned:verfdozen .
+
+am:t-13571
+	skos:closeMatch aatned:vergieten .
+
+am:t-13579
+	skos:closeMatch aatned:verjaardagen .
+
+am:t-13601
+	skos:closeMatch aatned:vijlen__gereedschap_ .
+
+am:t-13602
+	skos:closeMatch aatned:vijzels .
+
+am:t-13603
+	skos:closeMatch aatned:viltstiften .
+
+am:t-13604
+	skos:closeMatch aatned:vingerkommen .
+
+am:t-13610
+	skos:closeMatch aatned:vishaken .
+
+am:t-13611
+	skos:closeMatch aatned:vismessen .
+
+am:t-13616
+	skos:closeMatch aatned:vissers .
+
+am:t-13627
+	skos:closeMatch aatned:vleesschalen .
+
+am:t-13628
+	skos:closeMatch aatned:vleesvorken .
+
+am:t-13632
+	skos:closeMatch aatned:vlinders__insecten_ .
+
+am:t-13633
+	skos:closeMatch aatned:vloeistof .
+
+am:t-13637
+	skos:closeMatch aatned:voering .
+
+am:t-13648
+	skos:closeMatch aatned:voetbogen .
+
+am:t-13656
+	skos:closeMatch aatned:voorzittershamers .
+
+am:t-13661
+	skos:closeMatch aatned:vossen .
+
+am:t-13671
+	skos:closeMatch aatned:vrouwenfiguren .
+
+am:t-13690
+	skos:closeMatch aatned:wafelijzers .
+
+am:t-13694
+	skos:closeMatch aatned:wandborden .
+
+am:t-13698
+	skos:closeMatch aatned:wandklokken .
+
+am:t-13702
+	skos:closeMatch aatned:wandmeubels .
+
+am:t-13706
+	skos:closeMatch aatned:wapenaccessoires .
+
+am:t-13708
+	skos:closeMatch aatned:wapenrusting .
+
+am:t-13712
+	skos:closeMatch aatned:wasborden .
+
+am:t-13714
+	skos:closeMatch aatned:waskrijtjes .
+
+am:t-13715
+	skos:closeMatch aatned:wasmachines .
+
+am:t-13720
+	skos:closeMatch aatned:watermolens .
+
+am:t-13721
+	skos:closeMatch aatned:waterstellen .
+
+am:t-13723
+	skos:closeMatch aatned:waterverf .
+
+am:t-13728
+	skos:closeMatch aatned:weckketels .
+
+am:t-13755
+	skos:closeMatch aatned:wevers .
+
+am:t-13757
+	skos:closeMatch aatned:wiegen .
+
+am:t-13764
+	skos:closeMatch aatned:wijnglazen .
+
+am:t-13765
+	skos:closeMatch aatned:wijnkaraffen .
+
+am:t-13766
+	skos:closeMatch aatned:wijnkoelers .
+
+am:t-13771
+	skos:closeMatch aatned:wijsheid .
+
+am:t-13776
+	skos:closeMatch aatned:windwijzers .
+
+am:t-13779
+	skos:closeMatch aatned:wisselbanken .
+
+am:t-13781
+	skos:closeMatch aatned:wokken .
+
+am:t-13782
+	skos:closeMatch aatned:wolven .
+
+am:t-13789
+	skos:closeMatch aatned:wringers .
+
+am:t-13794
+	skos:closeMatch aatned:zakdoeken .
+
+am:t-13799
+	skos:closeMatch aatned:zandsteen .
+
+am:t-13800
+	skos:closeMatch aatned:zandstrooiers .
+
+am:t-13801
+	skos:closeMatch aatned:zangbundels__kerkgezangen_ .
+
+am:t-13802
+	skos:closeMatch aatned:zangers .
+
+am:t-13810
+	skos:closeMatch aatned:zeemleer .
+
+am:t-13812
+	skos:closeMatch aatned:zeepdozen .
+
+am:t-13815
+	skos:closeMatch aatned:zeeslagen .
+
+am:t-13818
+	skos:closeMatch aatned:zeildoek .
+
+am:t-13820
+	skos:closeMatch aatned:zeisen .
+
+am:t-13830
+	skos:closeMatch aatned:zilverstiften .
+
+am:t-13836
+	skos:closeMatch aatned:zitmeubels .
+
+am:t-13838
+	skos:closeMatch aatned:zoutdrukken .
+
+am:t-13839
+	skos:closeMatch aatned:zoutglazuur .
+
+am:t-13844
+	skos:closeMatch aatned:zuigflessen .
+
+am:t-13848
+	skos:closeMatch aatned:zuurschalen .
+
+am:t-13852
+	skos:closeMatch aatned:zwart_krijt .
+
+am:t-13869
+	skos:closeMatch aatned:negatieven .
+
+am:t-13878
+	skos:closeMatch aatned:Engels .
+
+am:t-13881
+	skos:closeMatch aatned:Duits .
+
+am:t-13884
+	skos:closeMatch aatned:Italiaans .
+
+am:t-13885
+	skos:closeMatch aatned:Spaans .
+
+am:t-13913
+	skos:closeMatch aatned:aanwinstenlijsten .
+
+am:t-13922
+	skos:closeMatch aatned:doctoraalscripties .
+
+am:t-13965
+	skos:closeMatch aatned:filmografieen .
+
+am:t-14013
+	skos:closeMatch aatned:artikelen .
+
+am:t-14058
+	skos:closeMatch aatned:gastenboeken .
+
+am:t-14098
+	skos:closeMatch aatned:Russisch .
+
+am:t-14109
+	skos:closeMatch aatned:Japans .
+
+am:t-14156
+	skos:closeMatch aatned:Turks .
+
+am:t-1417
+	skos:closeMatch aatned:begijnhoven .
+
+am:t-14172
+	skos:closeMatch aatned:analytische_bibliografie .
+
+am:t-14173
+	skos:closeMatch aatned:programma_s .
+
+am:t-14177
+	skos:closeMatch aatned:Zweeds .
+
+am:t-14208
+	skos:closeMatch aatned:autografen .
+
+am:t-14210
+	skos:closeMatch aatned:archiefinventarissen .
+
+am:t-14237
+	skos:closeMatch aatned:Hongaars .
+
+am:t-14289
+	skos:closeMatch aatned:relatiegeschenken .
+
+am:t-14293
+	skos:closeMatch aatned:Fins .
+
+am:t-14323
+	skos:closeMatch aatned:Noors .
+
+am:t-14351
+	skos:closeMatch aatned:Ge__stijl_in_Ewe_culturen_ .
+
+am:t-14422
+	skos:closeMatch aatned:etsers .
+
+am:t-14475
+	skos:closeMatch aatned:personen .
+
+am:t-14476
+	skos:closeMatch aatned:bijschriften .
+
+am:t-14482
+	skos:closeMatch aatned:ontwerpers .
+
+am:t-14743
+	skos:closeMatch aatned:patriotten .
+
+am:t-14755
+	skos:closeMatch aatned:opdrachten__documenten_ .
+
+am:t-14756
+	skos:closeMatch aatned:fabrieksmerken .
+
+am:t-14809
+	skos:closeMatch aatned:glasblazers .
+
+am:t-14923
+	skos:closeMatch aatned:strafinrichtingen .
+
+am:t-14960
+	skos:closeMatch aatned:illustrators .
+
+am:t-15103
+	skos:closeMatch aatned:uitvoering .
+
+am:t-15157
+	skos:closeMatch aatned:huismerken__merktekens_ .
+
+am:t-15405
+	skos:closeMatch aatned:merktekens__symbolen_ .
+
+am:t-1552
+	skos:closeMatch aatned:dammen .
+
+am:t-15616
+	skos:closeMatch aatned:aardewerkfabrieken .
+
+am:t-16036
+	skos:closeMatch aatned:meubelmakers .
+
+am:t-1611
+	skos:closeMatch aatned:eilanden .
+
+am:t-16359
+	skos:closeMatch aatned:jaarletters .
+
+am:t-16367
+	skos:closeMatch aatned:belastingtekens .
+
+am:t-16411
+	skos:closeMatch aatned:keurmerken .
+
+am:t-17611
+	skos:closeMatch aatned:fabrikanten .
+
+am:t-17642
+	skos:closeMatch aatned:samenstellers .
+
+am:t-17855
+	skos:closeMatch aatned:porseleinfabrieken .
+
+am:t-18332
+	skos:closeMatch aatned:taillebanden .
+
+am:t-18409
+	skos:closeMatch aatned:modelbouwers .
+
+am:t-18420
+	skos:closeMatch aatned:glazeniers .
+
+am:t-18611
+	skos:closeMatch aatned:labels__identificatiedragers_ .
+
+am:t-18686
+	skos:closeMatch aatned:slotenmakers .
+
+am:t-18688
+	skos:closeMatch aatned:verkopers .
+
+am:t-18766
+	skos:closeMatch aatned:modeontwerpers .
+
+am:t-19042
+	skos:closeMatch aatned:winkeliers .
+
+am:t-19108
+	skos:closeMatch aatned:tapijtfabrieken .
+
+am:t-1919
+	skos:closeMatch aatned:koninklijke_paleizen .
+
+am:t-19799
+	skos:closeMatch aatned:edelsmeden .
+
+am:t-20217
+	skos:closeMatch aatned:woninginrichting .
+
+am:t-20881
+	skos:closeMatch aatned:verdoekt .
+
+am:t-21008
+	skos:closeMatch aatned:toeschrijven .
+
+am:t-21039
+	skos:closeMatch aatned:eigendom .
+
+am:t-21748
+	skos:closeMatch aatned:rekeningen .
+
+am:t-21819
+	skos:closeMatch aatned:fotokopieen .
+
+am:t-21889
+	skos:closeMatch aatned:oorclips .
+
+am:t-21987
+	skos:closeMatch aatned:directeuren .
+
+am:t-21999
+	skos:closeMatch aatned:Laat_Middeleeuws .
+
+am:t-22048
+	skos:closeMatch aatned:strijkplanken .
+
+am:t-22064
+	skos:closeMatch aatned:drinkgerei .
+
+am:t-2211
+	skos:closeMatch aatned:overtomen .
+
+am:t-22111
+	skos:closeMatch aatned:pastamachines .
+
+am:t-22144
+	skos:closeMatch aatned:polyethyleen .
+
+am:t-22178
+	skos:closeMatch aatned:rijbewijzen .
+
+am:t-22182
+	skos:closeMatch aatned:buttons .
+
+am:t-22184
+	skos:closeMatch aatned:visitekaartjes .
+
+am:t-22188
+	skos:closeMatch aatned:handboeien .
+
+am:t-22192
+	skos:closeMatch aatned:manenkammen .
+
+am:t-22211
+	skos:closeMatch aatned:pek .
+
+am:t-22225
+	skos:closeMatch aatned:rijlaarzen .
+
+am:t-22240
+	skos:closeMatch aatned:zadeltassen .
+
+am:t-22242
+	skos:closeMatch aatned:holsters .
+
+am:t-22253
+	skos:closeMatch aatned:uranium .
+
+am:t-22269
+	skos:closeMatch aatned:Portugees .
+
+am:t-22276
+	skos:closeMatch aatned:donoren .
+
+am:t-22283
+	skos:closeMatch aatned:afgietsels .
+
+am:t-22300
+	skos:closeMatch aatned:anatomiestukken .
+
+am:t-22301
+	skos:closeMatch aatned:religieuze_objecten .
+
+am:t-22308
+	skos:closeMatch aatned:aandenkens .
+
+am:t-22331
+	skos:closeMatch aatned:heipalen .
+
+am:t-22342
+	skos:closeMatch aatned:generaals .
+
+am:t-22355
+	skos:closeMatch aatned:luitenants .
+
+am:t-22445
+	skos:closeMatch aatned:verkeer .
+
+am:t-22494
+	skos:closeMatch aatned:sachets .
+
+am:t-22521
+	skos:closeMatch aatned:standaardiseren .
+
+am:t-2260
+	skos:closeMatch aatned:politiek .
+
+am:t-22760
+	skos:closeMatch aatned:oranje .
+
+am:t-22773
+	skos:closeMatch aatned:Mon .
+
+am:t-22856
+	skos:closeMatch aatned:depots .
+
+am:t-23825
+	skos:closeMatch aatned:silhouetten .
+
+am:t-23833
+	skos:closeMatch aatned:luizenkammen .
+
+am:t-23845
+	skos:closeMatch aatned:Deens .
+
+am:t-23858
+	skos:closeMatch aatned:notarissen .
+
+am:t-23864
+	skos:closeMatch aatned:jojo_s .
+
+am:t-23970
+	skos:closeMatch aatned:ecologie .
+
+am:t-23973
+	skos:closeMatch aatned:pakpapier .
+
+am:t-24014
+	skos:closeMatch aatned:bruidsbekers .
+
+am:t-24026
+	skos:closeMatch aatned:sisal .
+
+am:t-24123
+	skos:closeMatch aatned:jarretelles__kousophouders_ .
+
+am:t-24125
+	skos:closeMatch aatned:corseletten .
+
+am:t-24129
+	skos:closeMatch aatned:sandalen .
+
+am:t-24149
+	skos:closeMatch aatned:commissionairs .
+
+am:t-24152
+	skos:closeMatch aatned:bankiers .
+
+am:t-24163
+	skos:closeMatch aatned:commissarissen .
+
+am:t-24167
+	skos:closeMatch aatned:raden__organisaties_ .
+
+am:t-24173
+	skos:closeMatch aatned:paspoppen .
+
+am:t-24186
+	skos:closeMatch aatned:ananassen .
+
+am:t-24190
+	skos:closeMatch aatned:artsen .
+
+am:t-24226
+	skos:closeMatch aatned:begunstigers .
+
+am:t-24247
+	skos:closeMatch aatned:juristen .
+
+am:t-24264
+	skos:closeMatch aatned:typografen .
+
+am:t-24285
+	skos:closeMatch aatned:redacteuren .
+
+am:t-24295
+	skos:closeMatch aatned:karikaturisten .
+
+am:t-24303
+	skos:closeMatch aatned:makers .
+
+am:t-24364
+	skos:closeMatch aatned:leraren .
+
+am:t-24370
+	skos:closeMatch aatned:volkskunst .
+
+am:t-24391
+	skos:closeMatch aatned:vertalers .
+
+am:t-24395
+	skos:closeMatch aatned:Grieks .
+
+am:t-25427
+	skos:closeMatch aatned:kopiisten .
+
+am:t-25456
+	skos:closeMatch aatned:puzzels .
+
+am:t-25494
+	skos:closeMatch aatned:dommekrachten .
+
+am:t-25603
+	skos:closeMatch aatned:essenhout .
+
+am:t-25702
+	skos:closeMatch aatned:ebbenhout .
+
+am:t-25713
+	skos:closeMatch aatned:dessertvorken .
+
+am:t-25731
+	skos:closeMatch aatned:tafelvorken .
+
+am:t-25732
+	skos:closeMatch aatned:tafelmessen .
+
+am:t-25848
+	skos:closeMatch aatned:toiletdozen .
+
+am:t-25856
+	skos:closeMatch aatned:punchlepels .
+
+am:t-25857
+	skos:closeMatch aatned:suikertangen .
+
+am:t-25859
+	skos:closeMatch aatned:suikerscheppen .
+
+am:t-25929
+	skos:closeMatch aatned:dessertmessen .
+
+am:t-25937
+	skos:closeMatch aatned:paplepels .
+
+am:t-25941
+	skos:closeMatch aatned:kurkentrekkers .
+
+am:t-25955
+	skos:closeMatch aatned:presenteerbladen .
+
+am:t-26001
+	skos:closeMatch aatned:planeren .
+
+am:t-26010
+	skos:closeMatch aatned:kalfsleer .
+
+am:t-26142
+	skos:closeMatch aatned:pillendoosjes .
+
+am:t-26209
+	skos:closeMatch aatned:eikenhout .
+
+am:t-26229
+	skos:closeMatch aatned:opwerken__bouwkundige_tekeningen_ .
+
+am:t-26230
+	skos:closeMatch aatned:marokijnleer .
+
+am:t-26274
+	skos:closeMatch aatned:metaalpigment .
+
+am:t-26279
+	skos:closeMatch aatned:machinale_kant .
+
+am:t-26280
+	skos:closeMatch aatned:anorakken .
+
+am:t-26329
+	skos:closeMatch aatned:gebruik .
+
+am:t-26367
+	skos:closeMatch aatned:boetseren .
+
+am:t-26372
+	skos:closeMatch aatned:stretchers .
+
+am:t-26383
+	skos:closeMatch aatned:steenfabrieken .
+
+am:t-26389
+	skos:closeMatch aatned:roeien .
+
+am:t-26400
+	skos:closeMatch aatned:peperkorrels .
+
+am:t-26405
+	skos:closeMatch aatned:legerkampen .
+
+am:t-26406
+	skos:closeMatch aatned:marskramers .
+
+am:t-26411
+	skos:closeMatch aatned:mobilofoons .
+
+am:t-26417
+	skos:closeMatch aatned:briefkaarten .
+
+am:t-26426
+	skos:closeMatch aatned:wapenstokken__ambtssymbolen_ .
+
+am:t-26433
+	skos:closeMatch aatned:grisaille .
+
+am:t-26434
+	skos:closeMatch aatned:herkomst .
+
+am:t-26439
+	skos:closeMatch aatned:pendanten .
+
+am:t-26493
+	skos:closeMatch aatned:farmacie .
+
+am:t-26500
+	skos:closeMatch aatned:vouwbladen .
+
+am:t-26503
+	skos:closeMatch aatned:onderwaterarcheologie .
+
+am:t-26506
+	skos:closeMatch aatned:grafische_vormgeving .
+
+am:t-26514
+	skos:closeMatch aatned:jodendom .
+
+am:t-26521
+	skos:closeMatch aatned:terechtstellingen .
+
+am:t-26528
+	skos:closeMatch aatned:vrouwenportretten .
+
+am:t-26530
+	skos:closeMatch aatned:kunstenaarsportretten .
+
+am:t-26540
+	skos:closeMatch aatned:kapellen__ruimten_in_Christelijke_religieauze_gebouwen_ .
+
+am:t-26541
+	skos:closeMatch aatned:figuurstukken .
+
+am:t-26542
+	skos:closeMatch aatned:overzichten__tijdschriften_ .
+
+am:t-26555
+	skos:closeMatch aatned:bronnen__water_ .
+
+am:t-26573
+	skos:closeMatch aatned:hoogovens .
+
+am:t-26574
+	skos:closeMatch aatned:mijnbouw .
+
+am:t-26578
+	skos:closeMatch aatned:boerinnen .
+
+am:t-26585
+	skos:closeMatch aatned:architectenbureaus .
+
+am:t-26593
+	skos:closeMatch aatned:dobbelen .
+
+am:t-26612
+	skos:closeMatch aatned:luipaarden .
+
+am:t-26614
+	skos:closeMatch aatned:aanlegsteigers .
+
+am:t-26623
+	skos:closeMatch aatned:reddingsboten .
+
+am:t-26627
+	skos:closeMatch aatned:schaderapporten .
+
+am:t-26636
+	skos:closeMatch aatned:figuratieve_kunst .
+
+am:t-26638
+	skos:closeMatch aatned:faxen .
+
+am:t-26640
+	skos:closeMatch aatned:stallen .
+
+am:t-26645
+	skos:closeMatch aatned:peperstrooiers .
+
+am:t-26665
+	skos:closeMatch aatned:potsenmakers .
+
+am:t-26667
+	skos:closeMatch aatned:geweld .
+
+am:t-26671
+	skos:closeMatch aatned:arresleden .
+
+am:t-26674
+	skos:closeMatch aatned:houthakkers .
+
+am:t-26675
+	skos:closeMatch aatned:ijsbrekers .
+
+am:t-26682
+	skos:closeMatch aatned:dood .
+
+am:t-26683
+	skos:closeMatch aatned:voedsel .
+
+am:t-26684
+	skos:closeMatch aatned:ziekte .
+
+am:t-26702
+	skos:closeMatch aatned:kerkpleinen .
+
+am:t-26707
+	skos:closeMatch aatned:grafisch_ontwerpers .
+
+am:t-26708
+	skos:closeMatch aatned:cineasten .
+
+am:t-26712
+	skos:closeMatch aatned:supermarkten .
+
+am:t-26714
+	skos:closeMatch aatned:aannemers .
+
+am:t-26733
+	skos:closeMatch aatned:kleurenfoto_s .
+
+am:t-26752
+	skos:closeMatch aatned:muilezels .
+
+am:t-26759
+	skos:closeMatch aatned:lappen__quiltonderdelen_ .
+
+am:t-26789
+	skos:closeMatch aatned:waterputten .
+
+am:t-26790
+	skos:closeMatch aatned:jachtsloten .
+
+am:t-26796
+	skos:closeMatch aatned:wijnflessen .
+
+am:t-26825
+	skos:closeMatch aatned:hooischuren .
+
+am:t-26831
+	skos:closeMatch aatned:vislijm .
+
+am:t-26837
+	skos:closeMatch aatned:bamboe .
+
+am:t-26838
+	skos:closeMatch aatned:soldeer .
+
+am:t-26842
+	skos:closeMatch aatned:vleermuizen .
+
+am:t-26847
+	skos:closeMatch aatned:walvisvaarders .
+
+am:t-26848
+	skos:closeMatch aatned:aalmoezeniers .
+
+am:t-26855
+	skos:closeMatch aatned:saron .
+
+am:t-26861
+	skos:closeMatch aatned:vioolbouwers .
+
+am:t-26863
+	skos:closeMatch aatned:veldslagen .
+
+am:t-26864
+	skos:closeMatch aatned:genrestukken .
+
+am:t-26869
+	skos:closeMatch aatned:luciferdoosjes .
+
+am:t-26870
+	skos:closeMatch aatned:guldens .
+
+am:t-26910
+	skos:closeMatch aatned:kledingkisten .
+
+am:t-26995
+	skos:closeMatch aatned:platenspelers .
+
+am:t-27004
+	skos:closeMatch aatned:ratten .
+
+am:t-27046
+	skos:closeMatch aatned:pastoors .
+
+am:t-27073
+	skos:closeMatch aatned:balsahout .
+
+am:t-27076
+	skos:closeMatch aatned:funderingen .
+
+am:t-27087
+	skos:closeMatch aatned:Pools .
+
+am:t-27104
+	skos:closeMatch aatned:reglementen .
+
+am:t-27118
+	skos:closeMatch aatned:wijnfonteinen .
+
+am:t-2714
+	skos:closeMatch aatned:Aubusson .
+
+am:t-27140
+	skos:closeMatch aatned:zintuigen .
+
+am:t-27178
+	skos:closeMatch aatned:schrijfstiften .
+
+am:t-27222
+	skos:closeMatch aatned:mondharpen .
+
+am:t-27230
+	skos:closeMatch aatned:schaakstukken .
+
+am:t-27231
+	skos:closeMatch aatned:slotplaten .
+
+am:t-27245
+	skos:closeMatch aatned:stormhoeden .
+
+am:t-27247
+	skos:closeMatch aatned:lansen .
+
+am:t-27255
+	skos:closeMatch aatned:spaden .
+
+am:t-27259
+	skos:closeMatch aatned:koudbeitels .
+
+am:t-27261
+	skos:closeMatch aatned:speeltafels .
+
+am:t-27268
+	skos:closeMatch aatned:krulversieringen .
+
+am:t-27282
+	skos:closeMatch aatned:drevels .
+
+am:t-27289
+	skos:closeMatch aatned:schouwwangen .
+
+am:t-27291
+	skos:closeMatch aatned:heften .
+
+am:t-27292
+	skos:closeMatch aatned:kroezen .
+
+am:t-27313
+	skos:closeMatch aatned:pitten .
+
+am:t-27321
+	skos:closeMatch aatned:molenstenen .
+
+am:t-27324
+	skos:closeMatch aatned:platte_vijlen .
+
+am:t-27328
+	skos:closeMatch aatned:handboren .
+
+am:t-27337
+	skos:closeMatch aatned:zwaardschedes .
+
+am:t-27340
+	skos:closeMatch aatned:kool .
+
+am:t-27420
+	skos:closeMatch aatned:weverijen .
+
+am:t-27423
+	skos:closeMatch aatned:strijkijzers .
+
+am:t-27426
+	skos:closeMatch aatned:performances__live_ .
+
+am:t-27440
+	skos:closeMatch aatned:monocles .
+
+am:t-27442
+	skos:closeMatch aatned:passerdozen .
+
+am:t-27443
+	skos:closeMatch aatned:veters .
+
+am:t-27445
+	skos:closeMatch aatned:farmacologie .
+
+am:t-27446
+	skos:closeMatch aatned:kijkdozen .
+
+am:t-27459
+	skos:closeMatch aatned:biologen .
+
+am:t-27466
+	skos:closeMatch aatned:grammofoonplaten .
+
+am:t-27505
+	skos:closeMatch aatned:gier .
+
+am:t-27515
+	skos:closeMatch aatned:buffels .
+
+am:t-27523
+	skos:closeMatch aatned:vedute .
+
+am:t-27529
+	skos:closeMatch aatned:dubbelportretten .
+
+am:t-27551
+	skos:closeMatch aatned:stencilen .
+
+am:t-27587
+	skos:closeMatch aatned:hockey .
+
+am:t-27597
+	skos:closeMatch aatned:hoger_onderwijs .
+
+am:t-27604
+	skos:closeMatch aatned:botanische_tuinen .
+
+am:t-2763
+	skos:closeMatch aatned:breedte .
+
+am:t-27664
+	skos:closeMatch aatned:stijfsel .
+
+am:t-27766
+	skos:closeMatch aatned:sloppenwijken .
+
+am:t-27770
+	skos:closeMatch aatned:aardbevingen .
+
+am:t-27774
+	skos:closeMatch aatned:chemicalien .
+
+am:t-27781
+	skos:closeMatch aatned:schermers .
+
+am:t-27784
+	skos:closeMatch aatned:topografische_prenten .
+
+am:t-27801
+	skos:closeMatch aatned:besnijdenissen .
+
+am:t-27802
+	skos:closeMatch aatned:rekenkunde .
+
+am:t-27812
+	skos:closeMatch aatned:cheques .
+
+am:t-27819
+	skos:closeMatch aatned:memorabilia .
+
+am:t-27863
+	skos:closeMatch aatned:educatieve_spellen .
+
+am:t-27891
+	skos:closeMatch aatned:magneten .
+
+am:t-27899
+	skos:closeMatch aatned:crepepapier .
+
+am:t-27908
+	skos:closeMatch aatned:terpentijn .
+
+am:t-27930
+	skos:closeMatch aatned:sigarettenhouders__houders_ .
+
+am:t-27948
+	skos:closeMatch aatned:ongediertebestrijding .
+
+am:t-27966
+	skos:closeMatch aatned:mensenhaar .
+
+am:t-27969
+	skos:closeMatch aatned:feminisme .
+
+am:t-27978
+	skos:closeMatch aatned:hardlopen .
+
+am:t-27990
+	skos:closeMatch aatned:scholieren .
+
+am:t-27993
+	skos:closeMatch aatned:persoonlijke_documenten .
+
+am:t-27994
+	skos:closeMatch aatned:medicijnen .
+
+am:t-27996
+	skos:closeMatch aatned:heien .
+
+am:t-27998
+	skos:closeMatch aatned:belichten .
+
+am:t-28004
+	skos:closeMatch aatned:waterpassen .
+
+am:t-28009
+	skos:closeMatch aatned:discussen .
+
+am:t-28010
+	skos:closeMatch aatned:hockeysticks .
+
+am:t-28012
+	skos:closeMatch aatned:handkarren .
+
+am:t-28013
+	skos:closeMatch aatned:woonboten .
+
+am:t-28038
+	skos:closeMatch aatned:kroontjespennen .
+
+am:t-28040
+	skos:closeMatch aatned:kroontjes__architecturale_elementen_ .
+
+am:t-28043
+	skos:closeMatch aatned:Sloveens .
+
+am:t-28045
+	skos:closeMatch aatned:driehoeken__gereedschap_ .
+
+am:t-28048
+	skos:closeMatch aatned:pennenbakken .
+
+am:t-28055
+	skos:closeMatch aatned:dossiers__groepen_documenten_ .
+
+am:t-28066
+	skos:closeMatch aatned:zwangerschap .
+
+am:t-28077
+	skos:closeMatch aatned:tsaren .
+
+am:t-28078
+	skos:closeMatch aatned:muurschilders .
+
+am:t-28085
+	skos:closeMatch aatned:kalkbranderijen .
+
+am:t-28091
+	skos:closeMatch aatned:keramisten .
+
+am:t-28147
+	skos:closeMatch aatned:beschaving .
+
+am:t-28150
+	skos:closeMatch aatned:zorgstoelen .
+
+am:t-28157
+	skos:closeMatch aatned:zakspiegels .
+
+am:t-28158
+	skos:closeMatch aatned:handspiegels .
+
+am:t-28165
+	skos:closeMatch aatned:rolschaatsen .
+
+am:t-28194
+	skos:closeMatch aatned:zonnebrillen .
+
+am:t-28201
+	skos:closeMatch aatned:bodes .
+
+am:t-28203
+	skos:closeMatch aatned:immigranten .
+
+am:t-28208
+	skos:closeMatch aatned:geschiedschrijvers .
+
+am:t-28414
+	skos:closeMatch aatned:gilets .
+
+am:t-28445
+	skos:closeMatch aatned:gebeurtenissen .
+
+am:t-28447
+	skos:closeMatch aatned:veilingmeesters .
+
+am:t-28472
+	skos:closeMatch aatned:snijramen .
+
+am:t-28476
+	skos:closeMatch aatned:spijkerbroeken .
+
+am:t-28485
+	skos:closeMatch aatned:aquarellisten .
+
+am:t-28517
+	skos:closeMatch aatned:voeringkatoen .
+
+am:t-28521
+	skos:closeMatch aatned:industrieel_vormgevers .
+
+am:t-28537
+	skos:closeMatch aatned:ambtskleding .
+
+am:t-28538
+	skos:closeMatch aatned:boernoesen .
+
+am:t-28544
+	skos:closeMatch aatned:bovenkleding .
+
+am:t-28545
+	skos:closeMatch aatned:overkleding .
+
+am:t-28547
+	skos:closeMatch aatned:overjassen .
+
+am:t-28548
+	skos:closeMatch aatned:strandkleding .
+
+am:t-28552
+	skos:closeMatch aatned:beschermende_kleding .
+
+am:t-28554
+	skos:closeMatch aatned:jasjes .
+
+am:t-28559
+	skos:closeMatch aatned:haarversieringen .
+
+am:t-28573
+	skos:closeMatch aatned:bontjes .
+
+am:t-28578
+	skos:closeMatch aatned:combinaties .
+
+am:t-28579
+	skos:closeMatch aatned:ceremoniele_kleding .
+
+am:t-28586
+	skos:closeMatch aatned:handbedekking .
+
+am:t-28587
+	skos:closeMatch aatned:communiekleding .
+
+am:t-28602
+	skos:closeMatch aatned:schoudermantels .
+
+am:t-28603
+	skos:closeMatch aatned:kuitbroeken .
+
+am:t-28605
+	skos:closeMatch aatned:liturgische_kleding .
+
+am:t-28612
+	skos:closeMatch aatned:beroepsverenigingen .
+
+am:t-28619
+	skos:closeMatch aatned:trouwkleding .
+
+am:t-28628
+	skos:closeMatch aatned:anorganisch_materiaal .
+
+am:t-28629
+	skos:closeMatch aatned:organisch_materiaal .
+
+am:t-28630
+	skos:closeMatch aatned:thermoplast .
+
+am:t-28632
+	skos:closeMatch aatned:dierlijk_materiaal .
+
+am:t-28634
+	skos:closeMatch aatned:haar_en_haarbestanddelen .
+
+am:t-28635
+	skos:closeMatch aatned:keratinisch_materiaal .
+
+am:t-28637
+	skos:closeMatch aatned:non_ferrometaal .
+
+am:t-28639
+	skos:closeMatch aatned:vezelproducten .
+
+am:t-28647
+	skos:closeMatch aatned:pleet .
+
+am:t-28648
+	skos:closeMatch aatned:koraal .
+
+am:t-28652
+	skos:closeMatch aatned:doopkleden .
+
+am:t-28655
+	skos:closeMatch aatned:beroepskleding .
+
+am:t-28657
+	skos:closeMatch aatned:rouwkleding .
+
+am:t-28665
+	skos:closeMatch aatned:slacks .
+
+am:t-28672
+	skos:closeMatch aatned:pumps__schoenen_ .
+
+am:t-28680
+	skos:closeMatch aatned:matelotten .
+
+am:t-28689
+	skos:closeMatch aatned:kunsthistorici .
+
+am:t-28691
+	skos:closeMatch aatned:alben .
+
+am:t-28692
+	skos:closeMatch aatned:militaire_uniformen .
+
+am:t-28694
+	skos:closeMatch aatned:nachtjaponnen .
+
+am:t-28695
+	skos:closeMatch aatned:tuinbroeken .
+
+am:t-28696
+	skos:closeMatch aatned:neglige_s .
+
+am:t-28701
+	skos:closeMatch aatned:boterspatels .
+
+am:t-28703
+	skos:closeMatch aatned:vlalepels .
+
+am:t-28704
+	skos:closeMatch aatned:taartscheppen .
+
+am:t-28705
+	skos:closeMatch aatned:saladelepels .
+
+am:t-28706
+	skos:closeMatch aatned:saladevorken .
+
+am:t-28710
+	skos:closeMatch aatned:taartvorken .
+
+am:t-28711
+	skos:closeMatch aatned:taartmessen .
+
+am:t-28721
+	skos:closeMatch aatned:klompschoenen .
+
+am:t-28722
+	skos:closeMatch aatned:gleufhoeden .
+
+am:t-28731
+	skos:closeMatch aatned:nalatenschappen .
+
+am:t-28733
+	skos:closeMatch aatned:oorlogsmonumenten .
+
+am:t-28749
+	skos:closeMatch aatned:regisseurs .
+
+am:t-28751
+	skos:closeMatch aatned:exterieurs .
+
+am:t-28761
+	skos:closeMatch aatned:zwemmen .
+
+am:t-28764
+	skos:closeMatch aatned:geuzen .
+
+am:t-28767
+	skos:closeMatch aatned:vloerbedekkingen .
+
+am:t-28780
+	skos:closeMatch aatned:luifelhoeden .
+
+am:t-28781
+	skos:closeMatch aatned:caleches .
+
+am:t-28783
+	skos:closeMatch aatned:sportschoenen .
+
+am:t-28799
+	skos:closeMatch aatned:geluidsbanden .
+
+am:t-28830
+	skos:closeMatch aatned:blekerijen .
+
+am:t-28963
+	skos:closeMatch aatned:bruidssluiers .
+
+am:t-29004
+	skos:closeMatch aatned:boters .
+
+am:t-29006
+	skos:closeMatch aatned:aardappels .
+
+am:t-29007
+	skos:closeMatch aatned:vleeshallen .
+
+am:t-29032
+	skos:closeMatch aatned:sanitaire_installaties .
+
+am:t-29033
+	skos:closeMatch aatned:bezoekerscentra .
+
+am:t-29057
+	skos:closeMatch aatned:begrafeniskleding .
+
+am:t-29058
+	skos:closeMatch aatned:ooglenzen .
+
+am:t-29067
+	skos:closeMatch aatned:sakken .
+
+am:t-29084
+	skos:closeMatch aatned:breien .
+
+am:t-29106
+	skos:closeMatch aatned:nieuwsbrieven .
+
+am:t-29122
+	skos:closeMatch aatned:Tsjechisch .
+
+am:t-29173
+	skos:closeMatch aatned:kolonisten .
+
+am:t-29178
+	skos:closeMatch aatned:violisten .
+
+am:t-29183
+	skos:closeMatch aatned:voorsteden .
+
+am:t-29186
+	skos:closeMatch aatned:mengen .
+
+am:t-29197
+	skos:closeMatch aatned:conversatiestukken .
+
+am:t-29217
+	skos:closeMatch aatned:bedsteden .
+
+am:t-29232
+	skos:closeMatch aatned:meestertekens .
+
+am:t-29233
+	skos:closeMatch aatned:filigrein .
+
+am:t-29235
+	skos:closeMatch aatned:persmappen .
+
+am:t-29251
+	skos:closeMatch aatned:pesthuizen .
+
+am:t-29263
+	skos:closeMatch aatned:bunkers .
+
+am:t-29296
+	skos:closeMatch aatned:lexicons .
+
+am:t-29316
+	skos:closeMatch aatned:kunstgebitten .
+
+am:t-29329
+	skos:closeMatch aatned:kledingkasten .
+
+am:t-29343
+	skos:closeMatch aatned:koninkrijken .
+
+am:t-29349
+	skos:closeMatch aatned:likeurstokerijen .
+
+am:t-29359
+	skos:closeMatch aatned:kerkhistorici .
+
+am:t-29371
+	skos:closeMatch aatned:damspellen .
+
+am:t-29383
+	skos:closeMatch aatned:badplaatsen .
+
+am:t-29385
+	skos:closeMatch aatned:criminologie .
+
+am:t-29389
+	skos:closeMatch aatned:luchtballonnen .
+
+am:t-29397
+	skos:closeMatch aatned:taxateurs .
+
+am:t-29417
+	skos:closeMatch aatned:opticiens .
+
+am:t-29425
+	skos:closeMatch aatned:trappenhuizen .
+
+am:t-29427
+	skos:closeMatch aatned:burgeroorlogen .
+
+am:t-29428
+	skos:closeMatch aatned:wandkandelaars .
+
+am:t-29430
+	skos:closeMatch aatned:handvatten .
+
+am:t-29488
+	skos:closeMatch aatned:bureaulampen .
+
+am:t-29495
+	skos:closeMatch aatned:davids .
+
+am:t-29507
+	skos:closeMatch aatned:poliklinieken .
+
+am:t-29575
+	skos:closeMatch aatned:snoep .
+
+am:t-29583
+	skos:closeMatch aatned:zalen .
+
+am:t-29612
+	skos:closeMatch aatned:meteorologie .
+
+am:t-29630
+	skos:closeMatch aatned:stopverf .
+
+am:t-29632
+	skos:closeMatch aatned:kippengaas .
+
+am:t-29636
+	skos:closeMatch aatned:palissanderhout .
+
+am:t-29640
+	skos:closeMatch aatned:cement .
+
+am:t-29642
+	skos:closeMatch aatned:eikenbomen .
+
+am:t-29646
+	skos:closeMatch aatned:pianisten .
+
+am:t-29647
+	skos:closeMatch aatned:gouverneurs .
+
+am:t-29656
+	skos:closeMatch aatned:linnenkasten .
+
+am:t-29673
+	skos:closeMatch aatned:toonbanken .
+
+am:t-29674
+	skos:closeMatch aatned:wandkasten .
+
+am:t-29715
+	skos:closeMatch aatned:stokpoppen .
+
+am:t-29716
+	skos:closeMatch aatned:handpoppen .
+
+am:t-29719
+	skos:closeMatch aatned:gesso .
+
+am:t-29722
+	skos:closeMatch aatned:bolus .
+
+am:t-29724
+	skos:closeMatch aatned:tuimelramen .
+
+am:t-29726
+	skos:closeMatch aatned:seriepublicaties .
+
+am:t-29765
+	skos:closeMatch aatned:typografische_ornamenten .
+
+am:t-29810
+	skos:closeMatch aatned:kamers .
+
+am:t-29887
+	skos:closeMatch aatned:roest .
+
+am:t-29889
+	skos:closeMatch aatned:hersenen .
+
+am:t-29932
+	skos:closeMatch aatned:stripboeken .
+
+am:t-29942
+	skos:closeMatch aatned:schippersbeurzen .
+
+am:t-29943
+	skos:closeMatch aatned:slaven .
+
+am:t-29971
+	skos:closeMatch aatned:capotes__luifelhoeden_ .
+
+am:t-29983
+	skos:closeMatch aatned:kerkklokken .
+
+am:t-29985
+	skos:closeMatch aatned:keukenuitrusting .
+
+am:t-29986
+	skos:closeMatch aatned:keukentextiel .
+
+am:t-29987
+	skos:closeMatch aatned:linnengoed .
+
+am:t-29988
+	skos:closeMatch aatned:textilia .
+
+am:t-30000
+	skos:closeMatch aatned:korfbal .
+
+am:t-3001
+	skos:closeMatch aatned:Nederlands .
+
+am:t-30021
+	skos:closeMatch aatned:gewelven .
+
+am:t-30041
+	skos:closeMatch aatned:paillette .
+
+am:t-30050
+	skos:closeMatch aatned:leer .
+
+am:t-30060
+	skos:closeMatch aatned:nationale_collecties .
+
+am:t-30090
+	skos:closeMatch aatned:trapladders .
+
+am:t-30093
+	skos:closeMatch aatned:waterkannen .
+
+am:t-30095
+	skos:closeMatch aatned:rustbanken .
+
+am:t-30096
+	skos:closeMatch aatned:toiletsets .
+
+am:t-30098
+	skos:closeMatch aatned:waterreservoirs .
+
+am:t-30099
+	skos:closeMatch aatned:vaten__gekuipt_ .
+
+am:t-30100
+	skos:closeMatch aatned:schalenwarmers .
+
+am:t-30107
+	skos:closeMatch aatned:vegers .
+
+am:t-30115
+	skos:closeMatch aatned:kaarsenbakken .
+
+am:t-30122
+	skos:closeMatch aatned:reukflesjes .
+
+am:t-30152
+	skos:closeMatch aatned:streekdrachten .
+
+am:t-30157
+	skos:closeMatch aatned:psychologen .
+
+am:t-30163
+	skos:closeMatch aatned:ziekenzalen .
+
+am:t-30164
+	skos:closeMatch aatned:eetzalen .
+
+am:t-30170
+	skos:closeMatch aatned:voorzichtigheid .
+
+am:t-30182
+	skos:closeMatch aatned:regentenkamers .
+
+am:t-30238
+	skos:closeMatch aatned:schaken .
+
+am:t-30249
+	skos:closeMatch aatned:etalages .
+
+am:t-30270
+	skos:closeMatch aatned:platines .
+
+am:t-30351
+	skos:closeMatch aatned:antilopen .
+
+am:t-30352
+	skos:closeMatch aatned:ara_s .
+
+am:t-30356
+	skos:closeMatch aatned:dromedarissen .
+
+am:t-30357
+	skos:closeMatch aatned:everzwijnen .
+
+am:t-30359
+	skos:closeMatch aatned:gorilla_s .
+
+am:t-30363
+	skos:closeMatch aatned:kamelen .
+
+am:t-30364
+	skos:closeMatch aatned:kevers .
+
+am:t-30369
+	skos:closeMatch aatned:lammeren .
+
+am:t-30375
+	skos:closeMatch aatned:muildieren .
+
+am:t-30383
+	skos:closeMatch aatned:Ram__sterrenbeelden_ .
+
+am:t-30384
+	skos:closeMatch aatned:reeen .
+
+am:t-30385
+	skos:closeMatch aatned:scarabeeen .
+
+am:t-30386
+	skos:closeMatch aatned:spinnen__dieren_ .
+
+am:t-30387
+	skos:closeMatch aatned:Steenbok__sterrenbeelden_ .
+
+am:t-30391
+	skos:closeMatch aatned:zebrapaden .
+
+am:t-30393
+	skos:closeMatch aatned:zwaluwen .
+
+am:t-30400
+	skos:closeMatch aatned:muziekscholen .
+
+am:t-30451
+	skos:closeMatch aatned:diakenen .
+
+am:t-30484
+	skos:closeMatch aatned:blokhuizen .
+
+am:t-30519
+	skos:closeMatch aatned:hoop .
+
+am:t-30676
+	skos:closeMatch aatned:verkeerslichten .
+
+am:t-30697
+	skos:closeMatch aatned:facturen .
+
+am:t-30704
+	skos:closeMatch aatned:kelders .
+
+am:t-30750
+	skos:closeMatch aatned:portrettisten .
+
+am:t-30762
+	skos:closeMatch aatned:ontploffingen .
+
+am:t-30763
+	skos:closeMatch aatned:vloedgolven .
+
+am:t-30767
+	skos:closeMatch aatned:burgerij .
+
+am:t-30772
+	skos:closeMatch aatned:motieven .
+
+am:t-30775
+	skos:closeMatch aatned:canons .
+
+am:t-30790
+	skos:closeMatch aatned:huwelijksportretten .
+
+am:t-30791
+	skos:closeMatch aatned:echtparen .
+
+am:t-30796
+	skos:closeMatch aatned:scheepsbouwmeesters .
+
+am:t-30801
+	skos:closeMatch aatned:biografische_woordenboeken .
+
+am:t-30812
+	skos:closeMatch aatned:wouden .
+
+am:t-30819
+	skos:closeMatch aatned:huiskamers .
+
+am:t-30845
+	skos:closeMatch aatned:kooldrukken .
+
+am:t-30850
+	skos:closeMatch aatned:prentkunstenaars .
+
+am:t-30907
+	skos:closeMatch aatned:traangasgranaten .
+
+am:t-30912
+	skos:closeMatch aatned:kunstenaarskolonies .
+
+am:t-30916
+	skos:closeMatch aatned:rekenpenningen .
+
+am:t-30917
+	skos:closeMatch aatned:collectioneren .
+
+am:t-30928
+	skos:closeMatch aatned:microscopie .
+
+am:t-30941
+	skos:closeMatch aatned:creativiteit .
+
+am:t-31055
+	skos:closeMatch aatned:zadelmakers .
+
+am:t-31068
+	skos:closeMatch aatned:boekdrukkers .
+
+am:t-31071
+	skos:closeMatch aatned:dienstbodes .
+
+am:t-31084
+	skos:closeMatch aatned:microfoons .
+
+am:t-31112
+	skos:closeMatch aatned:entomologie .
+
+am:t-31113
+	skos:closeMatch aatned:supplement .
+
+am:t-31125
+	skos:closeMatch aatned:staatslieden .
+
+am:t-31149
+	skos:closeMatch aatned:meubilair .
+
+am:t-31200
+	skos:closeMatch aatned:runderen .
+
+am:t-31221
+	skos:closeMatch aatned:grootboeken .
+
+am:t-31223
+	skos:closeMatch aatned:welvaart .
+
+am:t-31226
+	skos:closeMatch aatned:operagebouwen .
+
+am:t-31291
+	skos:closeMatch aatned:eigendomsmerken .
+
+am:t-31292
+	skos:closeMatch aatned:straatkunst .
+
+am:t-31352
+	skos:closeMatch aatned:schepwerk .
+
+am:t-31353
+	skos:closeMatch aatned:snijgereedschap .
+
+am:t-31362
+	skos:closeMatch aatned:blanke_wapens .
+
+am:t-31364
+	skos:closeMatch aatned:stokwapens .
+
+am:t-31370
+	skos:closeMatch aatned:veehoeders .
+
+am:t-31372
+	skos:closeMatch aatned:hoveniers .
+
+am:t-31379
+	skos:closeMatch aatned:zeilmakers .
+
+am:t-31387
+	skos:closeMatch aatned:boekbinders .
+
+am:t-31390
+	skos:closeMatch aatned:schrijnwerkers .
+
+am:t-31391
+	skos:closeMatch aatned:bezemmakers .
+
+am:t-31393
+	skos:closeMatch aatned:stoelenmakers .
+
+am:t-31406
+	skos:closeMatch aatned:borduurders .
+
+am:t-31411
+	skos:closeMatch aatned:straatventers .
+
+am:t-31419
+	skos:closeMatch aatned:groentewinkels .
+
+am:t-31433
+	skos:closeMatch aatned:schoenlappers .
+
+am:t-31438
+	skos:closeMatch aatned:slijpers .
+
+am:t-31440
+	skos:closeMatch aatned:wasvrouwen .
+
+am:t-31442
+	skos:closeMatch aatned:brandweerlieden .
+
+am:t-31448
+	skos:closeMatch aatned:organisten .
+
+am:t-31450
+	skos:closeMatch aatned:filosofen .
+
+am:t-31451
+	skos:closeMatch aatned:alchemisten .
+
+am:t-31452
+	skos:closeMatch aatned:astronomen .
+
+am:t-31453
+	skos:closeMatch aatned:anatomen .
+
+am:t-31454
+	skos:closeMatch aatned:astrologen .
+
+am:t-31466
+	skos:closeMatch aatned:balspelen .
+
+am:t-31498
+	skos:closeMatch aatned:briefhoofden .
+
+am:t-31507
+	skos:closeMatch aatned:librettisten .
+
+am:t-31528
+	skos:closeMatch aatned:boekverkopers .
+
+am:t-31566
+	skos:closeMatch aatned:maatkannen .
+
+am:t-31598
+	skos:closeMatch aatned:spanen_dozen .
+
+am:t-31628
+	skos:closeMatch aatned:ormoulu .
+
+am:t-31672
+	skos:closeMatch aatned:tableaux_vivants .
+
+am:t-31673
+	skos:closeMatch aatned:praalwagens .
+
+am:t-31695
+	skos:closeMatch aatned:cartoonisten .
+
+am:t-31722
+	skos:closeMatch aatned:persfoto_s .
+
+am:t-31738
+	skos:closeMatch aatned:navigeren .
+
+am:t-31758
+	skos:closeMatch aatned:atheisme .
+
+am:t-31768
+	skos:closeMatch aatned:uitvinders .
+
+am:t-31881
+	skos:closeMatch aatned:vloeipapier .
+
+am:t-31931
+	skos:closeMatch aatned:magisch_realistisch .
+
+am:t-31962
+	skos:closeMatch aatned:compendia .
+
+am:t-31966
+	skos:closeMatch aatned:glasvezel .
+
+am:t-31988
+	skos:closeMatch aatned:handelsbanken .
+
+am:t-31990
+	skos:closeMatch aatned:Chinees .
+
+am:t-31996
+	skos:closeMatch aatned:kasboeken .
+
+am:t-31999
+	skos:closeMatch aatned:houders_naar_vorm .
+
+am:t-32001
+	skos:closeMatch aatned:vaatwerk .
+
+am:t-32003
+	skos:closeMatch aatned:bakgerei .
+
+am:t-32005
+	skos:closeMatch aatned:opslaghouders .
+
+am:t-32067
+	skos:closeMatch aatned:bidprenten .
+
+am:t-32076
+	skos:closeMatch aatned:kassa_s .
+
+am:t-32112
+	skos:closeMatch aatned:suikerkisten .
+
+am:t-32129
+	skos:closeMatch aatned:trouwkaarten .
+
+am:t-32134
+	skos:closeMatch aatned:ondernemers .
+
+am:t-32138
+	skos:closeMatch aatned:architraven .
+
+am:t-32143
+	skos:closeMatch aatned:stippenkaarten .
+
+am:t-32153
+	skos:closeMatch aatned:bontwerkers .
+
+am:t-32241
+	skos:closeMatch aatned:polyvinylchloride .
+
+am:t-32251
+	skos:closeMatch aatned:scans .
+
+am:t-32262
+	skos:closeMatch aatned:theosofie .
+
+am:t-32281
+	skos:closeMatch aatned:platenatlassen .
+
+am:t-32300
+	skos:closeMatch aatned:adviseurs .
+
+am:t-32314
+	skos:closeMatch aatned:publicisten .
+
+am:t-32320
+	skos:closeMatch aatned:zomer .
+
+am:t-32340
+	skos:closeMatch aatned:gehoor .
+
+am:t-32349
+	skos:closeMatch aatned:aristocratie .
+
+am:t-32364
+	skos:closeMatch aatned:muren .
+
+am:t-32371
+	skos:closeMatch aatned:baarden__sleutelonderdelen_ .
+
+am:t-32375
+	skos:closeMatch aatned:officieren .
+
+am:t-32379
+	skos:closeMatch aatned:lopen__vuurwapenonderdelen_ .
+
+am:t-32384
+	skos:closeMatch aatned:spitten__kookapparaten_ .
+
+am:t-32386
+	skos:closeMatch aatned:luiten .
+
+am:t-32392
+	skos:closeMatch aatned:bierpompen .
+
+am:t-32393
+	skos:closeMatch aatned:koelkasten .
+
+am:t-32409
+	skos:closeMatch aatned:mokers .
+
+am:t-32424
+	skos:closeMatch aatned:doedelzakken .
+
+am:t-32432
+	skos:closeMatch aatned:duisternis .
+
+am:t-32433
+	skos:closeMatch aatned:dieven .
+
+am:t-32434
+	skos:closeMatch aatned:straatlantaarns .
+
+am:t-32445
+	skos:closeMatch aatned:weefgetouwen .
+
+am:t-32448
+	skos:closeMatch aatned:mandflessen .
+
+am:t-32470
+	skos:closeMatch aatned:keizerinnen .
+
+am:t-32471
+	skos:closeMatch aatned:fleurs_de_lis .
+
+am:t-32474
+	skos:closeMatch aatned:rijksappels .
+
+am:t-32475
+	skos:closeMatch aatned:keizers .
+
+am:t-32483
+	skos:closeMatch aatned:geloof .
+
+am:t-3249
+	skos:closeMatch aatned:aardewerk .
+
+am:t-3250
+	skos:closeMatch aatned:aardgas .
+
+am:t-32545
+	skos:closeMatch aatned:erven .
+
+am:t-32568
+	skos:closeMatch aatned:krabben .
+
+am:t-32572
+	skos:closeMatch aatned:meerpalen .
+
+am:t-32579
+	skos:closeMatch aatned:bijten .
+
+am:t-32580
+	skos:closeMatch aatned:aanvallen .
+
+am:t-32582
+	skos:closeMatch aatned:wildproducten .
+
+am:t-32585
+	skos:closeMatch aatned:lente .
+
+am:t-3265
+	skos:closeMatch aatned:adel .
+
+am:t-3268
+	skos:closeMatch aatned:advertenties .
+
+am:t-3272
+	skos:closeMatch aatned:voorstellingen__beeldmateriaal_ .
+
+am:t-3273
+	skos:closeMatch aatned:afdelingen__organisatorische_eenheden_ .
+
+am:t-3278
+	skos:closeMatch aatned:afval .
+
+am:t-3282
+	skos:closeMatch aatned:album_amicorum .
+
+am:t-3283
+	skos:closeMatch aatned:alcohol .
+
+am:t-3293
+	skos:closeMatch aatned:altaren .
+
+am:t-3294
+	skos:closeMatch aatned:altaarstukken .
+
+am:t-3299
+	skos:closeMatch aatned:ambassades .
+
+am:t-3309
+	skos:closeMatch aatned:entertainen .
+
+am:t-3311
+	skos:closeMatch aatned:anatomie .
+
+am:t-3325
+	skos:closeMatch aatned:antropologie .
+
+am:t-3326
+	skos:closeMatch aatned:apartheid .
+
+am:t-3332
+	skos:closeMatch aatned:arbeid .
+
+am:t-3337
+	skos:closeMatch aatned:arbeidsbureaus .
+
+am:t-3346
+	skos:closeMatch aatned:archeologie .
+
+am:t-3347
+	skos:closeMatch aatned:archiefbeheer .
+
+am:t-3352
+	skos:closeMatch aatned:architectuur__vakgebied_ .
+
+am:t-3353
+	skos:closeMatch aatned:architectuurgeschiedenis .
+
+am:t-3355
+	skos:closeMatch aatned:armoede .
+
+am:t-3356
+	skos:closeMatch aatned:Art_Deco .
+
+am:t-3357
+	skos:closeMatch aatned:Art_Nouveau .
+
+am:t-3360
+	skos:closeMatch aatned:astrologie .
+
+am:t-3361
+	skos:closeMatch aatned:astronomie .
+
+am:t-3362
+	skos:closeMatch aatned:ateliers .
+
+am:t-3367
+	skos:closeMatch aatned:auteursrecht .
+
+am:t-3377
+	skos:closeMatch aatned:badhuizen .
+
+am:t-3380
+	skos:closeMatch aatned:bakeliet .
+
+am:t-3385
+	skos:closeMatch aatned:balkons .
+
+am:t-3388
+	skos:closeMatch aatned:ballet .
+
+am:t-3397
+	skos:closeMatch aatned:Barok .
+
+am:t-3425
+	skos:closeMatch aatned:bedrijfsgebouwen .
+
+am:t-3429
+	skos:closeMatch aatned:bedrijven .
+
+am:t-3431
+	skos:closeMatch aatned:industrieterreinen .
+
+am:t-3437
+	skos:closeMatch aatned:beeldende_kunsten .
+
+am:t-3449
+	skos:closeMatch aatned:beerputten .
+
+am:t-3451
+	skos:closeMatch aatned:begrafenissen .
+
+am:t-3452
+	skos:closeMatch aatned:begraven .
+
+am:t-3454
+	skos:closeMatch aatned:begrotingen .
+
+am:t-3455
+	skos:closeMatch aatned:behang .
+
+am:t-3456
+	skos:closeMatch aatned:behangsels .
+
+am:t-3460
+	skos:closeMatch aatned:belastingregisters .
+
+am:t-3463
+	skos:closeMatch aatned:Berbers .
+
+am:t-3468
+	skos:closeMatch aatned:beroepsethiek .
+
+am:t-3473
+	skos:closeMatch aatned:bestuur .
+
+am:t-3480
+	skos:closeMatch aatned:beveiliging .
+
+am:t-3488
+	skos:closeMatch aatned:bezems .
+
+am:t-3490
+	skos:closeMatch aatned:bezoekers .
+
+am:t-3502
+	skos:closeMatch aatned:Biedermeier .
+
+am:t-3515
+	skos:closeMatch aatned:binnenvaart .
+
+am:t-3519
+	skos:closeMatch aatned:biologie .
+
+am:t-3531
+	skos:closeMatch aatned:bladgoud .
+
+am:t-3540
+	skos:closeMatch aatned:bodebussen .
+
+am:t-3545
+	skos:closeMatch aatned:boeddhisme .
+
+am:t-3546
+	skos:closeMatch aatned:boedelbeschrijvingen .
+
+am:t-3549
+	skos:closeMatch aatned:boekbinden .
+
+am:t-3560
+	skos:closeMatch aatned:boekhouden .
+
+am:t-3561
+	skos:closeMatch aatned:boekillustraties .
+
+am:t-3575
+	skos:closeMatch aatned:bolwerken .
+
+am:t-3578
+	skos:closeMatch aatned:borduren .
+
+am:t-3581
+	skos:closeMatch aatned:bossen .
+
+am:t-3585
+	skos:closeMatch aatned:boulevards .
+
+am:t-3591
+	skos:closeMatch aatned:bouwmaterialen .
+
+am:t-3594
+	skos:closeMatch aatned:bouwverordeningen .
+
+am:t-3606
+	skos:closeMatch aatned:brandpreventie .
+
+am:t-3608
+	skos:closeMatch aatned:brandspuitpenningen .
+
+am:t-3618
+	skos:closeMatch aatned:brokaat .
+
+am:t-3619
+	skos:closeMatch aatned:brokaatpapier .
+
+am:t-3624
+	skos:closeMatch aatned:Bronstijd .
+
+am:t-3625
+	skos:closeMatch aatned:brood .
+
+am:t-3639
+	skos:closeMatch aatned:buitenverlichting .
+
+am:t-3645
+	skos:closeMatch aatned:burgemeesterswoningen .
+
+am:t-3648
+	skos:closeMatch aatned:buurten .
+
+am:t-3649
+	skos:closeMatch aatned:buurthuizen .
+
+am:t-3665
+	skos:closeMatch aatned:cabarets .
+
+am:t-3666
+	skos:closeMatch aatned:cacao .
+
+am:t-3667
+	skos:closeMatch aatned:cafes .
+
+am:t-3673
+	skos:closeMatch aatned:cameeen .
+
+am:t-3674
+	skos:closeMatch aatned:camera_obscura_s .
+
+am:t-3675
+	skos:closeMatch aatned:carillons .
+
+am:t-3676
+	skos:closeMatch aatned:carnaval .
+
+am:t-3677
+	skos:closeMatch aatned:cartografie .
+
+am:t-3678
+	skos:closeMatch aatned:cartoons .
+
+am:t-3679
+	skos:closeMatch aatned:cartouches .
+
+am:t-3685
+	skos:closeMatch aatned:catechismussen .
+
+am:t-3693
+	skos:closeMatch aatned:cd_rom_s .
+
+am:t-3699
+	skos:closeMatch aatned:censuur .
+
+am:t-3713
+	skos:closeMatch aatned:chinoiserie .
+
+am:t-3714
+	skos:closeMatch aatned:chirurgie .
+
+am:t-3716
+	skos:closeMatch aatned:chocolade .
+
+am:t-3718
+	skos:closeMatch aatned:christendom .
+
+am:t-3722
+	skos:closeMatch aatned:civiele_techniek .
+
+am:t-3724
+	skos:closeMatch aatned:classicisme .
+
+am:t-3728
+	skos:closeMatch aatned:collectiebeheer .
+
+am:t-3732
+	skos:closeMatch aatned:collectievorming .
+
+am:t-3734
+	skos:closeMatch aatned:columnisten .
+
+am:t-3735
+	skos:closeMatch aatned:commodes__ladenkasten_ .
+
+am:t-3736
+	skos:closeMatch aatned:communicatiewetenschap .
+
+am:t-3738
+	skos:closeMatch aatned:communisme .
+
+am:t-3739
+	skos:closeMatch aatned:componisten .
+
+am:t-3746
+	skos:closeMatch aatned:concentratiekampen .
+
+am:t-3752
+	skos:closeMatch aatned:confisqueren .
+
+am:t-3754
+	skos:closeMatch aatned:conferenties .
+
+am:t-3755
+	skos:closeMatch aatned:milieubeheer .
+
+am:t-3756
+	skos:closeMatch aatned:consumptieijs .
+
+am:t-3758
+	skos:closeMatch aatned:contracten .
+
+am:t-3761
+	skos:closeMatch aatned:correspondentie .
+
+am:t-3771
+	skos:closeMatch aatned:cultuur .
+
+am:t-3783
+	skos:closeMatch aatned:cultuurspreiding .
+
+am:t-3791
+	skos:closeMatch aatned:dagbladen .
+
+am:t-3795
+	skos:closeMatch aatned:daglicht .
+
+am:t-3796
+	skos:closeMatch aatned:daken .
+
+am:t-3797
+	skos:closeMatch aatned:daklozen .
+
+am:t-3799
+	skos:closeMatch aatned:dans .
+
+am:t-3822
+	skos:closeMatch aatned:decors .
+
+am:t-3824
+	skos:closeMatch aatned:degens .
+
+am:t-3825
+	skos:closeMatch aatned:Delfts_aardewerk .
+
+am:t-3830
+	skos:closeMatch aatned:democratie .
+
+am:t-3835
+	skos:closeMatch aatned:dempen .
+
+am:t-3837
+	skos:closeMatch aatned:dendrochronologie .
+
+am:t-3842
+	skos:closeMatch aatned:deurkrukken .
+
+am:t-3851
+	skos:closeMatch aatned:diakonieen .
+
+am:t-3864
+	skos:closeMatch aatned:dieploden .
+
+am:t-3865
+	skos:closeMatch aatned:dierentuinen .
+
+am:t-3872
+	skos:closeMatch aatned:diorama_s .
+
+am:t-3873
+	skos:closeMatch aatned:diplomatie .
+
+am:t-3874
+	skos:closeMatch aatned:discriminatie .
+
+am:t-3876
+	skos:closeMatch aatned:distilleerderijen .
+
+am:t-3889
+	skos:closeMatch aatned:documentatie .
+
+am:t-3894
+	skos:closeMatch aatned:domeinen .
+
+am:t-3902
+	skos:closeMatch aatned:dozen .
+
+am:t-3905
+	skos:closeMatch aatned:draken .
+
+am:t-3907
+	skos:closeMatch aatned:drank .
+
+am:t-3909
+	skos:closeMatch aatned:drenkelingen .
+
+am:t-3915
+	skos:closeMatch aatned:drinkwater .
+
+am:t-3922
+	skos:closeMatch aatned:drukkunst .
+
+am:t-3923
+	skos:closeMatch aatned:drukpersen .
+
+am:t-3924
+	skos:closeMatch aatned:druktechnieken .
+
+am:t-3926
+	skos:closeMatch aatned:duiven .
+
+am:t-3927
+	skos:closeMatch aatned:duinen .
+
+am:t-3929
+	skos:closeMatch aatned:duivels .
+
+am:t-3940
+	skos:closeMatch aatned:e_mail .
+
+am:t-3953
+	skos:closeMatch aatned:bestuurskunde .
+
+am:t-3958
+	skos:closeMatch aatned:economie .
+
+am:t-4062
+	skos:closeMatch aatned:elektriciteit .
+
+am:t-4063
+	skos:closeMatch aatned:elektronica .
+
+am:t-4064
+	skos:closeMatch aatned:elektrotechniek .
+
+am:t-4068
+	skos:closeMatch aatned:emailleerders .
+
+am:t-4070
+	skos:closeMatch aatned:emancipatie .
+
+am:t-4071
+	skos:closeMatch aatned:emblemata .
+
+am:t-4073
+	skos:closeMatch aatned:emigratie .
+
+am:t-4077
+	skos:closeMatch aatned:energievoorziening .
+
+am:t-4083
+	skos:closeMatch aatned:ergonomie .
+
+am:t-4086
+	skos:closeMatch aatned:esthetica .
+
+am:t-4088
+	skos:closeMatch aatned:etiquette .
+
+am:t-4091
+	skos:closeMatch aatned:etnografica .
+
+am:t-4097
+	skos:closeMatch aatned:etsplaten .
+
+am:t-4099
+	skos:closeMatch aatned:etymologie .
+
+am:t-4104
+	skos:closeMatch aatned:ex_librissen .
+
+am:t-4105
+	skos:closeMatch aatned:expressionisme .
+
+am:t-4126
+	skos:closeMatch aatned:fabrieksgebouwen .
+
+am:t-4128
+	skos:closeMatch aatned:facsimile_s .
+
+am:t-4129
+	skos:closeMatch aatned:faience .
+
+am:t-4173
+	skos:closeMatch aatned:filatelie .
+
+am:t-4174
+	skos:closeMatch aatned:filmmusea .
+
+am:t-4177
+	skos:closeMatch aatned:filosofie .
+
+am:t-4178
+	skos:closeMatch aatned:financien .
+
+am:t-4193
+	skos:closeMatch aatned:anarchisme .
+
+am:t-4194
+	skos:closeMatch aatned:fascisme .
+
+am:t-4199
+	skos:closeMatch aatned:flora .
+
+am:t-4211
+	skos:closeMatch aatned:folders .
+
+am:t-4212
+	skos:closeMatch aatned:folklore .
+
+am:t-4213
+	skos:closeMatch aatned:fonds .
+
+am:t-4217
+	skos:closeMatch aatned:fornuizen .
+
+am:t-4219
+	skos:closeMatch aatned:forten .
+
+am:t-4222
+	skos:closeMatch aatned:fotografie .
+
+am:t-4229
+	skos:closeMatch aatned:frontons .
+
+am:t-4246
+	skos:closeMatch aatned:garages .
+
+am:t-4247
+	skos:closeMatch aatned:gas .
+
+am:t-429
+	skos:closeMatch aatned:zetten__drukvoorbereiding_ .
+
+am:t-4330
+	skos:closeMatch aatned:gebrandschilderd_glas .
+
+am:t-4332
+	skos:closeMatch aatned:gebruiksvoorwerpen .
+
+am:t-4350
+	skos:closeMatch aatned:gehandicapten .
+
+am:t-4351
+	skos:closeMatch aatned:geheugen .
+
+am:t-4352
+	skos:closeMatch aatned:geld .
+
+am:t-4354
+	skos:closeMatch aatned:geldbuidels .
+
+am:t-4359
+	skos:closeMatch aatned:Geluidsmiddelen__TOPTERM_ .
+
+am:t-4368
+	skos:closeMatch aatned:gemeentehuizen .
+
+am:t-4377
+	skos:closeMatch aatned:gemeentewapens .
+
+am:t-4381
+	skos:closeMatch aatned:geneeskunde .
+
+am:t-4383
+	skos:closeMatch aatned:genotmiddelen .
+
+am:t-4385
+	skos:closeMatch aatned:geografie .
+
+am:t-4386
+	skos:closeMatch aatned:geologie .
+
+am:t-4387
+	skos:closeMatch aatned:Gereedschap_en_Uitrusting__TOPTERM_ .
+
+am:t-4400
+	skos:closeMatch aatned:getijdenboeken .
+
+am:t-4401
+	skos:closeMatch aatned:getto_s .
+
+am:t-4405
+	skos:closeMatch aatned:gevels__naar_locatie_ .
+
+am:t-4412
+	skos:closeMatch aatned:volksgezondheid .
+
+am:t-4435
+	skos:closeMatch aatned:gietijzer .
+
+am:t-4436
+	skos:closeMatch aatned:gerechtsgebouwen .
+
+am:t-4442
+	skos:closeMatch aatned:git .
+
+am:t-4587
+	skos:closeMatch aatned:gotiek .
+
+am:t-4588
+	skos:closeMatch aatned:goud .
+
+am:t-4591
+	skos:closeMatch aatned:gouden_eeuw .
+
+am:t-4592
+	skos:closeMatch aatned:goudleer__behang_ .
+
+am:t-4733
+	skos:closeMatch aatned:graafschappen .
+
+am:t-4737
+	skos:closeMatch aatned:grachten .
+
+am:t-4739
+	skos:closeMatch aatned:graven__funerair_ .
+
+am:t-4740
+	skos:closeMatch aatned:graffiti .
+
+am:t-4744
+	skos:closeMatch aatned:grafschriften .
+
+am:t-4749
+	skos:closeMatch aatned:Grand_Tours .
+
+am:t-4754
+	skos:closeMatch aatned:grenzen .
+
+am:t-4762
+	skos:closeMatch aatned:bodem__potscherven_ .
+
+am:t-4764
+	skos:closeMatch aatned:grondwetten .
+
+am:t-4765
+	skos:closeMatch aatned:warenhuizen .
+
+am:t-4781
+	skos:closeMatch aatned:gymnasia .
+
+am:t-4782
+	skos:closeMatch aatned:turnen .
+
+am:t-4799
+	skos:closeMatch aatned:hanen .
+
+am:t-4800
+	skos:closeMatch aatned:haar .
+
+am:t-4805
+	skos:closeMatch aatned:handel .
+
+am:t-4818
+	skos:closeMatch aatned:hars .
+
+am:t-4819
+	skos:closeMatch aatned:harten__motieven_ .
+
+am:t-4821
+	skos:closeMatch aatned:havens .
+
+am:t-488
+	skos:closeMatch aatned:hulsten .
+
+am:t-4898
+	skos:closeMatch aatned:streekgeschiedenis .
+
+am:t-49
+	skos:closeMatch aatned:transporteurs .
+
+am:t-4902
+	skos:closeMatch aatned:heksen .
+
+am:t-4904
+	skos:closeMatch aatned:Hellenistisch .
+
+am:t-4907
+	skos:closeMatch aatned:hemelglobes .
+
+am:t-4908
+	skos:closeMatch aatned:hennep .
+
+am:t-4909
+	skos:closeMatch aatned:heraldiek .
+
+am:t-4910
+	skos:closeMatch aatned:herbergen .
+
+am:t-4912
+	skos:closeMatch aatned:herdenkingen .
+
+am:t-4915
+	skos:closeMatch aatned:hertogen .
+
+am:t-4930
+	skos:closeMatch aatned:hindoeisme .
+
+am:t-4934
+	skos:closeMatch aatned:historiepenningen .
+
+am:t-4935
+	skos:closeMatch aatned:historieprenten .
+
+am:t-4936
+	skos:closeMatch aatned:historieschilderkunst .
+
+am:t-4938
+	skos:closeMatch aatned:historiografie .
+
+am:t-4946
+	skos:closeMatch aatned:historische_atlassen .
+
+am:t-4954
+	skos:closeMatch aatned:historisme .
+
+am:t-4966
+	skos:closeMatch aatned:hofjes .
+
+am:t-4972
+	skos:closeMatch aatned:hoofdsteden .
+
+am:t-4982
+	skos:closeMatch aatned:houtwerk .
+
+am:t-4987
+	skos:closeMatch aatned:huiseigenaars .
+
+am:t-4991
+	skos:closeMatch aatned:huisvesting .
+
+am:t-4993
+	skos:closeMatch aatned:huisvrouwen .
+
+am:t-4995
+	skos:closeMatch aatned:humanisme .
+
+am:t-4996
+	skos:closeMatch aatned:humor .
+
+am:t-4997
+	skos:closeMatch aatned:huurders .
+
+am:t-4998
+	skos:closeMatch aatned:huurwoningen__complexen_ .
+
+am:t-4999
+	skos:closeMatch aatned:bruiloften .
+
+am:t-5009
+	skos:closeMatch aatned:iconen .
+
+am:t-5011
+	skos:closeMatch aatned:iconografie .
+
+am:t-5012
+	skos:closeMatch aatned:iconologie .
+
+am:t-5015
+	skos:closeMatch aatned:identiteit .
+
+am:t-5021
+	skos:closeMatch aatned:IJzertijd .
+
+am:t-5027
+	skos:closeMatch aatned:illustraties .
+
+am:t-5029
+	skos:closeMatch aatned:imitaties .
+
+am:t-5030
+	skos:closeMatch aatned:immigratie .
+
+am:t-5032
+	skos:closeMatch aatned:Impressionistisch .
+
+am:t-5033
+	skos:closeMatch aatned:incunabels .
+
+am:t-5035
+	skos:closeMatch aatned:indigo .
+
+am:t-5036
+	skos:closeMatch aatned:individualisme .
+
+am:t-5039
+	skos:closeMatch aatned:industriele_archeologie .
+
+am:t-5040
+	skos:closeMatch aatned:industriele_vormgeving .
+
+am:t-5047
+	skos:closeMatch aatned:informatietechnologie .
+
+am:t-5050
+	skos:closeMatch aatned:infrastructuur .
+
+am:t-5051
+	skos:closeMatch aatned:ingenieurs .
+
+am:t-5063
+	skos:closeMatch aatned:instellingen .
+
+am:t-5065
+	skos:closeMatch aatned:instrumentmakers .
+
+am:t-5069
+	skos:closeMatch aatned:internaten .
+
+am:t-5077
+	skos:closeMatch aatned:interviews .
+
+am:t-5082
+	skos:closeMatch aatned:inventarissen .
+
+am:t-5084
+	skos:closeMatch aatned:islam .
+
+am:t-5099
+	skos:closeMatch aatned:jaarboeken .
+
+am:t-5102
+	skos:closeMatch aatned:jaarverslagen .
+
+am:t-5106
+	skos:closeMatch aatned:jachthavens .
+
+am:t-5109
+	skos:closeMatch aatned:jade .
+
+am:t-5111
+	skos:closeMatch aatned:Japonisme .
+
+am:t-5212
+	skos:closeMatch aatned:veeteelt .
+
+am:t-5285
+	skos:closeMatch aatned:jeugd .
+
+am:t-5286
+	skos:closeMatch aatned:journalistiek .
+
+am:t-5287
+	skos:closeMatch aatned:jubilea .
+
+am:t-5289
+	skos:closeMatch aatned:Jugendstil__Ned_ .
+
+am:t-5297
+	skos:closeMatch aatned:kaarsen .
+
+am:t-5304
+	skos:closeMatch aatned:kadasters .
+
+am:t-5305
+	skos:closeMatch aatned:kalenders .
+
+am:t-5306
+	skos:closeMatch aatned:kalligrafie .
+
+am:t-5315
+	skos:closeMatch aatned:kansspelen .
+
+am:t-5324
+	skos:closeMatch aatned:kapitalisme .
+
+am:t-5326
+	skos:closeMatch aatned:karikaturen .
+
+am:t-5333
+	skos:closeMatch aatned:kathedralen .
+
+am:t-5334
+	skos:closeMatch aatned:katholicisme .
+
+am:t-5358
+	skos:closeMatch aatned:keizerskronen .
+
+am:t-5363
+	skos:closeMatch aatned:keramiek .
+
+am:t-5370
+	skos:closeMatch aatned:kerkgeschiedenis .
+
+am:t-5371
+	skos:closeMatch aatned:kerkhoven .
+
+am:t-5374
+	skos:closeMatch aatned:kermissen .
+
+am:t-5376
+	skos:closeMatch aatned:kerstboomversiering .
+
+am:t-5377
+	skos:closeMatch aatned:Kerstmis .
+
+am:t-5391
+	skos:closeMatch aatned:kinderboerderijen .
+
+am:t-5392
+	skos:closeMatch aatned:kinderdagverblijven .
+
+am:t-5395
+	skos:closeMatch aatned:kinderkleding .
+
+am:t-5396
+	skos:closeMatch aatned:kindermusea .
+
+am:t-5397
+	skos:closeMatch aatned:kinderprenten .
+
+am:t-5398
+	skos:closeMatch aatned:kindertekeningen .
+
+am:t-5403
+	skos:closeMatch aatned:klassieke_oudheid .
+
+am:t-5404
+	skos:closeMatch aatned:klavecimbels .
+
+am:t-5405
+	skos:closeMatch aatned:drachten .
+
+am:t-5413
+	skos:closeMatch aatned:klimaat .
+
+am:t-5418
+	skos:closeMatch aatned:klokkengieters .
+
+am:t-5423
+	skos:closeMatch aatned:knipkunst .
+
+am:t-5427
+	skos:closeMatch aatned:koetshuizen .
+
+am:t-5428
+	skos:closeMatch aatned:koffie .
+
+am:t-5429
+	skos:closeMatch aatned:koffiebonen .
+
+am:t-5430
+	skos:closeMatch aatned:koffiehuizen .
+
+am:t-5431
+	skos:closeMatch aatned:koggen .
+
+am:t-5432
+	skos:closeMatch aatned:koken .
+
+am:t-5434
+	skos:closeMatch aatned:kolonien .
+
+am:t-5437
+	skos:closeMatch aatned:kompassen .
+
+am:t-5441
+	skos:closeMatch aatned:kookboeken .
+
+am:t-5442
+	skos:closeMatch aatned:kookgerei .
+
+am:t-5457
+	skos:closeMatch aatned:kraakporselein .
+
+am:t-5459
+	skos:closeMatch aatned:krankzinnigheid .
+
+am:t-5468
+	skos:closeMatch aatned:kronieken .
+
+am:t-5469
+	skos:closeMatch aatned:kroningen .
+
+am:t-5470
+	skos:closeMatch aatned:kroonjuwelen .
+
+am:t-5472
+	skos:closeMatch aatned:krotten .
+
+am:t-5473
+	skos:closeMatch aatned:kruidenboeken .
+
+am:t-5481
+	skos:closeMatch aatned:kunst .
+
+am:t-5491
+	skos:closeMatch aatned:kunsten .
+
+am:t-5495
+	skos:closeMatch aatned:kunstgeschiedenis .
+
+am:t-5501
+	skos:closeMatch aatned:kunstkritiek .
+
+am:t-5505
+	skos:closeMatch aatned:kunstonderwijs .
+
+am:t-5515
+	skos:closeMatch aatned:kunsttheorie .
+
+am:t-5516
+	skos:closeMatch aatned:artotheken .
+
+am:t-5519
+	skos:closeMatch aatned:kunstverzamelingen .
+
+am:t-5522
+	skos:closeMatch aatned:kunsteducatie .
+
+am:t-5527
+	skos:closeMatch aatned:kwekerijen .
+
+am:t-5535
+	skos:closeMatch aatned:laboratoria .
+
+am:t-5541
+	skos:closeMatch aatned:lakenhallen .
+
+am:t-5549
+	skos:closeMatch aatned:landgoed .
+
+am:t-5600
+	skos:closeMatch aatned:leerboeken .
+
+am:t-5605
+	skos:closeMatch aatned:legenden .
+
+am:t-5606
+	skos:closeMatch aatned:legers .
+
+am:t-5610
+	skos:closeMatch aatned:legpuzzels .
+
+am:t-5611
+	skos:closeMatch aatned:lelies .
+
+am:t-5612
+	skos:closeMatch aatned:lelijkheid .
+
+am:t-5616
+	skos:closeMatch aatned:letters__tekens_ .
+
+am:t-5617
+	skos:closeMatch aatned:lettergieterijen .
+
+am:t-5627
+	skos:closeMatch aatned:lezen .
+
+am:t-5628
+	skos:closeMatch aatned:lezingen .
+
+am:t-5634
+	skos:closeMatch aatned:liberalisme .
+
+am:t-5636
+	skos:closeMatch aatned:lichaamsdelen .
+
+am:t-5638
+	skos:closeMatch aatned:licht .
+
+am:t-5640
+	skos:closeMatch aatned:liedboeken .
+
+am:t-5643
+	skos:closeMatch aatned:liefde .
+
+am:t-5644
+	skos:closeMatch aatned:lijm .
+
+am:t-5647
+	skos:closeMatch aatned:linnen .
+
+am:t-5651
+	skos:closeMatch aatned:literatuurgeschiedenis .
+
+am:t-5657
+	skos:closeMatch aatned:liturgie .
+
+am:t-5664
+	skos:closeMatch aatned:lood .
+
+am:t-5667
+	skos:closeMatch aatned:luchthavens .
+
+am:t-5689
+	skos:closeMatch aatned:majolica .
+
+am:t-5696
+	skos:closeMatch aatned:manierisme .
+
+am:t-5697
+	skos:closeMatch aatned:manifesten .
+
+am:t-5700
+	skos:closeMatch aatned:manuscripten .
+
+am:t-5702
+	skos:closeMatch aatned:marines .
+
+am:t-5705
+	skos:closeMatch aatned:maritieme_geschiedenis .
+
+am:t-5706
+	skos:closeMatch aatned:marketing .
+
+am:t-5709
+	skos:closeMatch aatned:marmer .
+
+am:t-5711
+	skos:closeMatch aatned:marqueterie .
+
+am:t-5713
+	skos:closeMatch aatned:martelaren .
+
+am:t-5714
+	skos:closeMatch aatned:marxisme .
+
+am:t-5719
+	skos:closeMatch aatned:materialisme .
+
+am:t-5720
+	skos:closeMatch aatned:materiele_cultuur .
+
+am:t-5767
+	skos:closeMatch aatned:medailleurs .
+
+am:t-5770
+	skos:closeMatch aatned:medische_wetenschappen .
+
+am:t-5776
+	skos:closeMatch aatned:memoires .
+
+am:t-5777
+	skos:closeMatch aatned:menagerieen .
+
+am:t-5781
+	skos:closeMatch aatned:ideeengeschiedenis .
+
+am:t-5784
+	skos:closeMatch aatned:merken .
+
+am:t-5789
+	skos:closeMatch aatned:metaalwerkers .
+
+am:t-5793
+	skos:closeMatch aatned:metaalsneden .
+
+am:t-5795
+	skos:closeMatch aatned:meten .
+
+am:t-5797
+	skos:closeMatch aatned:metro_s .
+
+am:t-5800
+	skos:closeMatch aatned:meubelbeslag .
+
+am:t-5801
+	skos:closeMatch aatned:meubelmakerijen .
+
+am:t-5805
+	skos:closeMatch aatned:bijzonder_onderwijs .
+
+am:t-5806
+	skos:closeMatch aatned:microscopen .
+
+am:t-5807
+	skos:closeMatch aatned:middelbaar_onderwijs .
+
+am:t-5811
+	skos:closeMatch aatned:migratie .
+
+am:t-5812
+	skos:closeMatch aatned:milieu_s__objectgroepen_ .
+
+am:t-5815
+	skos:closeMatch aatned:minderheden .
+
+am:t-5818
+	skos:closeMatch aatned:Ming .
+
+am:t-5825
+	skos:closeMatch aatned:missen .
+
+am:t-5829
+	skos:closeMatch aatned:mode .
+
+am:t-5838
+	skos:closeMatch aatned:monarchie .
+
+am:t-5843
+	skos:closeMatch aatned:monogrammen .
+
+am:t-5848
+	skos:closeMatch aatned:monumentenzorg .
+
+am:t-5854
+	skos:closeMatch aatned:mosterdpotten .
+
+am:t-5871
+	skos:closeMatch aatned:musea_naar_onderwerp .
+
+am:t-5872
+	skos:closeMatch aatned:musea_naar_vorm .
+
+am:t-5874
+	skos:closeMatch aatned:museologie .
+
+am:t-5885
+	skos:closeMatch aatned:museumdorpen .
+
+am:t-5903
+	skos:closeMatch aatned:muziek .
+
+am:t-5906
+	skos:closeMatch aatned:muziekdozen .
+
+am:t-5911
+	skos:closeMatch aatned:muzikanten .
+
+am:t-5912
+	skos:closeMatch aatned:mythologie .
+
+am:t-5922
+	skos:closeMatch aatned:naaigerei .
+
+am:t-5926
+	skos:closeMatch aatned:nacht .
+
+am:t-5929
+	skos:closeMatch aatned:naieve_kunst .
+
+am:t-5934
+	skos:closeMatch aatned:nationale_bibliotheken .
+
+am:t-5936
+	skos:closeMatch aatned:nationalisme .
+
+am:t-5938
+	skos:closeMatch aatned:naturalisme .
+
+am:t-5939
+	skos:closeMatch aatned:natuur .
+
+am:t-5945
+	skos:closeMatch aatned:natuurkunde .
+
+am:t-5948
+	skos:closeMatch aatned:natuurwetenschappen .
+
+am:t-5949
+	skos:closeMatch aatned:nautilusbekers .
+
+am:t-5991
+	skos:closeMatch aatned:neoclassicistisch .
+
+am:t-5992
+	skos:closeMatch aatned:neogotiek .
+
+am:t-5995
+	skos:closeMatch aatned:netsukes .
+
+am:t-5998
+	skos:closeMatch aatned:neutraliteit .
+
+am:t-6015
+	skos:closeMatch aatned:novellen .
+
+am:t-6018
+	skos:closeMatch aatned:numismatiek .
+
+am:t-6025
+	skos:closeMatch aatned:occulte_wetenschappen .
+
+am:t-6026
+	skos:closeMatch aatned:occultisme .
+
+am:t-6037
+	skos:closeMatch aatned:olieverf .
+
+am:t-6045
+	skos:closeMatch aatned:onderaanneming .
+
+am:t-6046
+	skos:closeMatch aatned:onderhoud .
+
+am:t-6052
+	skos:closeMatch aatned:onderwijs .
+
+am:t-6063
+	skos:closeMatch aatned:ontwerptekeningen .
+
+am:t-6067
+	skos:closeMatch aatned:oorkonden .
+
+am:t-6081
+	skos:closeMatch aatned:openbaar_vervoer .
+
+am:t-6082
+	skos:closeMatch aatned:openbare_bibliotheken .
+
+am:t-6095
+	skos:closeMatch aatned:opschriften .
+
+am:t-6096
+	skos:closeMatch aatned:opslag .
+
+am:t-6104
+	skos:closeMatch aatned:orde .
+
+am:t-6115
+	skos:closeMatch aatned:ouderdom .
+
+am:t-6121
+	skos:closeMatch aatned:overheid .
+
+am:t-6134
+	skos:closeMatch aatned:paddestoelen .
+
+am:t-6137
+	skos:closeMatch aatned:paleografie .
+
+am:t-6139
+	skos:closeMatch aatned:pamfletten .
+
+am:t-6140
+	skos:closeMatch aatned:panorama_s .
+
+am:t-6143
+	skos:closeMatch aatned:papier__vezelprodukt_ .
+
+am:t-6153
+	skos:closeMatch aatned:parkeren .
+
+am:t-6155
+	skos:closeMatch aatned:Pasen .
+
+am:t-6157
+	skos:closeMatch aatned:paspoorten .
+
+am:t-6158
+	skos:closeMatch aatned:passementwerk .
+
+am:t-6161
+	skos:closeMatch aatned:pastorieen .
+
+am:t-6163
+	skos:closeMatch aatned:patriciers .
+
+am:t-6164
+	skos:closeMatch aatned:patriottisme .
+
+am:t-6181
+	skos:closeMatch aatned:pensioenen__vergoeding_ .
+
+am:t-6185
+	skos:closeMatch aatned:personeel .
+
+am:t-6191
+	skos:closeMatch aatned:perspectief .
+
+am:t-6192
+	skos:closeMatch aatned:Perzische_katten .
+
+am:t-6202
+	skos:closeMatch aatned:piano_s .
+
+am:t-6204
+	skos:closeMatch aatned:pijpaarde .
+
+am:t-6211
+	skos:closeMatch aatned:plagiaat .
+
+am:t-6212
+	skos:closeMatch aatned:plakboeken .
+
+am:t-6217
+	skos:closeMatch aatned:plannen .
+
+am:t-6218
+	skos:closeMatch aatned:planologie .
+
+am:t-6226
+	skos:closeMatch aatned:platina .
+
+am:t-6228
+	skos:closeMatch aatned:pleinen .
+
+am:t-6236
+	skos:closeMatch aatned:polders .
+
+am:t-6237
+	skos:closeMatch aatned:polemieken .
+
+am:t-6238
+	skos:closeMatch aatned:politicologie .
+
+am:t-6240
+	skos:closeMatch aatned:politiebureaus .
+
+am:t-6246
+	skos:closeMatch aatned:polychromie .
+
+am:t-6254
+	skos:closeMatch aatned:porselein .
+
+am:t-6265
+	skos:closeMatch aatned:postkantoren .
+
+am:t-6269
+	skos:closeMatch aatned:pottenbakkers .
+
+am:t-6270
+	skos:closeMatch aatned:potvissen .
+
+am:t-6285
+	skos:closeMatch aatned:pretparken .
+
+am:t-6286
+	skos:closeMatch aatned:preventieve_maatregelen_nemen .
+
+am:t-6287
+	skos:closeMatch aatned:priesters .
+
+am:t-6288
+	skos:closeMatch aatned:prijsboeken .
+
+am:t-6292
+	skos:closeMatch aatned:primitieve_kunst .
+
+am:t-6295
+	skos:closeMatch aatned:processies .
+
+am:t-6296
+	skos:closeMatch aatned:proclamaties .
+
+am:t-6304
+	skos:closeMatch aatned:projecten .
+
+am:t-6306
+	skos:closeMatch aatned:propaganda .
+
+am:t-6307
+	skos:closeMatch aatned:prostitutie .
+
+am:t-6309
+	skos:closeMatch aatned:protestantisme .
+
+am:t-6311
+	skos:closeMatch aatned:provincies .
+
+am:t-6315
+	skos:closeMatch aatned:psychologie .
+
+am:t-6316
+	skos:closeMatch aatned:puberteit .
+
+am:t-6317
+	skos:closeMatch aatned:public_relations .
+
+am:t-6318
+	skos:closeMatch aatned:publicaties .
+
+am:t-6320
+	skos:closeMatch aatned:putten .
+
+am:t-6429
+	skos:closeMatch aatned:Qing .
+
+am:t-6515
+	skos:closeMatch aatned:raadzalen .
+
+am:t-6516
+	skos:closeMatch aatned:ramen .
+
+am:t-6536
+	skos:closeMatch aatned:rechten__vakgebied_ .
+
+am:t-6537
+	skos:closeMatch aatned:reclame .
+
+am:t-6538
+	skos:closeMatch aatned:reconstructies .
+
+am:t-6542
+	skos:closeMatch aatned:redekunstenaars .
+
+am:t-6543
+	skos:closeMatch aatned:rederijkerskamers .
+
+am:t-6546
+	skos:closeMatch aatned:Reformatie .
+
+am:t-6553
+	skos:closeMatch aatned:reisgidsen .
+
+am:t-6565
+	skos:closeMatch aatned:religieuze_kunst .
+
+am:t-6570
+	skos:closeMatch aatned:renaissance .
+
+am:t-6572
+	skos:closeMatch aatned:replica_s .
+
+am:t-6575
+	skos:closeMatch aatned:republieken .
+
+am:t-6576
+	skos:closeMatch aatned:restaurants .
+
+am:t-6581
+	skos:closeMatch aatned:revoluties .
+
+am:t-6596
+	skos:closeMatch aatned:ridderorden .
+
+am:t-6603
+	skos:closeMatch aatned:nationale_musea .
+
+am:t-6604
+	skos:closeMatch aatned:rijtuigen .
+
+am:t-6609
+	skos:closeMatch aatned:rituelen__gebeurtenissen_ .
+
+am:t-6610
+	skos:closeMatch aatned:rivieren .
+
+am:t-6612
+	skos:closeMatch aatned:rococo .
+
+am:t-6615
+	skos:closeMatch aatned:rokken .
+
+am:t-6617
+	skos:closeMatch aatned:rolluiken .
+
+am:t-6620
+	skos:closeMatch aatned:romans .
+
+am:t-6621
+	skos:closeMatch aatned:romantisch .
+
+am:t-6629
+	skos:closeMatch aatned:ruimtelijke_ordening .
+
+am:t-6642
+	skos:closeMatch aatned:salons .
+
+am:t-6646
+	skos:closeMatch aatned:sanatoria .
+
+am:t-6653
+	skos:closeMatch aatned:scagliola .
+
+am:t-6656
+	skos:closeMatch aatned:schade .
+
+am:t-6659
+	skos:closeMatch aatned:scheepsarcheologie .
+
+am:t-6661
+	skos:closeMatch aatned:scheepsbouw .
+
+am:t-6662
+	skos:closeMatch aatned:scheepskamelen .
+
+am:t-6663
+	skos:closeMatch aatned:scheepsmodellen .
+
+am:t-6665
+	skos:closeMatch aatned:scheepswerven .
+
+am:t-6666
+	skos:closeMatch aatned:scheepvaart .
+
+am:t-6668
+	skos:closeMatch aatned:scheepvaartmusea .
+
+am:t-6669
+	skos:closeMatch aatned:schellak .
+
+am:t-6673
+	skos:closeMatch aatned:schepping .
+
+am:t-6674
+	skos:closeMatch aatned:schetsboeken .
+
+am:t-6678
+	skos:closeMatch aatned:pinacotheken .
+
+am:t-6684
+	skos:closeMatch aatned:schildersbedrijven .
+
+am:t-6687
+	skos:closeMatch aatned:schipbreuken .
+
+am:t-6688
+	skos:closeMatch aatned:schoenen .
+
+am:t-6695
+	skos:closeMatch aatned:schoolplaten .
+
+am:t-6696
+	skos:closeMatch aatned:schoonheid .
+
+am:t-6698
+	skos:closeMatch aatned:schoorstenen__architecturaal_element_ .
+
+am:t-6707
+	skos:closeMatch aatned:schuilkelders .
+
+am:t-6708
+	skos:closeMatch aatned:schuilkerken .
+
+am:t-6709
+	skos:closeMatch aatned:milities .
+
+am:t-6736
+	skos:closeMatch aatned:segrijn .
+
+am:t-6741
+	skos:closeMatch aatned:seksualiteit .
+
+am:t-6746
+	skos:closeMatch aatned:serviezen .
+
+am:t-8365
+	skos:closeMatch aatned:sjaals .
+
+am:t-8368
+	skos:closeMatch aatned:slagerijen .
+
+am:t-8370
+	skos:closeMatch aatned:slavernij .
+
+am:t-8374
+	skos:closeMatch aatned:afbreken .
+
+am:t-8379
+	skos:closeMatch aatned:smokkelen .
+
+am:t-8380
+	skos:closeMatch aatned:sneeuw .
+
+am:t-8385
+	skos:closeMatch aatned:sociale_geschiedenis .
+
+am:t-8386
+	skos:closeMatch aatned:sociale_groepen .
+
+am:t-8388
+	skos:closeMatch aatned:sociale_wetenschappen .
+
+am:t-8391
+	skos:closeMatch aatned:socialisme .
+
+am:t-8392
+	skos:closeMatch aatned:societeiten .
+
+am:t-8393
+	skos:closeMatch aatned:sociologie .
+
+am:t-8394
+	skos:closeMatch aatned:software .
+
+am:t-8398
+	skos:closeMatch aatned:solderen .
+
+am:t-8399
+	skos:closeMatch aatned:souvenirs .
+
+am:t-8405
+	skos:closeMatch aatned:speelgoed .
+
+am:t-8408
+	skos:closeMatch aatned:speelplaatsen .
+
+am:t-8417
+	skos:closeMatch aatned:spoorbruggen .
+
+am:t-8419
+	skos:closeMatch aatned:spoorwegen .
+
+am:t-8426
+	skos:closeMatch aatned:spreekwoorden .
+
+am:t-8427
+	skos:closeMatch aatned:sprookjes .
+
+am:t-8433
+	skos:closeMatch aatned:stadions .
+
+am:t-8442
+	skos:closeMatch aatned:stedelijke_geschiedenis .
+
+am:t-8449
+	skos:closeMatch aatned:stadsontwikkeling .
+
+am:t-8456
+	skos:closeMatch aatned:stadsvernieuwing .
+
+am:t-8457
+	skos:closeMatch aatned:hoofdwallen .
+
+am:t-8459
+	skos:closeMatch aatned:stadswapens .
+
+am:t-8463
+	skos:closeMatch aatned:stakingen__gebeurtenissen_ .
+
+am:t-8464
+	skos:closeMatch aatned:stambomen .
+
+am:t-8467
+	skos:closeMatch aatned:standbeelden .
+
+am:t-8470
+	skos:closeMatch aatned:staten .
+
+am:t-8472
+	skos:closeMatch aatned:stations .
+
+am:t-8473
+	skos:closeMatch aatned:statistiek .
+
+am:t-8480
+	skos:closeMatch aatned:steden .
+
+am:t-8484
+	skos:closeMatch aatned:steen .
+
+am:t-8485
+	skos:closeMatch aatned:steengoed .
+
+am:t-8487
+	skos:closeMatch aatned:Steentijd .
+
+am:t-8489
+	skos:closeMatch aatned:stempels .
+
+am:t-8496
+	skos:closeMatch aatned:observatoria .
+
+am:t-8497
+	skos:closeMatch aatned:stichtingen__organisaties_ .
+
+am:t-8498
+	skos:closeMatch aatned:De_Stijl .
+
+am:t-8503
+	skos:closeMatch aatned:stoelen .
+
+am:t-8507
+	skos:closeMatch aatned:stofomslagen .
+
+am:t-8509
+	skos:closeMatch aatned:stoommachines .
+
+am:t-8520
+	skos:closeMatch aatned:strafrecht .
+
+am:t-8528
+	skos:closeMatch aatned:stucwerk .
+
+am:t-8529
+	skos:closeMatch aatned:studeerkamers .
+
+am:t-8530
+	skos:closeMatch aatned:studenten .
+
+am:t-8534
+	skos:closeMatch aatned:studies__beeldmateriaal_ .
+
+am:t-8539
+	skos:closeMatch aatned:suiker .
+
+am:t-8541
+	skos:closeMatch aatned:suikerraffinaderijen .
+
+am:t-8542
+	skos:closeMatch aatned:surimono .
+
+am:t-8543
+	skos:closeMatch aatned:symbolen .
+
+am:t-8544
+	skos:closeMatch aatned:symboliek .
+
+am:t-8545
+	skos:closeMatch aatned:symbolistisch .
+
+am:t-8546
+	skos:closeMatch aatned:symposia .
+
+am:t-8547
+	skos:closeMatch aatned:synagoges .
+
+am:t-8550
+	skos:closeMatch aatned:taalkunde .
+
+am:t-8553
+	skos:closeMatch aatned:tabak .
+
+am:t-8554
+	skos:closeMatch aatned:tabaksdozen .
+
+am:t-8560
+	skos:closeMatch aatned:tafelgerei .
+
+am:t-8561
+	skos:closeMatch aatned:talismans .
+
+am:t-8564
+	skos:closeMatch aatned:tarot .
+
+am:t-8566
+	skos:closeMatch aatned:tatoeages .
+
+am:t-8574
+	skos:closeMatch aatned:technologie .
+
+am:t-8575
+	skos:closeMatch aatned:tegelbakkerijen .
+
+am:t-8580
+	skos:closeMatch aatned:telecommunicatie .
+
+am:t-8582
+	skos:closeMatch aatned:telefoons .
+
+am:t-8583
+	skos:closeMatch aatned:televisie .
+
+am:t-8586
+	skos:closeMatch aatned:tennis .
+
+am:t-8587
+	skos:closeMatch aatned:tenten .
+
+am:t-8588
+	skos:closeMatch aatned:tentoonstellen .
+
+am:t-8590
+	skos:closeMatch aatned:tentoonstellingscatalogi .
+
+am:t-8596
+	skos:closeMatch aatned:testamenten__wilsbeschikkingen_ .
+
+am:t-8597
+	skos:closeMatch aatned:textiel .
+
+am:t-8600
+	skos:closeMatch aatned:textielmaterialen .
+
+am:t-8606
+	skos:closeMatch aatned:thee .
+
+am:t-8608
+	skos:closeMatch aatned:themaparken .
+
+am:t-8609
+	skos:closeMatch aatned:theologie .
+
+am:t-8612
+	skos:closeMatch aatned:thesauri .
+
+am:t-8613
+	skos:closeMatch aatned:thesauriers .
+
+am:t-8614
+	skos:closeMatch aatned:tiendheffing .
+
+am:t-8621
+	skos:closeMatch aatned:timmerlieden .
+
+am:t-8627
+	skos:closeMatch aatned:titelprenten .
+
+am:t-8631
+	skos:closeMatch aatned:toerisme .
+
+am:t-8632
+	skos:closeMatch aatned:toespraken .
+
+am:t-8637
+	skos:closeMatch aatned:tonelen .
+
+am:t-8639
+	skos:closeMatch aatned:toneelstukken .
+
+am:t-8641
+	skos:closeMatch aatned:toponymie .
+
+am:t-8643
+	skos:closeMatch aatned:toverlantaarns .
+
+am:t-8650
+	skos:closeMatch aatned:treinen .
+
+am:t-8654
+	skos:closeMatch aatned:trompe_l_oeil .
+
+am:t-8664
+	skos:closeMatch aatned:tuinhuizen .
+
+am:t-8666
+	skos:closeMatch aatned:tuinsteden .
+
+am:t-8669
+	skos:closeMatch aatned:tunnels .
+
+am:t-8670
+	skos:closeMatch aatned:turf .
+
+am:t-8673
+	skos:closeMatch aatned:diptieken .
+
+am:t-8677
+	skos:closeMatch aatned:uitgaanscentra .
+
+am:t-8679
+	skos:closeMatch aatned:uitgeverijen .
+
+am:t-8682
+	skos:closeMatch aatned:uitnodigingen .
+
+am:t-8683
+	skos:closeMatch aatned:uitspanningen .
+
+am:t-8685
+	skos:closeMatch aatned:uniformen .
+
+am:t-8690
+	skos:closeMatch aatned:universiteitsbibliotheken .
+
+am:t-8695
+	skos:closeMatch aatned:vaandels .
+
+am:t-8699
+	skos:closeMatch aatned:vacuum .
+
+am:t-8702
+	skos:closeMatch aatned:vakanties .
+
+am:t-8707
+	skos:closeMatch aatned:vandalisme .
+
+am:t-8712
+	skos:closeMatch aatned:veerboten .
+
+am:t-8714
+	skos:closeMatch aatned:veerponten .
+
+am:t-8715
+	skos:closeMatch aatned:vegetatie .
+
+am:t-8716
+	skos:closeMatch aatned:veiligheid .
+
+am:t-8717
+	skos:closeMatch aatned:veilingcatalogi .
+
+am:t-8733
+	skos:closeMatch aatned:vergunningen .
+
+am:t-8734
+	skos:closeMatch aatned:verhalen__schip_ .
+
+am:t-8736
+	skos:closeMatch aatned:verkiezingen .
+
+am:t-8737
+	skos:closeMatch aatned:verkoopcatalogi .
+
+am:t-8742
+	skos:closeMatch aatned:vernis .
+
+am:t-8745
+	skos:closeMatch aatned:vertalen .
+
+am:t-8746
+	skos:closeMatch aatned:vertalingen .
+
+am:t-8752
+	skos:closeMatch aatned:vervuiling .
+
+am:t-8754
+	skos:closeMatch aatned:verwarming .
+
+am:t-8761
+	skos:closeMatch aatned:transubstantiatie .
+
+am:t-8763
+	skos:closeMatch aatned:verzilveren .
+
+am:t-8768
+	skos:closeMatch aatned:vetvangers .
+
+am:t-8771
+	skos:closeMatch aatned:beeldplaten .
+
+am:t-8773
+	skos:closeMatch aatned:vilt .
+
+am:t-8774
+	skos:closeMatch aatned:vingerhoeden .
+
+am:t-8778
+	skos:closeMatch aatned:tentoonstellingsvitrines .
+
+am:t-8783
+	skos:closeMatch aatned:vliegvelden .
+
+am:t-8784
+	skos:closeMatch aatned:vluchtelingen .
+
+am:t-8808
+	skos:closeMatch aatned:volkstuinen .
+
+am:t-8809
+	skos:closeMatch aatned:volksuniversiteiten .
+
+am:t-8822
+	skos:closeMatch aatned:voorschriften .
+
+am:t-8825
+	skos:closeMatch aatned:artefacten .
+
+am:t-8827
+	skos:closeMatch aatned:vormgeving .
+
+am:t-8836
+	skos:closeMatch aatned:vrijheid .
+
+am:t-8839
+	skos:closeMatch aatned:vrijwilligerswerk .
+
+am:t-8848
+	skos:closeMatch aatned:vuurklokken .
+
+am:t-8853
+	skos:closeMatch aatned:vuurwerk .
+
+am:t-8855
+	skos:closeMatch aatned:waaiers .
+
+am:t-8861
+	skos:closeMatch aatned:walrussen .
+
+am:t-8862
+	skos:closeMatch aatned:walvissen .
+
+am:t-8866
+	skos:closeMatch aatned:wandelen .
+
+am:t-8869
+	skos:closeMatch aatned:wandkaarten .
+
+am:t-8875
+	skos:closeMatch aatned:wapenschilden .
+
+am:t-8878
+	skos:closeMatch aatned:was .
+
+am:t-8880
+	skos:closeMatch aatned:wasserijen .
+
+am:t-8883
+	skos:closeMatch aatned:waterbouwkunde .
+
+am:t-8888
+	skos:closeMatch aatned:waterleidingen .
+
+am:t-8893
+	skos:closeMatch aatned:watervervuiling .
+
+am:t-8896
+	skos:closeMatch aatned:toiletten__sanitair_ .
+
+am:t-8907
+	skos:closeMatch aatned:weilanden .
+
+am:t-8910
+	skos:closeMatch aatned:wereldbollen .
+
+am:t-8920
+	skos:closeMatch aatned:werkloosheid .
+
+am:t-8928
+	skos:closeMatch aatned:wetenschappelijke_tijdschriften .
+
+am:t-8936
+	skos:closeMatch aatned:weven .
+
+am:t-8942
+	skos:closeMatch aatned:wijn .
+
+am:t-8946
+	skos:closeMatch aatned:winkelcentra .
+
+am:t-8947
+	skos:closeMatch aatned:winkelgalerijen .
+
+am:t-8949
+	skos:closeMatch aatned:winkels .
+
+am:t-8952
+	skos:closeMatch aatned:wiskunde .
+
+am:t-8957
+	skos:closeMatch aatned:woestijnen .
+
+am:t-8959
+	skos:closeMatch aatned:wolkenkrabbers .
+
+am:t-8971
+	skos:closeMatch aatned:woonwagens .
+
+am:t-9046
+	skos:closeMatch aatned:zangkoren .
+
+am:t-9062
+	skos:closeMatch aatned:zeekaarten .
+
+am:t-9063
+	skos:closeMatch aatned:zeelieden .
+
+am:t-9064
+	skos:closeMatch aatned:zeep__organisch_materiaal_ .
+
+am:t-9091
+	skos:closeMatch aatned:zilver .
+
+am:t-9114
+	skos:closeMatch aatned:zondagsscholen .
+
+am:t-9115
+	skos:closeMatch aatned:zonnewijzers .
+
+am:t-9116
+	skos:closeMatch aatned:zout .
+
+am:t-9117
+	skos:closeMatch aatned:zoutvaten .
+
+am:t-9133
+	skos:closeMatch aatned:zwarte_kunst .
+
+am:t-9134
+	skos:closeMatch aatned:zwembaden .
+
+am:t-9135
+	skos:closeMatch aatned:schilderspenselen .
+
+am:t-9137
+	skos:closeMatch aatned:pilasters__muurpijlers_ .
+
+am:t-9138
+	skos:closeMatch aatned:pincetten .
+
+am:t-9139
+	skos:closeMatch aatned:pique .
+
+am:t-9140
+	skos:closeMatch aatned:pirons .
+
+am:t-9141
+	skos:closeMatch aatned:pistolen .
+
+am:t-9145
+	skos:closeMatch aatned:plates__balloon_and_platform_frame_components_ .
+
+am:t-9146
+	skos:closeMatch aatned:plunjezakken .
+
+am:t-9148
+	skos:closeMatch aatned:poefen .
+
+am:t-9149
+	skos:closeMatch aatned:politiepetten .
+
+am:t-9150
+	skos:closeMatch aatned:roerlepels .
+
+am:t-9151
+	skos:closeMatch aatned:polsbandjes .
+
+am:t-9153
+	skos:closeMatch aatned:pompen .
+
+am:t-9154
+	skos:closeMatch aatned:ponjaards .
+
+am:t-9155
+	skos:closeMatch aatned:pontons .
+
+am:t-9160
+	skos:closeMatch aatned:poppenwagens .
+
+am:t-9161
+	skos:closeMatch aatned:porfier .
+
+am:t-9162
+	skos:closeMatch aatned:porseleinkasten .
+
+am:t-9167
+	skos:closeMatch aatned:prijspenningen .
+
+am:t-9172
+	skos:closeMatch aatned:puddingvormen .
+
+am:t-9173
+	skos:closeMatch aatned:raamkozijnen .
+
+am:t-9174
+	skos:closeMatch aatned:radiatoren .
+
+am:t-9175
+	skos:closeMatch aatned:radiotorens .
+
+am:t-9176
+	skos:closeMatch aatned:raffia .
+
+am:t-9177
+	skos:closeMatch aatned:raketten .
+
+am:t-9178
+	skos:closeMatch aatned:rapieren .
+
+am:t-9184
+	skos:closeMatch aatned:reclameborden .
+
+am:t-9185
+	skos:closeMatch aatned:regenjassen .
+
+am:t-9187
+	skos:closeMatch aatned:reistassen .
+
+am:t-9188
+	skos:closeMatch aatned:rekenmachines .
+
+am:t-9194
+	skos:closeMatch aatned:reticules .
+
+am:t-9197
+	skos:closeMatch aatned:rijbroeken .
+
+am:t-9198
+	skos:closeMatch aatned:rijglaarzen .
+
+am:t-9200
+	skos:closeMatch aatned:rijschaven .
+
+am:t-9202
+	skos:closeMatch aatned:ringkragen .
+
+am:t-9203
+	skos:closeMatch aatned:ritsbeitels .
+
+am:t-9208
+	skos:closeMatch aatned:rolgordijnen .
+
+am:t-9209
+	skos:closeMatch aatned:uitrusting_voor_persoonlijk_gebruik__rookgerei .
+
+am:t-9212
+	skos:closeMatch aatned:rouwborden .
+
+am:t-9214
+	skos:closeMatch aatned:rouwsluiers .
+
+am:t-9217
+	skos:closeMatch aatned:rugkrabbers .
+
+am:t-9219
+	skos:closeMatch aatned:schaafbeitels .
+
+am:t-9220
+	skos:closeMatch aatned:schaakborden .
+
+am:t-9222
+	skos:closeMatch aatned:schakels__vistuig_ .
+
+am:t-9224
+	skos:closeMatch aatned:schedes .
+
+am:t-9227
+	skos:closeMatch aatned:scheepsbellen .
+
+am:t-9229
+	skos:closeMatch aatned:scheerapparaten .
+
+am:t-9236
+	skos:closeMatch aatned:schietloden .
+
+am:t-9238
+	skos:closeMatch aatned:schoolbanken__banken_ .
+
+am:t-9240
+	skos:closeMatch aatned:schoorsteenspiegels .
+
+am:t-9241
+	skos:closeMatch aatned:schoorsteenstukken .
+
+am:t-9244
+	skos:closeMatch aatned:schoudertassen .
+
+am:t-9246
+	skos:closeMatch aatned:schragen__meubelonderdelen_ .
+
+am:t-9247
+	skos:closeMatch aatned:schrobzagen .
+
+am:t-9249
+	skos:closeMatch aatned:schuifmaten .
+
+am:t-9251
+	skos:closeMatch aatned:schuimspanen__keukengereedschappen_ .
+
+am:t-9252
+	skos:closeMatch aatned:secretaires__meubilair_ .
+
+am:t-9254
+	skos:closeMatch aatned:servetten .
+
+am:t-9255
+	skos:closeMatch aatned:servetringen .
+
+am:t-9259
+	skos:closeMatch aatned:sierdegens .
+
+am:t-9261
+	skos:closeMatch aatned:sigarenkokers .
+
+am:t-9262
+	skos:closeMatch aatned:sigarettendozen .
+
+am:t-9264
+	skos:closeMatch aatned:sigarettenpijpjes__persoonlijke_uitrusting_ .
+
+am:t-9266
+	skos:closeMatch aatned:slaapmutsen .
+
+am:t-9267
+	skos:closeMatch aatned:slabben .
+
+am:t-9268
+	skos:closeMatch aatned:slaginstrumenten .
+
+am:t-9269
+	skos:closeMatch aatned:slagstempels .
+
+am:t-9275
+	skos:closeMatch aatned:slips .
+
+am:t-9276
+	skos:closeMatch aatned:slobkousen .
+
+am:t-9279
+	skos:closeMatch aatned:sluitlakens .
+
+am:t-9280
+	skos:closeMatch aatned:smaragd .
+
+am:t-9283
+	skos:closeMatch aatned:chordofonen .
+
+am:t-9284
+	skos:closeMatch aatned:tuitlampen .
+
+am:t-9287
+	skos:closeMatch aatned:soepterrines .
+
+am:t-9290
+	skos:closeMatch aatned:sorties .
+
+am:t-9292
+	skos:closeMatch aatned:spanners .
+
+am:t-9295
+	skos:closeMatch aatned:speerpunten .
+
+am:t-9296
+	skos:closeMatch aatned:steatiet .
+
+am:t-9298
+	skos:closeMatch aatned:speldenkussens .
+
+am:t-9301
+	skos:closeMatch aatned:spoelen .
+
+am:t-9302
+	skos:closeMatch aatned:spoelbakken .
+
+am:t-9305
+	skos:closeMatch aatned:spookschaven .
+
+am:t-9310
+	skos:closeMatch aatned:stadssleutels .
+
+am:t-9311
+	skos:closeMatch aatned:stalenboeken .
+
+am:t-9312
+	skos:closeMatch aatned:stangpassers .
+
+am:t-9313
+	skos:closeMatch aatned:steelpannen .
+
+am:t-9314
+	skos:closeMatch aatned:stempelafdrukken .
+
+am:t-9319
+	skos:closeMatch aatned:stichten .
+
+am:t-9320
+	skos:closeMatch aatned:privaten .
+
+am:t-9323
+	skos:closeMatch aatned:straatnaambordjes .
+
+am:t-9324
+	skos:closeMatch aatned:strijdbijlen .
+
+am:t-9327
+	skos:closeMatch aatned:stroken__bindingonderdelen_ .
+
+am:t-9328
+	skos:closeMatch aatned:stucplafonds .
+
+am:t-9331
+	skos:closeMatch aatned:tafelkleden .
+
+am:t-9332
+	skos:closeMatch aatned:tafelklokken .
+
+am:t-9333
+	skos:closeMatch aatned:tafellakens .
+
+am:t-9334
+	skos:closeMatch aatned:tafelpiano_s .
+
+am:t-9336
+	skos:closeMatch aatned:tamboerijnen .
+
+am:t-9337
+	skos:closeMatch aatned:tandenstokers .
+
+am:t-9342
+	skos:closeMatch aatned:tempera .
+
+am:t-9344
+	skos:closeMatch aatned:theedoeken .
+
+am:t-9345
+	skos:closeMatch aatned:theekleden .
+
+am:t-9346
+	skos:closeMatch aatned:theemutsen .
+
+am:t-9349
+	skos:closeMatch aatned:thermometers .
+
+am:t-9352
+	skos:closeMatch aatned:tinlegering .
+
+am:t-9353
+	skos:closeMatch aatned:tobbes .
+
+am:t-9354
+	skos:closeMatch aatned:toetssteen .
+
+am:t-9360
+	skos:closeMatch aatned:topaas .
+
+am:t-9361
+	skos:closeMatch aatned:torcheres__stands_ .
+
+am:t-9367
+	skos:closeMatch aatned:trombone_s .
+
+am:t-9373
+	skos:closeMatch aatned:trouwringen .
+
+am:t-9374
+	skos:closeMatch aatned:trumeaux .
+
+am:t-9378
+	skos:closeMatch aatned:tulbandvormen .
+
+am:t-9382
+	skos:closeMatch aatned:turkoois .
+
+am:t-9383
+	skos:closeMatch aatned:tweed .
+
+am:t-9387
+	skos:closeMatch aatned:unsters .
+
+am:t-9396
+	skos:closeMatch aatned:veerploegen .
+
+am:t-9397
+	skos:closeMatch aatned:veiligheidsspelden .
+
+am:t-9398
+	skos:closeMatch aatned:veldflessen .
+
+am:t-9401
+	skos:closeMatch aatned:velocipedes .
+
+am:t-9405
+	skos:closeMatch aatned:verkeersborden .
+
+am:t-9406
+	skos:closeMatch aatned:verrekijkers .
+
+am:t-9409
+	skos:closeMatch aatned:vinyl .
+
+am:t-9410
+	skos:closeMatch aatned:violen .
+
+am:t-9416
+	skos:closeMatch aatned:vleesmolens .
+
+am:t-9418
+	skos:closeMatch aatned:vlinderdassen .
+
+am:t-9426
+	skos:closeMatch aatned:voetstukken .
+
+am:t-9427
+	skos:closeMatch aatned:vogelkooien .
+
+am:t-9428
+	skos:closeMatch aatned:voorhamers .
+
+am:t-9431
+	skos:closeMatch aatned:voorsnijmessen .
+
+am:t-9432
+	skos:closeMatch aatned:voorsnijvorken .
+
+am:t-9440
+	skos:closeMatch aatned:vuurpotten .
+
+am:t-9441
+	skos:closeMatch aatned:vuurslagen .
+
+am:t-9450
+	skos:closeMatch aatned:wandelstokken .
+
+am:t-9454
+	skos:closeMatch aatned:wanten .
+
+am:t-9457
+	skos:closeMatch aatned:warmwaterkruiken .
+
+am:t-9459
+	skos:closeMatch aatned:waskommen .
+
+am:t-9460
+	skos:closeMatch aatned:wasmanden .
+
+am:t-9462
+	skos:closeMatch aatned:wastobbes .
+
+am:t-9465
+	skos:closeMatch aatned:waterketels .
+
+am:t-9472
+	skos:closeMatch aatned:weitassen .
+
+am:t-9473
+	skos:closeMatch aatned:wenteltrappen .
+
+am:t-9476
+	skos:closeMatch aatned:wijwaterbakken .
+
+am:t-9478
+	skos:closeMatch aatned:wimpels .
+
+am:t-9479
+	skos:closeMatch aatned:winkelhaken .
+
+am:t-9482
+	skos:closeMatch aatned:wit_krijt .
+
+am:t-9485
+	skos:closeMatch aatned:zagen__snijgereedschap_ .
+
+am:t-9486
+	skos:closeMatch aatned:zaagbokken .
+
+am:t-9490
+	skos:closeMatch aatned:zaklampen .
+
+am:t-9491
+	skos:closeMatch aatned:zakmessen .
+
+am:t-9492
+	skos:closeMatch aatned:zakpistolen .
+
+am:t-9493
+	skos:closeMatch aatned:zakzonnewijzers .
+
+am:t-9495
+	skos:closeMatch aatned:zandlopers .
+
+am:t-9497
+	skos:closeMatch aatned:zeemeters .
+
+am:t-9499
+	skos:closeMatch aatned:zeepbakjes .
+
+am:t-9504
+	skos:closeMatch aatned:zegelringen .
+
+am:t-9509
+	skos:closeMatch aatned:zilverlegering .
+
+am:t-9511
+	skos:closeMatch aatned:zirkoon .
+
+am:t-9515
+	skos:closeMatch aatned:zonnehoeden .
+
+am:t-9525
+	skos:closeMatch aatned:inkepen .
+
+am:t-9526
+	skos:closeMatch aatned:inleggen__procede_ .
+
+am:t-9533
+	skos:closeMatch aatned:Jacquardweefsel .
+
+am:t-9542
+	skos:closeMatch aatned:kamgaren .
+
+am:t-9543
+	skos:closeMatch aatned:kandelabers .
+
+am:t-9548
+	skos:closeMatch aatned:kelkvela .
+
+am:t-9549
+	skos:closeMatch aatned:keperbanden__patronen_ .
+
+am:t-9552
+	skos:closeMatch aatned:kerkkronen__verlichtingsmiddelen_ .
+
+am:t-9554
+	skos:closeMatch aatned:keukenstoelen .
+
+am:t-9559
+	skos:closeMatch aatned:kledinghoezen .
+
+am:t-9562
+	skos:closeMatch aatned:a_la_poupee .
+
+am:t-9563
+	skos:closeMatch aatned:kleurpotloden .
+
+am:t-9565
+	skos:closeMatch aatned:klontjestangen .
+
+am:t-9566
+	skos:closeMatch aatned:kloskant .
+
+am:t-9573
+	skos:closeMatch aatned:knipmessen .
+
+am:t-9574
+	skos:closeMatch aatned:knipprenten .
+
+am:t-9577
+	skos:closeMatch aatned:knoppen__handvatten_ .
+
+am:t-9578
+	skos:closeMatch aatned:knopenhaken .
+
+am:t-9604
+	skos:closeMatch aatned:kruishouten .
+
+am:t-9617
+	skos:closeMatch aatned:kwasten__garneersel_ .
+
+am:t-9624
+	skos:closeMatch aatned:lambrekijnen .
+
+am:t-9628
+	skos:closeMatch aatned:lantaarnpalen .
+
+am:t-9632
+	skos:closeMatch aatned:latex .
+
+am:t-9646
+	skos:closeMatch aatned:linoleumsneden .
+
+am:t-9647
+	skos:closeMatch aatned:lint .
+
+am:t-9654
+	skos:closeMatch aatned:loodjes .
+
+am:t-9655
+	skos:closeMatch aatned:luchters__verlichtingsmiddelen_ .
+
+am:t-9673
+	skos:closeMatch aatned:monstransen .
+
+am:t-9675
+	skos:closeMatch aatned:moquettes .
+
+am:t-9684
+	skos:closeMatch aatned:naaldkant .
+
+am:t-9695
+	skos:closeMatch aatned:nikkellegering .
+
+am:t-9697
+	skos:closeMatch aatned:notitieboeken .
+
+am:t-9702
+	skos:closeMatch aatned:omslagen .
+
+am:t-9707
+	skos:closeMatch aatned:ontbijtborden .
+
+am:t-9711
+	skos:closeMatch aatned:oorbellen .
+
+am:t-9712
+	skos:closeMatch aatned:oorhangers .
+
+am:t-9715
+	skos:closeMatch aatned:oorringen .
+
+am:t-9720
+	skos:closeMatch aatned:opticaprenten .
+
+am:t-9732
+	skos:closeMatch aatned:palmblad .
+
+am:t-9733
+	skos:closeMatch aatned:panniers .
+
+am:t-9742
+	skos:closeMatch aatned:parfum .
+
+am:t-9746
+	skos:closeMatch aatned:pattipans .
+
+am:t-9762
+	skos:closeMatch aatned:plafondschilderingen .
+
+am:t-9763
+	skos:closeMatch aatned:plakband .
+
+am:t-9768
+	skos:closeMatch aatned:plantenbakken .
+
+am:t-9779
+	skos:closeMatch aatned:polystyreen .
+
+am:t-9787
+	skos:closeMatch aatned:potloodhouders__tekenbenodigdheden_ .
+
+am:t-9795
+	skos:closeMatch aatned:priksleeen .
+
+am:t-9814
+	skos:closeMatch aatned:restanten .
+
+am:t-9824
+	skos:closeMatch aatned:ritssluitingen .
+
+am:t-9826
+	skos:closeMatch aatned:roet .
+
+am:t-9830
+	skos:closeMatch aatned:rood_krijt .
+
+am:t-9833
+	skos:closeMatch aatned:roomlepels .
+
+am:t-9843
+	skos:closeMatch aatned:sautoirs .
+
+am:t-9844
+	skos:closeMatch aatned:scharen .
+
+am:t-9853
+	skos:closeMatch aatned:schranks .
+
+am:t-9854
+	skos:closeMatch aatned:schrijfhaken .
+
+am:t-9857
+	skos:closeMatch aatned:schuiven__aerofoononderdelen_ .
+
+am:t-9860
+	skos:closeMatch aatned:graffito .
+
+am:t-9868
+	skos:closeMatch aatned:sierspelden .
+
+am:t-9871
+	skos:closeMatch aatned:signetten .
+
+am:t-9881
+	skos:closeMatch aatned:specerijmolens .
+
+am:t-9884
+	skos:closeMatch aatned:spontons .
+
+am:t-9887
+	skos:closeMatch aatned:staalgravures .
+
+am:t-9891
+	skos:closeMatch aatned:steengravures .
+
+am:t-9902
+	skos:closeMatch aatned:struisvogeleieren .
+
+am:t-9904
+	skos:closeMatch aatned:synthetisch .
+
+am:t-9905
+	skos:closeMatch aatned:tabernakels .
+
+am:t-9907
+	skos:closeMatch aatned:tabletten__informatiedragers_ .
+
+am:t-9910
+	skos:closeMatch aatned:tafellampen .
+
+am:t-9923
+	skos:closeMatch aatned:theelepels .
+
+am:t-9925
+	skos:closeMatch aatned:theescheppen .
+
+am:t-9926
+	skos:closeMatch aatned:theevazen .
+
+am:t-9933
+	skos:closeMatch aatned:transparanten .
+
+am:t-9956
+	skos:closeMatch aatned:verso .
+
+am:t-9976
+	skos:closeMatch aatned:voorstudies .
+
+am:t-9981
+	skos:closeMatch aatned:vrucht .
+
+am:t-9983
+	skos:closeMatch aatned:vuurschermen .
+
+am:t-9987
+	skos:closeMatch aatned:wandarmen .
+
+am:t-9993
+	skos:closeMatch aatned:weefsel .
+
+am:t-9999
+	skos:closeMatch aatned:wierookscheepjes .

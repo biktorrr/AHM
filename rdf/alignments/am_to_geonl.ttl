@@ -1,0 +1,142 @@
+@base             <export4> .
+@prefix     time: <http://www.w3.org/2006/time#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix    opmvc: <http://purl.org/net/opmv/types/common#> .
+@prefix     opmv: <http://purl.org/net/opmv/ns#> .
+@prefix       am: <http://purl.org/collections/nl/am/> .
+@prefix     user: <http://note590.few.vu.nl:3020/user/> .
+@prefix resource: <http://dbpedia.org/resource/> .
+
+# Named toplevel resources (37)
+
+<export4>
+	a opmv:Artifact ,
+	  amalgame:ExportedAlignment ;
+	opmv:wasDerivedFrom <align2> ;
+	opmv:wasGeneratedBy [ a opmv:Process ;
+			      opmv:used <align2> ;
+			      opmv:wasPerformedBy <http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY> ,
+						  user:admin ;
+			      opmv:wasStartedAt [ a time:Instant ;
+						  time:inXSDDateTime "2011-01-27T13-47-28+01:00"^^xsd:dateTime
+						] ;
+			      amalgame:request <http://note590.few.vu.nl:3020/amalgame/skos_export?name=export4&graph=align2&relation=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23exactMatch>
+			    ] .
+
+<http://eculture.cs.vu.nl/git/public/?p=econnect/amalgame.git&a=commit&h=alpha2-70-g818053d-DIRTY>
+	a opmvc:Program ;
+	opmvc:software <http://cliopatria.swi-prolog.org/packs/amalgame> ,
+		       "Amalgame: alpha2-70-g818053d-DIRTY" ,
+		       "ClioPatria: epoch-685-g4136efa" ,
+		       "SWI-Prolog: 51112" ;
+	rdfs:label "Amalgame" .
+
+user:admin
+	a opmv:Agent ;
+	rdfs:label "Administrator" .
+
+am:p-16442
+	skos:exactMatch resource:Elizabeth_of_Bohemia .
+
+am:p-23598
+	skos:exactMatch resource:Napoleon_I_of_France .
+
+am:p-25763
+	skos:exactMatch resource:Aletta_Jacobs .
+
+am:p-26174
+	skos:exactMatch resource:Fra_Bartolomeo .
+
+am:p-31705
+	skos:exactMatch resource:Andrea_del_Sarto .
+
+am:p-31928
+	skos:exactMatch resource:Sebastiano_del_Piombo .
+
+am:p-32614
+	skos:exactMatch resource:Valentin_de_Boulogne .
+
+am:p-35237
+	skos:exactMatch resource:Martinus_Nijhoff .
+
+am:p-35873
+	skos:exactMatch resource:Arnoldo_Mondadori .
+
+am:p-36499
+	skos:exactMatch resource:Jacob_van_Campen .
+
+am:p-36704
+	skos:exactMatch <http://dbpedia.org/resource/William_Ernest,_Duke_of_Saxe-Weimar> .
+
+am:p-36776
+	skos:exactMatch resource:Firmin_Didot .
+
+am:p-39544
+	skos:exactMatch resource:Joost_van_den_Vondel .
+
+am:p-40758
+	skos:exactMatch resource:Bruno_Cassirer .
+
+am:p-41492
+	skos:exactMatch resource:Johannes_de_Jong .
+
+am:p-41874
+	skos:exactMatch resource:Menasseh_Ben_Israel .
+
+am:p-42074
+	skos:exactMatch resource:Henri_Laurens .
+
+am:p-42329
+	skos:exactMatch resource:Jan_Janssen .
+
+am:p-43441
+	skos:exactMatch resource:Vincent_van_Gogh .
+
+am:p-43503
+	skos:exactMatch resource:Victor_Gollancz .
+
+am:p-44226
+	skos:exactMatch resource:Giordano_Bruno .
+
+am:p-48232
+	skos:exactMatch resource:Hubert_de_Givenchy .
+
+am:p-4867
+	skos:exactMatch resource:Elizabeth_of_Bohemia .
+
+am:p-51073
+	skos:exactMatch resource:Richard_Wagner .
+
+am:p-51180
+	skos:exactMatch resource:Paul_Haupt .
+
+am:p-54817
+	skos:exactMatch resource:Paul_Brandt .
+
+am:p-55479
+	skos:exactMatch resource:Hilda_van_Stockum .
+
+am:p-56658
+	skos:exactMatch resource:Dosso_Dossi .
+
+am:p-56721
+	skos:exactMatch resource:Eugène_Sue .
+
+am:p-61999
+	skos:exactMatch resource:Marc_Jacobs .
+
+am:p-63148
+	skos:exactMatch resource:Simon_van_der_Stel .
+
+am:p-70201
+	skos:exactMatch resource:Pierre_Cardin .
+
+am:p-8319
+	skos:exactMatch resource:Jan_de_Vries .
+
+am:p-8959
+	skos:exactMatch resource:Kenau_Simonsdochter_Hasselaer .
