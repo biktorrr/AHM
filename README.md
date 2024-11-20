@@ -1,4 +1,4 @@
-# AHM
+# Amsterdam Museum Linked Data
 
 The Amsterdam Museum (https://www.amsterdammuseum.nl/)is a Dutch museum hosting objects related to the history and culture of Amsterdam and its citizens. Among
 these objects are paintings, drawings, prints, glass and silver objects, furniture, books, costumes, etc. This repository contains an Linked Data version of the collection data converted from a snapshot in 2011. The data was retrieved from an XML-dump of the museum's Adlib collection database and then converted to RDF compliant with the Europeana Data Model (https://pro.europeana.eu/page/edm-documentation) (EDM). This makes the Amsterdam Museum data the first of its kind to be officially converted and made available in this format.
@@ -9,7 +9,7 @@ In the past (2011), the data was available int the Europeana Semantic Layer, dev
 
 If you use this data, please cite it as:
 
-*Victor de Boer, Jan Wielemaker, Judith van Gent, Marijke Oosterbroek, Michiel Hildebrand, Antoine Isaac, Jacco van Ossenbruggen, Guus Schreiber. Amsterdam Museum Linked Open Data. Semantic Web: Special Call for Linked Dataset descriptions. ISSN 1570-0844 (Print) 2210-4968 (Online) Volume 4, Number 3. IOS Press.* 
+*Victor de Boer, Jan Wielemaker, Judith van Gent, Marijke Oosterbroek, Michiel Hildebrand, Antoine Isaac, Jacco van Ossenbruggen, Guus Schreiber (2013). Amsterdam Museum Linked Open Data. Semantic Web – Interoperability, Usability, Applicability, 4(3), 237–243..* 
 
 More information can be found in [that dataset paper](https://www.semantic-web-journal.net/content/amsterdam-museum-linked-open-data).
 
