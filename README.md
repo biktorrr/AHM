@@ -5,7 +5,7 @@ these objects are paintings, drawings, prints, glass and silver objects, furnitu
 
 The results are more than 6.6 Million RDF triples describing all of the more than 70.000 cultural heritage objects related to the city of Amsterdam described by the museum.
 
-In the past (2011), the data was available int the Europeana Semantic Layer, developed by the EuropeanaConnect project. At this point, the original data is provided as is through this git repository only. If you want to use it, load it into your favourite triple store. This data has been used as a benchmark dataset in multiple Linked Data research projects, including the kgbench repository benchmark (http://kgbench.info/).
+Previously, the data was available int the Europeana Semantic Layer, developed by the EuropeanaConnect project. At this point, the original data is provided as is through this git repository only. If you want to use it, load it into your favourite triple store. This data has been used as a benchmark dataset in multiple Linked Data research projects, including the kgbench repository benchmark (http://kgbench.info/).
 
 If you use this data, please cite it as:
 
