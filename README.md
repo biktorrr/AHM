@@ -46,7 +46,7 @@ Returns all objects made of gold
 *SELECT ?object WHERE { ?object dcterms:medium?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "goud")) }*
 
 ## Conversion process
-The conversion into EDM was done a two-step process, using the XMLRDF conversion scripts. In the first step, the XML is converted into 'basic RDF', every node in the XML tree gives rise to a RDF blank node, with attributes and sub-trees being mapped to property-subjects. In the second step, the basic RDF is converted to EDM-RDF, using XMLRDF rewrite rules. In this step, AHM records are converted to EDM Proxy/Aggregation/PhysicalThing triangle.
+The conversion into EDM was done a two-step process, using the [SWI-Prolog](http://swi-prolog.org) based XMLRDF conversion scripts (see also https://semanticweb.cs.vu.nl/xmlrdf/). In the first step, the XML is converted into 'basic RDF', every node in the XML tree gives rise to a RDF blank node, with attributes and sub-trees being mapped to property-subjects. In the second step, the basic RDF is converted to EDM-RDF, using XMLRDF rewrite rules. In this step, AHM records are converted to EDM Proxy/Aggregation/PhysicalThing triangle.
 
 - The metadata describing the cultural heritage object is attached to the Proxy. Here you find information such as Title, Creator, Subject and Creation dates.
 - The Aggregation is used to list the meta-metadata. This includes the creator of the proxy-metadata and other provenance information about the metadata. The Aggregation is also used to link to the data provider's (in this case AHM's) landing page and/or image thumbnails for the cultural heritage object.
