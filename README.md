@@ -39,10 +39,10 @@ For more details, please consult https://www.semantic-web-journal.net/content/am
 
 Two example queries:
 
-Returns all objects with dc:subject "Delft"
+Returns all objects with dc:subject "Delft": 
 *SELECT ?object WHERE { ?object dc:subject ?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "Delft") ) }*
 
-Returns all objects made of gold 
+Returns all objects made of gold: 
 *SELECT ?object WHERE { ?object dcterms:medium?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "goud")) }*
 
 ## Conversion process
