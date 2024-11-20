@@ -23,9 +23,9 @@ The RDF data is found in the /rdf/ folder, wich three main named graphs (seen as
 
 
 ## Data Model
-![A visualisation of a small part of the RDF graph surrounding the resource am:proxy-27659.](www/data_visualisation.jpg)
+![A visualisation of a small part of the RDF graph surrounding the resource am:proxy-27659.](www/images/data_visualisation.jpg)
 
-A small part of the RDF graph surrounding the resource am:proxy-27659. Predicates and classes are listed with their super-properties and super-classes in italics. On the left side, the relation to the Aggregation (with the attached thumbnail) can be seen. In the top right, the relation to the thesaurus concept is shown. In the bottom right, a complex creator relation (the relation has a type as well as a value) requires a blank node. The rdf:value of the blank node is a resource in the Person list. The proxy has two title triples, for the English and Dutch titles respectively, with language-typed literals as objects.
+This image shows small part of the RDF graph surrounding the resource am:proxy-27659. Predicates and classes are listed with their super-properties and super-classes in italics. On the left side, the relation to the Aggregation (with the attached thumbnail) can be seen. In the top right, the relation to the thesaurus concept is shown. In the bottom right, a complex creator relation (the relation has a type as well as a value) requires a blank node. The rdf:value of the blank node is a resource in the Person list. The proxy has two title triples, for the English and Dutch titles respectively, with language-typed literals as objects.
 For more details, please consult https://www.semantic-web-journal.net/content/amsterdam-museum-linked-open-data.
 
 ## Example URIs
@@ -40,9 +40,10 @@ For more details, please consult https://www.semantic-web-journal.net/content/am
 Two example queries:
 
 Returns all objects with dc:subject "Delft"
-- SELECT ?object WHERE { ?object dc:subject ?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "Delft") ) }
+*SELECT ?object WHERE { ?object dc:subject ?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "Delft") ) }*
+
 Returns all objects made of gold 
-- SELECT ?object WHERE { ?object dcterms:medium?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "goud")) }
+*SELECT ?object WHERE { ?object dcterms:medium?concept . ?concept skos:prefLabel ?label . FILTER ( regex ( str(?label), "goud")) }*
 
 ## Conversion process
 The conversion into EDM was done a two-step process, using the XMLRDF conversion scripts. In the first step, the XML is converted into 'basic RDF', every node in the XML tree gives rise to a RDF blank node, with attributes and sub-trees being mapped to property-subjects. In the second step, the basic RDF is converted to EDM-RDF, using XMLRDF rewrite rules. In this step, AHM records are converted to EDM Proxy/Aggregation/PhysicalThing triangle.
