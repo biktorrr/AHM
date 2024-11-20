@@ -1,6 +1,6 @@
 # Amsterdam Museum Linked Data
 
-The Amsterdam Museum (https://www.amsterdammuseum.nl/)is a Dutch museum hosting objects related to the history and culture of Amsterdam and its citizens. Among
+The Amsterdam Museum (https://www.amsterdammuseum.nl/) is a Dutch museum hosting objects related to the history and culture of Amsterdam and its citizens. Among
 these objects are paintings, drawings, prints, glass and silver objects, furniture, books, costumes, etc. This repository contains an Linked Data version of the collection data converted from a snapshot in 2011. The data was retrieved from an XML-dump of the museum's Adlib collection database and then converted to RDF compliant with the Europeana Data Model (https://pro.europeana.eu/page/edm-documentation) (EDM). This makes the Amsterdam Museum data the first of its kind to be officially converted and made available in this format.
 
 The results are more than 6.6 Million RDF triples describing all of the more than 70.000 cultural heritage objects related to the city of Amsterdam described by the museum.
